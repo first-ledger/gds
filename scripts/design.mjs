@@ -5,7 +5,7 @@ import {
   logWarningLevels,
 } from 'style-dictionary/enums';
 
-const PREFIX = 'flds';
+const PREFIX = 'FLDS';
 
 const createConfig = (mode, platform) => {
   console.log(`Creating config for mode: ${mode}, platform: ${platform}`);
@@ -80,11 +80,6 @@ const createConfig = (mode, platform) => {
             format: 'json/flat',
             filter: `filter/${mode}`,
           },
-          {
-            destination: `${platform}_${mode}.scss`,
-            format: 'scss/variables',
-            filter: `filter/${mode}`,
-          },
         ],
       },
       ios: {
@@ -139,6 +134,17 @@ handler.registerFormat({
   },
 });
 
+function toNormalCase(str) {
+  return str.toLowerCase().replace(/\b\w/g, (match) => match.toUpperCase());
+}
+
+function formatTokenName(str) {
+  let name = toNormalCase(str);
+  let prefix = name.split('-')[0];
+  let altered = name.replace(prefix, prefix.toUpperCase());
+  return altered;
+}
+
 handler.registerFormat({
   name: 'scss/selector',
   format: function (dictionary) {
@@ -146,7 +152,7 @@ handler.registerFormat({
     let tokens = dictionary.dictionary.allTokens
       .map((prop) => {
         if (typeof prop.$value === 'object' && prop.$type === 'typography') {
-          typography += `.${prop.name} {
+          typography += `.${formatTokenName(prop.name)} {
                   ${Object.entries(prop.$value)
                     .map(([key, value], i, a) => {
                       let k = key.replace(/[A-Z]/g, (m) => '-' + m.toLowerCase());
@@ -166,13 +172,13 @@ handler.registerFormat({
           let composite = prop.$value
             .map((v) => `${v.offsetX} ${v.offsetY} ${v.blur} ${v.spread} ${v.color}`)
             .join(',');
-          return `$${prop.name}: ${composite}; \n`;
+          return `$${formatTokenName(prop.name)}: ${composite}; \n`;
         }
         if (typeof prop.$value === 'object' && prop.$type === 'blur') {
-          return `$${prop.name}: ${prop.$value.blur}; \n`;
+          return `$${formatTokenName(prop.name)}: ${prop.$value.blur}; \n`;
         }
 
-        return `$${prop.name}: ${prop.$value}; \n`;
+        return `$${formatTokenName(prop.name)}: ${prop.$value}; \n`;
       })
       .join(' ');
 
@@ -199,7 +205,7 @@ handler.registerFormat({
     let tokens = dictionary.dictionary.allTokens
       .map((prop) => {
         if (typeof prop.$value === 'object' && prop.$type === 'typography') {
-          typography += `.${prop.name} {
+          typography += `.${formatTokenName(prop.name)} {
                   ${Object.entries(prop.$value)
                     .map(([key, value], i, a) => {
                       let k = key.replace(/[A-Z]/g, (m) => '-' + m.toLowerCase());
@@ -219,13 +225,13 @@ handler.registerFormat({
           let composite = prop.$value
             .map((v) => `${v.offsetX} ${v.offsetY} ${v.blur} ${v.spread} ${v.color}`)
             .join(',');
-          return `$${prop.name}: ${composite}; \n`;
+          return `$${formatTokenName(prop.name)}: ${composite}; \n`;
         }
         if (typeof prop.$value === 'object' && prop.$type === 'blur') {
-          return `$${prop.name}: ${prop.$value.blur}; \n`;
+          return `$${formatTokenName(prop.name)}: ${prop.$value.blur}; \n`;
         }
 
-        return `$${prop.name}: ${prop.$value}; \n`;
+        return `$${formatTokenName(prop.name)}: ${prop.$value}; \n`;
       })
       .join(' ');
 
@@ -267,6 +273,7 @@ handler.registerTransformGroup({
   // to see the pre-defined "scss" transformation use: console.log(handler.transformGroup['scss']);
   transforms: [
     'name/kebab',
+    // 'name/camel',
     'time/seconds',
     'size/px',
     'color/css',
@@ -277,7 +284,14 @@ handler.registerTransformGroup({
 handler.registerTransformGroup({
   name: `tokens-css`,
   // to see the pre-defined "scss" transformation use: console.log(handler.transformGroup['scss']);
-  transforms: ['name/kebab', 'time/seconds', 'size/px', 'color/css', 'transform/weight'],
+  transforms: [
+    'name/kebab',
+    // 'name/camel',
+    'time/seconds',
+    'size/px',
+    'color/css',
+    'transform/weight',
+  ],
 });
 
 ['Globals', 'Dark', 'Light', 'Desktop', 'Tablet', 'Mobile', 'Default', 'DIRE', 'FL'].map(

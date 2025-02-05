@@ -2,7 +2,7 @@ import StyleDictionaryModule from 'style-dictionary';
 import pkg from '../dist/src/index.js';
 const { makeSdTailwindConfig } = pkg;
 
-const PREFIX = 'flds-';
+const PREFIX = 'FLDS-';
 
 const sdConfig = makeSdTailwindConfig({
   source: [`static/tokens.json`],
