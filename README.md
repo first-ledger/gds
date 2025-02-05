@@ -9,8 +9,8 @@ It uses the style dictionary to generate the tokens and typography from export f
 
 ### Prerequisites
 
-- Node.js (v18.17.1)
-- pnpm (v9.12.2)
+- Node.js (v21.6.1)
+- pnpm (v9.15.4)
 
 ### Installation
 
