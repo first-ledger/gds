@@ -1,0 +1,113 @@
+name: Install Dependencies
+description: "Installs all dependencies in monorepo using the specified package manager"
+author: "Honeycluster"
+
+inputs:
+  # Node.js version to use for setting up the environment.
+  node_version:
+    required: true
+    type: string
+    description: "NodeJS version to use"
+    default: "20"
+
+  # Package manager to use. Can be npm, yarn, or pnpm.
+  pkg_manager:
+    required: false
+    type: string
+    description: "The package manager to use. Supported values: npm, yarn, pnpm."
+    default: "npm"
+
+  # The scope of the organization repository. Optional.
+  working_dir:
+    required: false
+    type: string
+    description: "Working directory."
+    default: "."
+
+runs:
+  using: "composite"
+  steps:
+    # Setup Block for Package Manager - Yarn
+    # Only run if the package manager is yarn
+    - name: Get yarn cache directory path
+      if: ${{ inputs.pkg_manager == 'yarn' }}
+      id: yarn-cache-dir-path
+      shell: bash
+      working-directory: ${{ inputs.working_dir }}
+      run: echo "::set-output name=dir::$(yarn config get globalFolder)" # Set the yarn global folder path to output
+
+    # Only run if the package manager is yarn
+    - name: Mount yarn cache
+      if: ${{ inputs.pkg_manager == 'yarn' }}
+      uses: actions/cache@v3
+      id: yarn-cache
+      with:
+        path: ${{ steps.yarn-cache-dir-path.outputs.dir }} # Use the output from the previous step to cache yarn dependencies
+        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }} # Cache key based on yarn.lock file hash
+        restore-keys: |
+          ${{ runner.os }}-yarn-  # Fallback cache key
+
+    - name: Remove yarn.lock
+      if: ${{ inputs.pkg_manager == 'yarn' }} # Only run if the package manager is yarn
+      shell: bash
+      working-directory: ${{ inputs.working_dir }}
+      run: rm yarn.lock # Remove yarn.lock to prevent issues when switching package managers
+
+    # Setup Block for Package Manager - npm
+    # Only run if the package manager is npm
+    - name: Mount npm cache
+      if: ${{ inputs.pkg_manager == 'npm' }}
+      uses: actions/cache@v3
+      id: npm-cache
+      with:
+        path: |
+          ~/.npm  # Cache npm's global store
+          node_modules  # Cache node_modules for faster installs
+        key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }} # Cache key based on package-lock.json file hash
+        restore-keys: |
+          ${{ runner.os }}-npm-  # Fallback cache key
+
+    # Only run if the package manager is npm
+    - name: Remove package-lock.json
+      if: ${{ inputs.pkg_manager == 'npm' }}
+      shell: bash
+      working-directory: ${{ inputs.working_dir }}
+      run: rm package-lock.json # Remove package-lock.json for npm-based workflows
+
+    # Setup Block for Package Manager - pnpm
+    # Only run if the package manager is pnpm
+    - name: Mount pnpm cache
+      if: ${{ inputs.pkg_manager == 'pnpm' }}
+      uses: actions/cache@v3
+      id: pnpm-cache
+      with:
+        path: |
+          ~/.pnpm-store  # Cache pnpm's store directory
+          node_modules  # Cache node_modules for faster installs
+        key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }} # Cache key based on pnpm-lock.yaml file hash
+        restore-keys: |
+          ${{ runner.os }}-pnpm-  # Fallback cache key
+
+    # Only run if the package manager is pnpm
+    - name: Remove pnpm-lock.yaml
+      if: ${{ inputs.pkg_manager == 'pnpm' }}
+      shell: bash
+      working-directory: ${{ inputs.working_dir }}
+      run: rm pnpm-lock.yaml # Remove pnpm-lock.yaml for pnpm-based workflows
+
+    # Install Dependencies - Dynamic Based on Package Manager
+    - name: Install Dependencies
+      shell: bash
+      working-directory: ${{ inputs.working_dir }}
+      run: |
+        # Install dependencies based on the chosen package manager
+        if [ "${{ inputs.pkg_manager }}" == "yarn" ]; then
+          yarn install  # Use yarn to install dependencies
+        elif [ "${{ inputs.pkg_manager }}" == "npm" ]; then
+          npm install  # Use npm to install dependencies
+        elif [ "${{ inputs.pkg_manager }}" == "pnpm" ]; then
+          pnpm install  # Use pnpm to install dependencies
+        else
+          echo "Unsupported package manager: ${{ inputs.pkg_manager }}"
+          exit 1  # Exit if an unsupported package manager is provided
+        fi

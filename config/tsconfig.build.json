@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "..",
+    "baseUrl": "..",
+    "outDir": "../dist",
+    "paths": {
+      "@/tokens/*": ["tokens/*"],
+      "@/tests/*": ["tests/*"]
+    }
+  },
+  "include": ["../src", "../tokens", "../tokens/**/*.json"]
+}

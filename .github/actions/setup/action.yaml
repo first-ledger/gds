@@ -1,0 +1,138 @@
+name: Setup Environment
+description: "Setup the environment - node, environement variables, and package manager cache"
+author: "Honeycluster"
+
+inputs:
+  # Node.js version to use for setting up the environment.
+  node_version:
+    required: true
+    type: string
+    description: "NodeJS version to use"
+    default: "20"
+
+  # Package manager to use. Can be npm, yarn, or pnpm.
+  pkg_manager:
+    required: false
+    type: string
+    description: "The package manager to use. Supported values: npm, yarn, pnpm."
+
+  # The scope of the organization repository. Optional.
+  scope:
+    required: false
+    type: string
+    description: "Scope of the organization repository."
+
+  # The scope of the organization repository. Optional.
+  working_dir:
+    required: false
+    type: string
+    description: "Working directory."
+    default: "."
+
+  # Path or base64-encoded content of the environment file. Optional.
+  env_file:
+    description: "Env File to be injected"
+    required: false
+
+runs:
+  using: "composite"
+  steps:
+    # Step to set up Node.js environment and cache node_modules
+    - name: Set up Node with cache
+      uses: actions/setup-node@v4
+      with:
+        node-version: "${{ inputs.node_version }}" # Use the Node.js version passed as input
+        registry-url: "https://registry.npmjs.org" # Use the NPM registry
+        scope: "${{ inputs.scope }}" # Use the provided scope if any
+        cache: "${{ inputs.pkg_manager }}" # Use the package manager specified in the input (npm, yarn, pnpm)
+
+    - name: Decode ENV_FILE secret
+      shell: bash
+      working-directory: ${{ inputs.working_dir }}
+      run: |
+        echo "${{ inputs.env_file }}" | base64 -d > /tmp/envfile
+
+    # Step to inject the environment file if provided
+    # The env_file input is expected to be a base64-encoded string. If you need to pass an actual .env file content, make sure to base64 encode it before using it as input.
+    - name: "Inject env file if provided"
+      shell: bash
+      working-directory: ${{ inputs.working_dir }}
+      run: |
+        # Check if the 'env_file' input is provided and decode it
+        if [[ -n "${{ inputs.env_file }}" ]]; then
+          echo "${{ inputs.env_file }}" | base64 -d > .env 
+          echo "env_created=true" >> $GITHUB_ENV  
+        else
+          echo "ENV_FILE is not provided or empty. Skipping secret-based .env creation."
+          echo "env_created=false" >> $GITHUB_ENV  # Set env_created flag to false
+        fi
+
+    # Step to print environment variables for debugging
+    - name: Debug environment
+      shell: bash
+      working-directory: ${{ inputs.working_dir }}
+      run: printenv # Print all environment variables to help with troubleshooting
+
+    # Step to show contents of .env.example file for debugging
+    - name: Debug .env.example
+      if: ${{ env.env_created == 'false' }}
+      shell: bash
+      working-directory: ${{ inputs.working_dir }}
+      run: cat .env.example # Show the contents of the .env.example file to confirm it exists
+
+    # Step to build .env file from .env.example if no env_file was provided
+    # Only run this step if env_file was not provided
+    - name: Build .env from .env.example
+      if: ${{ env.env_created == 'false' }}
+      shell: bash
+      working-directory: ${{ inputs.working_dir }}
+      run: |
+        # Check if .env.example exists, and exit if it doesn't
+        if [[ ! -f .env.example ]]; then
+          echo "ERROR: .env.example file not found!"
+          exit 1  # Exit the workflow if .env.example is missing
+        fi
+
+        echo "Building .env from .env.example"
+        > ./.env  # Clear or create the .env file
+
+        # Loop through the lines in .env.example and process each line
+        echo "Parsing .env.example and building list of variables"
+        while IFS= read -r line; do
+          echo "Raw line: '$line'"
+          # Skip empty lines and comments
+          [[ -z "$line" || "$line" =~ ^# ]] && continue
+
+          # Clean up the line by removing comments and trimming spaces
+          clean_line=$(echo "$line" | sed -E 's/#.*//;s/\s*$//')
+
+          # Ensure the line contains a valid variable definition
+          if [[ ! "$clean_line" =~ ^[A-Za-z0-9_]+= ]]; then
+            echo "Skipping invalid line: '$line'"
+            continue
+          fi
+
+          # Extract the variable name from the cleaned line
+          var_name=$(echo "$clean_line" | sed -E 's/^\s*([A-Za-z0-9_]+)\s*=.*$/\1/')
+          echo "Extracted variable name: '$var_name'"
+
+          # Try to fetch the value from the environment variables or GitHub secrets
+          value=$(printenv "$var_name" || env | grep -m 1 "^$var_name=" | cut -d'=' -f2-)
+          echo "Fetched value for '$var_name': '$value'"
+
+          # If no value is found, throw an error and exit
+          if [[ -z "$value" ]]; then
+            echo "ERROR: Missing value for variable '$var_name'"
+            exit 1
+          fi
+
+          # Append the variable to the .env file
+          printf '%s="%s"\n' "$var_name" "$value" >> ./.env
+          echo "Added $var_name to .env"
+        done < .env.example  # Process each line of the .env.example file
+
+    - name: Clean up temporary files
+      shell: bash
+      working-directory: ${{ inputs.working_dir }}
+      run: |
+        rm -f /tmp/envfile

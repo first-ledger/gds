@@ -1,0 +1,12 @@
+{
+  "extends": "./config/tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "paths": {
+      "@/tokens/*": ["tokens/*"],
+      "@/tests/*": ["tests/*"]
+    }
+  },
+  "include": ["src", "tests", "static", "scripts/builder.ts", "scripts/index.mjs", "scripts/tw.mjs"]
+}

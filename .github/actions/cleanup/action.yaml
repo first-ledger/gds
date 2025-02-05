@@ -1,0 +1,122 @@
+name: Cleanup after worker
+description: "Cleanup temporary files, secrets, and reset environment after worker finishes all tasks."
+author: "Honeycluster"
+
+inputs:
+  temp_dirs:
+    description: "Directories to clean up temporary files (JSON array)"
+    required: false
+    default: '["/tmp"]'
+
+  secrets_file:
+    description: "Path to secrets file to remove"
+    required: false
+
+  ssh_key_file:
+    description: "Path to SSH key file to remove"
+    required: false
+
+  env_vars:
+    description: "Environment variables to unset (comma-separated)"
+    required: false
+    default: ""
+
+  reset_system:
+    description: "Toggle to reset system environment"
+    type: boolean
+    required: false
+    default: false
+
+runs:
+  using: "composite"
+  steps:
+    - name: Clean up all temporary files and directories
+      shell: bash
+      run: |
+        # Check if jq is installed
+        if ! command -v jq &> /dev/null
+        then
+            echo "jq could not be found, installing..."
+            sudo apt-get update && sudo apt-get install -y jq
+        fi
+
+        # Parse JSON array of directories, ensuring the input is valid JSON
+        if ! dirs=$(jq -r '.[]' <<< '${{ inputs.temp_dirs }}' 2>/dev/null); then
+          echo "Failed to parse JSON array of directories. Using default '/tmp'."
+          dirs="/tmp"
+        fi
+
+        # Convert the dirs string into an array
+        IFS=$'\n' read -d '' -r -a array_dirs <<< "$dirs"
+
+        for dir in "${array_dirs[@]}"; do
+          echo "Cleaning up directory: $dir"
+          # Check if the directory exists before attempting to clean it
+          if [ -d "$dir" ]; then
+            # Double check we're not about to remove the root directory
+            if [[ "$dir" != "/" && "$dir" != "/home" && "$dir" != "/etc" ]]; then
+              sudo rm -rf "$dir"/*
+            else
+              echo "Refusing to clean up $dir as it's a critical system directory."
+            fi
+          else
+            echo "Directory $dir does not exist."
+          fi
+        done
+
+    - name: Remove sensitive secrets files
+      shell: bash
+      run: |
+        # Remove the secrets file if it exists and is set
+        if [[ -n "${{ inputs.secrets_file }}" && -f "${{ inputs.secrets_file }}" ]]; then
+          sudo rm -f ${{ inputs.secrets_file }}
+        else
+          echo "Secrets file not specified or does not exist."
+        fi
+
+        # Remove the SSH key file if it exists and is set
+        if [[ -n "${{ inputs.ssh_key_file }}" && -f "${{ inputs.ssh_key_file }}" ]]; then
+          sudo rm -f ${{ inputs.ssh_key_file }}
+        else
+          echo "SSH key file not specified or does not exist."
+        fi
+
+    - name: Clear environment variables
+      shell: bash
+      run: |
+        # Unset specified environment variables
+        IFS=',' read -ra ADDR <<< "${{ inputs.env_vars }}"
+        for var in "${ADDR[@]}"; do
+          unset "$var"
+        done
+
+    - name: Reset system environment
+      if: ${{ inputs.reset_system == true }}
+      shell: bash
+      run: |
+        # Optionally, reset system environment to default; use with caution
+        sudo loginctl terminate-user $USER && sudo loginctl enable-linger $USER
+
+    - name: Check for remaining files
+      shell: bash
+      run: |
+        # Check only the first directory for simplicity
+        first_dir=$(jq -r '.[0]' <<< '${{ inputs.temp_dirs }}')
+        if [ -d "$first_dir" ]; then
+          echo "Checking for remaining files in $first_dir:"
+          ls -la "$first_dir"
+        else
+          echo "First directory ($first_dir) does not exist."
+        fi
+
+        # Check for remaining secrets if the file was specified
+        if [[ -n "${{ inputs.secrets_file }}" ]]; then
+          echo "Checking for remaining secrets:"
+          ls -la $(dirname ${{ inputs.secrets_file }})
+        else
+          echo "No secrets file specified for checking."
+        fi
+
+    - name: Final cleanup message
+      shell: bash
+      run: echo "Cleanup process completed."

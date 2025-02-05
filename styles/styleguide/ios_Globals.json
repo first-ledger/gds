@@ -1,0 +1,3175 @@
+[
+  {
+    "$type": "string",
+    "$value": "100",
+    "$description": "",
+    "scopes": ["FONT_WEIGHT"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-thin)"
+        },
+        "variableId": "VariableID:9:11180",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "100",
+      "$description": "",
+      "scopes": ["FONT_WEIGHT"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-thin)"
+          },
+          "variableId": "VariableID:9:11180",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-thin",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight Thin"
+    },
+    "path": ["Typography Primitives", "Weight Thin"],
+    "key": "{Typography Primitives.Weight Thin}"
+  },
+  {
+    "$type": "string",
+    "$value": "200",
+    "$description": "",
+    "scopes": ["FONT_WEIGHT"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-extra-light)"
+        },
+        "variableId": "VariableID:9:11181",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "200",
+      "$description": "",
+      "scopes": ["FONT_WEIGHT"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-extra-light)"
+          },
+          "variableId": "VariableID:9:11181",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-extra-light",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight Extra Light"
+    },
+    "path": ["Typography Primitives", "Weight Extra Light"],
+    "key": "{Typography Primitives.Weight Extra Light}"
+  },
+  {
+    "$type": "string",
+    "$value": "300",
+    "$description": "",
+    "scopes": ["FONT_WEIGHT"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-light)"
+        },
+        "variableId": "VariableID:9:11182",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "300",
+      "$description": "",
+      "scopes": ["FONT_WEIGHT"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-light)"
+          },
+          "variableId": "VariableID:9:11182",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-light",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight Light"
+    },
+    "path": ["Typography Primitives", "Weight Light"],
+    "key": "{Typography Primitives.Weight Light}"
+  },
+  {
+    "$type": "string",
+    "$value": "400",
+    "$description": "",
+    "scopes": ["FONT_WEIGHT"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-regular)"
+        },
+        "variableId": "VariableID:9:11183",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "400",
+      "$description": "",
+      "scopes": ["FONT_WEIGHT"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-regular)"
+          },
+          "variableId": "VariableID:9:11183",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-regular",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight Regular"
+    },
+    "path": ["Typography Primitives", "Weight Regular"],
+    "key": "{Typography Primitives.Weight Regular}"
+  },
+  {
+    "$type": "string",
+    "$value": "500",
+    "$description": "",
+    "scopes": ["FONT_WEIGHT"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-medium)"
+        },
+        "variableId": "VariableID:9:11184",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "500",
+      "$description": "",
+      "scopes": ["FONT_WEIGHT"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-medium)"
+          },
+          "variableId": "VariableID:9:11184",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-medium",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight Medium"
+    },
+    "path": ["Typography Primitives", "Weight Medium"],
+    "key": "{Typography Primitives.Weight Medium}"
+  },
+  {
+    "$type": "string",
+    "$value": "600",
+    "$description": "",
+    "scopes": ["FONT_WEIGHT"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-semibold)"
+        },
+        "variableId": "VariableID:9:11185",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "600",
+      "$description": "",
+      "scopes": ["FONT_WEIGHT"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-semibold)"
+          },
+          "variableId": "VariableID:9:11185",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-semibold",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight Semibold"
+    },
+    "path": ["Typography Primitives", "Weight Semibold"],
+    "key": "{Typography Primitives.Weight Semibold}"
+  },
+  {
+    "$type": "string",
+    "$value": "700",
+    "$description": "",
+    "scopes": ["FONT_WEIGHT"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-bold)"
+        },
+        "variableId": "VariableID:9:11186",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "700",
+      "$description": "",
+      "scopes": ["FONT_WEIGHT"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-bold)"
+          },
+          "variableId": "VariableID:9:11186",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-bold",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight Bold"
+    },
+    "path": ["Typography Primitives", "Weight Bold"],
+    "key": "{Typography Primitives.Weight Bold}"
+  },
+  {
+    "$type": "string",
+    "$value": "800",
+    "$description": "",
+    "scopes": ["FONT_WEIGHT"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-extra-bold)"
+        },
+        "variableId": "VariableID:9:11187",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "800",
+      "$description": "",
+      "scopes": ["FONT_WEIGHT"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-extra-bold)"
+          },
+          "variableId": "VariableID:9:11187",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-extra-bold",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight Extra Bold"
+    },
+    "path": ["Typography Primitives", "Weight Extra Bold"],
+    "key": "{Typography Primitives.Weight Extra Bold}"
+  },
+  {
+    "$type": "string",
+    "$value": "900",
+    "$description": "",
+    "scopes": ["FONT_WEIGHT"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-black)"
+        },
+        "variableId": "VariableID:9:11188",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "900",
+      "$description": "",
+      "scopes": ["FONT_WEIGHT"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-black)"
+          },
+          "variableId": "VariableID:9:11188",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-black",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight Black"
+    },
+    "path": ["Typography Primitives", "Weight Black"],
+    "key": "{Typography Primitives.Weight Black}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "72px",
+    "$description": "",
+    "scopes": [],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-scale-10)"
+        },
+        "variableId": "VariableID:9:11189",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "72px",
+      "$description": "",
+      "scopes": [],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-scale-10)"
+          },
+          "variableId": "VariableID:9:11189",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-scale-10",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Scale 10"
+    },
+    "path": ["Typography Primitives", "Scale 10"],
+    "key": "{Typography Primitives.Scale 10}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "64px",
+    "$description": "",
+    "scopes": [],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-scale-09)"
+        },
+        "variableId": "VariableID:9:11190",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "64px",
+      "$description": "",
+      "scopes": [],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-scale-09)"
+          },
+          "variableId": "VariableID:9:11190",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-scale-09",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Scale 09"
+    },
+    "path": ["Typography Primitives", "Scale 09"],
+    "key": "{Typography Primitives.Scale 09}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "48px",
+    "$description": "",
+    "scopes": [],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-scale-08)"
+        },
+        "variableId": "VariableID:9:11191",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "48px",
+      "$description": "",
+      "scopes": [],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-scale-08)"
+          },
+          "variableId": "VariableID:9:11191",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-scale-08",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Scale 08"
+    },
+    "path": ["Typography Primitives", "Scale 08"],
+    "key": "{Typography Primitives.Scale 08}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "40px",
+    "$description": "",
+    "scopes": [],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-scale-07)"
+        },
+        "variableId": "VariableID:9:11192",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "40px",
+      "$description": "",
+      "scopes": [],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-scale-07)"
+          },
+          "variableId": "VariableID:9:11192",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-scale-07",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Scale 07"
+    },
+    "path": ["Typography Primitives", "Scale 07"],
+    "key": "{Typography Primitives.Scale 07}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "32px",
+    "$description": "",
+    "scopes": [],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-scale-06)"
+        },
+        "variableId": "VariableID:9:11193",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "32px",
+      "$description": "",
+      "scopes": [],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-scale-06)"
+          },
+          "variableId": "VariableID:9:11193",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-scale-06",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Scale 06"
+    },
+    "path": ["Typography Primitives", "Scale 06"],
+    "key": "{Typography Primitives.Scale 06}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "24px",
+    "$description": "",
+    "scopes": [],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-scale-05)"
+        },
+        "variableId": "VariableID:9:11194",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "24px",
+      "$description": "",
+      "scopes": [],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-scale-05)"
+          },
+          "variableId": "VariableID:9:11194",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-scale-05",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Scale 05"
+    },
+    "path": ["Typography Primitives", "Scale 05"],
+    "key": "{Typography Primitives.Scale 05}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "20px",
+    "$description": "",
+    "scopes": [],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-scale-04)"
+        },
+        "variableId": "VariableID:9:11195",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "20px",
+      "$description": "",
+      "scopes": [],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-scale-04)"
+          },
+          "variableId": "VariableID:9:11195",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-scale-04",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Scale 04"
+    },
+    "path": ["Typography Primitives", "Scale 04"],
+    "key": "{Typography Primitives.Scale 04}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "16px",
+    "$description": "",
+    "scopes": [],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-scale-03)"
+        },
+        "variableId": "VariableID:9:11196",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "16px",
+      "$description": "",
+      "scopes": [],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-scale-03)"
+          },
+          "variableId": "VariableID:9:11196",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-scale-03",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Scale 03"
+    },
+    "path": ["Typography Primitives", "Scale 03"],
+    "key": "{Typography Primitives.Scale 03}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "14px",
+    "$description": "",
+    "scopes": [],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-scale-02)"
+        },
+        "variableId": "VariableID:9:11197",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "14px",
+      "$description": "",
+      "scopes": [],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-scale-02)"
+          },
+          "variableId": "VariableID:9:11197",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-scale-02",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Scale 02"
+    },
+    "path": ["Typography Primitives", "Scale 02"],
+    "key": "{Typography Primitives.Scale 02}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "12px",
+    "$description": "",
+    "scopes": [],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-scale-01)"
+        },
+        "variableId": "VariableID:9:11198",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "12px",
+      "$description": "",
+      "scopes": [],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-scale-01)"
+          },
+          "variableId": "VariableID:9:11198",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-scale-01",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Scale 01"
+    },
+    "path": ["Typography Primitives", "Scale 01"],
+    "key": "{Typography Primitives.Scale 01}"
+  },
+  {
+    "$type": "string",
+    "$value": "Inter",
+    "$description": "",
+    "scopes": ["FONT_FAMILY"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-family-sans)"
+        },
+        "variableId": "VariableID:9:11199",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Inter",
+      "$description": "",
+      "scopes": ["FONT_FAMILY"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-family-sans)"
+          },
+          "variableId": "VariableID:9:11199",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-family-sans",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Family Sans"
+    },
+    "path": ["Typography Primitives", "Family Sans"],
+    "key": "{Typography Primitives.Family Sans}"
+  },
+  {
+    "$type": "string",
+    "$value": "Noto Serif",
+    "$description": "",
+    "scopes": ["FONT_FAMILY"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-family-serif)"
+        },
+        "variableId": "VariableID:9:11200",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Noto Serif",
+      "$description": "",
+      "scopes": ["FONT_FAMILY"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-family-serif)"
+          },
+          "variableId": "VariableID:9:11200",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-family-serif",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Family Serif"
+    },
+    "path": ["Typography Primitives", "Family Serif"],
+    "key": "{Typography Primitives.Family Serif}"
+  },
+  {
+    "$type": "string",
+    "$value": "Roboto Mono",
+    "$description": "",
+    "scopes": ["FONT_FAMILY"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-family-mono)"
+        },
+        "variableId": "VariableID:9:11201",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Roboto Mono",
+      "$description": "",
+      "scopes": ["FONT_FAMILY"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-family-mono)"
+          },
+          "variableId": "VariableID:9:11201",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-family-mono",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Family Mono"
+    },
+    "path": ["Typography Primitives", "Family Mono"],
+    "key": "{Typography Primitives.Family Mono}"
+  },
+  {
+    "$type": "string",
+    "$value": "Light Italic",
+    "$description": "",
+    "scopes": ["FONT_STYLE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-light-italic)"
+        },
+        "variableId": "VariableID:56:8551",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Light Italic",
+      "$description": "",
+      "scopes": ["FONT_STYLE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-light-italic)"
+          },
+          "variableId": "VariableID:56:8551",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-light-italic",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight Light Italic"
+    },
+    "path": ["Typography Primitives", "Weight Light Italic"],
+    "key": "{Typography Primitives.Weight Light Italic}"
+  },
+  {
+    "$type": "string",
+    "$value": "Italic",
+    "$description": "",
+    "scopes": ["FONT_STYLE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-regular-italic)"
+        },
+        "variableId": "VariableID:56:8552",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Italic",
+      "$description": "",
+      "scopes": ["FONT_STYLE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-regular-italic)"
+          },
+          "variableId": "VariableID:56:8552",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-regular-italic",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight Regular Italic"
+    },
+    "path": ["Typography Primitives", "Weight Regular Italic"],
+    "key": "{Typography Primitives.Weight Regular Italic}"
+  },
+  {
+    "$type": "string",
+    "$value": "Bold Italic",
+    "$description": "",
+    "scopes": ["FONT_STYLE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-bold-italic)"
+        },
+        "variableId": "VariableID:56:8553",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Bold Italic",
+      "$description": "",
+      "scopes": ["FONT_STYLE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-bold-italic)"
+          },
+          "variableId": "VariableID:56:8553",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-bold-italic",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight Bold Italic"
+    },
+    "path": ["Typography Primitives", "Weight Bold Italic"],
+    "key": "{Typography Primitives.Weight Bold Italic}"
+  },
+  {
+    "$type": "string",
+    "$value": "Thin Italic",
+    "$description": "",
+    "scopes": ["FONT_STYLE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-thin-italic)"
+        },
+        "variableId": "VariableID:66:10200",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Thin Italic",
+      "$description": "",
+      "scopes": ["FONT_STYLE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-thin-italic)"
+          },
+          "variableId": "VariableID:66:10200",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-thin-italic",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight Thin Italic"
+    },
+    "path": ["Typography Primitives", "Weight Thin Italic"],
+    "key": "{Typography Primitives.Weight Thin Italic}"
+  },
+  {
+    "$type": "string",
+    "$value": "Extra Light Italic",
+    "$description": "",
+    "scopes": ["FONT_STYLE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-extralight-italic)"
+        },
+        "variableId": "VariableID:66:10201",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Extra Light Italic",
+      "$description": "",
+      "scopes": ["FONT_STYLE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-extralight-italic)"
+          },
+          "variableId": "VariableID:66:10201",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-extralight-italic",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight Extralight Italic"
+    },
+    "path": ["Typography Primitives", "Weight Extralight Italic"],
+    "key": "{Typography Primitives.Weight Extralight Italic}"
+  },
+  {
+    "$type": "string",
+    "$value": "Medium Italic",
+    "$description": "",
+    "scopes": ["FONT_STYLE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-medium-italic)"
+        },
+        "variableId": "VariableID:66:10202",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Medium Italic",
+      "$description": "",
+      "scopes": ["FONT_STYLE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-medium-italic)"
+          },
+          "variableId": "VariableID:66:10202",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-medium-italic",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight Medium Italic"
+    },
+    "path": ["Typography Primitives", "Weight Medium Italic"],
+    "key": "{Typography Primitives.Weight Medium Italic}"
+  },
+  {
+    "$type": "string",
+    "$value": "Semi Bold Italic",
+    "$description": "",
+    "scopes": ["FONT_STYLE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-semibold-italic)"
+        },
+        "variableId": "VariableID:66:10203",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Semi Bold Italic",
+      "$description": "",
+      "scopes": ["FONT_STYLE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-semibold-italic)"
+          },
+          "variableId": "VariableID:66:10203",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-semibold-italic",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight Semibold Italic"
+    },
+    "path": ["Typography Primitives", "Weight Semibold Italic"],
+    "key": "{Typography Primitives.Weight Semibold Italic}"
+  },
+  {
+    "$type": "string",
+    "$value": "Extra Bold Italic",
+    "$description": "",
+    "scopes": ["FONT_STYLE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-extra-bold-italic)"
+        },
+        "variableId": "VariableID:66:10204",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Extra Bold Italic",
+      "$description": "",
+      "scopes": ["FONT_STYLE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-extra-bold-italic)"
+          },
+          "variableId": "VariableID:66:10204",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-extra-bold-italic",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight Extra Bold Italic"
+    },
+    "path": ["Typography Primitives", "Weight Extra Bold Italic"],
+    "key": "{Typography Primitives.Weight Extra Bold Italic}"
+  },
+  {
+    "$type": "string",
+    "$value": "Black Italic",
+    "$description": "",
+    "scopes": ["FONT_STYLE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-black-italic)"
+        },
+        "variableId": "VariableID:66:10208",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Black Italic",
+      "$description": "",
+      "scopes": ["FONT_STYLE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-black-italic)"
+          },
+          "variableId": "VariableID:66:10208",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-black-italic",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight Black Italic"
+    },
+    "path": ["Typography Primitives", "Weight Black Italic"],
+    "key": "{Typography Primitives.Weight Black Italic}"
+  },
+  {
+    "$type": "string",
+    "$value": "800",
+    "$description": "",
+    "scopes": ["FONT_WEIGHT"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11606",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "800",
+      "$description": "",
+      "scopes": ["FONT_WEIGHT"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11606",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-extrabold",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight",
+      "item": "extrabold"
+    },
+    "path": ["Typography Primitives", "Weight", "extrabold"],
+    "key": "{Typography Primitives.Weight.extrabold}"
+  },
+  {
+    "$type": "string",
+    "$value": "500",
+    "$description": "fontWeight variable for medium",
+    "scopes": ["FONT_WEIGHT"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11607",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "500",
+      "$description": "fontWeight variable for medium",
+      "scopes": ["FONT_WEIGHT"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11607",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-medium",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight",
+      "item": "medium"
+    },
+    "path": ["Typography Primitives", "Weight", "medium"],
+    "key": "{Typography Primitives.Weight.medium}"
+  },
+  {
+    "$type": "string",
+    "$value": "400",
+    "$description": "fontWeight variable for regular",
+    "scopes": ["FONT_WEIGHT"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11608",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "400",
+      "$description": "fontWeight variable for regular",
+      "scopes": ["FONT_WEIGHT"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11608",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-regular",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight",
+      "item": "regular"
+    },
+    "path": ["Typography Primitives", "Weight", "regular"],
+    "key": "{Typography Primitives.Weight.regular}"
+  },
+  {
+    "$type": "string",
+    "$value": "900",
+    "$description": "",
+    "scopes": ["FONT_WEIGHT"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11609",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "900",
+      "$description": "",
+      "scopes": ["FONT_WEIGHT"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11609",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-black",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight",
+      "item": "black"
+    },
+    "path": ["Typography Primitives", "Weight", "black"],
+    "key": "{Typography Primitives.Weight.black}"
+  },
+  {
+    "$type": "string",
+    "$value": "700",
+    "$description": "fontWeight variable for bold",
+    "scopes": ["FONT_WEIGHT"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11610",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "700",
+      "$description": "fontWeight variable for bold",
+      "scopes": ["FONT_WEIGHT"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11610",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-bold",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight",
+      "item": "bold"
+    },
+    "path": ["Typography Primitives", "Weight", "bold"],
+    "key": "{Typography Primitives.Weight.bold}"
+  },
+  {
+    "$type": "string",
+    "$value": "600",
+    "$description": "",
+    "scopes": ["FONT_WEIGHT"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11611",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "600",
+      "$description": "",
+      "scopes": ["FONT_WEIGHT"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11611",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-semibold",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight",
+      "item": "semibold"
+    },
+    "path": ["Typography Primitives", "Weight", "semibold"],
+    "key": "{Typography Primitives.Weight.semibold}"
+  },
+  {
+    "$type": "string",
+    "$value": "300",
+    "$description": "",
+    "scopes": ["FONT_WEIGHT"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11612",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "300",
+      "$description": "",
+      "scopes": ["FONT_WEIGHT"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11612",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-light",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight",
+      "item": "light"
+    },
+    "path": ["Typography Primitives", "Weight", "light"],
+    "key": "{Typography Primitives.Weight.light}"
+  },
+  {
+    "$type": "string",
+    "$value": "200",
+    "$description": "",
+    "scopes": ["FONT_WEIGHT"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11613",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "200",
+      "$description": "",
+      "scopes": ["FONT_WEIGHT"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11613",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-extralight",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight",
+      "item": "extralight"
+    },
+    "path": ["Typography Primitives", "Weight", "extralight"],
+    "key": "{Typography Primitives.Weight.extralight}"
+  },
+  {
+    "$type": "string",
+    "$value": "100",
+    "$description": "",
+    "scopes": ["FONT_WEIGHT"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11614",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "100",
+      "$description": "",
+      "scopes": ["FONT_WEIGHT"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11614",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-weight-thin",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Weight",
+      "item": "thin"
+    },
+    "path": ["Typography Primitives", "Weight", "thin"],
+    "key": "{Typography Primitives.Weight.thin}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "20px",
+    "$description": "fontSize variable for 20",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11646",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "20px",
+      "$description": "fontSize variable for 20",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11646",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-size-xl",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Size",
+      "item": "xl"
+    },
+    "path": ["Typography Primitives", "Size", "xl"],
+    "key": "{Typography Primitives.Size.xl}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "14px",
+    "$description": "fontSize variable for 14",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11647",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "14px",
+      "$description": "fontSize variable for 14",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11647",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-size-base",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Size",
+      "item": "base"
+    },
+    "path": ["Typography Primitives", "Size", "base"],
+    "key": "{Typography Primitives.Size.base}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "18px",
+    "$description": "fontSize variable for 18",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11648",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "18px",
+      "$description": "fontSize variable for 18",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11648",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-size-lg",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Size",
+      "item": "lg"
+    },
+    "path": ["Typography Primitives", "Size", "lg"],
+    "key": "{Typography Primitives.Size.lg}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "52px",
+    "$description": "fontSize variable for 52",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11649",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "52px",
+      "$description": "fontSize variable for 52",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11649",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-size-8xl",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Size",
+      "item": "8xl"
+    },
+    "path": ["Typography Primitives", "Size", "8xl"],
+    "key": "{Typography Primitives.Size.8xl}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "12px",
+    "$description": "fontSize variable for 12",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11650",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "12px",
+      "$description": "fontSize variable for 12",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11650",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-size-sm",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Size",
+      "item": "sm"
+    },
+    "path": ["Typography Primitives", "Size", "sm"],
+    "key": "{Typography Primitives.Size.sm}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "10px",
+    "$description": "fontSize variable for 10",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11651",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "10px",
+      "$description": "fontSize variable for 10",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11651",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-size-xs",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Size",
+      "item": "xs"
+    },
+    "path": ["Typography Primitives", "Size", "xs"],
+    "key": "{Typography Primitives.Size.xs}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "32px",
+    "$description": "fontSize variable for 32",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11652",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "32px",
+      "$description": "fontSize variable for 32",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11652",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-size-4xl",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Size",
+      "item": "4xl"
+    },
+    "path": ["Typography Primitives", "Size", "4xl"],
+    "key": "{Typography Primitives.Size.4xl}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "16px",
+    "$description": "fontSize variable for 16",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11653",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "16px",
+      "$description": "fontSize variable for 16",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11653",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-size-md",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Size",
+      "item": "md"
+    },
+    "path": ["Typography Primitives", "Size", "md"],
+    "key": "{Typography Primitives.Size.md}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "28px",
+    "$description": "fontSize variable for 28",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11654",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "28px",
+      "$description": "fontSize variable for 28",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11654",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-size-3xl",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Size",
+      "item": "3xl"
+    },
+    "path": ["Typography Primitives", "Size", "3xl"],
+    "key": "{Typography Primitives.Size.3xl}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "44px",
+    "$description": "fontSize variable for 44",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11655",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "44px",
+      "$description": "fontSize variable for 44",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11655",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-size-7xl",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Size",
+      "item": "7xl"
+    },
+    "path": ["Typography Primitives", "Size", "7xl"],
+    "key": "{Typography Primitives.Size.7xl}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "24px",
+    "$description": "fontSize variable for 24",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11656",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "24px",
+      "$description": "fontSize variable for 24",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11656",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-size-2xl",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Size",
+      "item": "2xl"
+    },
+    "path": ["Typography Primitives", "Size", "2xl"],
+    "key": "{Typography Primitives.Size.2xl}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "40px",
+    "$description": "fontSize variable for 40",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11657",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "40px",
+      "$description": "fontSize variable for 40",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11657",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-size-6xl",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Size",
+      "item": "6xl"
+    },
+    "path": ["Typography Primitives", "Size", "6xl"],
+    "key": "{Typography Primitives.Size.6xl}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "36px",
+    "$description": "fontSize variable for 36",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11658",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "36px",
+      "$description": "fontSize variable for 36",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11658",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-size-5xl",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Size",
+      "item": "5xl"
+    },
+    "path": ["Typography Primitives", "Size", "5xl"],
+    "key": "{Typography Primitives.Size.5xl}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "8px",
+    "$description": "fontSize variable for 10",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11659",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "8px",
+      "$description": "fontSize variable for 10",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11659",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-size-xxs",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Size",
+      "item": "xxs"
+    },
+    "path": ["Typography Primitives", "Size", "xxs"],
+    "key": "{Typography Primitives.Size.xxs}"
+  },
+  {
+    "$type": "string",
+    "$value": "Inter",
+    "$description": "fontFamily variable for Inter",
+    "scopes": ["FONT_FAMILY"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {},
+        "variableId": "VariableID:3134:11665",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Inter",
+      "$description": "fontFamily variable for Inter",
+      "scopes": ["FONT_FAMILY"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {},
+          "variableId": "VariableID:3134:11665",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-family-inter",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Family",
+      "item": "Inter"
+    },
+    "path": ["Typography Primitives", "Family", "Inter"],
+    "key": "{Typography Primitives.Family.Inter}"
+  },
+  {
+    "$type": "string",
+    "$value": "Roboto Mono",
+    "$description": "",
+    "scopes": ["FONT_FAMILY"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-family-mono)"
+        },
+        "variableId": "VariableID:3134:11671",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Roboto Mono",
+      "$description": "",
+      "scopes": ["FONT_FAMILY"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-family-mono)"
+          },
+          "variableId": "VariableID:3134:11671",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-family-mono",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Family",
+      "item": "Mono"
+    },
+    "path": ["Typography Primitives", "Family", "Mono"],
+    "key": "{Typography Primitives.Family.Mono}"
+  },
+  {
+    "$type": "string",
+    "$value": "Noto Serif",
+    "$description": "",
+    "scopes": ["FONT_FAMILY"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-family-serif)"
+        },
+        "variableId": "VariableID:3134:11672",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Noto Serif",
+      "$description": "",
+      "scopes": ["FONT_FAMILY"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-family-serif)"
+          },
+          "variableId": "VariableID:3134:11672",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-family-serif",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Family",
+      "item": "Serif"
+    },
+    "path": ["Typography Primitives", "Family", "Serif"],
+    "key": "{Typography Primitives.Family.Serif}"
+  },
+  {
+    "$type": "string",
+    "$value": "Black Italic",
+    "$description": "",
+    "scopes": ["FONT_STYLE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-black-italic)"
+        },
+        "variableId": "VariableID:3134:15965",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Black Italic",
+      "$description": "",
+      "scopes": ["FONT_STYLE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-black-italic)"
+          },
+          "variableId": "VariableID:3134:15965",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-italic-black",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Italic",
+      "item": "Black"
+    },
+    "path": ["Typography Primitives", "Italic", "Black"],
+    "key": "{Typography Primitives.Italic.Black}"
+  },
+  {
+    "$type": "string",
+    "$value": "Extra Bold Italic",
+    "$description": "",
+    "scopes": ["FONT_STYLE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-extra-bold-italic)"
+        },
+        "variableId": "VariableID:3134:15966",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Extra Bold Italic",
+      "$description": "",
+      "scopes": ["FONT_STYLE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-extra-bold-italic)"
+          },
+          "variableId": "VariableID:3134:15966",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-italic-extra-bold",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Italic",
+      "item": "Extra Bold"
+    },
+    "path": ["Typography Primitives", "Italic", "Extra Bold"],
+    "key": "{Typography Primitives.Italic.Extra Bold}"
+  },
+  {
+    "$type": "string",
+    "$value": "Bold Italic",
+    "$description": "",
+    "scopes": ["FONT_STYLE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-bold-italic)"
+        },
+        "variableId": "VariableID:3134:15967",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Bold Italic",
+      "$description": "",
+      "scopes": ["FONT_STYLE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-bold-italic)"
+          },
+          "variableId": "VariableID:3134:15967",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-italic-bold",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Italic",
+      "item": "Bold"
+    },
+    "path": ["Typography Primitives", "Italic", "Bold"],
+    "key": "{Typography Primitives.Italic.Bold}"
+  },
+  {
+    "$type": "string",
+    "$value": "Semi Bold Italic",
+    "$description": "",
+    "scopes": ["FONT_STYLE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-semibold-italic)"
+        },
+        "variableId": "VariableID:3134:15968",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Semi Bold Italic",
+      "$description": "",
+      "scopes": ["FONT_STYLE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-semibold-italic)"
+          },
+          "variableId": "VariableID:3134:15968",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-italic-semibold",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Italic",
+      "item": "Semibold"
+    },
+    "path": ["Typography Primitives", "Italic", "Semibold"],
+    "key": "{Typography Primitives.Italic.Semibold}"
+  },
+  {
+    "$type": "string",
+    "$value": "Medium Italic",
+    "$description": "",
+    "scopes": ["FONT_STYLE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-medium-italic)"
+        },
+        "variableId": "VariableID:3134:15969",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Medium Italic",
+      "$description": "",
+      "scopes": ["FONT_STYLE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-medium-italic)"
+          },
+          "variableId": "VariableID:3134:15969",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-italic-medium",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Italic",
+      "item": "Medium"
+    },
+    "path": ["Typography Primitives", "Italic", "Medium"],
+    "key": "{Typography Primitives.Italic.Medium}"
+  },
+  {
+    "$type": "string",
+    "$value": "Thin Italic",
+    "$description": "",
+    "scopes": ["FONT_STYLE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-thin-italic)"
+        },
+        "variableId": "VariableID:3134:15972",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Thin Italic",
+      "$description": "",
+      "scopes": ["FONT_STYLE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-thin-italic)"
+          },
+          "variableId": "VariableID:3134:15972",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-italic-thin",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Italic",
+      "item": "Thin"
+    },
+    "path": ["Typography Primitives", "Italic", "Thin"],
+    "key": "{Typography Primitives.Italic.Thin}"
+  },
+  {
+    "$type": "string",
+    "$value": "Italic",
+    "$description": "",
+    "scopes": ["FONT_STYLE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-regular-italic)"
+        },
+        "variableId": "VariableID:3134:15973",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Italic",
+      "$description": "",
+      "scopes": ["FONT_STYLE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-regular-italic)"
+          },
+          "variableId": "VariableID:3134:15973",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-italic-regular",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Italic",
+      "item": "Regular"
+    },
+    "path": ["Typography Primitives", "Italic", "Regular"],
+    "key": "{Typography Primitives.Italic.Regular}"
+  },
+  {
+    "$type": "string",
+    "$value": "Light Italic",
+    "$description": "",
+    "scopes": ["FONT_STYLE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-light-italic)"
+        },
+        "variableId": "VariableID:3134:15976",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Light Italic",
+      "$description": "",
+      "scopes": ["FONT_STYLE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-light-italic)"
+          },
+          "variableId": "VariableID:3134:15976",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-italic-light",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Italic",
+      "item": "Light"
+    },
+    "path": ["Typography Primitives", "Italic", "Light"],
+    "key": "{Typography Primitives.Italic.Light}"
+  },
+  {
+    "$type": "string",
+    "$value": "Extra Light Italic",
+    "$description": "",
+    "scopes": ["FONT_STYLE"],
+    "$extensions": {
+      "mode": {},
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-extralight-italic)"
+        },
+        "variableId": "VariableID:3134:15980",
+        "collection": {
+          "id": "VariableCollectionId:9:11179",
+          "name": "Typography Primitives",
+          "defaultModeId": "9:2"
+        }
+      }
+    },
+    "filePath": "static/tokens.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "Extra Light Italic",
+      "$description": "",
+      "scopes": ["FONT_STYLE"],
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-weight-extralight-italic)"
+          },
+          "variableId": "VariableID:3134:15980",
+          "collection": {
+            "id": "VariableCollectionId:9:11179",
+            "name": "Typography Primitives",
+            "defaultModeId": "9:2"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-primitives-italic-extralight",
+    "attributes": {
+      "category": "Typography Primitives",
+      "type": "Italic",
+      "item": "Extralight"
+    },
+    "path": ["Typography Primitives", "Italic", "Extralight"],
+    "key": "{Typography Primitives.Italic.Extralight}"
+  }
+]

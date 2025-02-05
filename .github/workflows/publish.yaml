@@ -1,0 +1,99 @@
+name: CI/CD on tag push, create gds release
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'gds@*'
+
+jobs:
+  branch-name:
+    runs-on: ubuntu-latest
+    outputs:
+      branches: ${{ steps.get_name.outputs.var }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ vars.ORGANIZATION }}/${{ vars.REPOSITORY }}
+          ref: ${{ github.ref_name }}
+          token: ${{ secrets.GHA_TOKEN  }}
+          fetch-depth: 0
+
+      - name: Get current branch
+        id: get_name
+        run: |
+          raw=$(git branch -r --contains ${{ github.ref }})
+          branches="$(echo ${raw//origin\//} | tr -d '\n')"
+          echo "var=$branches" >> $GITHUB_OUTPUT
+          echo "Branches where this tag exists : $branches."
+
+  create-release:
+    runs-on: ubuntu-latest
+    needs: branch-name
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ vars.ORGANIZATION }}/${{ vars.REPOSITORY }}
+          ref: ${{ github.ref_name }}
+          token: ${{ secrets.GHA_TOKEN  }}
+
+      - name: Setups environment with pnpm
+        uses: ./.github/actions/setup
+        with:
+          node_version: '21.6.1'
+          pkg_manager: 'pnpm'
+          scope: '@honeycluster'
+          envFile: ${{ secrets.ENV_FILE }}
+
+      - name: Install Deps using pnpm
+        uses: ./.github/actions/install-deps
+        with:
+          node_version: '21.6.1'
+          pkg_manager: 'pnpm'
+
+      - name: Build Beta and Publish to npm
+        if: contains(needs.branch-name.outputs.branches, 'beta')
+        uses: ./.github/actions/npm-publish
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          cmd: 'pnpm pub'
+          tag: 'beta'
+          dry: 'false'
+
+      - name: Build Prod and Publish to npm
+        if: contains(needs.branch-name.outputs.branches, 'prod')
+        uses: ./.github/actions/npm-publish
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          cmd: 'pnpm pub'
+          tag: 'latest'
+          dry: 'false'
+
+      - name: Get version number
+        id: version-number
+        run: echo "::set-output name=version::${GITHUB_REF_NAME//gds@}"
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: ${{ github.ref_name }}
+          body_path: ./releases/${{ steps.version-number.outputs.version }}.md
+          draft: false
+          prerelease: false
+
+      - name: Upload Release Asset
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./bundle.zip
+          asset_name: ${{ vars.ORGANIZATION }}-gds-${{ steps.version-number.outputs.version }}.zip
+          asset_content_type: application/zip

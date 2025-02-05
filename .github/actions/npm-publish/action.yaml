@@ -1,0 +1,37 @@
+name: Publish Packages to NPM
+description: 'Publish distribution packages to NPM'
+author: 'First Ledger'
+
+inputs:
+  token:
+    description: 'NPM Publishing Auth Token'
+    required: true
+  cmd:
+    type: string
+    description: 'Command'
+    required: true
+  tag:
+    type: string
+    description: 'Publish Type Tag'
+    required: true
+  dry:
+    type: string
+    description: 'Denote if this is a dry run'
+    required: false
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Publish pkg on NPM 📦
+      if: ${{ inputs.dry == '' || inputs.dry == 'false' }}
+      shell: bash
+      run: '${{inputs.cmd}} --tag ${{inputs.tag}}'
+      env:
+        NODE_AUTH_TOKEN: ${{inputs.token}}
+
+    - name: Publish pkg on NPM
+      if: inputs.dry == 'true'
+      shell: bash
+      run: '${{inputs.cmd}} --tag ${{inputs.tag}} --dry-run'
+      env:
+        NODE_AUTH_TOKEN: ${{inputs.token}}

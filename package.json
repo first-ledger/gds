@@ -1,0 +1,71 @@
+{
+  "name": "gds",
+  "version": "0.0.1-b.1",
+  "description": "Graphical Design System",
+  "main": "index.js",
+  "keywords": [
+    "design",
+    "system",
+    "figma",
+    "tailwind",
+    "typography",
+    "tokens"
+  ],
+  "author": "First Ledger",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "styles",
+    "styles/tailwind/tailwind.config.js"
+  ],
+  "scripts": {
+    "ts-node": "ts-node -P ./config/tsconfig.test.json",
+    "-----------------------------": "",
+    "prebuild": "rm -rf ./dist && rm -rf ./build && rm -rf ./styles",
+    "postbuild": "node ./scripts/design.mjs && node ./scripts/tw.mjs && pnpm format:styles",
+    "c": "node ./config/esbuild.config.js",
+    "build:watch": "pnpm build && concurrently \"tsc -w\" \"tsc-alias -w\"",
+    "rebuild": "pnpm run c && pnpm postbuild",
+    "rebuild:watch": "pnpm rebuild && concurrently \"tsc -w\" \"tsc-alias -w\"",
+    "----------------------------": "",
+    "build": "pnpm prebuild && pnpm run c && pnpm postbuild",
+    "style": "style-dictionary build --config ./config/styles.config.json",
+    "dev": "pnpm rebuild:watch",
+    "--------------------------------": "",
+    "lint": "eslint src --report-unused-disable-directives",
+    "format": "prettier 'src' --write --list-different",
+    "format:styles": "prettier 'styles' --write --log-level silent",
+    "format:check": "prettier 'src' --check",
+    "----------------------------------": "",
+    "pub": "npm publish",
+    "pub:beta": "npm publish --tag beta",
+    "pub:next": "npm publish --tag next",
+    "pub:release": "npm publish --access public",
+    "------------------------------": "",
+    "test": "pnpm env -- jest --config ./config/jest.config.ts --all --coverage --forceExit",
+    "testOne": "pnpm env -- jest --config ./config/jest.config.ts --coverage --forceExit"
+  },
+  "prettier": "./config/prettier.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "change-case": "^5.4.4",
+    "style-dictionary": "^4.3.2",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.17.17",
+    "concurrently": "^9.1.2",
+    "esbuild": "^0.23.1",
+    "fs-extra": "^11.3.0",
+    "jest": "^29.7.0",
+    "lodash": "^4.17.21",
+    "path": "^0.12.7",
+    "prettier": "^3.4.2",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "tsc-alias": "^1.8.10",
+    "typescript": "^5.7.3"
+  }
+}
