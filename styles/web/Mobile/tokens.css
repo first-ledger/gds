@@ -1,87 +1,87 @@
 .Mobile {
-  --FLDS-Size-Space-0: 0px;
-  --FLDS-Size-Space-100: 4px;
-  --FLDS-Size-Space-150: 6px;
-  --FLDS-Size-Space-200: 8px;
-  --FLDS-Size-Space-300: 12px;
-  --FLDS-Size-Space-400: 16px;
-  --FLDS-Size-Space-600: 24px;
-  --FLDS-Size-Space-800: 32px;
-  --FLDS-Size-Space-1200: 48px;
-  --FLDS-Size-Space-1600: 64px;
-  --FLDS-Size-Space-2400: 96px;
-  --FLDS-Size-Space-3000: 128px;
-  --FLDS-Size-Space-4000: 160px;
-  --FLDS-Size-Space-Negative-100: -4px;
-  --FLDS-Size-Space-Negative-200: -8px;
-  --FLDS-Size-Space-Negative-300: -12px;
-  --FLDS-Size-Space-Negative-400: -16px;
-  --FLDS-Size-Space-Negative-600: -24px;
-  --FLDS-Size-Space-050: 2px;
-  --FLDS-Size-Radius-100: 4px;
-  --FLDS-Size-Radius-200: 10px;
-  --FLDS-Size-Radius-300: 16px;
-  --FLDS-Size-Radius-400: 20px;
-  --FLDS-Size-Radius-Full: 9999px;
-  --FLDS-Size-Depth-0: 0px;
-  --FLDS-Size-Depth-100: 4px;
-  --FLDS-Size-Depth-200: 8px;
-  --FLDS-Size-Depth-400: 16px;
-  --FLDS-Size-Depth-800: 32px;
-  --FLDS-Size-Depth-1200: 48px;
-  --FLDS-Size-Depth-025: 1px;
-  --FLDS-Size-Depth-Negative-025: -1px;
-  --FLDS-Size-Depth-Negative-100: -4px;
-  --FLDS-Size-Depth-Negative-200: -8px;
-  --FLDS-Size-Depth-Negative-400: -16px;
-  --FLDS-Size-Depth-Negative-800: -32px;
-  --FLDS-Size-Depth-Negative-1200: -48px;
-  --FLDS-Size-Stroke-Border: 1px;
-  --FLDS-Size-Stroke-Focus-Ring: 2px;
-  --FLDS-Size-Blur-100: 4px;
-  --FLDS-Size-Icon-Small: 24px;
-  --FLDS-Size-Icon-Medium: 32px;
-  --FLDS-Size-Icon-Large: 40px;
-  --FLDS-Size-Icon-Xx-Large: 100px;
-  --FLDS-Size-Icon-X-Large: 60px;
-  --FLDS-Size-Padding-Horizontal: 12px;
-  --FLDS-Typography-Title-Page-Font-Family: Inter;
-  --FLDS-Typography-Title-Page-Font-Weight: 700;
-  --FLDS-Typography-Title-Page-Size-Small: 32px;
-  --FLDS-Typography-Title-Page-Size-Base: 40px;
-  --FLDS-Typography-Title-Page-Size-Large: 48px;
-  --FLDS-Typography-Subtitle-Font-Family: Inter;
-  --FLDS-Typography-Subtitle-Size-Base: 24px;
-  --FLDS-Typography-Subtitle-Font-Weight: 400;
-  --FLDS-Typography-Subtitle-Size-Large: 32px;
-  --FLDS-Typography-Subtitle-Size-Small: 20px;
-  --FLDS-Typography-Body-Font-Family: Inter;
-  --FLDS-Typography-Body-Size-Medium: 14px;
-  --FLDS-Typography-Body-Font-Weight-Regular: 400;
-  --FLDS-Typography-Body-Size-Large: 16px;
-  --FLDS-Typography-Body-Size-Small: 12px;
-  --FLDS-Typography-Body-Font-Weight-Strong: 600;
-  --FLDS-Typography-Body-Font-Style-Italic: Italic;
-  --FLDS-Typography-Code-Font-Family: Roboto Mono;
-  --FLDS-Typography-Code-Size-Base: 14px;
-  --FLDS-Typography-Code-Font-Weight: 400;
-  --FLDS-Typography-Code-Size-Large: 16px;
-  --FLDS-Typography-Code-Size-Small: 12px;
-  --FLDS-Typography-Heading-Font-Family: Inter;
-  --FLDS-Typography-Heading-Size-Base: 20px;
-  --FLDS-Typography-Heading-Font-Weight: 600;
-  --FLDS-Typography-Heading-Size-Large: 24px;
-  --FLDS-Typography-Heading-Size-Small: 16px;
-  --FLDS-Typography-Title-Hero-Font-Family: Inter;
-  --FLDS-Typography-Title-Hero-Size: 64px;
-  --FLDS-Typography-Title-Hero-Font-Weight: 700;
-  --FLDS-Typography-Subheading-Font-Family: Inter;
-  --FLDS-Typography-Subheading-Size-Small: 14px;
-  --FLDS-Typography-Subheading-Size-Medium: 16px;
-  --FLDS-Typography-Subheading-Size-Large: 20px;
-  --FLDS-Typography-Subheading-Font-Weight: 400;
+  --flds-size-space-0: 0px;
+  --flds-size-space-100: 4px;
+  --flds-size-space-150: 6px;
+  --flds-size-space-200: 8px;
+  --flds-size-space-300: 12px;
+  --flds-size-space-400: 16px;
+  --flds-size-space-600: 24px;
+  --flds-size-space-800: 32px;
+  --flds-size-space-1200: 48px;
+  --flds-size-space-1600: 64px;
+  --flds-size-space-2400: 96px;
+  --flds-size-space-3000: 128px;
+  --flds-size-space-4000: 160px;
+  --flds-size-space-negative-100: -4px;
+  --flds-size-space-negative-200: -8px;
+  --flds-size-space-negative-300: -12px;
+  --flds-size-space-negative-400: -16px;
+  --flds-size-space-negative-600: -24px;
+  --flds-size-space-050: 2px;
+  --flds-size-radius-100: 4px;
+  --flds-size-radius-200: 10px;
+  --flds-size-radius-300: 16px;
+  --flds-size-radius-400: 20px;
+  --flds-size-radius-full: 9999px;
+  --flds-size-depth-0: 0px;
+  --flds-size-depth-100: 4px;
+  --flds-size-depth-200: 8px;
+  --flds-size-depth-400: 16px;
+  --flds-size-depth-800: 32px;
+  --flds-size-depth-1200: 48px;
+  --flds-size-depth-025: 1px;
+  --flds-size-depth-negative-025: -1px;
+  --flds-size-depth-negative-100: -4px;
+  --flds-size-depth-negative-200: -8px;
+  --flds-size-depth-negative-400: -16px;
+  --flds-size-depth-negative-800: -32px;
+  --flds-size-depth-negative-1200: -48px;
+  --flds-size-stroke-border: 1px;
+  --flds-size-stroke-focus-ring: 2px;
+  --flds-size-blur-100: 4px;
+  --flds-size-icon-small: 24px;
+  --flds-size-icon-medium: 32px;
+  --flds-size-icon-large: 40px;
+  --flds-size-icon-xx-large: 100px;
+  --flds-size-icon-x-large: 60px;
+  --flds-size-padding-horizontal: 12px;
+  --flds-typography-title-page-font-family: Inter;
+  --flds-typography-title-page-font-weight: 700;
+  --flds-typography-title-page-size-small: 32px;
+  --flds-typography-title-page-size-base: 40px;
+  --flds-typography-title-page-size-large: 48px;
+  --flds-typography-subtitle-font-family: Inter;
+  --flds-typography-subtitle-size-base: 24px;
+  --flds-typography-subtitle-font-weight: 400;
+  --flds-typography-subtitle-size-large: 32px;
+  --flds-typography-subtitle-size-small: 20px;
+  --flds-typography-body-font-family: Inter;
+  --flds-typography-body-size-medium: 14px;
+  --flds-typography-body-font-weight-regular: 400;
+  --flds-typography-body-size-large: 16px;
+  --flds-typography-body-size-small: 12px;
+  --flds-typography-body-font-weight-strong: 600;
+  --flds-typography-body-font-style-italic: Italic;
+  --flds-typography-code-font-family: Roboto Mono;
+  --flds-typography-code-size-base: 14px;
+  --flds-typography-code-font-weight: 400;
+  --flds-typography-code-size-large: 16px;
+  --flds-typography-code-size-small: 12px;
+  --flds-typography-heading-font-family: Inter;
+  --flds-typography-heading-size-base: 20px;
+  --flds-typography-heading-font-weight: 600;
+  --flds-typography-heading-size-large: 24px;
+  --flds-typography-heading-size-small: 16px;
+  --flds-typography-title-hero-font-family: Inter;
+  --flds-typography-title-hero-size: 64px;
+  --flds-typography-title-hero-font-weight: 700;
+  --flds-typography-subheading-font-family: Inter;
+  --flds-typography-subheading-size-small: 14px;
+  --flds-typography-subheading-size-medium: 16px;
+  --flds-typography-subheading-size-large: 20px;
+  --flds-typography-subheading-font-weight: 400;
 
-  .FLDS-Styles-Typography-Title-Hero {
+  .flds-styles-typography-title-hero {
     font-family: Inter;
     font-weight: 700;
     font-size: 64px;
@@ -91,7 +91,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Title-Page {
+  .flds-styles-typography-title-page {
     font-family: Inter;
     font-weight: 700;
     font-size: 40px;
@@ -101,7 +101,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Subtitle {
+  .flds-styles-typography-subtitle {
     font-family: Inter;
     font-weight: 600;
     font-size: 14px;
@@ -111,7 +111,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Heading {
+  .flds-styles-typography-heading {
     font-family: Inter;
     font-weight: 600;
     font-size: 20px;
@@ -121,7 +121,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Subheading {
+  .flds-styles-typography-subheading {
     font-family: Inter;
     font-weight: 400;
     font-size: 16px;
@@ -131,7 +131,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Body-Base {
+  .flds-styles-typography-body-base {
     font-family: Inter;
     font-weight: 400;
     font-size: 14px;
@@ -141,7 +141,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Body-Strong {
+  .flds-styles-typography-body-strong {
     font-family: Inter;
     font-weight: 600;
     font-size: 14px;
@@ -151,7 +151,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Body-Emphasis {
+  .flds-styles-typography-body-emphasis {
     font-family: Inter;
     font-weight: 400;
     font-size: 14px;
@@ -161,7 +161,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Body-Link {
+  .flds-styles-typography-body-link {
     font-family: Inter;
     font-weight: 400;
     font-size: 14px;
@@ -171,7 +171,7 @@
     text-decoration: underline;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Body-Small {
+  .flds-styles-typography-body-small {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -181,7 +181,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Body-Small-Strong {
+  .flds-styles-typography-body-small-strong {
     font-family: Inter;
     font-weight: 600;
     font-size: 12px;
@@ -191,7 +191,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Body-Code {
+  .flds-styles-typography-body-code {
     font-family: Roboto Mono;
     font-weight: 400;
     font-size: 14px;
@@ -201,7 +201,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Body-Base-Very-Small {
+  .flds-styles-typography-body-base-very-small {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -211,7 +211,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Body-Emphasis-Very-Small {
+  .flds-styles-typography-body-emphasis-very-small {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -221,7 +221,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Body-Link-Very-Small {
+  .flds-styles-typography-body-link-very-small {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -231,7 +231,7 @@
     text-decoration: underline;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Body-Strong-Very-Small {
+  .flds-styles-typography-body-strong-very-small {
     font-family: Inter;
     font-weight: 600;
     font-size: 12px;
@@ -241,7 +241,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Single-Line-Body-Base {
+  .flds-styles-typography-single-line-body-base {
     font-family: Inter;
     font-weight: 400;
     font-size: 14px;
@@ -251,7 +251,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Single-Line-Body-Small-Strong {
+  .flds-styles-typography-single-line-body-small-strong {
     font-family: Inter;
     font-weight: 600;
     font-size: 12px;
@@ -261,7 +261,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Single-Line-Body-Base-Small {
+  .flds-styles-typography-single-line-body-base-small {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -271,7 +271,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Utilities-Component-Notes-Regular {
+  .flds-styles-typography-utilities-component-notes-regular {
     font-family: Roboto Mono;
     font-weight: 400;
     font-size: 16px;
@@ -281,7 +281,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Utilities-Component-Notes-Bold {
+  .flds-styles-typography-utilities-component-notes-bold {
     font-family: Roboto Mono;
     font-weight: 700;
     font-size: 16px;
@@ -291,7 +291,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Display-Display {
+  .flds-styles-typography-display-display {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -301,7 +301,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xxs-Light {
+  .flds-styles-typography-label-xxs-light {
     font-family: Inter;
     font-weight: 300;
     font-size: 10px;
@@ -311,7 +311,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xxs-Regular {
+  .flds-styles-typography-label-xxs-regular {
     font-family: Inter;
     font-weight: 400;
     font-size: 10px;
@@ -321,7 +321,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xxs-Medium {
+  .flds-styles-typography-label-xxs-medium {
     font-family: Inter;
     font-weight: 500;
     font-size: 10px;
@@ -331,7 +331,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xxs-Semibold {
+  .flds-styles-typography-label-xxs-semibold {
     font-family: Inter;
     font-weight: 600;
     font-size: 10px;
@@ -341,7 +341,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xxs-Bold {
+  .flds-styles-typography-label-xxs-bold {
     font-family: Inter;
     font-weight: 700;
     font-size: 10px;
@@ -351,7 +351,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xxs-Extrabold {
+  .flds-styles-typography-label-xxs-extrabold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -361,7 +361,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xxs-Strong {
+  .flds-styles-typography-label-xxs-strong {
     font-family: Inter;
     font-weight: 900;
     font-size: 10px;
@@ -371,7 +371,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xs-Light {
+  .flds-styles-typography-label-xs-light {
     font-family: Inter;
     font-weight: 300;
     font-size: 12px;
@@ -381,7 +381,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xs-Regular {
+  .flds-styles-typography-label-xs-regular {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -391,7 +391,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xs-Medium {
+  .flds-styles-typography-label-xs-medium {
     font-family: Inter;
     font-weight: 500;
     font-size: 12px;
@@ -401,7 +401,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xs-Semibold {
+  .flds-styles-typography-label-xs-semibold {
     font-family: Inter;
     font-weight: 600;
     font-size: 12px;
@@ -411,7 +411,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xs-Bold {
+  .flds-styles-typography-label-xs-bold {
     font-family: Inter;
     font-weight: 700;
     font-size: 12px;
@@ -421,7 +421,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xs-Extrabold {
+  .flds-styles-typography-label-xs-extrabold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -431,7 +431,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xs-Strong {
+  .flds-styles-typography-label-xs-strong {
     font-family: Inter;
     font-weight: 900;
     font-size: 12px;
@@ -441,7 +441,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Sm-Light {
+  .flds-styles-typography-label-sm-light {
     font-family: Inter;
     font-weight: 300;
     font-size: 12px;
@@ -451,7 +451,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Sm-Regular {
+  .flds-styles-typography-label-sm-regular {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -461,7 +461,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Sm-Medium {
+  .flds-styles-typography-label-sm-medium {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -471,7 +471,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Sm-Semibold {
+  .flds-styles-typography-label-sm-semibold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -481,7 +481,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Sm-Bold {
+  .flds-styles-typography-label-sm-bold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -491,7 +491,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Sm-Extrabold {
+  .flds-styles-typography-label-sm-extrabold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -501,7 +501,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Sm-Strong {
+  .flds-styles-typography-label-sm-strong {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -511,7 +511,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Md-Light {
+  .flds-styles-typography-label-md-light {
     font-family: Inter;
     font-weight: 300;
     font-size: 12px;
@@ -521,7 +521,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Md-Regular {
+  .flds-styles-typography-label-md-regular {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -531,7 +531,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Md-Medium {
+  .flds-styles-typography-label-md-medium {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -541,7 +541,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Md-Semibold {
+  .flds-styles-typography-label-md-semibold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -551,7 +551,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Md-Bold {
+  .flds-styles-typography-label-md-bold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -561,7 +561,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Md-Extrabold {
+  .flds-styles-typography-label-md-extrabold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -571,7 +571,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Md-Strong {
+  .flds-styles-typography-label-md-strong {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -581,7 +581,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Lg-Light {
+  .flds-styles-typography-label-lg-light {
     font-family: Inter;
     font-weight: 300;
     font-size: 12px;
@@ -591,7 +591,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Lg-Regular {
+  .flds-styles-typography-label-lg-regular {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -601,7 +601,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Lg-Medium {
+  .flds-styles-typography-label-lg-medium {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -611,7 +611,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Lg-Semibold {
+  .flds-styles-typography-label-lg-semibold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -621,7 +621,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Lg-Bold {
+  .flds-styles-typography-label-lg-bold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -631,7 +631,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Lg-Extrabold {
+  .flds-styles-typography-label-lg-extrabold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -641,7 +641,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Lg-Strong {
+  .flds-styles-typography-label-lg-strong {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -651,7 +651,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xl-Light {
+  .flds-styles-typography-label-xl-light {
     font-family: Inter;
     font-weight: 300;
     font-size: 12px;
@@ -661,7 +661,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xl-Regular {
+  .flds-styles-typography-label-xl-regular {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -671,7 +671,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xl-Medium {
+  .flds-styles-typography-label-xl-medium {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -681,7 +681,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xl-Semibold {
+  .flds-styles-typography-label-xl-semibold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -691,7 +691,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xl-Bold {
+  .flds-styles-typography-label-xl-bold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -701,7 +701,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xl-Extrabold {
+  .flds-styles-typography-label-xl-extrabold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -711,7 +711,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-Xl-Strong {
+  .flds-styles-typography-label-xl-strong {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -721,7 +721,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-2xl-Light {
+  .flds-styles-typography-label-2xl-light {
     font-family: Inter;
     font-weight: 300;
     font-size: 12px;
@@ -731,7 +731,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-2xl-Regular {
+  .flds-styles-typography-label-2xl-regular {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -741,7 +741,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-2xl-Medium {
+  .flds-styles-typography-label-2xl-medium {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -751,7 +751,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-2xl-Semibold {
+  .flds-styles-typography-label-2xl-semibold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -761,7 +761,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-2xl-Bold {
+  .flds-styles-typography-label-2xl-bold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -771,7 +771,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-2xl-Extrabold {
+  .flds-styles-typography-label-2xl-extrabold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -781,7 +781,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-2xl-Strong {
+  .flds-styles-typography-label-2xl-strong {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -791,7 +791,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-3xl-Light {
+  .flds-styles-typography-label-3xl-light {
     font-family: Inter;
     font-weight: 300;
     font-size: 12px;
@@ -801,7 +801,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-3xl-Regular {
+  .flds-styles-typography-label-3xl-regular {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -811,7 +811,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-3xl-Medium {
+  .flds-styles-typography-label-3xl-medium {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -821,7 +821,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-3xl-Semibold {
+  .flds-styles-typography-label-3xl-semibold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -831,7 +831,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-3xl-Bold {
+  .flds-styles-typography-label-3xl-bold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -841,7 +841,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-3xl-Extrabold {
+  .flds-styles-typography-label-3xl-extrabold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -851,7 +851,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-3xl-Strong {
+  .flds-styles-typography-label-3xl-strong {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -861,7 +861,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-4xl-Light {
+  .flds-styles-typography-label-4xl-light {
     font-family: Inter;
     font-weight: 300;
     font-size: 12px;
@@ -871,7 +871,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-4xl-Regular {
+  .flds-styles-typography-label-4xl-regular {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -881,7 +881,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-4xl-Medium {
+  .flds-styles-typography-label-4xl-medium {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -891,7 +891,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-4xl-Semibold {
+  .flds-styles-typography-label-4xl-semibold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -901,7 +901,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-4xl-Bold {
+  .flds-styles-typography-label-4xl-bold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -911,7 +911,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-4xl-Extrabold {
+  .flds-styles-typography-label-4xl-extrabold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -921,7 +921,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Label-4xl-Strong {
+  .flds-styles-typography-label-4xl-strong {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -931,7 +931,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Paragraph-Body-Light {
+  .flds-styles-typography-paragraph-body-light {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -941,7 +941,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Paragraph-Body-Medium {
+  .flds-styles-typography-paragraph-body-medium {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -951,7 +951,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Paragraph-Body-Regular {
+  .flds-styles-typography-paragraph-body-regular {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -961,7 +961,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Paragraph-Body-Semibold {
+  .flds-styles-typography-paragraph-body-semibold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -971,7 +971,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Paragraph-Body-Bold {
+  .flds-styles-typography-paragraph-body-bold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -981,7 +981,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Paragraph-Body-Extrabold {
+  .flds-styles-typography-paragraph-body-extrabold {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -991,7 +991,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Paragraph-Body-Strong {
+  .flds-styles-typography-paragraph-body-strong {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -1001,7 +1001,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Paragraph-Code-Light {
+  .flds-styles-typography-paragraph-code-light {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -1011,7 +1011,7 @@
     text-decoration: none;
     text-transform: none;
   }
-  .FLDS-Styles-Typography-Paragraph-Link-Regular {
+  .flds-styles-typography-paragraph-link-regular {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;

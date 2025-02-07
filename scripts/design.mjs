@@ -141,7 +141,7 @@ function toNormalCase(str) {
 function formatTokenName(str) {
   let name = toNormalCase(str);
   let prefix = name.split('-')[0];
-  let altered = name.replace(prefix, prefix.toUpperCase());
+  let altered = name.replace(prefix, prefix.toUpperCase()).toLowerCase();
   return altered;
 }
 
