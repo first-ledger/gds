@@ -98,7 +98,6 @@ const formatTokens = (
     let atr = keys.join('-').replace(' ', '-');
     colors[atr] = allTokenObj[key];
   });
-  console.log(colors);
 
   const result = {};
   Object.keys(allTokenObj).forEach((key) => {
@@ -109,7 +108,7 @@ const formatTokens = (
   return JSON.stringify(result, null, 2);
 };
 
-export const getTamaguiFormat = ({
+export const getTamaguiConfigFormat = ({
   dictionary: { allTokens },
   type,
   isVariables,
@@ -119,7 +118,25 @@ export const getTamaguiFormat = ({
   const content = formatTokens(allTokens, type, isVariables, prefix);
 
   if (type === 'all') {
-    const configs = utils.getTemplateConfigByType(type, content, extend);
+    const configs = utils.getConfigTemplate(type, content, extend);
+
+    return configs;
+  } else {
+    return `module.exports = ${utils.unquoteFromKeys(content)}`;
+  }
+};
+
+export const getTamaguiThemeFormat = ({
+  dictionary: { allTokens },
+  type,
+  isVariables,
+  prefix,
+  extend,
+}: TailwindFormatObjType) => {
+  const content = formatTokens(allTokens, type, isVariables, prefix);
+
+  if (type === 'all') {
+    const configs = utils.getThemeTemplate(type, content, extend);
 
     return configs;
   } else {
@@ -137,6 +154,7 @@ export const makeSdTamaguiConfig = ({
   buildPath,
   prefix,
   preprocessors,
+  fileName,
 }: SdTamaguiConfigType): Config => {
   if (type === undefined) {
     throw new Error('type is required');
@@ -146,8 +164,8 @@ export const makeSdTamaguiConfig = ({
     throw new Error('formatType must be "js" or "cjs"');
   }
 
-  const destination =
-    type !== 'all' ? `${type}.tamagui.${formatType}` : `tamagui.config.${formatType}`;
+  if (!fileName)
+    fileName = type !== 'all' ? `${type}.tamagui.${formatType}` : `tamagui.config.${formatType}`;
 
   return {
     preprocessors,
@@ -155,7 +173,7 @@ export const makeSdTamaguiConfig = ({
     hooks: {
       formats: {
         tamaguiFormat: ({ dictionary }: { dictionary: Dictionary }) => {
-          return getTamaguiFormat({
+          return getTamaguiConfigFormat({
             dictionary,
             formatType,
             isVariables,
@@ -172,7 +190,62 @@ export const makeSdTamaguiConfig = ({
         buildPath: utils.getConfigValue(buildPath, 'build/web/'),
         files: [
           {
-            destination,
+            destination: fileName,
+            format: 'tamaguiFormat',
+          },
+        ],
+      },
+    },
+  };
+};
+
+export const makeSdTamaguiTheme = ({
+  type,
+  formatType = 'js',
+  isVariables = false,
+  extend = true,
+  source,
+  transforms,
+  buildPath,
+  prefix,
+  preprocessors,
+  fileName,
+}: SdTamaguiConfigType): Config => {
+  if (type === undefined) {
+    throw new Error('type is required');
+  }
+
+  if (formatType !== 'js' && formatType !== 'cjs') {
+    throw new Error('formatType must be "js" or "cjs"');
+  }
+
+  if (!fileName)
+    fileName = type !== 'all' ? `${type}.tamagui.${formatType}` : `tamagui.config.${formatType}`;
+
+  return {
+    preprocessors,
+    source: utils.getConfigValue(source, ['tokens/**/*.json']),
+    hooks: {
+      formats: {
+        tamaguiFormat: ({ dictionary }: { dictionary: Dictionary }) => {
+          return getTamaguiThemeFormat({
+            dictionary,
+            formatType,
+            isVariables,
+            extend,
+            prefix,
+            type,
+          });
+        },
+      },
+    },
+    platforms: {
+      [type !== 'all' ? `tamagui/${type}` : 'tamagui']: {
+        transforms: utils.getConfigValue(transforms, ['attribute/cti', 'name/kebab']),
+        buildPath: utils.getConfigValue(buildPath, 'build/web/'),
+        files: [
+          {
+            destination: fileName,
             format: 'tamaguiFormat',
           },
         ],

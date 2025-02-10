@@ -12,6 +12,7 @@ export type SdTamaguiConfigType = {
   formatType?: TamaguiFormatType;
   isVariables?: boolean;
   source?: Config['source'];
+  fileName?: string;
   preprocessors?: Config['preprocessors'];
   transforms?: PlatformConfig['transforms'];
   buildPath?: PlatformConfig['buildPath'];

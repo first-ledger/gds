@@ -1,2 +1,2 @@
 export { makeSdTailwindConfig } from './tw/index';
-export { makeSdTamaguiConfig } from './tamagui/index';
+export { makeSdTamaguiConfig, makeSdTamaguiTheme } from './tamagui/index';
