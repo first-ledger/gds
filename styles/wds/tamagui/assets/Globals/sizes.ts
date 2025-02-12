@@ -25,7 +25,7 @@ export const size = {
 export const zIndex = {};
 
 export const aggregator = {
-  scale: {
+  'wds.scale': {
     '10': '72px',
     '09': '64px',
     '08': '48px',
@@ -37,7 +37,7 @@ export const aggregator = {
     '02': '14px',
     '01': '12px',
   },
-  size: {
+  'wds.size': {
     '10': '32px',
     '11': '36px',
     '12': '40px',

@@ -71,9 +71,8 @@ export const getConfigTemplate = (
     import { themes } from './themes';
 
     // Import Colors
-    import * as LightColors from './assets/Light/colors';
-    import * as DarkColors from './assets/Dark/colors';
-    import * as GlobalColors from './assets/Globals/colors';
+    import * as Light from './assets/Light/palette';
+    import * as Dark from './assets/Dark/palette';
 
     // Import Primitives
     import * as Globals from './assets/Globals/tokens';
@@ -89,9 +88,8 @@ export const getConfigTemplate = (
 
     // Define all acceptable variable token names
     const colors = createTokens({
-      light: { ...LightColors },
-      dark: { ...DarkColors },
-      primitives: { ...GlobalColors },
+      light: { ...Light.keyed },
+      dark: { ...Dark.keyed },
     });
 
     const tokens = createTokens({
@@ -100,13 +98,8 @@ export const getConfigTemplate = (
       tablet: { ...Tablet },
       mobile: { ...Mobile },
 
-      ring: MobileSizes.aggregator.ring,
-      icon: MobileSizes.aggregator.icon,
-      padding: MobileSizes.aggregator.padding,
-      scale: GlobalSizes.aggregator.scale,
-      font: MobileSizes.aggregator.font,
-      blur: MobileSizes.aggregator.blur,
-      border: MobileSizes.aggregator.border,
+      ...GlobalSizes.aggregator,
+      ...MobileSizes.aggregator,
 
       // Start of overrides
       // Overrides the default tamagui size tokens
@@ -134,17 +127,28 @@ export const getConfigTemplate = (
     });
 
     // Create Tamagui config
-    const tamaguiConfig = createTamagui({
+    const config = createTamagui({
       ...defaultConfig,
       themes,
       tokens: {
         ...defaultConfig.tokens,
         ...tokens,
-        color: colors,
+        colors,
+      },
+      settings: {
+        ...defaultConfig.settings,
+        disableSSR: true,
+        onlyAllowShorthands: false,
       },
     });
 
-    export default tamaguiConfig;
+    export default config
+
+    export type Conf = typeof config
+
+    declare module 'tamagui' {
+      interface TamaguiCustomConfig extends Conf {}
+}
   `;
   /*   ${getTemplateConfig()} */
 

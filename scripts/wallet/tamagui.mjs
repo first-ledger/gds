@@ -120,6 +120,7 @@ handler.registerTransformGroup({
 handler.registerFormat({
   name: 'ts/color',
   format: function (dictionary) {
+    let keyed = {};
     let combined = {};
     let modals = {};
     let base = new Array(12);
@@ -146,6 +147,7 @@ handler.registerFormat({
         if (!modals[colorGroup.toLowerCase()]) modals[colorGroup.toLowerCase()] = {};
         modals[colorGroup.toLowerCase()][colorName.toLowerCase()] = prop.$value;
         combined[colorName.toLowerCase()] = prop.$value;
+        keyed['wds.' + colorName.toLowerCase()] = prop.$value;
       }
     });
 
@@ -158,6 +160,8 @@ handler.registerFormat({
     export const modals = ${JSON.stringify(modals, null, 2)}
 
     export const aggregator = ${JSON.stringify(combined, null, 2)}
+
+    export const keyed = ${JSON.stringify(keyed, null, 2)}
     `;
   },
 });
@@ -178,16 +182,17 @@ handler.registerFormat({
       let property = [...name.split('_')][index].toLowerCase();
       let dim = [...name.split('_')].pop();
       let isNegative = name.includes('NEGATIVE');
-      let token = isNegative ? `negative-${dim}` : dim;
+      let token = isNegative ? `-${dim}` : dim;
       if (property === 'zindex') property = 'zIndex';
+      property = 'wds.' + property;
 
       if (!combined[property]) combined[property] = {};
       combined[property][token.toLowerCase()] = prop.$value;
 
-      if (property === 'radius') radius[token.toLowerCase()] = prop.$value;
-      if (property === 'space') space[token.toLowerCase()] = prop.$value;
-      if (property === 'zIndex') zIndex[token.toLowerCase()] = prop.$value;
-      if (property === 'size') size[token.toLowerCase()] = prop.$value;
+      if (property.includes('radius')) radius[token.toLowerCase()] = prop.$value;
+      if (property.includes('space')) space[token.toLowerCase()] = prop.$value;
+      if (property.includes('zIndex')) zIndex[token.toLowerCase()] = prop.$value;
+      if (property.includes('size')) size[token.toLowerCase()] = prop.$value;
     });
 
     //@ts-ignore

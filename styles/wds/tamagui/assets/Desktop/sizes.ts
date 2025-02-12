@@ -23,11 +23,11 @@ export const space = {
   '2400': '96px',
   '3000': '128px',
   '4000': '160px',
-  'negative-100': '-4px',
-  'negative-200': '-8px',
-  'negative-300': '-12px',
-  'negative-400': '-16px',
-  'negative-600': '-24px',
+  '-100': '-4px',
+  '-200': '-8px',
+  '-300': '-12px',
+  '-400': '-16px',
+  '-600': '-24px',
   '050': '2px',
 };
 
@@ -36,7 +36,7 @@ export const size = {};
 export const zIndex = {};
 
 export const aggregator = {
-  space: {
+  'wds.space': {
     '0': '0px',
     '100': '4px',
     '150': '6px',
@@ -50,14 +50,14 @@ export const aggregator = {
     '2400': '96px',
     '3000': '128px',
     '4000': '160px',
-    'negative-100': '-4px',
-    'negative-200': '-8px',
-    'negative-300': '-12px',
-    'negative-400': '-16px',
-    'negative-600': '-24px',
+    '-100': '-4px',
+    '-200': '-8px',
+    '-300': '-12px',
+    '-400': '-16px',
+    '-600': '-24px',
     '050': '2px',
   },
-  radius: {
+  'wds.radius': {
     '100': '4px',
     '200': '10px',
     '300': '16px',
@@ -67,7 +67,7 @@ export const aggregator = {
     '600': '60px',
     full: '9999px',
   },
-  depth: {
+  'wds.depth': {
     '0': '0px',
     '100': '4px',
     '200': '8px',
@@ -75,14 +75,14 @@ export const aggregator = {
     '800': '32px',
     '1200': '48px',
     '025': '1px',
-    'negative-025': '-1px',
-    'negative-100': '-4px',
-    'negative-200': '-8px',
-    'negative-400': '-16px',
-    'negative-800': '-32px',
-    'negative-1200': '-48px',
+    '-025': '-1px',
+    '-100': '-4px',
+    '-200': '-8px',
+    '-400': '-16px',
+    '-800': '-32px',
+    '-1200': '-48px',
   },
-  border: {
+  'wds.border': {
     '100': '1px',
     '200': '2px',
     '250': '2.5px',
@@ -90,25 +90,25 @@ export const aggregator = {
     '400': '4px',
     '500': '5px',
   },
-  ring: {
+  'wds.ring': {
     '100': '1px',
     '200': '2px',
     '300': '4px',
     '400': '6px',
     '500': '8px',
   },
-  blur: {
+  'wds.blur': {
     '100': '4px',
   },
-  icon: {
+  'wds.icon': {
     small: '24px',
     medium: '32px',
     large: '100px',
   },
-  padding: {
+  'wds.padding': {
     desktop: '48px',
   },
-  font: {
+  'wds.font': {
     '2xl': '24px',
     xs: '10px',
     base: '14px',
