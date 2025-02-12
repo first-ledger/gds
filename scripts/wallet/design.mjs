@@ -6,7 +6,7 @@ import {
 } from 'style-dictionary/enums';
 
 const PREFIX = 'WDS';
-const modes = ['Globals', 'Dark', 'Light', 'Desktop', 'Tablet', 'Mobile', 'Default'];
+const modes = ['Globals', 'Dark', 'Light', 'Desktop', 'Tablet', 'Mobile'];
 const typography_modes = ['Desktop', 'Tablet', 'Mobile'];
 const platforms = ['web', 'ios', 'android'];
 
@@ -19,7 +19,7 @@ const createConfig = (mode, platform) => {
     preprocessors: [`preprocess/${mode}`],
     log: {
       warnings: logWarningLevels.disabled, // 'warn' | 'error' | 'disabled'
-      verbosity: logVerbosityLevels.verbose, // 'default' | 'silent' | 'verbose'
+      verbosity: logVerbosityLevels.silent, // 'default' | 'silent' | 'verbose'
       errors: {
         brokenReferences: logBrokenReferenceLevels.console, // 'throw' | 'console'
       },
@@ -35,6 +35,11 @@ const createConfig = (mode, platform) => {
             format: 'javascript/es6',
             filter: `filter/${mode}`,
           },
+          {
+            destination: 'typography.es6.js',
+            format: 'javascript/es6',
+            filter: `filter/${mode}/typography`,
+          },
         ],
       },
       'web/json': {
@@ -46,6 +51,11 @@ const createConfig = (mode, platform) => {
             destination: 'tokens.json',
             format: 'json/flat',
             filter: `filter/${mode}`,
+          },
+          {
+            destination: 'typography.json',
+            format: 'json/flat',
+            filter: `filter/${mode}/typography`,
           },
         ],
       },
@@ -60,6 +70,12 @@ const createConfig = (mode, platform) => {
             format: 'scss/selector',
             filter: `filter/${mode}`,
           },
+          {
+            selector: `${mode}`, // defaults to :root; set to false to disable
+            destination: 'typography.scss',
+            format: 'scss/selector',
+            filter: `filter/${mode}/typography`,
+          },
         ],
       },
       'web/css': {
@@ -73,6 +89,12 @@ const createConfig = (mode, platform) => {
             format: 'css/selector',
             filter: `filter/${mode}`,
           },
+          {
+            selector: `${mode}`, // defaults to :root; set to false to disable
+            destination: 'typography.css',
+            format: 'css/selector',
+            filter: `filter/${mode}/typography`,
+          },
         ],
       },
       styleguide: {
@@ -81,7 +103,7 @@ const createConfig = (mode, platform) => {
         prefix: PREFIX,
         files: [
           {
-            destination: `${platform}_${mode}.json`,
+            destination: `${platform}_${mode}_tokens.json`,
             format: 'json/flat',
             filter: `filter/${mode}`,
           },
@@ -189,15 +211,13 @@ handler.registerFormat({
 
     let t =
       typography !== ''
-        ? `// Typography
+        ? `
       ${typography}`
         : typography;
 
     //@ts-ignore
     return `.${this.selector} {
-        // Local Variables
         ${tokens}
-        // Global Variables
         ${tokens.replaceAll('$', '--')}
         ${t}}`;
   },
@@ -299,17 +319,25 @@ handler.registerTransformGroup({
   ],
 });
 
+const filterMode = (token, mode) => {
+  if (token.$type === 'typography') return typography_modes.includes(mode);
+  if (!token.$extensions?.mode) return mode === 'Globals';
+  // if (token.name.includes('background-primary')) console.log(token);
+  let array = Object.keys(token.$extensions?.mode);
+  if (array.length === 0 && mode === 'Globals') return true;
+  return array.includes(mode);
+};
+
 modes.map(async (mode) => {
   handler.registerFilter({
     name: `filter/${mode}`,
-    filter: (token) => {
-      if (token.$type === 'typography') return typography_modes.includes(mode);
-      if (!token.$extensions?.mode) return mode === 'Globals';
-      // if (token.name.includes('background-primary')) console.log(token);
-      let array = Object.keys(token.$extensions?.mode);
-      if (array.length === 0 && mode === 'Globals') return true;
-      return array.includes(mode);
-    },
+    filter: (token) => filterMode(token, mode) && token.$type !== 'typography',
+  });
+
+  handler.registerFilter({
+    name: `filter/${mode}/typography`,
+    filter: (token) =>
+      filterMode(token, mode) && token.$type === 'typography' && typography_modes.includes(mode),
   });
 
   handler.registerPreprocessor({

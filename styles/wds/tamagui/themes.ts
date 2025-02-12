@@ -1,34 +1,8 @@
 import { createThemes, defaultComponentThemes } from '@tamagui/theme-builder';
-import * as Colors from '@tamagui/colors';
 
-const darkPalette = [
-  'hsla(0, 15%, 1%, 1)',
-  'hsla(0, 13%, 6%, 1)',
-  'hsla(0, 12%, 12%, 1)',
-  'hsla(0, 10%, 17%, 1)',
-  'hsla(0, 8%, 23%, 1)',
-  'hsla(0, 7%, 28%, 1)',
-  'hsla(0, 5%, 34%, 1)',
-  'hsla(0, 3%, 39%, 1)',
-  'hsla(0, 2%, 45%, 1)',
-  'hsla(0, 0%, 50%, 1)',
-  'hsla(172, 40%, 93%, 1)',
-  'hsla(0, 15%, 99%, 1)',
-];
-const lightPalette = [
-  'hsla(0, 15%, 99%, 1)',
-  'hsla(0, 13%, 94%, 1)',
-  'hsla(0, 12%, 88%, 1)',
-  'hsla(0, 10%, 83%, 1)',
-  'hsla(0, 8%, 77%, 1)',
-  'hsla(0, 7%, 72%, 1)',
-  'hsla(0, 5%, 66%, 1)',
-  'hsla(0, 3%, 61%, 1)',
-  'hsla(0, 2%, 55%, 1)',
-  'hsla(0, 0%, 50%, 1)',
-  'hsla(172, 40%, 15%, 1)',
-  'hsla(0, 15%, 1%, 1)',
-];
+// Import WDS Colors
+import * as Light from './assets/Light/palette';
+import * as Dark from './assets/Dark/palette';
 
 const lightShadows = {
   shadow1: 'rgba(0,0,0,0.04)',
@@ -51,24 +25,41 @@ const darkShadows = {
 // we're adding some example sub-themes for you to show how they are done, "success" "warning", "error":
 
 const builtThemes = createThemes({
+  // Component design tokens, outside of components -> defaults to base template
+  // background: string;
+  // backgroundFocus: string;
+  // backgroundHover: string;
+  // backgroundPress: string;
+  // borderColor: string;
+  // borderColorFocus: string;
+  // borderColorHover: string;
+  // borderColorPress: string;
+  // color: string;
+  // colorFocus: string;
+  // colorHover: string;
+  // colorPress: string;
+  // colorTransparent: string;
+  // placeholderColor: string;
+  // shadowColor: string;
+  // shadowColorFocus: string;
+  // shadowColorHover: string;
+  // shadowColorPress: string;
+  componentThemes: defaultComponentThemes,
+
   base: {
     palette: {
-      dark: darkPalette,
-      light: lightPalette,
+      dark: Dark.base,
+      light: Light.base,
     },
 
     extra: {
       light: {
-        ...Colors.green,
-        ...Colors.red,
-        ...Colors.yellow,
+        ...Light.aggregator,
         ...lightShadows,
         shadowColor: lightShadows.shadow1,
       },
       dark: {
-        ...Colors.greenDark,
-        ...Colors.redDark,
-        ...Colors.yellowDark,
+        ...Dark.aggregator,
         ...darkShadows,
         shadowColor: darkShadows.shadow1,
       },
@@ -77,79 +68,33 @@ const builtThemes = createThemes({
 
   accent: {
     palette: {
-      dark: [
-        'hsla(191, 100%, 32%, 1)',
-        'hsla(191, 100%, 35%, 1)',
-        'hsla(191, 100%, 38%, 1)',
-        'hsla(191, 100%, 41%, 1)',
-        'hsla(191, 100%, 44%, 1)',
-        'hsla(191, 100%, 48%, 1)',
-        'hsla(191, 100%, 51%, 1)',
-        'hsla(191, 100%, 54%, 1)',
-        'hsla(191, 100%, 57%, 1)',
-        'hsla(191, 100%, 60%, 1)',
-        'hsla(250, 50%, 90%, 1)',
-        'hsla(250, 50%, 95%, 1)',
-      ],
-      light: [
-        'hsla(191, 100%, 38%, 1)',
-        'hsla(191, 100%, 41%, 1)',
-        'hsla(191, 100%, 44%, 1)',
-        'hsla(191, 100%, 47%, 1)',
-        'hsla(191, 100%, 50%, 1)',
-        'hsla(191, 100%, 53%, 1)',
-        'hsla(191, 100%, 56%, 1)',
-        'hsla(191, 100%, 59%, 1)',
-        'hsla(191, 100%, 62%, 1)',
-        'hsla(191, 100%, 65%, 1)',
-        'hsla(250, 50%, 95%, 1)',
-        'hsla(250, 50%, 95%, 1)',
-      ],
+      dark: Dark.accent,
+      light: Light.accent,
     },
   },
 
   childrenThemes: {
     warning: {
       palette: {
-        dark: Object.values(Colors.yellowDark),
-        light: Object.values(Colors.yellow),
+        dark: Object.values(Dark.modals.yellow),
+        light: Object.values(Light.modals.yellow),
       },
     },
 
     error: {
       palette: {
-        dark: Object.values(Colors.redDark),
-        light: Object.values(Colors.red),
+        dark: Object.values(Dark.modals.red),
+        light: Object.values(Light.modals.red),
       },
     },
 
     success: {
       palette: {
-        dark: Object.values(Colors.greenDark),
-        light: Object.values(Colors.green),
+        dark: Object.values(Dark.modals.green),
+        light: Object.values(Light.modals.green),
       },
     },
   },
-
-  // optionally add more, can pass palette or template
-
-  // grandChildrenThemes: {
-  //   alt1: {
-  //     template: 'alt1',
-  //   },
-  //   alt2: {
-  //     template: 'alt2',
-  //   },
-  //   surface1: {
-  //     template: 'surface1',
-  //   },
-  //   surface2: {
-  //     template: 'surface2',
-  //   },
-  //   surface3: {
-  //     template: 'surface3',
-  //   },
-  // },
 });
 
 export type Themes = typeof builtThemes;

@@ -18,12 +18,21 @@ export type SdTamaguiConfigType = {
   buildPath?: PlatformConfig['buildPath'];
   prefix?: PlatformConfig['prefix'];
   extend?: boolean;
+  hooks?: PlatformConfig['hooks'];
+  files?: PlatformConfig['files'];
 };
 
-export type TailwindFormatObjType = Pick<
+export type TamaguiFormatObjType = Pick<
   SdTamaguiConfigType,
   'type' | 'isVariables' | 'prefix' | 'extend'
 > & {
   dictionary: Dictionary;
   formatType: TamaguiFormatType;
+};
+
+export type TamaguiFormatObj = {
+  tokens: Dictionary['allTokens'];
+  type: SdTamaguiConfigType['type'];
+  isVariables: SdTamaguiConfigType['isVariables'];
+  prefix: SdTamaguiConfigType['prefix'];
 };
