@@ -85,14 +85,7 @@ export const getConfigTemplate = (
 
     // Import Sizes
     import * as GlobalSizes from './assets/Globals/sizes';
-    import * as DesktopSizes from './assets/Desktop/sizes';
     import * as MobileSizes from './assets/Mobile/sizes';
-    import * as TabletSizes from './assets/Tablet/sizes';
-
-    // Import Typography
-    import * as DesktopTypography from './assets/Desktop/typography';
-    import * as MobileTypography from './assets/Mobile/typography';
-    import * as TabletTypography from './assets/Tablet/typography';
 
     // Define all acceptable variable token names
     const colors = createTokens({
@@ -102,36 +95,56 @@ export const getConfigTemplate = (
     });
 
     const tokens = createTokens({
-      globals: { ...Globals, ...GlobalSizes.aggregator },
-      desktop: { ...Desktop, ...DesktopSizes.aggregator, typography: DesktopTypography },
-      mobile: { ...Mobile, ...MobileSizes.aggregator, typography: MobileTypography },
-      tablet: { ...Tablet, ...TabletSizes.aggregator, typography: TabletTypography },
+      globals: { ...Globals },
+      desktop: { ...Desktop },
+      tablet: { ...Tablet },
+      mobile: { ...Mobile },
 
-      typography: MobileTypography,
+      ring: MobileSizes.aggregator.ring,
+      icon: MobileSizes.aggregator.icon,
+      padding: MobileSizes.aggregator.padding,
+      scale: GlobalSizes.aggregator.scale,
 
-      // Start of overrides 
+      font: {
+        ...defaultConfig.tokens.radius,
+        ...GlobalSizes.radius,
+        ...MobileSizes.radius,
+      },
+
+      blur: {
+        ...defaultConfig.tokens.radius,
+        ...GlobalSizes.radius,
+        ...MobileSizes.radius,
+      },
+
+      border: {
+        ...defaultConfig.tokens.radius,
+        ...GlobalSizes.radius,
+        ...MobileSizes.radius,
+      },
+      // Start of overrides
       // Overrides the default tamagui size tokens
       radius: {
         ...defaultConfig.tokens.radius,
         ...GlobalSizes.radius,
-        ...MobileSizes.radius
+        ...MobileSizes.radius,
       },
       space: {
         ...defaultConfig.tokens.space,
         ...GlobalSizes.space,
-        ...MobileSizes.space
+        ...MobileSizes.space,
       },
       size: {
         ...defaultConfig.tokens.size,
         ...GlobalSizes.size,
-        ...MobileSizes.size
+        ...MobileSizes.size,
       },
       zIndex: {
         ...defaultConfig.tokens.zIndex,
         ...GlobalSizes.zIndex,
-        ...MobileSizes.zIndex
-      }
-      // End of overrides 
+        ...MobileSizes.zIndex,
+      },
+      // End of overrides
     });
 
     // Create Tamagui config
@@ -141,7 +154,7 @@ export const getConfigTemplate = (
       tokens: {
         ...defaultConfig.tokens,
         ...tokens,
-        colors
+        color: colors,
       },
     });
 
