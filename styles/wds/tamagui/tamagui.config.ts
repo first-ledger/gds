@@ -36,24 +36,10 @@ const tokens = createTokens({
   icon: MobileSizes.aggregator.icon,
   padding: MobileSizes.aggregator.padding,
   scale: GlobalSizes.aggregator.scale,
+  font: MobileSizes.aggregator.font,
+  blur: MobileSizes.aggregator.blur,
+  border: MobileSizes.aggregator.border,
 
-  font: {
-    ...defaultConfig.tokens.radius,
-    ...GlobalSizes.radius,
-    ...MobileSizes.radius,
-  },
-
-  blur: {
-    ...defaultConfig.tokens.radius,
-    ...GlobalSizes.radius,
-    ...MobileSizes.radius,
-  },
-
-  border: {
-    ...defaultConfig.tokens.radius,
-    ...GlobalSizes.radius,
-    ...MobileSizes.radius,
-  },
   // Start of overrides
   // Overrides the default tamagui size tokens
   radius: {
@@ -86,7 +72,7 @@ const tamaguiConfig = createTamagui({
   tokens: {
     ...defaultConfig.tokens,
     ...tokens,
-    colors,
+    color: colors,
   },
 });
 
