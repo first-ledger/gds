@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       current_branch: ${{ steps.branch-names.outputs.current_branch }}
-      base_ref_branch: : ${{ steps.branch-names.outputs.base_ref_branch }}
+      base_ref_branch: ${{ steps.branch-names.outputs.base_ref_branch }}
       ref_branch: ${{ steps.branch-names.outputs.ref_branch }}
       is_tag: ${{ steps.branch-names.outputs.is_tag }}
       tag: ${{ steps.branch-names.outputs.tag }}
@@ -35,9 +35,9 @@ jobs:
         if: steps.branch-names.outputs.is_tag == 'true'
         run: |
           echo "Running on: ${{ steps.branch-names.outputs.tag }}"
-        
+
       - name: Get the current tag
-        if: steps.branch-names.outputs.is_tag == 'true' 
+        if: steps.branch-names.outputs.is_tag == 'true'
         run: |
           echo "${{ steps.branch-names.outputs.tag }}"
 
