@@ -3,17 +3,38 @@ description: 'Publish distribution packages to NPM'
 author: 'First Ledger'
 
 inputs:
+  # Node.js version to use for setting up the environment.
+  node_version:
+    required: false
+    type: string
+    description: 'NodeJS version to use'
+    default: '20'
+
+  # Token used for authenticating with NPM
   token:
     description: 'NPM Publishing Auth Token'
     required: true
+
+  # Command to execute for publishing
   cmd:
     type: string
     description: 'Command'
     required: true
+
+  # Tag to apply to the published package
   tag:
     type: string
     description: 'Publish Type Tag'
     required: true
+
+  # Tag to apply to the published package
+  access:
+    type: string
+    default: 'private'
+    description: 'Publish Type Visibility'
+    required: false
+
+  # Indicates whether the publish is a dry run
   dry:
     type: string
     description: 'Denote if this is a dry run'
@@ -22,16 +43,24 @@ inputs:
 runs:
   using: 'composite'
   steps:
+    # Step to set up Node.js and install npm
+    - name: Set up Node.js and install npm
+      uses: actions/setup-node@v4
+      with:
+        node-version: '${{ inputs.node_version }}' # Use the Node.js version passed as input
+        registry-url: 'https://registry.npmjs.org'
+        scope: '@first-ledger'
+
     - name: Publish pkg on NPM 📦
       if: ${{ inputs.dry == '' || inputs.dry == 'false' }}
       shell: bash
-      run: '${{inputs.cmd}} --tag ${{inputs.tag}}'
+      run: '${{inputs.cmd}} --tag ${{inputs.tag}} --access ${{inputs.access}}'
       env:
         NODE_AUTH_TOKEN: ${{inputs.token}}
 
-    - name: Publish pkg on NPM
-      if: inputs.dry == 'true'
+    - name: Publish pkg on NPM (dry run)
+      if: ${{ inputs.dry == 'true' }}
       shell: bash
-      run: '${{inputs.cmd}} --tag ${{inputs.tag}} --dry-run'
+      run: '${{inputs.cmd}} --tag ${{inputs.tag}} --access ${{inputs.access}} --dry-run'
       env:
         NODE_AUTH_TOKEN: ${{inputs.token}}

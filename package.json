@@ -1,8 +1,7 @@
 {
-  "name": "gds",
+  "name": "@first-ledger/gds",
   "version": "0.0.1-b.1",
   "description": "This project is a comprehensive design system that integrates design tokens and typography for the First Ledger and First Ledger Mobile applications, facilitating a cohesive visual experience across platforms.",
-  "main": "index.js",
   "keywords": [
     "design",
     "system",
@@ -15,8 +14,7 @@
   "license": "MIT",
   "files": [
     "dist",
-    "styles",
-    "styles/tailwind/tailwind.config.js"
+    "styles"
   ],
   "scripts": {
     "ts-node": "ts-node -P ./config/tsconfig.test.json",
@@ -30,7 +28,7 @@
     "script:wds": "pnpm script:wds:design && pnpm script:wds:tamagui",
     "---------------------------------": "",
     "prebuild": "rm -rf ./dist && rm -rf ./build && rm -rf ./styles",
-    "postbuild": "pnpm script:wds && pnpm script:flds && pnpm format:styles",
+    "postbuild": "pnpm script:wds && pnpm script:flds && pnpm format:styles && zip -r .bundle.zip dist styles",
     "c": "node ./config/esbuild.config.js",
     "build:watch": "pnpm build && concurrently \"tsc -w\" \"tsc-alias -w\"",
     "rebuild": "pnpm run c && pnpm postbuild",

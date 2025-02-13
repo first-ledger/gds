@@ -5,28 +5,45 @@ on:
   push:
     tags:
       - 'gds@*'
+    secrets:
+      GHA_TOKEN:
+        required: true
+      NPM_TOKEN:
+        required: true
 
 jobs:
   branch-name:
     runs-on: ubuntu-latest
     outputs:
-      branches: ${{ steps.get_name.outputs.var }}
+      current_branch: ${{ steps.branch-names.outputs.current_branch }}
+      base_ref_branch: ${{ steps.branch-names.outputs.base_ref_branch }}
+      ref_branch: ${{ steps.branch-names.outputs.ref_branch }}
+      is_tag: ${{ steps.branch-names.outputs.is_tag }}
+      tag: ${{ steps.branch-names.outputs.tag }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          repository: ${{ vars.ORGANIZATION }}/${{ vars.REPOSITORY }}
+          repository: first-ledger/gds
           ref: ${{ github.ref_name }}
           token: ${{ secrets.GHA_TOKEN  }}
-          fetch-depth: 0
 
-      - name: Get current branch
-        id: get_name
+      - uses: tj-actions/branch-names@v8
+        id: branch-names
+
+      - name: Running on a tag branch.
+        if: steps.branch-names.outputs.is_tag == 'true'
         run: |
-          raw=$(git branch -r --contains ${{ github.ref }})
-          branches="$(echo ${raw//origin\//} | tr -d '\n')"
-          echo "var=$branches" >> $GITHUB_OUTPUT
-          echo "Branches where this tag exists : $branches."
+          echo "Running on: ${{ steps.branch-names.outputs.tag }}"
+
+      - name: Get the current tag
+        if: steps.branch-names.outputs.is_tag == 'true'
+        run: |
+          echo "${{ steps.branch-names.outputs.tag }}"
+
+      - name: Get Base Ref branch names
+        run: |
+          echo "${{ steps.branch-names.outputs.base_ref_branch }}"
 
   create-release:
     runs-on: ubuntu-latest
@@ -35,7 +52,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          repository: ${{ vars.ORGANIZATION }}/${{ vars.REPOSITORY }}
+          repository: first-ledger/gds
           ref: ${{ github.ref_name }}
           token: ${{ secrets.GHA_TOKEN  }}
 
@@ -44,8 +61,8 @@ jobs:
         with:
           node_version: '21.6.1'
           pkg_manager: 'pnpm'
-          scope: '@honeycluster'
-          envFile: ${{ secrets.ENV_FILE }}
+          scope: '@first-ledger'
+          env_file: 'skip'
 
       - name: Install Deps using pnpm
         uses: ./.github/actions/install-deps
@@ -53,23 +70,28 @@ jobs:
           node_version: '21.6.1'
           pkg_manager: 'pnpm'
 
-      - name: Build Beta and Publish to npm
-        if: contains(needs.branch-name.outputs.branches, 'beta')
+      - name: Build package
+        run: 'pnpm build'
+
+      - name: Publish Beta to npm
+        if: needs.branch-name.outputs.base_ref_branch == 'beta'
         uses: ./.github/actions/npm-publish
         with:
           token: ${{ secrets.NPM_TOKEN }}
           cmd: 'pnpm pub'
           tag: 'beta'
           dry: 'false'
+          access: 'public'
 
-      - name: Build Prod and Publish to npm
-        if: contains(needs.branch-name.outputs.branches, 'prod')
+      - name: Publish Latest to npm
+        if: needs.branch-name.outputs.base_ref_branch == 'prod'
         uses: ./.github/actions/npm-publish
         with:
           token: ${{ secrets.NPM_TOKEN }}
           cmd: 'pnpm pub'
           tag: 'latest'
           dry: 'false'
+          access: 'public'
 
       - name: Get version number
         id: version-number
@@ -79,7 +101,7 @@ jobs:
         id: create_release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GHA_TOKEN }}
         with:
           tag_name: ${{ github.ref }}
           release_name: ${{ github.ref_name }}
@@ -91,9 +113,9 @@ jobs:
         id: upload-release-asset
         uses: actions/upload-release-asset@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GHA_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./bundle.zip
-          asset_name: ${{ vars.ORGANIZATION }}-gds-${{ steps.version-number.outputs.version }}.zip
+          asset_path: ./.bundle.zip
+          asset_name: firstledger-gds-${{ steps.version-number.outputs.version }}.zip
           asset_content_type: application/zip
