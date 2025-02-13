@@ -15,10 +15,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          repository: ${{ vars.ORGANIZATION }}/${{ vars.REPOSITORY }}
+          repository: first-ledger/gds
           ref: ${{ github.ref_name }}
           token: ${{ secrets.GHA_TOKEN  }}
-          fetch-depth: 0
 
       - name: Get current branch
         id: get_name
