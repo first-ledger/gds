@@ -86,13 +86,10 @@ export const getConfigTemplate = (
     import * as GlobalSizes from './assets/Globals/sizes';
     import * as MobileSizes from './assets/Mobile/sizes';
 
-    // Define all acceptable variable token names
-    const colors = createTokens({
+    const tokens = createTokens({
       light: { ...Light.keyed },
       dark: { ...Dark.keyed },
-    });
 
-    const tokens = createTokens({
       globals: { ...Globals },
       desktop: { ...Desktop },
       tablet: { ...Tablet },
@@ -133,7 +130,6 @@ export const getConfigTemplate = (
       tokens: {
         ...defaultConfig.tokens,
         ...tokens,
-        colors,
       },
       settings: {
         ...defaultConfig.settings,
@@ -218,12 +214,12 @@ export const getThemeTemplate = (
 
           extra: {
             light: {
-              ...Light.aggregator,
+              ...Light.keyed,
               ...lightShadows,
               shadowColor: lightShadows.shadow1,
             },
             dark: {
-              ...Dark.aggregator,
+              ...Dark.keyed,
               ...darkShadows,
               shadowColor: darkShadows.shadow1,
             },

@@ -18,13 +18,10 @@ import * as Tablet from './assets/Tablet/tokens';
 import * as GlobalSizes from './assets/Globals/sizes';
 import * as MobileSizes from './assets/Mobile/sizes';
 
-// Define all acceptable variable token names
-const colors = createTokens({
+const tokens = createTokens({
   light: { ...Light.keyed },
   dark: { ...Dark.keyed },
-});
 
-const tokens = createTokens({
   globals: { ...Globals },
   desktop: { ...Desktop },
   tablet: { ...Tablet },
@@ -65,7 +62,6 @@ const config = createTamagui({
   tokens: {
     ...defaultConfig.tokens,
     ...tokens,
-    colors,
   },
   settings: {
     ...defaultConfig.settings,

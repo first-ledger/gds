@@ -54,12 +54,12 @@ const builtThemes = createThemes({
 
     extra: {
       light: {
-        ...Light.aggregator,
+        ...Light.keyed,
         ...lightShadows,
         shadowColor: lightShadows.shadow1,
       },
       dark: {
-        ...Dark.aggregator,
+        ...Dark.keyed,
         ...darkShadows,
         shadowColor: darkShadows.shadow1,
       },
