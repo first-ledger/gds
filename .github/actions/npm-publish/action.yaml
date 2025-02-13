@@ -10,20 +10,24 @@ inputs:
     description: 'NodeJS version to use'
     default: '20'
 
+  # Token used for authenticating with NPM
   token:
     description: 'NPM Publishing Auth Token'
     required: true
 
+  # Command to execute for publishing
   cmd:
     type: string
     description: 'Command'
     required: true
 
+  # Tag to apply to the published package
   tag:
     type: string
     description: 'Publish Type Tag'
     required: true
 
+  # Indicates whether the publish is a dry run
   dry:
     type: string
     description: 'Denote if this is a dry run'

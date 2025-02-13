@@ -6,6 +6,11 @@ on:
     tags:
       - 'gds@*'
 
+secrets:
+  GHA_TOKEN: ${{ secrets.GHA_TOKEN }} # GitHub Actions token for authentication
+  NPM_TOKEN: ${{ secrets.NPM_TOKEN }} # Token for publishing to npm
+  GITHUB_TOKEN: ${{ secrets.GHA_TOKEN }} # Token for GitHub API access
+
 jobs:
   branch-name:
     runs-on: ubuntu-latest
@@ -57,7 +62,7 @@ jobs:
         uses: ./.github/actions/npm-publish
         with:
           token: ${{ secrets.NPM_TOKEN }}
-          cmd: 'pnpm pub'
+          cmd: 'pnpm build && pnpm pub'
           tag: 'beta'
           dry: 'false'
 
@@ -66,7 +71,7 @@ jobs:
         uses: ./.github/actions/npm-publish
         with:
           token: ${{ secrets.NPM_TOKEN }}
-          cmd: 'pnpm pub'
+          cmd: 'pnpm build && pnpm pub'
           tag: 'latest'
           dry: 'false'
 
