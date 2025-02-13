@@ -24,18 +24,28 @@ jobs:
           ref: ${{ github.ref_name }}
           token: ${{ secrets.GHA_TOKEN  }}
 
-      - name: Get current branch
-        id: get_name
+      - name: Get Branch from Tag
+        id: get_branch
         run: |
-          if [[ "${{ github.ref }}" == refs/tags/* ]]; then
-            # Get the branch associated with the tag
-            raw=$(git branch -r --contains ${{ github.ref }})
-            branches="$(echo ${raw//origin\//} | tr -d '\n')"
+          if [[ "${{ github.ref_type }}" == "tag" ]]; then
+            # Get the commit hash of the tag
+            tag_commit=$(git rev-parse ${{ github.ref_name }})
+            
+            # Find branches that contain this commit
+            # This command looks for branches where this commit is present
+            branches=$(git branch -r --contains $tag_commit | sed 's/^[ \t]*//;s/origin\///')
+            
+            # If no branches found, default to the tag name itself
+            if [ -z "$branches" ]; then
+              echo "branch=${{ github.ref_name }}" >> $GITHUB_OUTPUT
+            else
+              # Output the first branch if multiple found
+              echo "branch=$(echo $branches | awk '{print $1}')" >> $GITHUB_OUTPUT
+            fi
           else
-            branches="${{ github.ref_name }}"
+            # If not a tag, just output the current branch name
+            echo "branch=${{ github.ref_name }}" >> $GITHUB_OUTPUT
           fi
-          echo "var=$branches" >> $GITHUB_OUTPUT
-          echo "Branches where this tag exists : $branches."
 
   create-release:
     runs-on: ubuntu-latest
