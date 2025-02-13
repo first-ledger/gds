@@ -15,10 +15,7 @@ jobs:
   branch-name:
     runs-on: ubuntu-latest
     outputs:
-      current_branch: ${{ steps.branch-names.outputs.current_branch }}
-      ref_branch: ${{ steps.branch-names.outputs.ref_branch }}
-      is_tag: ${{ steps.branch-names.outputs.is_tag }}
-      tag: ${{ steps.branch-names.outputs.tag }}
+      branches: ${{ steps.get_name.outputs.var }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -27,8 +24,12 @@ jobs:
           ref: ${{ github.ref_name }}
           token: ${{ secrets.GHA_TOKEN  }}
 
-      - uses: tj-actions/branch-names@v8
-        id: branch-names
+      - name: Get current branch
+        id: get_name
+        run: |
+          branches="${{ github.event.base_ref/refs\/heads\// }}"
+          echo "var=$branches" >> $GITHUB_OUTPUT
+          echo "Branches where this tag exists : $branches."
 
   create-release:
     runs-on: ubuntu-latest
@@ -59,7 +60,7 @@ jobs:
         run: 'pnpm build'
 
       - name: Publish Beta to npm
-        if: needs.branch-name.outputs.ref_branch == 'beta'
+        if: contains(needs.branch-name.outputs.branches, 'beta')
         uses: ./.github/actions/npm-publish
         with:
           token: ${{ secrets.NPM_TOKEN }}
@@ -68,7 +69,7 @@ jobs:
           dry: 'false'
 
       - name: Publish Latest to npm
-        if: needs.branch-name.outputs.ref_branch == 'prod'
+        if: contains(needs.branch-name.outputs.branches, 'prod')
         uses: ./.github/actions/npm-publish
         with:
           token: ${{ secrets.NPM_TOKEN }}
