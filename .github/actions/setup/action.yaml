@@ -40,6 +40,8 @@ runs:
     - name: Setup pnpm
       if: ${{ inputs.pkg_manager == 'pnpm' }}
       uses: pnpm/action-setup@v3
+      with:
+        version: 9.15.4
 
     # Step to set up Node.js environment and cache node_modules
     - name: Set up Node with cache
