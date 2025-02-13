@@ -32,7 +32,7 @@ inputs:
     type: string
     default: 'private'
     description: 'Publish Type Visibility'
-    required: true
+    required: false
 
   # Indicates whether the publish is a dry run
   dry:
@@ -54,12 +54,12 @@ runs:
     - name: Publish pkg on NPM 📦
       if: ${{ inputs.dry == '' || inputs.dry == 'false' }}
       shell: bash
-      run: '${{inputs.cmd}} --tag ${{inputs.tag}} --access ${{inputs.access}}
+      run: '${{inputs.cmd}} --tag ${{inputs.tag}} --access ${{inputs.access}}'
       env:
         NODE_AUTH_TOKEN: ${{inputs.token}}
 
-    - name: Publish pkg on NPM
-      if: inputs.dry == 'true'
+    - name: Publish pkg on NPM (dry run)
+      if: ${{ inputs.dry == 'true' }}
       shell: bash
       run: '${{inputs.cmd}} --tag ${{inputs.tag}} --access ${{inputs.access}} --dry-run'
       env:
