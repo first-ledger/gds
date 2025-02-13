@@ -27,8 +27,13 @@ jobs:
       - name: Get current branch
         id: get_name
         run: |
-          raw=$(git branch -r --contains ${{ github.ref }})
-          branches="$(echo ${raw//origin\//} | tr -d '\n')"
+          if [[ "${{ github.ref }}" == refs/tags/* ]]; then
+            # Get the branch associated with the tag
+            raw=$(git branch -r --contains ${{ github.ref }})
+            branches="$(echo ${raw//origin\//} | tr -d '\n')"
+          else
+            branches="${{ github.ref_name }}"
+          fi
           echo "var=$branches" >> $GITHUB_OUTPUT
           echo "Branches where this tag exists : $branches."
 
@@ -98,6 +103,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GHA_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./bundle.zip
-          asset_name: ${{ vars.ORGANIZATION }}-gds-${{ steps.version-number.outputs.version }}.zip
+          asset_path: ./.bundle.zip
+          asset_name: firstledger-gds-${{ steps.version-number.outputs.version }}.zip
           asset_content_type: application/zip

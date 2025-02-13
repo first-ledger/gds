@@ -15,8 +15,7 @@
   "license": "MIT",
   "files": [
     "dist",
-    "styles",
-    "styles/tailwind/tailwind.config.js"
+    "styles"
   ],
   "scripts": {
     "ts-node": "ts-node -P ./config/tsconfig.test.json",
@@ -30,7 +29,7 @@
     "script:wds": "pnpm script:wds:design && pnpm script:wds:tamagui",
     "---------------------------------": "",
     "prebuild": "rm -rf ./dist && rm -rf ./build && rm -rf ./styles",
-    "postbuild": "pnpm script:wds && pnpm script:flds && pnpm format:styles",
+    "postbuild": "pnpm script:wds && pnpm script:flds && pnpm format:styles && zip -r .bundle.zip dist styles",
     "c": "node ./config/esbuild.config.js",
     "build:watch": "pnpm build && concurrently \"tsc -w\" \"tsc-alias -w\"",
     "rebuild": "pnpm run c && pnpm postbuild",

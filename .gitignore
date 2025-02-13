@@ -25,4 +25,6 @@ Thumbs.db
 # Environment variables
 .env
 
+.bundle.zip
+
 
