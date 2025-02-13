@@ -35,7 +35,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          repository: ${{ vars.ORGANIZATION }}/${{ vars.REPOSITORY }}
+          repository: first-ledger/gds
           ref: ${{ github.ref_name }}
           token: ${{ secrets.GHA_TOKEN  }}
 
@@ -44,8 +44,7 @@ jobs:
         with:
           node_version: '21.6.1'
           pkg_manager: 'pnpm'
-          scope: '@honeycluster'
-          envFile: ${{ secrets.ENV_FILE }}
+          scope: '@first-ledger'
 
       - name: Install Deps using pnpm
         uses: ./.github/actions/install-deps
