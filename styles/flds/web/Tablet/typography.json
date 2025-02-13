@@ -1,0 +1,6770 @@
+[
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 300,
+      "fontSize": "48px",
+      "lineHeight": "105%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:8136dd8415b8f84408c56b207feddbd779e83034,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{Typography.Font.Family.Primary.$value}",
+        "fontWeight": 300,
+        "fontSize": "{Typography.Font.Size.9xl.$value}",
+        "lineHeight": "105%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:8136dd8415b8f84408c56b207feddbd779e83034,"
+      }
+    },
+    "name": "flds-typography-typography-display-large-light",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Display",
+      "subitem": "Large",
+      "state": "Light"
+    },
+    "path": ["Typography", "Typography", "Display", "Large", "Light"],
+    "key": "{Typography.Typography.Display.Large.Light}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "48px",
+      "lineHeight": "105%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:e96a6fd6de9c63597b257d2850418605719046af,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{Typography.Font.Family.Primary.$value}",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.9xl.$value}",
+        "lineHeight": "105%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:e96a6fd6de9c63597b257d2850418605719046af,"
+      }
+    },
+    "name": "flds-typography-typography-display-large-reguler",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Display",
+      "subitem": "Large",
+      "state": "Reguler"
+    },
+    "path": ["Typography", "Typography", "Display", "Large", "Reguler"],
+    "key": "{Typography.Typography.Display.Large.Reguler}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": "48px",
+      "lineHeight": "105%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:2a9f061b1c8ee25561ac28cab91d56430cc49bae,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{Typography.Font.Family.Primary.$value}",
+        "fontWeight": 500,
+        "fontSize": "{Typography.Font.Size.9xl.$value}",
+        "lineHeight": "105%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:2a9f061b1c8ee25561ac28cab91d56430cc49bae,"
+      }
+    },
+    "name": "flds-typography-typography-display-large-medium",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Display",
+      "subitem": "Large",
+      "state": "Medium"
+    },
+    "path": ["Typography", "Typography", "Display", "Large", "Medium"],
+    "key": "{Typography.Typography.Display.Large.Medium}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "48px",
+      "lineHeight": "105%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:767a21863d15091782d3ce2cced09aaa5b48937d,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{Typography.Font.Family.Primary.$value}",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.9xl.$value}",
+        "lineHeight": "105%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:767a21863d15091782d3ce2cced09aaa5b48937d,"
+      }
+    },
+    "name": "flds-typography-typography-display-large-semibold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Display",
+      "subitem": "Large",
+      "state": "Semibold"
+    },
+    "path": ["Typography", "Typography", "Display", "Large", "Semibold"],
+    "key": "{Typography.Typography.Display.Large.Semibold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "48px",
+      "lineHeight": "105%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:3ef46b5f99ddac144aeadaeed4c39521878abdb2,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{Typography.Font.Family.Primary.$value}",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.9xl.$value}",
+        "lineHeight": "105%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:3ef46b5f99ddac144aeadaeed4c39521878abdb2,"
+      }
+    },
+    "name": "flds-typography-typography-display-large-bold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Display",
+      "subitem": "Large",
+      "state": "Bold"
+    },
+    "path": ["Typography", "Typography", "Display", "Large", "Bold"],
+    "key": "{Typography.Typography.Display.Large.Bold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 800,
+      "fontSize": "48px",
+      "lineHeight": "105%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:c9a897c73dc60a1cceda9fa368eb5bbf66e7847f,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{Typography.Font.Family.Primary.$value}",
+        "fontWeight": 800,
+        "fontSize": "{Typography.Font.Size.9xl.$value}",
+        "lineHeight": "105%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:c9a897c73dc60a1cceda9fa368eb5bbf66e7847f,"
+      }
+    },
+    "name": "flds-typography-typography-display-large-extrabold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Display",
+      "subitem": "Large",
+      "state": "Extrabold"
+    },
+    "path": ["Typography", "Typography", "Display", "Large", "Extrabold"],
+    "key": "{Typography.Typography.Display.Large.Extrabold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 900,
+      "fontSize": "48px",
+      "lineHeight": "105%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:ec5b34712777666ba0e7da396494cedf8b89c86c,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{Typography.Font.Family.Primary.$value}",
+        "fontWeight": 900,
+        "fontSize": "{Typography.Font.Size.9xl.$value}",
+        "lineHeight": "105%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:ec5b34712777666ba0e7da396494cedf8b89c86c,"
+      }
+    },
+    "name": "flds-typography-typography-display-large-strong",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Display",
+      "subitem": "Large",
+      "state": "Strong"
+    },
+    "path": ["Typography", "Typography", "Display", "Large", "Strong"],
+    "key": "{Typography.Typography.Display.Large.Strong}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 300,
+      "fontSize": "44px",
+      "lineHeight": "105%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:781a8c7e708eb010556809b1d90834e43fa156b9,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{Typography.Font.Family.Primary.$value}",
+        "fontWeight": 300,
+        "fontSize": "{Typography.Font.Size.7xl.$value}",
+        "lineHeight": "105%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:781a8c7e708eb010556809b1d90834e43fa156b9,"
+      }
+    },
+    "name": "flds-typography-typography-display-small-light",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Display",
+      "subitem": "Small",
+      "state": "Light"
+    },
+    "path": ["Typography", "Typography", "Display", "Small", "Light"],
+    "key": "{Typography.Typography.Display.Small.Light}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "44px",
+      "lineHeight": "105%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:ad111309eb9b373acd1c76606e057e3cec984a1b,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{Typography.Font.Family.Primary.$value}",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.7xl.$value}",
+        "lineHeight": "105%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:ad111309eb9b373acd1c76606e057e3cec984a1b,"
+      }
+    },
+    "name": "flds-typography-typography-display-small-regular",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Display",
+      "subitem": "Small",
+      "state": "Regular"
+    },
+    "path": ["Typography", "Typography", "Display", "Small", "Regular"],
+    "key": "{Typography.Typography.Display.Small.Regular}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": "44px",
+      "lineHeight": "105%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:163b85e3db47a8f163c9da95776c62082e917104,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{Typography.Font.Family.Primary.$value}",
+        "fontWeight": 500,
+        "fontSize": "{Typography.Font.Size.7xl.$value}",
+        "lineHeight": "105%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:163b85e3db47a8f163c9da95776c62082e917104,"
+      }
+    },
+    "name": "flds-typography-typography-display-small-medium",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Display",
+      "subitem": "Small",
+      "state": "Medium"
+    },
+    "path": ["Typography", "Typography", "Display", "Small", "Medium"],
+    "key": "{Typography.Typography.Display.Small.Medium}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "44px",
+      "lineHeight": "105%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:014b08bece7f6ec9059845426359eb661823ebdc,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{Typography.Font.Family.Primary.$value}",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.7xl.$value}",
+        "lineHeight": "105%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:014b08bece7f6ec9059845426359eb661823ebdc,"
+      }
+    },
+    "name": "flds-typography-typography-display-small-semibold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Display",
+      "subitem": "Small",
+      "state": "Semibold"
+    },
+    "path": ["Typography", "Typography", "Display", "Small", "Semibold"],
+    "key": "{Typography.Typography.Display.Small.Semibold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "44px",
+      "lineHeight": "105%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:0891fe3e4605f83299bd61a623463809d109f156,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.7xl.$value}",
+        "lineHeight": "105%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:0891fe3e4605f83299bd61a623463809d109f156,"
+      }
+    },
+    "name": "flds-typography-typography-display-small-bold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Display",
+      "subitem": "Small",
+      "state": "Bold"
+    },
+    "path": ["Typography", "Typography", "Display", "Small", "Bold"],
+    "key": "{Typography.Typography.Display.Small.Bold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 800,
+      "fontSize": "44px",
+      "lineHeight": "105%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:22cc2c68fd4a50939b4b6e78b2d5d5af6b43845c,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 800,
+        "fontSize": "{Typography.Font.Size.7xl.$value}",
+        "lineHeight": "105%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:22cc2c68fd4a50939b4b6e78b2d5d5af6b43845c,"
+      }
+    },
+    "name": "flds-typography-typography-display-small-extrabold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Display",
+      "subitem": "Small",
+      "state": "Extrabold"
+    },
+    "path": ["Typography", "Typography", "Display", "Small", "Extrabold"],
+    "key": "{Typography.Typography.Display.Small.Extrabold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 900,
+      "fontSize": "44px",
+      "lineHeight": "105%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:64b53ea041da22b2ec0c9761346f2d5619e99d8a,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 900,
+        "fontSize": "{Typography.Font.Size.7xl.$value}",
+        "lineHeight": "105%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:64b53ea041da22b2ec0c9761346f2d5619e99d8a,"
+      }
+    },
+    "name": "flds-typography-typography-display-small-strong",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Display",
+      "subitem": "Small",
+      "state": "Strong"
+    },
+    "path": ["Typography", "Typography", "Display", "Small", "Strong"],
+    "key": "{Typography.Typography.Display.Small.Strong}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 300,
+      "fontSize": "44px",
+      "lineHeight": "115%",
+      "letterSpacing": "0px",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:0b8bd63fc7636b4b576b2898f0da53b33b3b3631,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 300,
+        "fontSize": "{Typography.Font.Size.7xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0px",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:0b8bd63fc7636b4b576b2898f0da53b33b3b3631,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h1-light",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H1",
+      "state": "Light"
+    },
+    "path": ["Typography", "Typography", "Heading", "H1", "Light"],
+    "key": "{Typography.Typography.Heading.H1.Light}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": "44px",
+      "lineHeight": "115%",
+      "letterSpacing": "0px",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:3ce7762cd040a2e7915b30a23af7778b39c91225,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{Typography Primitives.Family.Inter.$value}",
+        "fontWeight": 500,
+        "fontSize": "{Typography.Font.Size.7xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0px",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:3ce7762cd040a2e7915b30a23af7778b39c91225,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h1-medium",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H1",
+      "state": "Medium"
+    },
+    "path": ["Typography", "Typography", "Heading", "H1", "Medium"],
+    "key": "{Typography.Typography.Heading.H1.Medium}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "44px",
+      "lineHeight": "115%",
+      "letterSpacing": "0px",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:5100446bc3e5a25b4496d0746951e1ee5bdb6d56,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.7xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0px",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:5100446bc3e5a25b4496d0746951e1ee5bdb6d56,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h1-semibold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H1",
+      "state": "Semibold"
+    },
+    "path": ["Typography", "Typography", "Heading", "H1", "Semibold"],
+    "key": "{Typography.Typography.Heading.H1.Semibold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "44px",
+      "lineHeight": "115%",
+      "letterSpacing": "0px",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:f535b91c28a1e0b9e6ecb0c1f44021fa99f76951,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.7xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0px",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:f535b91c28a1e0b9e6ecb0c1f44021fa99f76951,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h1-bold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H1",
+      "state": "Bold"
+    },
+    "path": ["Typography", "Typography", "Heading", "H1", "Bold"],
+    "key": "{Typography.Typography.Heading.H1.Bold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 800,
+      "fontSize": "44px",
+      "lineHeight": "115%",
+      "letterSpacing": "0px",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:14c0ed59782b89e81885fba4b89c0918456a4f5f,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 800,
+        "fontSize": "{Typography.Font.Size.7xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0px",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:14c0ed59782b89e81885fba4b89c0918456a4f5f,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h1-extrabold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H1",
+      "state": "Extrabold"
+    },
+    "path": ["Typography", "Typography", "Heading", "H1", "Extrabold"],
+    "key": "{Typography.Typography.Heading.H1.Extrabold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 900,
+      "fontSize": "44px",
+      "lineHeight": "115%",
+      "letterSpacing": "0px",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:dc61b5db07f381c4e5098ce6c1a843fdacef6be2,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 900,
+        "fontSize": "{Typography.Font.Size.7xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0px",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:dc61b5db07f381c4e5098ce6c1a843fdacef6be2,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h1-strong",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H1",
+      "state": "Strong"
+    },
+    "path": ["Typography", "Typography", "Heading", "H1", "Strong"],
+    "key": "{Typography.Typography.Heading.H1.Strong}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 300,
+      "fontSize": "32px",
+      "lineHeight": "115%",
+      "letterSpacing": "0px",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:74207859f32129b12823ff034f3a0d738a458376,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 300,
+        "fontSize": "{Typography.Font.Size.4xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0px",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:74207859f32129b12823ff034f3a0d738a458376,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h2-light",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H2",
+      "state": "Light"
+    },
+    "path": ["Typography", "Typography", "Heading", "H2", "Light"],
+    "key": "{Typography.Typography.Heading.H2.Light}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": "32px",
+      "lineHeight": "115%",
+      "letterSpacing": "0px",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:511680bea82c7227b3e9503294bd275992855f23,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 500,
+        "fontSize": "{Typography.Font.Size.4xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0px",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:511680bea82c7227b3e9503294bd275992855f23,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h2-medium",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H2",
+      "state": "Medium"
+    },
+    "path": ["Typography", "Typography", "Heading", "H2", "Medium"],
+    "key": "{Typography.Typography.Heading.H2.Medium}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "32px",
+      "lineHeight": "115%",
+      "letterSpacing": "0px",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:888faf4fe1d02c0700c4c4347ec6bf79c6603313,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.4xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0px",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:888faf4fe1d02c0700c4c4347ec6bf79c6603313,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h2-bold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H2",
+      "state": "Bold"
+    },
+    "path": ["Typography", "Typography", "Heading", "H2", "Bold"],
+    "key": "{Typography.Typography.Heading.H2.Bold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "32px",
+      "lineHeight": "115%",
+      "letterSpacing": "0px",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:25b1cddbf693b14ccb6bccd903bf7185b217bbb0,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.4xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0px",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:25b1cddbf693b14ccb6bccd903bf7185b217bbb0,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h2-semibold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H2",
+      "state": "Semibold"
+    },
+    "path": ["Typography", "Typography", "Heading", "H2", "Semibold"],
+    "key": "{Typography.Typography.Heading.H2.Semibold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 800,
+      "fontSize": "32px",
+      "lineHeight": "115%",
+      "letterSpacing": "0px",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:6114687b532e345ee8e5c6d909de78605af55f58,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 800,
+        "fontSize": "{Typography.Font.Size.4xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0px",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:6114687b532e345ee8e5c6d909de78605af55f58,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h2-extrabold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H2",
+      "state": "Extrabold"
+    },
+    "path": ["Typography", "Typography", "Heading", "H2", "Extrabold"],
+    "key": "{Typography.Typography.Heading.H2.Extrabold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 900,
+      "fontSize": "32px",
+      "lineHeight": "115%",
+      "letterSpacing": "0px",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:f317540213bedd6318ea588feb55017c7c60d85c,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 900,
+        "fontSize": "{Typography.Font.Size.4xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0px",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:f317540213bedd6318ea588feb55017c7c60d85c,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h2-strong",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H2",
+      "state": "Strong"
+    },
+    "path": ["Typography", "Typography", "Heading", "H2", "Strong"],
+    "key": "{Typography.Typography.Heading.H2.Strong}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 300,
+      "fontSize": "28px",
+      "lineHeight": "115%",
+      "letterSpacing": "0px",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:e49f1ffe71e3d7c1fecff7da901b04f80f1cc10b,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 300,
+        "fontSize": "{Typography.Font.Size.3xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0px",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:e49f1ffe71e3d7c1fecff7da901b04f80f1cc10b,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h3-light",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H3",
+      "state": "Light"
+    },
+    "path": ["Typography", "Typography", "Heading", "H3", "Light"],
+    "key": "{Typography.Typography.Heading.H3.Light}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "28px",
+      "lineHeight": "115%",
+      "letterSpacing": "0px",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:4278efdc674daf53e62463466dde87a4d13bfdfb,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.3xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0px",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:4278efdc674daf53e62463466dde87a4d13bfdfb,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h3-regular",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H3",
+      "state": "Regular"
+    },
+    "path": ["Typography", "Typography", "Heading", "H3", "Regular"],
+    "key": "{Typography.Typography.Heading.H3.Regular}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": "28px",
+      "lineHeight": "115%",
+      "letterSpacing": "0px",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:0763c24d90a4a05e04f6d56eced13cedc09adce1,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 500,
+        "fontSize": "{Typography.Font.Size.3xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0px",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:0763c24d90a4a05e04f6d56eced13cedc09adce1,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h3-medium",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H3",
+      "state": "Medium"
+    },
+    "path": ["Typography", "Typography", "Heading", "H3", "Medium"],
+    "key": "{Typography.Typography.Heading.H3.Medium}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "28px",
+      "lineHeight": "115%",
+      "letterSpacing": "0px",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:72699710f628634981abc68e0e2c9a8d0fe204e8,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.3xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0px",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:72699710f628634981abc68e0e2c9a8d0fe204e8,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h3-semilbold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H3",
+      "state": "Semilbold"
+    },
+    "path": ["Typography", "Typography", "Heading", "H3", "Semilbold"],
+    "key": "{Typography.Typography.Heading.H3.Semilbold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "28px",
+      "lineHeight": "115%",
+      "letterSpacing": "0px",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:d512ab222a7880e6215badc11dd3f0c22f8ffacb,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.3xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0px",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:d512ab222a7880e6215badc11dd3f0c22f8ffacb,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h3-bold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H3",
+      "state": "Bold"
+    },
+    "path": ["Typography", "Typography", "Heading", "H3", "Bold"],
+    "key": "{Typography.Typography.Heading.H3.Bold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 900,
+      "fontSize": "28px",
+      "lineHeight": "115%",
+      "letterSpacing": "0px",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:3f55b6632ff2f65b75edf417332e29bd8fe0aae7,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 900,
+        "fontSize": "{Typography.Font.Size.3xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0px",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:3f55b6632ff2f65b75edf417332e29bd8fe0aae7,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h3-strong",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H3",
+      "state": "Strong"
+    },
+    "path": ["Typography", "Typography", "Heading", "H3", "Strong"],
+    "key": "{Typography.Typography.Heading.H3.Strong}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 300,
+      "fontSize": "24px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:e00a8af58efe789d5114fce780f2b6dc2a40b8c0,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 300,
+        "fontSize": "{Typography.Font.Size.2xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:e00a8af58efe789d5114fce780f2b6dc2a40b8c0,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h4-light",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H4",
+      "state": "Light"
+    },
+    "path": ["Typography", "Typography", "Heading", "H4", "Light"],
+    "key": "{Typography.Typography.Heading.H4.Light}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "24px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:759817633a1c1f980139a7cdd8d1369c88cc6df2,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.2xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:759817633a1c1f980139a7cdd8d1369c88cc6df2,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h4-regular",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H4",
+      "state": "Regular"
+    },
+    "path": ["Typography", "Typography", "Heading", "H4", "Regular"],
+    "key": "{Typography.Typography.Heading.H4.Regular}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": "24px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:db06e85703b85455f228701631927348fd83e2a9,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 500,
+        "fontSize": "{Typography.Font.Size.2xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:db06e85703b85455f228701631927348fd83e2a9,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h4-medium",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H4",
+      "state": "Medium"
+    },
+    "path": ["Typography", "Typography", "Heading", "H4", "Medium"],
+    "key": "{Typography.Typography.Heading.H4.Medium}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "24px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:f51e06fdd815bfeb81668952cacab60813e9a98c,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.2xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:f51e06fdd815bfeb81668952cacab60813e9a98c,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h4-semibold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H4",
+      "state": "Semibold"
+    },
+    "path": ["Typography", "Typography", "Heading", "H4", "Semibold"],
+    "key": "{Typography.Typography.Heading.H4.Semibold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "24px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:3800c1284202ece835a8b61626a15bf0895d0e8a,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.2xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:3800c1284202ece835a8b61626a15bf0895d0e8a,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h4-bold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H4",
+      "state": "Bold"
+    },
+    "path": ["Typography", "Typography", "Heading", "H4", "Bold"],
+    "key": "{Typography.Typography.Heading.H4.Bold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 900,
+      "fontSize": "24px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:31ed52c73adeeb161b549e443e3208ef9b3d3b27,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 900,
+        "fontSize": "{Typography.Font.Size.2xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:31ed52c73adeeb161b549e443e3208ef9b3d3b27,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h4-strong",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H4",
+      "state": "Strong"
+    },
+    "path": ["Typography", "Typography", "Heading", "H4", "Strong"],
+    "key": "{Typography.Typography.Heading.H4.Strong}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 300,
+      "fontSize": "20px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:21d8ecdcb6f5dbd0af0bc61c394741d86030ae2f,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{Typography Primitives.Family.Inter.$value}",
+        "fontWeight": 300,
+        "fontSize": "{Typography.Font.Size.xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:21d8ecdcb6f5dbd0af0bc61c394741d86030ae2f,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h5-light",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H5",
+      "state": "Light"
+    },
+    "path": ["Typography", "Typography", "Heading", "H5", "Light"],
+    "key": "{Typography.Typography.Heading.H5.Light}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "20px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:6bc5646b3738845842bfd778d5fc429b895e3a37,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:6bc5646b3738845842bfd778d5fc429b895e3a37,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h5-regular",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H5",
+      "state": "Regular"
+    },
+    "path": ["Typography", "Typography", "Heading", "H5", "Regular"],
+    "key": "{Typography.Typography.Heading.H5.Regular}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": "20px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:e0008b4fb75197f9b300bc0d6fd4d59c3ed952b0,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 500,
+        "fontSize": "{Typography.Font.Size.xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:e0008b4fb75197f9b300bc0d6fd4d59c3ed952b0,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h5-medium",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H5",
+      "state": "Medium"
+    },
+    "path": ["Typography", "Typography", "Heading", "H5", "Medium"],
+    "key": "{Typography.Typography.Heading.H5.Medium}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "20px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:8423e6d8c9f25ebc44d0c66661bb92d79d9543c2,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:8423e6d8c9f25ebc44d0c66661bb92d79d9543c2,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h5-semibold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H5",
+      "state": "Semibold"
+    },
+    "path": ["Typography", "Typography", "Heading", "H5", "Semibold"],
+    "key": "{Typography.Typography.Heading.H5.Semibold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "20px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:07a3f953cac9b1362a18221010b2385a1a5e39cf,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:07a3f953cac9b1362a18221010b2385a1a5e39cf,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h5-bold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H5",
+      "state": "Bold"
+    },
+    "path": ["Typography", "Typography", "Heading", "H5", "Bold"],
+    "key": "{Typography.Typography.Heading.H5.Bold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 900,
+      "fontSize": "20px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:01cc1c768abfdd120991c37da93d38f41c304e7b,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 900,
+        "fontSize": "{Typography.Font.Size.xl.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:01cc1c768abfdd120991c37da93d38f41c304e7b,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h5-strong",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H5",
+      "state": "Strong"
+    },
+    "path": ["Typography", "Typography", "Heading", "H5", "Strong"],
+    "key": "{Typography.Typography.Heading.H5.Strong}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 300,
+      "fontSize": "18px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:262bb621e66452df108aed90fedea27d514f2b4b,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 300,
+        "fontSize": "{Typography.Font.Size.lg.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:262bb621e66452df108aed90fedea27d514f2b4b,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h6-light",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H6",
+      "state": "Light"
+    },
+    "path": ["Typography", "Typography", "Heading", "H6", "Light"],
+    "key": "{Typography.Typography.Heading.H6.Light}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "18px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:ca7bdd208ba77e7a181480d535eef093d86a36a1,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.lg.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:ca7bdd208ba77e7a181480d535eef093d86a36a1,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h6-regular",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H6",
+      "state": "Regular"
+    },
+    "path": ["Typography", "Typography", "Heading", "H6", "Regular"],
+    "key": "{Typography.Typography.Heading.H6.Regular}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": "18px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:05cad18293d1cb906725b826236404621821de2b,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 500,
+        "fontSize": "{Typography.Font.Size.lg.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:05cad18293d1cb906725b826236404621821de2b,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h6-medium",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H6",
+      "state": "Medium"
+    },
+    "path": ["Typography", "Typography", "Heading", "H6", "Medium"],
+    "key": "{Typography.Typography.Heading.H6.Medium}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "18px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:38b3cd4ba465f353bd2bd611376b38326aa9676f,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.lg.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:38b3cd4ba465f353bd2bd611376b38326aa9676f,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h6-semibold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H6",
+      "state": "Semibold"
+    },
+    "path": ["Typography", "Typography", "Heading", "H6", "Semibold"],
+    "key": "{Typography.Typography.Heading.H6.Semibold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "18px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:7f22eafb758865371a373c35c00aa514ade6991b,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.lg.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:7f22eafb758865371a373c35c00aa514ade6991b,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h6-bold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H6",
+      "state": "Bold"
+    },
+    "path": ["Typography", "Typography", "Heading", "H6", "Bold"],
+    "key": "{Typography.Typography.Heading.H6.Bold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 900,
+      "fontSize": "18px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:5d75c3041b05ccc14fa65003e7f85f394ab1d8e3,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 900,
+        "fontSize": "{Typography.Font.Size.lg.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:5d75c3041b05ccc14fa65003e7f85f394ab1d8e3,"
+      }
+    },
+    "name": "flds-typography-typography-heading-h6-strong",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "H6",
+      "state": "Strong"
+    },
+    "path": ["Typography", "Typography", "Heading", "H6", "Strong"],
+    "key": "{Typography.Typography.Heading.H6.Strong}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 300,
+      "fontSize": "48px",
+      "lineHeight": "120%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:72bce27327d871fe74a694e8104240df2960273c,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 300,
+        "fontSize": "{Typography.Font.Size.8xl.$value}",
+        "lineHeight": "120%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:72bce27327d871fe74a694e8104240df2960273c,"
+      }
+    },
+    "name": "flds-typography-typography-heading-title-page-light",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Title",
+      "state": "Page"
+    },
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Light"],
+    "key": "{Typography.Typography.Heading.Title.Page.Light}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "48px",
+      "lineHeight": "120%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:b369c629e4bde692303dc9e9b06206147714e4fd,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.8xl.$value}",
+        "lineHeight": "120%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:b369c629e4bde692303dc9e9b06206147714e4fd,"
+      }
+    },
+    "name": "flds-typography-typography-heading-title-page-regular",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Title",
+      "state": "Page"
+    },
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Regular"],
+    "key": "{Typography.Typography.Heading.Title.Page.Regular}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": "48px",
+      "lineHeight": "120%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:e44fc152415b4803ebb8bf60043582c55b743b3b,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 500,
+        "fontSize": "{Typography.Font.Size.8xl.$value}",
+        "lineHeight": "120%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:e44fc152415b4803ebb8bf60043582c55b743b3b,"
+      }
+    },
+    "name": "flds-typography-typography-heading-title-page-medium",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Title",
+      "state": "Page"
+    },
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Medium"],
+    "key": "{Typography.Typography.Heading.Title.Page.Medium}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "48px",
+      "lineHeight": "120%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:a76e5885b2faa81378ac0fcfffde6d2d3834d5d0,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.8xl.$value}",
+        "lineHeight": "120%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:a76e5885b2faa81378ac0fcfffde6d2d3834d5d0,"
+      }
+    },
+    "name": "flds-typography-typography-heading-title-page-semibold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Title",
+      "state": "Page"
+    },
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Semibold"],
+    "key": "{Typography.Typography.Heading.Title.Page.Semibold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "48px",
+      "lineHeight": "120%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:5edb56a96c88227de281548f459f9620502b6c5b,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.8xl.$value}",
+        "lineHeight": "120%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:5edb56a96c88227de281548f459f9620502b6c5b,"
+      }
+    },
+    "name": "flds-typography-typography-heading-title-page-bold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Title",
+      "state": "Page"
+    },
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Bold"],
+    "key": "{Typography.Typography.Heading.Title.Page.Bold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 800,
+      "fontSize": "48px",
+      "lineHeight": "120%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:e6a8fd0a9958c9165cb45f52b26b973823cd5c1d,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 800,
+        "fontSize": "{Typography.Font.Size.8xl.$value}",
+        "lineHeight": "120%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:e6a8fd0a9958c9165cb45f52b26b973823cd5c1d,"
+      }
+    },
+    "name": "flds-typography-typography-heading-title-page-extra-bold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Title",
+      "state": "Page"
+    },
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "ExtraBold"],
+    "key": "{Typography.Typography.Heading.Title.Page.ExtraBold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 900,
+      "fontSize": "48px",
+      "lineHeight": "120%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:28dd0b9cf5ea59a155b880df56bbbb48ab5bb391,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 900,
+        "fontSize": "{Typography.Font.Size.8xl.$value}",
+        "lineHeight": "120%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:28dd0b9cf5ea59a155b880df56bbbb48ab5bb391,"
+      }
+    },
+    "name": "flds-typography-typography-heading-title-page-strong",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Title",
+      "state": "Page"
+    },
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Strong"],
+    "key": "{Typography.Typography.Heading.Title.Page.Strong}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 300,
+      "fontSize": "48px",
+      "lineHeight": "120%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:c7efd19c35a3688b1568206e49ff6a4a8cb8bea2,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 300,
+        "fontSize": "{Typography.Font.Size.10xl.$value}",
+        "lineHeight": "120%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:c7efd19c35a3688b1568206e49ff6a4a8cb8bea2,"
+      }
+    },
+    "name": "flds-typography-typography-heading-title-hero-light",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Title",
+      "state": "Hero"
+    },
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Light"],
+    "key": "{Typography.Typography.Heading.Title.Hero.Light}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "48px",
+      "lineHeight": "120%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:ab1f37441ab39d78ba513e00c8539266841d2ca8,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.10xl.$value}",
+        "lineHeight": "120%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:ab1f37441ab39d78ba513e00c8539266841d2ca8,"
+      }
+    },
+    "name": "flds-typography-typography-heading-title-hero-regular",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Title",
+      "state": "Hero"
+    },
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Regular"],
+    "key": "{Typography.Typography.Heading.Title.Hero.Regular}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": "48px",
+      "lineHeight": "120%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:74918813b3df30c91fbe21c832c6409b98184422,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 500,
+        "fontSize": "{Typography.Font.Size.10xl.$value}",
+        "lineHeight": "120%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:74918813b3df30c91fbe21c832c6409b98184422,"
+      }
+    },
+    "name": "flds-typography-typography-heading-title-hero-medium",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Title",
+      "state": "Hero"
+    },
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Medium"],
+    "key": "{Typography.Typography.Heading.Title.Hero.Medium}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "48px",
+      "lineHeight": "120%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:0dea11b570e9b7c666a462c3e4ece39a85e44357,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.10xl.$value}",
+        "lineHeight": "120%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:0dea11b570e9b7c666a462c3e4ece39a85e44357,"
+      }
+    },
+    "name": "flds-typography-typography-heading-title-hero-semibold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Title",
+      "state": "Hero"
+    },
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Semibold"],
+    "key": "{Typography.Typography.Heading.Title.Hero.Semibold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "48px",
+      "lineHeight": "120%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:90a746bebc3945e922a59dcbee26c442fe7ab381,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.10xl.$value}",
+        "lineHeight": "120%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:90a746bebc3945e922a59dcbee26c442fe7ab381,"
+      }
+    },
+    "name": "flds-typography-typography-heading-title-hero-bold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Title",
+      "state": "Hero"
+    },
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Bold"],
+    "key": "{Typography.Typography.Heading.Title.Hero.Bold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 800,
+      "fontSize": "48px",
+      "lineHeight": "120%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:34b288a8e3411a1593f5727b014f8a97e3bbd85a,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 800,
+        "fontSize": "{Typography.Font.Size.10xl.$value}",
+        "lineHeight": "120%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:34b288a8e3411a1593f5727b014f8a97e3bbd85a,"
+      }
+    },
+    "name": "flds-typography-typography-heading-title-hero-extrabold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Title",
+      "state": "Hero"
+    },
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Extrabold"],
+    "key": "{Typography.Typography.Heading.Title.Hero.Extrabold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 900,
+      "fontSize": "48px",
+      "lineHeight": "120%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:7ca561f12294af6264e971a534c0ea019f146631,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 900,
+        "fontSize": "{Typography.Font.Size.10xl.$value}",
+        "lineHeight": "120%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:7ca561f12294af6264e971a534c0ea019f146631,"
+      }
+    },
+    "name": "flds-typography-typography-heading-title-hero-strong",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Title",
+      "state": "Hero"
+    },
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Strong"],
+    "key": "{Typography.Typography.Heading.Title.Hero.Strong}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 300,
+      "fontSize": "14px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:84d968f06ae7ed4c358761f2b4e97ec2f4305a83,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 300,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:84d968f06ae7ed4c358761f2b4e97ec2f4305a83,"
+      }
+    },
+    "name": "flds-typography-typography-heading-subtitle-light",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Subtitle",
+      "state": "Light"
+    },
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Light"],
+    "key": "{Typography.Typography.Heading.Subtitle.Light}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "14px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:fbc54e0ecb1425b0d219fb3d486779234b02549e,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:fbc54e0ecb1425b0d219fb3d486779234b02549e,"
+      }
+    },
+    "name": "flds-typography-typography-heading-subtitle-regular",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Subtitle",
+      "state": "Regular"
+    },
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Regular"],
+    "key": "{Typography.Typography.Heading.Subtitle.Regular}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": "14px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:c2bb8db065e2182a5a4652159f3da300824c8cec,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 500,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:c2bb8db065e2182a5a4652159f3da300824c8cec,"
+      }
+    },
+    "name": "flds-typography-typography-heading-subtitle-medium",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Subtitle",
+      "state": "Medium"
+    },
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Medium"],
+    "key": "{Typography.Typography.Heading.Subtitle.Medium}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "14px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:d4347f426ca3b19613223f75cc8e8a959f864496,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:d4347f426ca3b19613223f75cc8e8a959f864496,"
+      }
+    },
+    "name": "flds-typography-typography-heading-subtitle-semibold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Subtitle",
+      "state": "Semibold"
+    },
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Semibold"],
+    "key": "{Typography.Typography.Heading.Subtitle.Semibold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "14px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:6780b6c57f723b50d2673d8005ce311815f579c7,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:6780b6c57f723b50d2673d8005ce311815f579c7,"
+      }
+    },
+    "name": "flds-typography-typography-heading-subtitle-bold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Subtitle",
+      "state": "Bold"
+    },
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Bold"],
+    "key": "{Typography.Typography.Heading.Subtitle.Bold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 800,
+      "fontSize": "14px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:96ad9896300c023f38c87867c92177cb0d20d8bd,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 800,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:96ad9896300c023f38c87867c92177cb0d20d8bd,"
+      }
+    },
+    "name": "flds-typography-typography-heading-subtitle-extrabold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Subtitle",
+      "state": "Extrabold"
+    },
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Extrabold"],
+    "key": "{Typography.Typography.Heading.Subtitle.Extrabold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 900,
+      "fontSize": "14px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:518abc2f2e85bd652c2cb9d2feb87b0078e5f674,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 900,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:518abc2f2e85bd652c2cb9d2feb87b0078e5f674,"
+      }
+    },
+    "name": "flds-typography-typography-heading-subtitle-strong",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Heading",
+      "subitem": "Subtitle",
+      "state": "Strong"
+    },
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Strong"],
+    "key": "{Typography.Typography.Heading.Subtitle.Strong}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "14px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:9a9eefd11af604810392eeef4897c9f1528649fa,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:9a9eefd11af604810392eeef4897c9f1528649fa,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-body-small-regular",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Body",
+      "state": "Small"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Regular"],
+    "key": "{Typography.Typography.Paragraph.Body.Small.Regular}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 300,
+      "fontSize": "14px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:4938f30fe3b3f07668894014e802b3da6cb2a7c2,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 300,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:4938f30fe3b3f07668894014e802b3da6cb2a7c2,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-body-small-light",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Body",
+      "state": "Small"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Light"],
+    "key": "{Typography.Typography.Paragraph.Body.Small.Light}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": "14px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:ab7b23673a2da27892deb5116a465a56708e0a74,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 500,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:ab7b23673a2da27892deb5116a465a56708e0a74,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-body-small-medium",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Body",
+      "state": "Small"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Medium"],
+    "key": "{Typography.Typography.Paragraph.Body.Small.Medium}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "14px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:6dad5ba5357b97f28103049befc2e981dfdc7920,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:6dad5ba5357b97f28103049befc2e981dfdc7920,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-body-small-semibold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Body",
+      "state": "Small"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Semibold"],
+    "key": "{Typography.Typography.Paragraph.Body.Small.Semibold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "14px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:8721943bc3f432291e3cdf47d1df8dabe5b757cd,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:8721943bc3f432291e3cdf47d1df8dabe5b757cd,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-body-small-bold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Body",
+      "state": "Small"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Bold"],
+    "key": "{Typography.Typography.Paragraph.Body.Small.Bold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 800,
+      "fontSize": "14px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:75cf74bb671495ba23ff1492d1352ad1aab3eaf7,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 800,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:75cf74bb671495ba23ff1492d1352ad1aab3eaf7,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-body-small-extrabold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Body",
+      "state": "Small"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Extrabold"],
+    "key": "{Typography.Typography.Paragraph.Body.Small.Extrabold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 900,
+      "fontSize": "14px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:42fd0ef5a1f1822cadc442f53b5f4549c679bda2,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 900,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:42fd0ef5a1f1822cadc442f53b5f4549c679bda2,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-body-small-strong",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Body",
+      "state": "Small"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Strong"],
+    "key": "{Typography.Typography.Paragraph.Body.Small.Strong}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 300,
+      "fontSize": "16px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:ca94a726c2aadbfa025536c9377ba38301d19825,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 300,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:ca94a726c2aadbfa025536c9377ba38301d19825,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-body-large-light",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Body",
+      "state": "Large"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Light"],
+    "key": "{Typography.Typography.Paragraph.Body.Large.Light}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": "16px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:050593cca40f230d411e8124fab02137a3d1d885,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 500,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:050593cca40f230d411e8124fab02137a3d1d885,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-body-large-medium",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Body",
+      "state": "Large"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Medium"],
+    "key": "{Typography.Typography.Paragraph.Body.Large.Medium}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "16px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:a9caeeae043596b0e10ec81f8d3be9209704b511,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:a9caeeae043596b0e10ec81f8d3be9209704b511,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-body-large-regular",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Body",
+      "state": "Large"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Regular"],
+    "key": "{Typography.Typography.Paragraph.Body.Large.Regular}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "16px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:181311b71ed2ce0cc4a592287993364de5ac27a3,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:181311b71ed2ce0cc4a592287993364de5ac27a3,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-body-large-semibold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Body",
+      "state": "Large"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Semibold"],
+    "key": "{Typography.Typography.Paragraph.Body.Large.Semibold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "16px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:20913eb243731986412108bbc3167a7bce92187f,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:20913eb243731986412108bbc3167a7bce92187f,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-body-large-bold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Body",
+      "state": "Large"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Bold"],
+    "key": "{Typography.Typography.Paragraph.Body.Large.Bold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 800,
+      "fontSize": "16px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:2b6805cb0f46114639617fd340cb77e7f774bd4f,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 800,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:2b6805cb0f46114639617fd340cb77e7f774bd4f,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-body-large-extrabold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Body",
+      "state": "Large"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Extrabold"],
+    "key": "{Typography.Typography.Paragraph.Body.Large.Extrabold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 900,
+      "fontSize": "16px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:1af2fcafca9b24afecf15b2ac83a76f03f3156f2,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 900,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:1af2fcafca9b24afecf15b2ac83a76f03f3156f2,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-body-large-strong",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Body",
+      "state": "Large"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Strong"],
+    "key": "{Typography.Typography.Paragraph.Body.Large.Strong}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "16px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:d2f67d2c9976e29382482f5126c8101e8ff10258,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:d2f67d2c9976e29382482f5126c8101e8ff10258,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-body-large-italic",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Body",
+      "state": "Large"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Italic"],
+    "key": "{Typography.Typography.Paragraph.Body.Large.Italic}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Roboto Mono",
+      "fontWeight": 400,
+      "fontSize": "16px",
+      "lineHeight": "100%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:697f213a866951aeed1327fd145ab02d84efbd40,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{Typography.Font.Family.Tertiary.$value}",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "100%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:697f213a866951aeed1327fd145ab02d84efbd40,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-code-light",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Code",
+      "state": "Light"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Code", "Light"],
+    "key": "{Typography.Typography.Paragraph.Code.Light}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Roboto Mono",
+      "fontWeight": 400,
+      "fontSize": "16px",
+      "lineHeight": "100%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:53e731bb9c27aa0e4102deb80672924acc458b63,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{Typography.Font.Family.Tertiary.$value}",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "100%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:53e731bb9c27aa0e4102deb80672924acc458b63,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-code-regular",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Code",
+      "state": "Regular"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Code", "Regular"],
+    "key": "{Typography.Typography.Paragraph.Code.Regular}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Roboto Mono",
+      "fontWeight": 700,
+      "fontSize": "16px",
+      "lineHeight": "100%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:96e889b6c81ecbc525d214b537d9e441cf1e1f9d,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{Typography.Font.Family.Tertiary.$value}",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "100%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:96e889b6c81ecbc525d214b537d9e441cf1e1f9d,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-code-bold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Code",
+      "state": "Bold"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Code", "Bold"],
+    "key": "{Typography.Typography.Paragraph.Code.Bold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 300,
+      "fontSize": "16px",
+      "lineHeight": "125%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:146856f3de7d8644e6b13d8b43f981e1d05a9437,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 300,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "125%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:146856f3de7d8644e6b13d8b43f981e1d05a9437,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-link-light",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Link",
+      "state": "Light"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Link", "Light"],
+    "key": "{Typography.Typography.Paragraph.Link.Light}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "16px",
+      "lineHeight": "125%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:d07c2e44e3a2a7f2be93f35c6bb54a6e0c4ccb8d,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "125%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:d07c2e44e3a2a7f2be93f35c6bb54a6e0c4ccb8d,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-link-regular",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Link",
+      "state": "Regular"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Link", "Regular"],
+    "key": "{Typography.Typography.Paragraph.Link.Regular}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "16px",
+      "lineHeight": "125%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:32aa7fe3c7bf49b577eb6e2604f1d06cd55c49ca,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "125%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:32aa7fe3c7bf49b577eb6e2604f1d06cd55c49ca,"
+      }
+    },
+    "name": "flds-typography-typography-paragraph-link-bold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Paragraph",
+      "subitem": "Link",
+      "state": "Bold"
+    },
+    "path": ["Typography", "Typography", "Paragraph", "Link", "Bold"],
+    "key": "{Typography.Typography.Paragraph.Link.Bold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "10px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:cbb18ff473563b484a2a46fce546da6775383f36,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.xs.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:cbb18ff473563b484a2a46fce546da6775383f36,"
+      }
+    },
+    "name": "flds-typography-typography-text-regular-2xs",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Regular",
+      "state": "2xs"
+    },
+    "path": ["Typography", "Typography", "Text", "Regular", "2xs"],
+    "key": "{Typography.Typography.Text.Regular.2xs}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "12px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:1f774d6efabb9b1b03b772ae695c44258253fbbf,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.sm.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:1f774d6efabb9b1b03b772ae695c44258253fbbf,"
+      }
+    },
+    "name": "flds-typography-typography-text-regular-xs",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Regular",
+      "state": "xs"
+    },
+    "path": ["Typography", "Typography", "Text", "Regular", "xs"],
+    "key": "{Typography.Typography.Text.Regular.xs}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "14px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:1a7082cbda69797f007628e2052a1a7cc14ca449,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:1a7082cbda69797f007628e2052a1a7cc14ca449,"
+      }
+    },
+    "name": "flds-typography-typography-text-regular-sm",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Regular",
+      "state": "sm"
+    },
+    "path": ["Typography", "Typography", "Text", "Regular", "sm"],
+    "key": "{Typography.Typography.Text.Regular.sm}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "16px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:5f6c953a2a30e7ea5766aa180c1b390f5142e15b,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:5f6c953a2a30e7ea5766aa180c1b390f5142e15b,"
+      }
+    },
+    "name": "flds-typography-typography-text-regular-md",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Regular",
+      "state": "md"
+    },
+    "path": ["Typography", "Typography", "Text", "Regular", "md"],
+    "key": "{Typography.Typography.Text.Regular.md}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "18px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:a99aff77bb0cb42d732b9fb1ba2b7bd1125dfb94,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.lg.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:a99aff77bb0cb42d732b9fb1ba2b7bd1125dfb94,"
+      }
+    },
+    "name": "flds-typography-typography-text-regular-lg",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Regular",
+      "state": "lg"
+    },
+    "path": ["Typography", "Typography", "Text", "Regular", "lg"],
+    "key": "{Typography.Typography.Text.Regular.lg}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "20px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:275d76eef5140e6668559278d16a7e39da1e98fa,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.xl.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:275d76eef5140e6668559278d16a7e39da1e98fa,"
+      }
+    },
+    "name": "flds-typography-typography-text-regular-xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Regular",
+      "state": "xl"
+    },
+    "path": ["Typography", "Typography", "Text", "Regular", "xl"],
+    "key": "{Typography.Typography.Text.Regular.xl}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "24px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:c79e288f2c5d3207bb803c1e6c1c287ab7b5f5ad,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.2xl.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:c79e288f2c5d3207bb803c1e6c1c287ab7b5f5ad,"
+      }
+    },
+    "name": "flds-typography-typography-text-regular-2xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Regular",
+      "state": "2xl"
+    },
+    "path": ["Typography", "Typography", "Text", "Regular", "2xl"],
+    "key": "{Typography.Typography.Text.Regular.2xl}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "32px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:5f8877b86b9fd79ec7d3b3ebf56053ba571ff3e2,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.4xl.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:5f8877b86b9fd79ec7d3b3ebf56053ba571ff3e2,"
+      }
+    },
+    "name": "flds-typography-typography-text-regular-3xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Regular",
+      "state": "3xl"
+    },
+    "path": ["Typography", "Typography", "Text", "Regular", "3xl"],
+    "key": "{Typography.Typography.Text.Regular.3xl}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "36px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:e4da4814ffb200ebd15ed65e2967272860e5b932,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.5xl.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:e4da4814ffb200ebd15ed65e2967272860e5b932,"
+      }
+    },
+    "name": "flds-typography-typography-text-regular-4xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Regular",
+      "state": "4xl"
+    },
+    "path": ["Typography", "Typography", "Text", "Regular", "4xl"],
+    "key": "{Typography.Typography.Text.Regular.4xl}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "48px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:71c7bba8e90e02d99137d3205b5f8de080fb6cd0,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.8xl.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:71c7bba8e90e02d99137d3205b5f8de080fb6cd0,"
+      }
+    },
+    "name": "flds-typography-typography-text-regular-5xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Regular",
+      "state": "5xl"
+    },
+    "path": ["Typography", "Typography", "Text", "Regular", "5xl"],
+    "key": "{Typography.Typography.Text.Regular.5xl}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "48px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:1e81329c2870e264c6c7206549aeee06e2ee786f,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.9xl.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:1e81329c2870e264c6c7206549aeee06e2ee786f,"
+      }
+    },
+    "name": "flds-typography-typography-text-regular-6xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Regular",
+      "state": "6xl"
+    },
+    "path": ["Typography", "Typography", "Text", "Regular", "6xl"],
+    "key": "{Typography.Typography.Text.Regular.6xl}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "48px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:389f41defb4667ca751d0b3124340beb616dce84,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.10xl.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:389f41defb4667ca751d0b3124340beb616dce84,"
+      }
+    },
+    "name": "flds-typography-typography-text-regular-7xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Regular",
+      "state": "7xl"
+    },
+    "path": ["Typography", "Typography", "Text", "Regular", "7xl"],
+    "key": "{Typography.Typography.Text.Regular.7xl}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "72px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:4434c740516082211d3065dabafb58708cc6883b,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.11xl.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:4434c740516082211d3065dabafb58708cc6883b,"
+      }
+    },
+    "name": "flds-typography-typography-text-regular-8xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Regular",
+      "state": "8xl"
+    },
+    "path": ["Typography", "Typography", "Text", "Regular", "8xl"],
+    "key": "{Typography.Typography.Text.Regular.8xl}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "10px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:9e52b6279725f3f848bda87b1cb8bfaf6823cb64,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.xs.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:9e52b6279725f3f848bda87b1cb8bfaf6823cb64,"
+      }
+    },
+    "name": "flds-typography-typography-text-bold-2xs",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Bold",
+      "state": "2xs"
+    },
+    "path": ["Typography", "Typography", "Text", "Bold", "2xs"],
+    "key": "{Typography.Typography.Text.Bold.2xs}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "12px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:b648c146470a4cac52689766eabb705fa4a80163,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.sm.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:b648c146470a4cac52689766eabb705fa4a80163,"
+      }
+    },
+    "name": "flds-typography-typography-text-bold-xs",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Bold",
+      "state": "xs"
+    },
+    "path": ["Typography", "Typography", "Text", "Bold", "xs"],
+    "key": "{Typography.Typography.Text.Bold.xs}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "14px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:7ca35e0c55154a38ee57771f9fb1a44ffd7728a4,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:7ca35e0c55154a38ee57771f9fb1a44ffd7728a4,"
+      }
+    },
+    "name": "flds-typography-typography-text-bold-sm",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Bold",
+      "state": "sm"
+    },
+    "path": ["Typography", "Typography", "Text", "Bold", "sm"],
+    "key": "{Typography.Typography.Text.Bold.sm}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "16px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:8d6ce03780bb2675d83137aa0ca5064cd5d53e4b,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:8d6ce03780bb2675d83137aa0ca5064cd5d53e4b,"
+      }
+    },
+    "name": "flds-typography-typography-text-bold-md",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Bold",
+      "state": "md"
+    },
+    "path": ["Typography", "Typography", "Text", "Bold", "md"],
+    "key": "{Typography.Typography.Text.Bold.md}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "18px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:ec7e34e8460178041d3e8cdf07fa7a453a040291,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.lg.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:ec7e34e8460178041d3e8cdf07fa7a453a040291,"
+      }
+    },
+    "name": "flds-typography-typography-text-bold-lg",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Bold",
+      "state": "lg"
+    },
+    "path": ["Typography", "Typography", "Text", "Bold", "lg"],
+    "key": "{Typography.Typography.Text.Bold.lg}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "20px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:e5db70b650b0f3d6e1d3fe6d2f8258e2c9ead73b,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.xl.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:e5db70b650b0f3d6e1d3fe6d2f8258e2c9ead73b,"
+      }
+    },
+    "name": "flds-typography-typography-text-bold-xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Bold",
+      "state": "xl"
+    },
+    "path": ["Typography", "Typography", "Text", "Bold", "xl"],
+    "key": "{Typography.Typography.Text.Bold.xl}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "24px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:9d2eabd309dbdac71004aaebe97f92d47dcbcf80,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.2xl.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:9d2eabd309dbdac71004aaebe97f92d47dcbcf80,"
+      }
+    },
+    "name": "flds-typography-typography-text-bold-2xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Bold",
+      "state": "2xl"
+    },
+    "path": ["Typography", "Typography", "Text", "Bold", "2xl"],
+    "key": "{Typography.Typography.Text.Bold.2xl}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "32px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:b138daa06fe9b4e039f17e8da309fe06536b3546,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.4xl.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:b138daa06fe9b4e039f17e8da309fe06536b3546,"
+      }
+    },
+    "name": "flds-typography-typography-text-bold-3xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Bold",
+      "state": "3xl"
+    },
+    "path": ["Typography", "Typography", "Text", "Bold", "3xl"],
+    "key": "{Typography.Typography.Text.Bold.3xl}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "36px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:0216b52043ef60c537e2024e86ec7a1b295b1a64,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.5xl.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:0216b52043ef60c537e2024e86ec7a1b295b1a64,"
+      }
+    },
+    "name": "flds-typography-typography-text-bold-4xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Bold",
+      "state": "4xl"
+    },
+    "path": ["Typography", "Typography", "Text", "Bold", "4xl"],
+    "key": "{Typography.Typography.Text.Bold.4xl}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "48px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:a38f502868dcf557e682893962c2009673bd936d,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.8xl.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:a38f502868dcf557e682893962c2009673bd936d,"
+      }
+    },
+    "name": "flds-typography-typography-text-bold-5xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Bold",
+      "state": "5xl"
+    },
+    "path": ["Typography", "Typography", "Text", "Bold", "5xl"],
+    "key": "{Typography.Typography.Text.Bold.5xl}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "48px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:c30228cc353ec94d3a9f1c0d32bea9c4cc49ce2c,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.9xl.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:c30228cc353ec94d3a9f1c0d32bea9c4cc49ce2c,"
+      }
+    },
+    "name": "flds-typography-typography-text-bold-6xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Bold",
+      "state": "6xl"
+    },
+    "path": ["Typography", "Typography", "Text", "Bold", "6xl"],
+    "key": "{Typography.Typography.Text.Bold.6xl}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "48px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:7d6adb7971fee4d696d98bcaa2875105683eeb56,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.10xl.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:7d6adb7971fee4d696d98bcaa2875105683eeb56,"
+      }
+    },
+    "name": "flds-typography-typography-text-bold-7xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Bold",
+      "state": "7xl"
+    },
+    "path": ["Typography", "Typography", "Text", "Bold", "7xl"],
+    "key": "{Typography.Typography.Text.Bold.7xl}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "72px",
+      "lineHeight": "auto",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:6370aed1929cd9a960a7df9d791d9fe539bf4ccb,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.11xl.$value}",
+        "lineHeight": "auto",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:6370aed1929cd9a960a7df9d791d9fe539bf4ccb,"
+      }
+    },
+    "name": "flds-typography-typography-text-bold-8xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Text",
+      "subitem": "Bold",
+      "state": "8xl"
+    },
+    "path": ["Typography", "Typography", "Text", "Bold", "8xl"],
+    "key": "{Typography.Typography.Text.Bold.8xl}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 300,
+      "fontSize": "12px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:c3acc9f7f68cf17c773de7793dd4e196fb6ce9b9,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 300,
+        "fontSize": "{Typography.Font.Size.sm.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:c3acc9f7f68cf17c773de7793dd4e196fb6ce9b9,"
+      }
+    },
+    "name": "flds-typography-typography-label-small-light",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Small",
+      "state": "Light"
+    },
+    "path": ["Typography", "Typography", "Label", "Small", "Light"],
+    "key": "{Typography.Typography.Label.Small.Light}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "12px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:c3a7d174593673dff727b97e2e2b5f00b484009f,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.sm.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:c3a7d174593673dff727b97e2e2b5f00b484009f,"
+      }
+    },
+    "name": "flds-typography-typography-label-small-regular",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Small",
+      "state": "Regular"
+    },
+    "path": ["Typography", "Typography", "Label", "Small", "Regular"],
+    "key": "{Typography.Typography.Label.Small.Regular}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": "12px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:7f04c610db124ea0b77cb6aee18e3e53180c7f54,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 500,
+        "fontSize": "{Typography.Font.Size.sm.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:7f04c610db124ea0b77cb6aee18e3e53180c7f54,"
+      }
+    },
+    "name": "flds-typography-typography-label-small-medium",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Small",
+      "state": "Medium"
+    },
+    "path": ["Typography", "Typography", "Label", "Small", "Medium"],
+    "key": "{Typography.Typography.Label.Small.Medium}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "12px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:f39a9c6cb7caf530e8d38bbe805aa7d720e1f233,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.sm.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:f39a9c6cb7caf530e8d38bbe805aa7d720e1f233,"
+      }
+    },
+    "name": "flds-typography-typography-label-small-semibold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Small",
+      "state": "Semibold"
+    },
+    "path": ["Typography", "Typography", "Label", "Small", "Semibold"],
+    "key": "{Typography.Typography.Label.Small.Semibold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "12px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:d9fd97cfbd6505a60c6c26e847f4a02b75a0a344,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.sm.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:d9fd97cfbd6505a60c6c26e847f4a02b75a0a344,"
+      }
+    },
+    "name": "flds-typography-typography-label-small-bold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Small",
+      "state": "Bold"
+    },
+    "path": ["Typography", "Typography", "Label", "Small", "Bold"],
+    "key": "{Typography.Typography.Label.Small.Bold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 800,
+      "fontSize": "12px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:3f6ee1f9c325b9a72850ff10ca63755490c91627,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 800,
+        "fontSize": "{Typography.Font.Size.sm.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:3f6ee1f9c325b9a72850ff10ca63755490c91627,"
+      }
+    },
+    "name": "flds-typography-typography-label-small-extrabold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Small",
+      "state": "Extrabold"
+    },
+    "path": ["Typography", "Typography", "Label", "Small", "Extrabold"],
+    "key": "{Typography.Typography.Label.Small.Extrabold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 900,
+      "fontSize": "12px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:62a76d857910d6bc2469c24c4f53efa9a0ecc7c7,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 900,
+        "fontSize": "{Typography.Font.Size.sm.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:62a76d857910d6bc2469c24c4f53efa9a0ecc7c7,"
+      }
+    },
+    "name": "flds-typography-typography-label-small-strong",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Small",
+      "state": "Strong"
+    },
+    "path": ["Typography", "Typography", "Label", "Small", "Strong"],
+    "key": "{Typography.Typography.Label.Small.Strong}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 300,
+      "fontSize": "14px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:93372b5fe2eb5b894bde4d97c793f464b07f90df,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 300,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:93372b5fe2eb5b894bde4d97c793f464b07f90df,"
+      }
+    },
+    "name": "flds-typography-typography-label-medium-light",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Medium",
+      "state": "Light"
+    },
+    "path": ["Typography", "Typography", "Label", "Medium", "Light"],
+    "key": "{Typography.Typography.Label.Medium.Light}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "14px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:28bd8cc96c04abbed4c3149bb62eefc621cea589,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:28bd8cc96c04abbed4c3149bb62eefc621cea589,"
+      }
+    },
+    "name": "flds-typography-typography-label-medium-regular",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Medium",
+      "state": "Regular"
+    },
+    "path": ["Typography", "Typography", "Label", "Medium", "Regular"],
+    "key": "{Typography.Typography.Label.Medium.Regular}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": "14px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:674580ba4279950c0457837773e480d3990e878e,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 500,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:674580ba4279950c0457837773e480d3990e878e,"
+      }
+    },
+    "name": "flds-typography-typography-label-medium-medium",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Medium",
+      "state": "Medium"
+    },
+    "path": ["Typography", "Typography", "Label", "Medium", "Medium"],
+    "key": "{Typography.Typography.Label.Medium.Medium}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "14px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:5f7d9d813b68dd4458172533b7a4f4ac8a121a41,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:5f7d9d813b68dd4458172533b7a4f4ac8a121a41,"
+      }
+    },
+    "name": "flds-typography-typography-label-medium-semibold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Medium",
+      "state": "Semibold"
+    },
+    "path": ["Typography", "Typography", "Label", "Medium", "Semibold"],
+    "key": "{Typography.Typography.Label.Medium.Semibold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "14px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:115309be6ceab1ae24a658f3c3285452d18d76f4,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:115309be6ceab1ae24a658f3c3285452d18d76f4,"
+      }
+    },
+    "name": "flds-typography-typography-label-medium-bold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Medium",
+      "state": "Bold"
+    },
+    "path": ["Typography", "Typography", "Label", "Medium", "Bold"],
+    "key": "{Typography.Typography.Label.Medium.Bold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 800,
+      "fontSize": "14px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:8fdd63e25fd4d33c629753276e9e074e925d8a48,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 800,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:8fdd63e25fd4d33c629753276e9e074e925d8a48,"
+      }
+    },
+    "name": "flds-typography-typography-label-medium-extrabold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Medium",
+      "state": "Extrabold"
+    },
+    "path": ["Typography", "Typography", "Label", "Medium", "Extrabold"],
+    "key": "{Typography.Typography.Label.Medium.Extrabold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 900,
+      "fontSize": "14px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:f9933cf515d0896d699a7844d9e03bb5c988f1ec,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 900,
+        "fontSize": "{Typography.Font.Size.base.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:f9933cf515d0896d699a7844d9e03bb5c988f1ec,"
+      }
+    },
+    "name": "flds-typography-typography-label-medium-strong",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Medium",
+      "state": "Strong"
+    },
+    "path": ["Typography", "Typography", "Label", "Medium", "Strong"],
+    "key": "{Typography.Typography.Label.Medium.Strong}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 300,
+      "fontSize": "16px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:7521ac6fd002b5acb520ecbb4f20280da1519391,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 300,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:7521ac6fd002b5acb520ecbb4f20280da1519391,"
+      }
+    },
+    "name": "flds-typography-typography-label-large-light",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Large",
+      "state": "Light"
+    },
+    "path": ["Typography", "Typography", "Label", "Large", "Light"],
+    "key": "{Typography.Typography.Label.Large.Light}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "16px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:202babce121bd53b4e792482176a0fe18c4a6b3a,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:202babce121bd53b4e792482176a0fe18c4a6b3a,"
+      }
+    },
+    "name": "flds-typography-typography-label-large-regular",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Large",
+      "state": "Regular"
+    },
+    "path": ["Typography", "Typography", "Label", "Large", "Regular"],
+    "key": "{Typography.Typography.Label.Large.Regular}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": "16px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:60990111d0619b61982961a8f5d1f84ffcd69c38,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 500,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:60990111d0619b61982961a8f5d1f84ffcd69c38,"
+      }
+    },
+    "name": "flds-typography-typography-label-large-medium",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Large",
+      "state": "Medium"
+    },
+    "path": ["Typography", "Typography", "Label", "Large", "Medium"],
+    "key": "{Typography.Typography.Label.Large.Medium}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": "16px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:8601a7c8d821710017d7eee4270c1b265f32a6df,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:8601a7c8d821710017d7eee4270c1b265f32a6df,"
+      }
+    },
+    "name": "flds-typography-typography-label-large-semibold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Large",
+      "state": "Semibold"
+    },
+    "path": ["Typography", "Typography", "Label", "Large", "Semibold"],
+    "key": "{Typography.Typography.Label.Large.Semibold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": "16px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:00a6fe6bb587b814f4eb522a2fccdf928597820e,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:00a6fe6bb587b814f4eb522a2fccdf928597820e,"
+      }
+    },
+    "name": "flds-typography-typography-label-large-bold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Large",
+      "state": "Bold"
+    },
+    "path": ["Typography", "Typography", "Label", "Large", "Bold"],
+    "key": "{Typography.Typography.Label.Large.Bold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 800,
+      "fontSize": "16px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:12ca746eb300fc59bf857a3356b0b302757cd73c,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 800,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:12ca746eb300fc59bf857a3356b0b302757cd73c,"
+      }
+    },
+    "name": "flds-typography-typography-label-large-extrabold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Large",
+      "state": "Extrabold"
+    },
+    "path": ["Typography", "Typography", "Label", "Large", "Extrabold"],
+    "key": "{Typography.Typography.Label.Large.Extrabold}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": 900,
+      "fontSize": "16px",
+      "lineHeight": "115%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:7299ed60b2bb241003e08a88a6d4eab4186b3a1d,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 900,
+        "fontSize": "{Typography.Font.Size.md.$value}",
+        "lineHeight": "115%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:7299ed60b2bb241003e08a88a6d4eab4186b3a1d,"
+      }
+    },
+    "name": "flds-typography-typography-label-large-strong",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": "Label",
+      "subitem": "Large",
+      "state": "Strong"
+    },
+    "path": ["Typography", "Typography", "Label", "Large", "Strong"],
+    "key": "{Typography.Typography.Label.Large.Strong}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Roboto Mono",
+      "fontWeight": "400",
+      "fontSize": "16px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:e03d934c48eac6e2e40ca504c0714a72b89ab7ff,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{Typography Primitives.Family.Mono.$value}",
+        "fontWeight": "{Typography Primitives.Weight.Regular.$value}",
+        "fontSize": "{Typography Primitives.Scale.Scale 03.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:e03d934c48eac6e2e40ca504c0714a72b89ab7ff,"
+      }
+    },
+    "name": "flds-typography-typography-utilities-component-notes-regular",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": ".Utilities",
+      "subitem": "Component notes",
+      "state": "Regular"
+    },
+    "path": ["Typography", "Typography", ".Utilities", "Component notes", "Regular"],
+    "key": "{Typography.Typography..Utilities.Component notes.Regular}"
+  },
+  {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Roboto Mono",
+      "fontWeight": "700",
+      "fontSize": "16px",
+      "lineHeight": "140%",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "paragraphIndent": "0",
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL"
+    },
+    "$description": "",
+    "$extensions": {
+      "styleId": "S:6c6ee8ef66645deabfdcc8bab54ef2a3bd3539cc,"
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{Typography Primitives.Family.Mono.$value}",
+        "fontWeight": "{Typography Primitives.Weight.Bold.$value}",
+        "fontSize": "{Typography Primitives.Scale.Scale 03.$value}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:6c6ee8ef66645deabfdcc8bab54ef2a3bd3539cc,"
+      }
+    },
+    "name": "flds-typography-typography-utilities-component-notes-bold",
+    "attributes": {
+      "category": "Typography",
+      "type": "Typography",
+      "item": ".Utilities",
+      "subitem": "Component notes",
+      "state": "Bold"
+    },
+    "path": ["Typography", "Typography", ".Utilities", "Component notes", "Bold"],
+    "key": "{Typography.Typography..Utilities.Component notes.Bold}"
+  }
+]

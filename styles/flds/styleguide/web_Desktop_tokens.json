@@ -1,0 +1,4675 @@
+[
+  {
+    "$type": "dimension",
+    "$value": "0px",
+    "$description": "",
+    "scopes": ["GAP"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "0px",
+        "Tablet": "0px",
+        "Mobile": "0px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Space-0)"
+        },
+        "variableId": "VariableID:364:11151",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "0px",
+      "$description": "",
+      "scopes": ["GAP"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "0px",
+          "Tablet": "0px",
+          "Mobile": "0px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Space-0)"
+          },
+          "variableId": "VariableID:364:11151",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-space-0",
+    "attributes": {
+      "category": "Size",
+      "type": "Space",
+      "item": "0"
+    },
+    "path": ["Size", "Space", "0"],
+    "key": "{Size.Space.0}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "4px",
+    "$description": "",
+    "scopes": ["GAP"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "4px",
+        "Tablet": "4px",
+        "Mobile": "4px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Space-100)"
+        },
+        "variableId": "VariableID:9:11258",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "4px",
+      "$description": "",
+      "scopes": ["GAP"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "4px",
+          "Tablet": "4px",
+          "Mobile": "4px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Space-100)"
+          },
+          "variableId": "VariableID:9:11258",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-space-100",
+    "attributes": {
+      "category": "Size",
+      "type": "Space",
+      "item": "100"
+    },
+    "path": ["Size", "Space", "100"],
+    "key": "{Size.Space.100}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "6px",
+    "$description": "",
+    "scopes": ["GAP"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "6px",
+        "Tablet": "6px",
+        "Mobile": "6px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Space-150)"
+        },
+        "variableId": "VariableID:364:11163",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "6px",
+      "$description": "",
+      "scopes": ["GAP"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "6px",
+          "Tablet": "6px",
+          "Mobile": "6px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Space-150)"
+          },
+          "variableId": "VariableID:364:11163",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-space-150",
+    "attributes": {
+      "category": "Size",
+      "type": "Space",
+      "item": "150"
+    },
+    "path": ["Size", "Space", "150"],
+    "key": "{Size.Space.150}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "8px",
+    "$description": "",
+    "scopes": ["GAP"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "8px",
+        "Tablet": "8px",
+        "Mobile": "8px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Space-200)"
+        },
+        "variableId": "VariableID:9:11259",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "8px",
+      "$description": "",
+      "scopes": ["GAP"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "8px",
+          "Tablet": "8px",
+          "Mobile": "8px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Space-200)"
+          },
+          "variableId": "VariableID:9:11259",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-space-200",
+    "attributes": {
+      "category": "Size",
+      "type": "Space",
+      "item": "200"
+    },
+    "path": ["Size", "Space", "200"],
+    "key": "{Size.Space.200}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "12px",
+    "$description": "",
+    "scopes": ["GAP"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "12px",
+        "Tablet": "12px",
+        "Mobile": "12px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Space-300)"
+        },
+        "variableId": "VariableID:9:11260",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "12px",
+      "$description": "",
+      "scopes": ["GAP"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "12px",
+          "Tablet": "12px",
+          "Mobile": "12px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Space-300)"
+          },
+          "variableId": "VariableID:9:11260",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-space-300",
+    "attributes": {
+      "category": "Size",
+      "type": "Space",
+      "item": "300"
+    },
+    "path": ["Size", "Space", "300"],
+    "key": "{Size.Space.300}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "16px",
+    "$description": "",
+    "scopes": ["GAP"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "16px",
+        "Tablet": "16px",
+        "Mobile": "16px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Space-400)"
+        },
+        "variableId": "VariableID:9:11261",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "16px",
+      "$description": "",
+      "scopes": ["GAP"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "16px",
+          "Tablet": "16px",
+          "Mobile": "16px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Space-400)"
+          },
+          "variableId": "VariableID:9:11261",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-space-400",
+    "attributes": {
+      "category": "Size",
+      "type": "Space",
+      "item": "400"
+    },
+    "path": ["Size", "Space", "400"],
+    "key": "{Size.Space.400}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "24px",
+    "$description": "",
+    "scopes": ["GAP"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "24px",
+        "Tablet": "24px",
+        "Mobile": "24px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Space-600)"
+        },
+        "variableId": "VariableID:9:11262",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "24px",
+      "$description": "",
+      "scopes": ["GAP"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "24px",
+          "Tablet": "24px",
+          "Mobile": "24px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Space-600)"
+          },
+          "variableId": "VariableID:9:11262",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-space-600",
+    "attributes": {
+      "category": "Size",
+      "type": "Space",
+      "item": "600"
+    },
+    "path": ["Size", "Space", "600"],
+    "key": "{Size.Space.600}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "32px",
+    "$description": "",
+    "scopes": ["GAP"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "32px",
+        "Tablet": "32px",
+        "Mobile": "32px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Space-800)"
+        },
+        "variableId": "VariableID:346:10902",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "32px",
+      "$description": "",
+      "scopes": ["GAP"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "32px",
+          "Tablet": "32px",
+          "Mobile": "32px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Space-800)"
+          },
+          "variableId": "VariableID:346:10902",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-space-800",
+    "attributes": {
+      "category": "Size",
+      "type": "Space",
+      "item": "800"
+    },
+    "path": ["Size", "Space", "800"],
+    "key": "{Size.Space.800}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "48px",
+    "$description": "",
+    "scopes": ["GAP"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "48px",
+        "Tablet": "48px",
+        "Mobile": "48px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Space-1200)"
+        },
+        "variableId": "VariableID:346:10903",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "48px",
+      "$description": "",
+      "scopes": ["GAP"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "48px",
+          "Tablet": "48px",
+          "Mobile": "48px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Space-1200)"
+          },
+          "variableId": "VariableID:346:10903",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-space-1200",
+    "attributes": {
+      "category": "Size",
+      "type": "Space",
+      "item": "1200"
+    },
+    "path": ["Size", "Space", "1200"],
+    "key": "{Size.Space.1200}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "64px",
+    "$description": "",
+    "scopes": ["GAP"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "64px",
+        "Tablet": "64px",
+        "Mobile": "64px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Space-1600)"
+        },
+        "variableId": "VariableID:107:11150",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "64px",
+      "$description": "",
+      "scopes": ["GAP"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "64px",
+          "Tablet": "64px",
+          "Mobile": "64px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Space-1600)"
+          },
+          "variableId": "VariableID:107:11150",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-space-1600",
+    "attributes": {
+      "category": "Size",
+      "type": "Space",
+      "item": "1600"
+    },
+    "path": ["Size", "Space", "1600"],
+    "key": "{Size.Space.1600}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "96px",
+    "$description": "",
+    "scopes": ["GAP"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "96px",
+        "Tablet": "96px",
+        "Mobile": "96px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Space-2400)"
+        },
+        "variableId": "VariableID:346:10904",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "96px",
+      "$description": "",
+      "scopes": ["GAP"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "96px",
+          "Tablet": "96px",
+          "Mobile": "96px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Space-2400)"
+          },
+          "variableId": "VariableID:346:10904",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-space-2400",
+    "attributes": {
+      "category": "Size",
+      "type": "Space",
+      "item": "2400"
+    },
+    "path": ["Size", "Space", "2400"],
+    "key": "{Size.Space.2400}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "128px",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "128px",
+        "Tablet": "128px",
+        "Mobile": "128px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Space-3000)"
+        },
+        "variableId": "VariableID:3012:6109",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "128px",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "128px",
+          "Tablet": "128px",
+          "Mobile": "128px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Space-3000)"
+          },
+          "variableId": "VariableID:3012:6109",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-space-3000",
+    "attributes": {
+      "category": "Size",
+      "type": "Space",
+      "item": "3000"
+    },
+    "path": ["Size", "Space", "3000"],
+    "key": "{Size.Space.3000}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "160px",
+    "$description": "",
+    "scopes": ["GAP"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "160px",
+        "Tablet": "160px",
+        "Mobile": "160px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Space-4000)"
+        },
+        "variableId": "VariableID:346:10896",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "160px",
+      "$description": "",
+      "scopes": ["GAP"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "160px",
+          "Tablet": "160px",
+          "Mobile": "160px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Space-4000)"
+          },
+          "variableId": "VariableID:346:10896",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-space-4000",
+    "attributes": {
+      "category": "Size",
+      "type": "Space",
+      "item": "4000"
+    },
+    "path": ["Size", "Space", "4000"],
+    "key": "{Size.Space.4000}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "-4px",
+    "$description": "",
+    "scopes": ["GAP"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "-4px",
+        "Tablet": "-4px",
+        "Mobile": "-4px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Space-Negative 100)"
+        },
+        "variableId": "VariableID:9:11263",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "-4px",
+      "$description": "",
+      "scopes": ["GAP"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "-4px",
+          "Tablet": "-4px",
+          "Mobile": "-4px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Space-Negative 100)"
+          },
+          "variableId": "VariableID:9:11263",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-space-negative-100",
+    "attributes": {
+      "category": "Size",
+      "type": "Space",
+      "item": "Negative 100"
+    },
+    "path": ["Size", "Space", "Negative 100"],
+    "key": "{Size.Space.Negative 100}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "-8px",
+    "$description": "",
+    "scopes": ["GAP"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "-8px",
+        "Tablet": "-8px",
+        "Mobile": "-8px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Space-Negative 200)"
+        },
+        "variableId": "VariableID:9:11264",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "-8px",
+      "$description": "",
+      "scopes": ["GAP"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "-8px",
+          "Tablet": "-8px",
+          "Mobile": "-8px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Space-Negative 200)"
+          },
+          "variableId": "VariableID:9:11264",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-space-negative-200",
+    "attributes": {
+      "category": "Size",
+      "type": "Space",
+      "item": "Negative 200"
+    },
+    "path": ["Size", "Space", "Negative 200"],
+    "key": "{Size.Space.Negative 200}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "-12px",
+    "$description": "",
+    "scopes": ["GAP"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "-12px",
+        "Tablet": "-12px",
+        "Mobile": "-12px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Space-Negative 300)"
+        },
+        "variableId": "VariableID:9:11265",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "-12px",
+      "$description": "",
+      "scopes": ["GAP"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "-12px",
+          "Tablet": "-12px",
+          "Mobile": "-12px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Space-Negative 300)"
+          },
+          "variableId": "VariableID:9:11265",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-space-negative-300",
+    "attributes": {
+      "category": "Size",
+      "type": "Space",
+      "item": "Negative 300"
+    },
+    "path": ["Size", "Space", "Negative 300"],
+    "key": "{Size.Space.Negative 300}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "-16px",
+    "$description": "",
+    "scopes": ["GAP"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "-16px",
+        "Tablet": "-16px",
+        "Mobile": "-16px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Space-Negative 400)"
+        },
+        "variableId": "VariableID:9:11266",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "-16px",
+      "$description": "",
+      "scopes": ["GAP"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "-16px",
+          "Tablet": "-16px",
+          "Mobile": "-16px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Space-Negative 400)"
+          },
+          "variableId": "VariableID:9:11266",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-space-negative-400",
+    "attributes": {
+      "category": "Size",
+      "type": "Space",
+      "item": "Negative 400"
+    },
+    "path": ["Size", "Space", "Negative 400"],
+    "key": "{Size.Space.Negative 400}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "-24px",
+    "$description": "",
+    "scopes": ["GAP"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "-24px",
+        "Tablet": "-24px",
+        "Mobile": "-24px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Space-Negative 600)"
+        },
+        "variableId": "VariableID:9:11267",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "-24px",
+      "$description": "",
+      "scopes": ["GAP"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "-24px",
+          "Tablet": "-24px",
+          "Mobile": "-24px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Space-Negative 600)"
+          },
+          "variableId": "VariableID:9:11267",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-space-negative-600",
+    "attributes": {
+      "category": "Size",
+      "type": "Space",
+      "item": "Negative 600"
+    },
+    "path": ["Size", "Space", "Negative 600"],
+    "key": "{Size.Space.Negative 600}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "2px",
+    "$description": "",
+    "scopes": ["GAP"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "2px",
+        "Tablet": "2px",
+        "Mobile": "2px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Space-050)"
+        },
+        "variableId": "VariableID:364:11161",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "2px",
+      "$description": "",
+      "scopes": ["GAP"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "2px",
+          "Tablet": "2px",
+          "Mobile": "2px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Space-050)"
+          },
+          "variableId": "VariableID:364:11161",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-space-050",
+    "attributes": {
+      "category": "Size",
+      "type": "Space",
+      "item": "050"
+    },
+    "path": ["Size", "Space", "050"],
+    "key": "{Size.Space.050}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "4px",
+    "$description": "",
+    "scopes": ["CORNER_RADIUS"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "4px",
+        "Tablet": "4px",
+        "Mobile": "4px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Radius-100)"
+        },
+        "variableId": "VariableID:9:11274",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "4px",
+      "$description": "",
+      "scopes": ["CORNER_RADIUS"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "4px",
+          "Tablet": "4px",
+          "Mobile": "4px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Radius-100)"
+          },
+          "variableId": "VariableID:9:11274",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-radius-100",
+    "attributes": {
+      "category": "Size",
+      "type": "Radius",
+      "item": "100"
+    },
+    "path": ["Size", "Radius", "100"],
+    "key": "{Size.Radius.100}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "10px",
+    "$description": "",
+    "scopes": ["CORNER_RADIUS"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "10px",
+        "Tablet": "10px",
+        "Mobile": "10px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Radius-200)"
+        },
+        "variableId": "VariableID:9:11275",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "10px",
+      "$description": "",
+      "scopes": ["CORNER_RADIUS"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "10px",
+          "Tablet": "10px",
+          "Mobile": "10px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Radius-200)"
+          },
+          "variableId": "VariableID:9:11275",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-radius-200",
+    "attributes": {
+      "category": "Size",
+      "type": "Radius",
+      "item": "200"
+    },
+    "path": ["Size", "Radius", "200"],
+    "key": "{Size.Radius.200}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "16px",
+    "$description": "",
+    "scopes": ["CORNER_RADIUS"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "16px",
+        "Tablet": "16px",
+        "Mobile": "16px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Radius-300)"
+        },
+        "variableId": "VariableID:9:11277",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "16px",
+      "$description": "",
+      "scopes": ["CORNER_RADIUS"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "16px",
+          "Tablet": "16px",
+          "Mobile": "16px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Radius-300)"
+          },
+          "variableId": "VariableID:9:11277",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-radius-300",
+    "attributes": {
+      "category": "Size",
+      "type": "Radius",
+      "item": "300"
+    },
+    "path": ["Size", "Radius", "300"],
+    "key": "{Size.Radius.300}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "20px",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "20px",
+        "Tablet": "20px",
+        "Mobile": "20px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Radius-400)"
+        },
+        "variableId": "VariableID:3168:18637",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "20px",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "20px",
+          "Tablet": "20px",
+          "Mobile": "20px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Radius-400)"
+          },
+          "variableId": "VariableID:3168:18637",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-radius-400",
+    "attributes": {
+      "category": "Size",
+      "type": "Radius",
+      "item": "400"
+    },
+    "path": ["Size", "Radius", "400"],
+    "key": "{Size.Radius.400}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "9999px",
+    "$description": "",
+    "scopes": ["CORNER_RADIUS"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "9999px",
+        "Tablet": "9999px",
+        "Mobile": "9999px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Radius-Full)"
+        },
+        "variableId": "VariableID:56:9308",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "9999px",
+      "$description": "",
+      "scopes": ["CORNER_RADIUS"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "9999px",
+          "Tablet": "9999px",
+          "Mobile": "9999px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Radius-Full)"
+          },
+          "variableId": "VariableID:56:9308",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-radius-full",
+    "attributes": {
+      "category": "Size",
+      "type": "Radius",
+      "item": "Full"
+    },
+    "path": ["Size", "Radius", "Full"],
+    "key": "{Size.Radius.Full}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "0px",
+    "$description": "",
+    "scopes": ["EFFECT_FLOAT"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "0px",
+        "Tablet": "0px",
+        "Mobile": "0px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Depth-0)"
+        },
+        "variableId": "VariableID:9:11280",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "0px",
+      "$description": "",
+      "scopes": ["EFFECT_FLOAT"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "0px",
+          "Tablet": "0px",
+          "Mobile": "0px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Depth-0)"
+          },
+          "variableId": "VariableID:9:11280",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-depth-0",
+    "attributes": {
+      "category": "Size",
+      "type": "Depth",
+      "item": "0"
+    },
+    "path": ["Size", "Depth", "0"],
+    "key": "{Size.Depth.0}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "4px",
+    "$description": "",
+    "scopes": ["EFFECT_FLOAT"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "4px",
+        "Tablet": "4px",
+        "Mobile": "4px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Depth-100)"
+        },
+        "variableId": "VariableID:9:11282",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "4px",
+      "$description": "",
+      "scopes": ["EFFECT_FLOAT"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "4px",
+          "Tablet": "4px",
+          "Mobile": "4px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Depth-100)"
+          },
+          "variableId": "VariableID:9:11282",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-depth-100",
+    "attributes": {
+      "category": "Size",
+      "type": "Depth",
+      "item": "100"
+    },
+    "path": ["Size", "Depth", "100"],
+    "key": "{Size.Depth.100}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "8px",
+    "$description": "",
+    "scopes": ["EFFECT_FLOAT"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "8px",
+        "Tablet": "8px",
+        "Mobile": "8px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Depth-200)"
+        },
+        "variableId": "VariableID:9:11283",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "8px",
+      "$description": "",
+      "scopes": ["EFFECT_FLOAT"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "8px",
+          "Tablet": "8px",
+          "Mobile": "8px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Depth-200)"
+          },
+          "variableId": "VariableID:9:11283",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-depth-200",
+    "attributes": {
+      "category": "Size",
+      "type": "Depth",
+      "item": "200"
+    },
+    "path": ["Size", "Depth", "200"],
+    "key": "{Size.Depth.200}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "16px",
+    "$description": "",
+    "scopes": ["EFFECT_FLOAT"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "16px",
+        "Tablet": "16px",
+        "Mobile": "16px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Depth-400)"
+        },
+        "variableId": "VariableID:9:11284",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "16px",
+      "$description": "",
+      "scopes": ["EFFECT_FLOAT"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "16px",
+          "Tablet": "16px",
+          "Mobile": "16px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Depth-400)"
+          },
+          "variableId": "VariableID:9:11284",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-depth-400",
+    "attributes": {
+      "category": "Size",
+      "type": "Depth",
+      "item": "400"
+    },
+    "path": ["Size", "Depth", "400"],
+    "key": "{Size.Depth.400}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "32px",
+    "$description": "",
+    "scopes": ["EFFECT_FLOAT"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "32px",
+        "Tablet": "32px",
+        "Mobile": "32px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Depth-800)"
+        },
+        "variableId": "VariableID:9:11285",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "32px",
+      "$description": "",
+      "scopes": ["EFFECT_FLOAT"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "32px",
+          "Tablet": "32px",
+          "Mobile": "32px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Depth-800)"
+          },
+          "variableId": "VariableID:9:11285",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-depth-800",
+    "attributes": {
+      "category": "Size",
+      "type": "Depth",
+      "item": "800"
+    },
+    "path": ["Size", "Depth", "800"],
+    "key": "{Size.Depth.800}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "48px",
+    "$description": "",
+    "scopes": ["EFFECT_FLOAT"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "48px",
+        "Tablet": "48px",
+        "Mobile": "48px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Depth-1200)"
+        },
+        "variableId": "VariableID:9:11286",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "48px",
+      "$description": "",
+      "scopes": ["EFFECT_FLOAT"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "48px",
+          "Tablet": "48px",
+          "Mobile": "48px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Depth-1200)"
+          },
+          "variableId": "VariableID:9:11286",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-depth-1200",
+    "attributes": {
+      "category": "Size",
+      "type": "Depth",
+      "item": "1200"
+    },
+    "path": ["Size", "Depth", "1200"],
+    "key": "{Size.Depth.1200}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "1px",
+    "$description": "",
+    "scopes": ["EFFECT_FLOAT"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "1px",
+        "Tablet": "1px",
+        "Mobile": "1px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Depth-025)"
+        },
+        "variableId": "VariableID:9:11281",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "1px",
+      "$description": "",
+      "scopes": ["EFFECT_FLOAT"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "1px",
+          "Tablet": "1px",
+          "Mobile": "1px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Depth-025)"
+          },
+          "variableId": "VariableID:9:11281",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-depth-025",
+    "attributes": {
+      "category": "Size",
+      "type": "Depth",
+      "item": "025"
+    },
+    "path": ["Size", "Depth", "025"],
+    "key": "{Size.Depth.025}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "-1px",
+    "$description": "",
+    "scopes": ["EFFECT_FLOAT"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "-1px",
+        "Tablet": "-1px",
+        "Mobile": "-1px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Depth-Negative 025)"
+        },
+        "variableId": "VariableID:9:11287",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "-1px",
+      "$description": "",
+      "scopes": ["EFFECT_FLOAT"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "-1px",
+          "Tablet": "-1px",
+          "Mobile": "-1px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Depth-Negative 025)"
+          },
+          "variableId": "VariableID:9:11287",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-depth-negative-025",
+    "attributes": {
+      "category": "Size",
+      "type": "Depth",
+      "item": "Negative 025"
+    },
+    "path": ["Size", "Depth", "Negative 025"],
+    "key": "{Size.Depth.Negative 025}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "-4px",
+    "$description": "",
+    "scopes": ["EFFECT_FLOAT"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "-4px",
+        "Tablet": "-4px",
+        "Mobile": "-4px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Depth-Negative 100)"
+        },
+        "variableId": "VariableID:9:11288",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "-4px",
+      "$description": "",
+      "scopes": ["EFFECT_FLOAT"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "-4px",
+          "Tablet": "-4px",
+          "Mobile": "-4px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Depth-Negative 100)"
+          },
+          "variableId": "VariableID:9:11288",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-depth-negative-100",
+    "attributes": {
+      "category": "Size",
+      "type": "Depth",
+      "item": "Negative 100"
+    },
+    "path": ["Size", "Depth", "Negative 100"],
+    "key": "{Size.Depth.Negative 100}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "-8px",
+    "$description": "",
+    "scopes": ["EFFECT_FLOAT"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "-8px",
+        "Tablet": "-8px",
+        "Mobile": "-8px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Depth-Negative 200)"
+        },
+        "variableId": "VariableID:9:11289",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "-8px",
+      "$description": "",
+      "scopes": ["EFFECT_FLOAT"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "-8px",
+          "Tablet": "-8px",
+          "Mobile": "-8px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Depth-Negative 200)"
+          },
+          "variableId": "VariableID:9:11289",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-depth-negative-200",
+    "attributes": {
+      "category": "Size",
+      "type": "Depth",
+      "item": "Negative 200"
+    },
+    "path": ["Size", "Depth", "Negative 200"],
+    "key": "{Size.Depth.Negative 200}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "-16px",
+    "$description": "",
+    "scopes": ["EFFECT_FLOAT"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "-16px",
+        "Tablet": "-16px",
+        "Mobile": "-16px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Depth-Negative 400)"
+        },
+        "variableId": "VariableID:9:11290",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "-16px",
+      "$description": "",
+      "scopes": ["EFFECT_FLOAT"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "-16px",
+          "Tablet": "-16px",
+          "Mobile": "-16px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Depth-Negative 400)"
+          },
+          "variableId": "VariableID:9:11290",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-depth-negative-400",
+    "attributes": {
+      "category": "Size",
+      "type": "Depth",
+      "item": "Negative 400"
+    },
+    "path": ["Size", "Depth", "Negative 400"],
+    "key": "{Size.Depth.Negative 400}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "-32px",
+    "$description": "",
+    "scopes": ["EFFECT_FLOAT"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "-32px",
+        "Tablet": "-32px",
+        "Mobile": "-32px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Depth-Negative 800)"
+        },
+        "variableId": "VariableID:9:11291",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "-32px",
+      "$description": "",
+      "scopes": ["EFFECT_FLOAT"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "-32px",
+          "Tablet": "-32px",
+          "Mobile": "-32px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Depth-Negative 800)"
+          },
+          "variableId": "VariableID:9:11291",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-depth-negative-800",
+    "attributes": {
+      "category": "Size",
+      "type": "Depth",
+      "item": "Negative 800"
+    },
+    "path": ["Size", "Depth", "Negative 800"],
+    "key": "{Size.Depth.Negative 800}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "-48px",
+    "$description": "",
+    "scopes": ["EFFECT_FLOAT"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "-48px",
+        "Tablet": "-48px",
+        "Mobile": "-48px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Depth-Negative 1200)"
+        },
+        "variableId": "VariableID:9:11292",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "-48px",
+      "$description": "",
+      "scopes": ["EFFECT_FLOAT"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "-48px",
+          "Tablet": "-48px",
+          "Mobile": "-48px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Depth-Negative 1200)"
+          },
+          "variableId": "VariableID:9:11292",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-depth-negative-1200",
+    "attributes": {
+      "category": "Size",
+      "type": "Depth",
+      "item": "Negative 1200"
+    },
+    "path": ["Size", "Depth", "Negative 1200"],
+    "key": "{Size.Depth.Negative 1200}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "1px",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "1px",
+        "Tablet": "1px",
+        "Mobile": "1px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Stroke-Border)"
+        },
+        "variableId": "VariableID:197:17450",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "1px",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "1px",
+          "Tablet": "1px",
+          "Mobile": "1px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Stroke-Border)"
+          },
+          "variableId": "VariableID:197:17450",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-stroke-border",
+    "attributes": {
+      "category": "Size",
+      "type": "Stroke",
+      "item": "Border"
+    },
+    "path": ["Size", "Stroke", "Border"],
+    "key": "{Size.Stroke.Border}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "2px",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "2px",
+        "Tablet": "2px",
+        "Mobile": "2px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Stroke-Focus Ring)"
+        },
+        "variableId": "VariableID:197:17451",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "2px",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "2px",
+          "Tablet": "2px",
+          "Mobile": "2px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Stroke-Focus Ring)"
+          },
+          "variableId": "VariableID:197:17451",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-stroke-focus-ring",
+    "attributes": {
+      "category": "Size",
+      "type": "Stroke",
+      "item": "Focus Ring"
+    },
+    "path": ["Size", "Stroke", "Focus Ring"],
+    "key": "{Size.Stroke.Focus Ring}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "4px",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "4px",
+        "Tablet": "4px",
+        "Mobile": "4px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Blur-100)"
+        },
+        "variableId": "VariableID:228:6769",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "4px",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "4px",
+          "Tablet": "4px",
+          "Mobile": "4px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Blur-100)"
+          },
+          "variableId": "VariableID:228:6769",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-blur-100",
+    "attributes": {
+      "category": "Size",
+      "type": "Blur",
+      "item": "100"
+    },
+    "path": ["Size", "Blur", "100"],
+    "key": "{Size.Blur.100}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "24px",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "24px",
+        "Tablet": "24px",
+        "Mobile": "24px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Icon-Small)"
+        },
+        "variableId": "VariableID:409:8191",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "24px",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "24px",
+          "Tablet": "24px",
+          "Mobile": "24px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Icon-Small)"
+          },
+          "variableId": "VariableID:409:8191",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-icon-small",
+    "attributes": {
+      "category": "Size",
+      "type": "Icon",
+      "item": "Small"
+    },
+    "path": ["Size", "Icon", "Small"],
+    "key": "{Size.Icon.Small}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "32px",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "32px",
+        "Tablet": "32px",
+        "Mobile": "32px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Icon-Medium)"
+        },
+        "variableId": "VariableID:409:8192",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "32px",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "32px",
+          "Tablet": "32px",
+          "Mobile": "32px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Icon-Medium)"
+          },
+          "variableId": "VariableID:409:8192",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-icon-medium",
+    "attributes": {
+      "category": "Size",
+      "type": "Icon",
+      "item": "Medium"
+    },
+    "path": ["Size", "Icon", "Medium"],
+    "key": "{Size.Icon.Medium}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "40px",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "40px",
+        "Tablet": "40px",
+        "Mobile": "40px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Icon-Large)"
+        },
+        "variableId": "VariableID:409:8193",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "40px",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "40px",
+          "Tablet": "40px",
+          "Mobile": "40px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Icon-Large)"
+          },
+          "variableId": "VariableID:409:8193",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-icon-large",
+    "attributes": {
+      "category": "Size",
+      "type": "Icon",
+      "item": "Large"
+    },
+    "path": ["Size", "Icon", "Large"],
+    "key": "{Size.Icon.Large}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "80px",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "80px",
+        "Tablet": "80px",
+        "Mobile": "80px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Icon-2X Large)"
+        },
+        "variableId": "VariableID:3012:6107",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "80px",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "80px",
+          "Tablet": "80px",
+          "Mobile": "80px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Icon-2X Large)"
+          },
+          "variableId": "VariableID:3012:6107",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-icon-2-x-large",
+    "attributes": {
+      "category": "Size",
+      "type": "Icon",
+      "item": "2X Large"
+    },
+    "path": ["Size", "Icon", "2X Large"],
+    "key": "{Size.Icon.2X Large}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "60px",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "60px",
+        "Tablet": "60px",
+        "Mobile": "60px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Icon-X Large)"
+        },
+        "variableId": "VariableID:3168:21924",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "60px",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "60px",
+          "Tablet": "60px",
+          "Mobile": "60px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Icon-X Large)"
+          },
+          "variableId": "VariableID:3168:21924",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-icon-x-large",
+    "attributes": {
+      "category": "Size",
+      "type": "Icon",
+      "item": "X Large"
+    },
+    "path": ["Size", "Icon", "X Large"],
+    "key": "{Size.Icon.X Large}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "100px",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "100px",
+        "Tablet": "100px",
+        "Mobile": "100px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Icon-3X Large)"
+        },
+        "variableId": "VariableID:3531:13410",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "100px",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "100px",
+          "Tablet": "100px",
+          "Mobile": "100px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Icon-3X Large)"
+          },
+          "variableId": "VariableID:3531:13410",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-icon-3-x-large",
+    "attributes": {
+      "category": "Size",
+      "type": "Icon",
+      "item": "3X Large"
+    },
+    "path": ["Size", "Icon", "3X Large"],
+    "key": "{Size.Icon.3X Large}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "48px",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "48px",
+        "Tablet": "24px",
+        "Mobile": "12px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Padding-Desktop)"
+        },
+        "variableId": "VariableID:3231:21790",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "48px",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "48px",
+          "Tablet": "24px",
+          "Mobile": "12px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Padding-Desktop)"
+          },
+          "variableId": "VariableID:3231:21790",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "flds-size-padding-desktop",
+    "attributes": {
+      "category": "Size",
+      "type": "Padding",
+      "item": "Desktop"
+    },
+    "path": ["Size", "Padding", "Desktop"],
+    "key": "{Size.Padding.Desktop}"
+  },
+  {
+    "$type": "string",
+    "$value": "Inter",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "Inter",
+        "Tablet": "Inter",
+        "Mobile": "Inter"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Family-Primary)"
+        },
+        "variableId": "VariableID:3423:12967",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "{Typography Primitives.Family.Inter.$value}",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Family.Inter.$value}",
+          "Tablet": "{Typography Primitives.Family.Inter.$value}",
+          "Mobile": "{Typography Primitives.Family.Inter.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Family-Primary)"
+          },
+          "variableId": "VariableID:3423:12967",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-family-primary",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Family",
+      "subitem": "Primary"
+    },
+    "path": ["Typography", "Font", "Family", "Primary"],
+    "key": "{Typography.Font.Family.Primary}"
+  },
+  {
+    "$type": "string",
+    "$value": "Noto Serif",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "Noto Serif",
+        "Tablet": "Noto Serif",
+        "Mobile": "Noto Serif"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Family-Secondary)"
+        },
+        "variableId": "VariableID:3423:12968",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "{Typography Primitives.Family.Serif.$value}",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Family.Serif.$value}",
+          "Tablet": "{Typography Primitives.Family.Serif.$value}",
+          "Mobile": "{Typography Primitives.Family.Serif.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Family-Secondary)"
+          },
+          "variableId": "VariableID:3423:12968",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-family-secondary",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Family",
+      "subitem": "Secondary"
+    },
+    "path": ["Typography", "Font", "Family", "Secondary"],
+    "key": "{Typography.Font.Family.Secondary}"
+  },
+  {
+    "$type": "string",
+    "$value": "Roboto Mono",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "Roboto Mono",
+        "Tablet": "Roboto Mono",
+        "Mobile": "Roboto Mono"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Family-Tertiary)"
+        },
+        "variableId": "VariableID:3423:24166",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "{Typography Primitives.Family.Mono.$value}",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Family.Mono.$value}",
+          "Tablet": "{Typography Primitives.Family.Mono.$value}",
+          "Mobile": "{Typography Primitives.Family.Mono.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Family-Tertiary)"
+          },
+          "variableId": "VariableID:3423:24166",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-family-tertiary",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Family",
+      "subitem": "Tertiary"
+    },
+    "path": ["Typography", "Font", "Family", "Tertiary"],
+    "key": "{Typography.Font.Family.Tertiary}"
+  },
+  {
+    "$type": "string",
+    "$value": "100%",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "100%",
+        "Tablet": "100%",
+        "Mobile": "90%"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Line-0)"
+        },
+        "variableId": "VariableID:3426:24275",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "{Typography Primitives.Percentage.100.$value}",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Percentage.100.$value}",
+          "Tablet": "{Typography Primitives.Percentage.100.$value}",
+          "Mobile": "{Typography Primitives.Percentage.090.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Line-0)"
+          },
+          "variableId": "VariableID:3426:24275",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-line-0",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Line",
+      "subitem": "0"
+    },
+    "path": ["Typography", "Font", "Line", "0"],
+    "key": "{Typography.Font.Line.0}"
+  },
+  {
+    "$type": "string",
+    "$value": "105%",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "105%",
+        "Tablet": "105%",
+        "Mobile": "100%"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Line-1)"
+        },
+        "variableId": "VariableID:3426:24283",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "{Typography Primitives.Percentage.105.$value}",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Percentage.105.$value}",
+          "Tablet": "{Typography Primitives.Percentage.105.$value}",
+          "Mobile": "{Typography Primitives.Percentage.100.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Line-1)"
+          },
+          "variableId": "VariableID:3426:24283",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-line-1",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Line",
+      "subitem": "1"
+    },
+    "path": ["Typography", "Font", "Line", "1"],
+    "key": "{Typography.Font.Line.1}"
+  },
+  {
+    "$type": "string",
+    "$value": "110%",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "110%",
+        "Tablet": "105%",
+        "Mobile": "110%"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Line-2)"
+        },
+        "variableId": "VariableID:3426:24287",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "{Typography Primitives.Percentage.110.$value}",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Percentage.110.$value}",
+          "Tablet": "{Typography Primitives.Percentage.105.$value}",
+          "Mobile": "{Typography Primitives.Percentage.110.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Line-2)"
+          },
+          "variableId": "VariableID:3426:24287",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-line-2",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Line",
+      "subitem": "2"
+    },
+    "path": ["Typography", "Font", "Line", "2"],
+    "key": "{Typography.Font.Line.2}"
+  },
+  {
+    "$type": "string",
+    "$value": "125%",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "125%",
+        "Tablet": "115%",
+        "Mobile": "120%"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Line-3)"
+        },
+        "variableId": "VariableID:3426:24291",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "{Typography Primitives.Percentage.125.$value}",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Percentage.125.$value}",
+          "Tablet": "{Typography Primitives.Percentage.115.$value}",
+          "Mobile": "{Typography Primitives.Percentage.120.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Line-3)"
+          },
+          "variableId": "VariableID:3426:24291",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-line-3",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Line",
+      "subitem": "3"
+    },
+    "path": ["Typography", "Font", "Line", "3"],
+    "key": "{Typography.Font.Line.3}"
+  },
+  {
+    "$type": "string",
+    "$value": "150%",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "150%",
+        "Tablet": "120%",
+        "Mobile": "125%"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Line-4)"
+        },
+        "variableId": "VariableID:3426:24295",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "{Typography Primitives.Percentage.150.$value}",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Percentage.150.$value}",
+          "Tablet": "{Typography Primitives.Percentage.120.$value}",
+          "Mobile": "{Typography Primitives.Percentage.125.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Line-4)"
+          },
+          "variableId": "VariableID:3426:24295",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-line-4",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Line",
+      "subitem": "4"
+    },
+    "path": ["Typography", "Font", "Line", "4"],
+    "key": "{Typography.Font.Line.4}"
+  },
+  {
+    "$type": "string",
+    "$value": "200%",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "200%",
+        "Tablet": "175%",
+        "Mobile": "150%"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Line-5)"
+        },
+        "variableId": "VariableID:3426:24299",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "{Typography Primitives.Percentage.200.$value}",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Percentage.200.$value}",
+          "Tablet": "{Typography Primitives.Percentage.175.$value}",
+          "Mobile": "{Typography Primitives.Percentage.150.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Line-5)"
+          },
+          "variableId": "VariableID:3426:24299",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-line-5",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Line",
+      "subitem": "5"
+    },
+    "path": ["Typography", "Font", "Line", "5"],
+    "key": "{Typography.Font.Line.5}"
+  },
+  {
+    "$type": "string",
+    "$value": "90%",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "90%",
+        "Tablet": "90%",
+        "Mobile": "90%"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Line--1)"
+        },
+        "variableId": "VariableID:3426:24279",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "{Typography Primitives.Percentage.090.$value}",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Percentage.090.$value}",
+          "Tablet": "{Typography Primitives.Percentage.090.$value}",
+          "Mobile": "{Typography Primitives.Percentage.090.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Line--1)"
+          },
+          "variableId": "VariableID:3426:24279",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-line-negative-1",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Line",
+      "subitem": "Negative 1"
+    },
+    "path": ["Typography", "Font", "Line", "Negative 1"],
+    "key": "{Typography.Font.Line.Negative 1}"
+  },
+  {
+    "$type": "string",
+    "$value": "100%",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "100%",
+        "Tablet": "100%",
+        "Mobile": "90%"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Spread-0)"
+        },
+        "variableId": "VariableID:3426:24301",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "{Typography Primitives.Percentage.100.$value}",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Percentage.100.$value}",
+          "Tablet": "{Typography Primitives.Percentage.100.$value}",
+          "Mobile": "{Typography Primitives.Percentage.090.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Spread-0)"
+          },
+          "variableId": "VariableID:3426:24301",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-spread-0",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Spread",
+      "subitem": "0"
+    },
+    "path": ["Typography", "Font", "Spread", "0"],
+    "key": "{Typography.Font.Spread.0}"
+  },
+  {
+    "$type": "string",
+    "$value": "105%",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "105%",
+        "Tablet": "105%",
+        "Mobile": "100%"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Spread-1)"
+        },
+        "variableId": "VariableID:3426:24302",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "{Typography Primitives.Percentage.105.$value}",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Percentage.105.$value}",
+          "Tablet": "{Typography Primitives.Percentage.105.$value}",
+          "Mobile": "{Typography Primitives.Percentage.100.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Spread-1)"
+          },
+          "variableId": "VariableID:3426:24302",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-spread-1",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Spread",
+      "subitem": "1"
+    },
+    "path": ["Typography", "Font", "Spread", "1"],
+    "key": "{Typography.Font.Spread.1}"
+  },
+  {
+    "$type": "string",
+    "$value": "110%",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "110%",
+        "Tablet": "105%",
+        "Mobile": "110%"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Spread-2)"
+        },
+        "variableId": "VariableID:3426:24303",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "{Typography Primitives.Percentage.110.$value}",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Percentage.110.$value}",
+          "Tablet": "{Typography Primitives.Percentage.105.$value}",
+          "Mobile": "{Typography Primitives.Percentage.110.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Spread-2)"
+          },
+          "variableId": "VariableID:3426:24303",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-spread-2",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Spread",
+      "subitem": "2"
+    },
+    "path": ["Typography", "Font", "Spread", "2"],
+    "key": "{Typography.Font.Spread.2}"
+  },
+  {
+    "$type": "string",
+    "$value": "125%",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "125%",
+        "Tablet": "115%",
+        "Mobile": "120%"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Spread-3)"
+        },
+        "variableId": "VariableID:3426:24304",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "{Typography Primitives.Percentage.125.$value}",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Percentage.125.$value}",
+          "Tablet": "{Typography Primitives.Percentage.115.$value}",
+          "Mobile": "{Typography Primitives.Percentage.120.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Spread-3)"
+          },
+          "variableId": "VariableID:3426:24304",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-spread-3",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Spread",
+      "subitem": "3"
+    },
+    "path": ["Typography", "Font", "Spread", "3"],
+    "key": "{Typography.Font.Spread.3}"
+  },
+  {
+    "$type": "string",
+    "$value": "150%",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "150%",
+        "Tablet": "120%",
+        "Mobile": "125%"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Spread-4)"
+        },
+        "variableId": "VariableID:3426:24305",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "{Typography Primitives.Percentage.150.$value}",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Percentage.150.$value}",
+          "Tablet": "{Typography Primitives.Percentage.120.$value}",
+          "Mobile": "{Typography Primitives.Percentage.125.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Spread-4)"
+          },
+          "variableId": "VariableID:3426:24305",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-spread-4",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Spread",
+      "subitem": "4"
+    },
+    "path": ["Typography", "Font", "Spread", "4"],
+    "key": "{Typography.Font.Spread.4}"
+  },
+  {
+    "$type": "string",
+    "$value": "200%",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "200%",
+        "Tablet": "175%",
+        "Mobile": "150%"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Spread-5)"
+        },
+        "variableId": "VariableID:3426:24306",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "{Typography Primitives.Percentage.200.$value}",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Percentage.200.$value}",
+          "Tablet": "{Typography Primitives.Percentage.175.$value}",
+          "Mobile": "{Typography Primitives.Percentage.150.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Spread-5)"
+          },
+          "variableId": "VariableID:3426:24306",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-spread-5",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Spread",
+      "subitem": "5"
+    },
+    "path": ["Typography", "Font", "Spread", "5"],
+    "key": "{Typography.Font.Spread.5}"
+  },
+  {
+    "$type": "string",
+    "$value": "90%",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "90%",
+        "Tablet": "90%",
+        "Mobile": "90%"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Spread--1)"
+        },
+        "variableId": "VariableID:3426:24300",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "string",
+      "$value": "{Typography Primitives.Percentage.090.$value}",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Percentage.090.$value}",
+          "Tablet": "{Typography Primitives.Percentage.090.$value}",
+          "Mobile": "{Typography Primitives.Percentage.090.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Spread--1)"
+          },
+          "variableId": "VariableID:3426:24300",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-spread-negative-1",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Spread",
+      "subitem": "Negative 1"
+    },
+    "path": ["Typography", "Font", "Spread", "Negative 1"],
+    "key": "{Typography.Font.Spread.Negative 1}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "24px",
+    "$description": "fontSize variable for 24",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "24px",
+        "Tablet": "24px",
+        "Mobile": "20px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Size-2xl)"
+        },
+        "variableId": "VariableID:3714:15839",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "{Typography Primitives.Size.08.$value}",
+      "$description": "fontSize variable for 24",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Size.08.$value}",
+          "Tablet": "{Typography Primitives.Size.08.$value}",
+          "Mobile": "{Typography Primitives.Size.07.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Size-2xl)"
+          },
+          "variableId": "VariableID:3714:15839",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-size-2xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Size",
+      "subitem": "2xl"
+    },
+    "path": ["Typography", "Font", "Size", "2xl"],
+    "key": "{Typography.Font.Size.2xl}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "10px",
+    "$description": "fontSize variable for 10",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "10px",
+        "Tablet": "10px",
+        "Mobile": "8px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Size-xs)"
+        },
+        "variableId": "VariableID:3714:15841",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "{Typography Primitives.Size.02.$value}",
+      "$description": "fontSize variable for 10",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Size.02.$value}",
+          "Tablet": "{Typography Primitives.Size.02.$value}",
+          "Mobile": "{Typography Primitives.Size.01.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Size-xs)"
+          },
+          "variableId": "VariableID:3714:15841",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-size-xs",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Size",
+      "subitem": "xs"
+    },
+    "path": ["Typography", "Font", "Size", "xs"],
+    "key": "{Typography.Font.Size.xs}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "14px",
+    "$description": "fontSize variable for 14",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "14px",
+        "Tablet": "14px",
+        "Mobile": "12px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Size-base)"
+        },
+        "variableId": "VariableID:3714:15844",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "{Typography Primitives.Size.04.$value}",
+      "$description": "fontSize variable for 14",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Size.04.$value}",
+          "Tablet": "{Typography Primitives.Size.04.$value}",
+          "Mobile": "{Typography Primitives.Size.03.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Size-base)"
+          },
+          "variableId": "VariableID:3714:15844",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-size-base",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Size",
+      "subitem": "base"
+    },
+    "path": ["Typography", "Font", "Size", "base"],
+    "key": "{Typography.Font.Size.base}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "48px",
+    "$description": "fontSize variable for 52",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "48px",
+        "Tablet": "48px",
+        "Mobile": "44px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Size-8xl)"
+        },
+        "variableId": "VariableID:3714:15848",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "{Typography Primitives.Size.14.$value}",
+      "$description": "fontSize variable for 52",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Size.14.$value}",
+          "Tablet": "{Typography Primitives.Size.14.$value}",
+          "Mobile": "{Typography Primitives.Size.13.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Size-8xl)"
+          },
+          "variableId": "VariableID:3714:15848",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-size-8xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Size",
+      "subitem": "8xl"
+    },
+    "path": ["Typography", "Font", "Size", "8xl"],
+    "key": "{Typography.Font.Size.8xl}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "64px",
+    "$description": "fontSize variable for 52",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "64px",
+        "Tablet": "48px",
+        "Mobile": "44px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Size-10xl)"
+        },
+        "variableId": "VariableID:3714:15850",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "{Typography Primitives.Size.16.$value}",
+      "$description": "fontSize variable for 52",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Size.16.$value}",
+          "Tablet": "{Typography Primitives.Size.14.$value}",
+          "Mobile": "{Typography Primitives.Size.13.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Size-10xl)"
+          },
+          "variableId": "VariableID:3714:15850",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-size-10xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Size",
+      "subitem": "10xl"
+    },
+    "path": ["Typography", "Font", "Size", "10xl"],
+    "key": "{Typography.Font.Size.10xl}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "36px",
+    "$description": "fontSize variable for 36",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "36px",
+        "Tablet": "36px",
+        "Mobile": "32px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Size-5xl)"
+        },
+        "variableId": "VariableID:3714:15853",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "{Typography Primitives.Size.11.$value}",
+      "$description": "fontSize variable for 36",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Size.11.$value}",
+          "Tablet": "{Typography Primitives.Size.11.$value}",
+          "Mobile": "{Typography Primitives.Size.10.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Size-5xl)"
+          },
+          "variableId": "VariableID:3714:15853",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-size-5xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Size",
+      "subitem": "5xl"
+    },
+    "path": ["Typography", "Font", "Size", "5xl"],
+    "key": "{Typography.Font.Size.5xl}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "72px",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "72px",
+        "Tablet": "72px",
+        "Mobile": "52px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Size-11xl)"
+        },
+        "variableId": "VariableID:3714:15857",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "{Typography Primitives.Size.17.$value}",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Size.17.$value}",
+          "Tablet": "{Typography Primitives.Size.17.$value}",
+          "Mobile": "{Typography Primitives.Size.15.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Size-11xl)"
+          },
+          "variableId": "VariableID:3714:15857",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-size-11xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Size",
+      "subitem": "11xl"
+    },
+    "path": ["Typography", "Font", "Size", "11xl"],
+    "key": "{Typography.Font.Size.11xl}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "44px",
+    "$description": "fontSize variable for 44",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "44px",
+        "Tablet": "44px",
+        "Mobile": "40px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Size-7xl)"
+        },
+        "variableId": "VariableID:3714:15858",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "{Typography Primitives.Size.13.$value}",
+      "$description": "fontSize variable for 44",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Size.13.$value}",
+          "Tablet": "{Typography Primitives.Size.13.$value}",
+          "Mobile": "{Typography Primitives.Size.12.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Size-7xl)"
+          },
+          "variableId": "VariableID:3714:15858",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-size-7xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Size",
+      "subitem": "7xl"
+    },
+    "path": ["Typography", "Font", "Size", "7xl"],
+    "key": "{Typography.Font.Size.7xl}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "12px",
+    "$description": "fontSize variable for 12",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "12px",
+        "Tablet": "12px",
+        "Mobile": "10px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Size-sm)"
+        },
+        "variableId": "VariableID:3714:15859",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "{Typography Primitives.Size.03.$value}",
+      "$description": "fontSize variable for 12",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Size.03.$value}",
+          "Tablet": "{Typography Primitives.Size.03.$value}",
+          "Mobile": "{Typography Primitives.Size.02.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Size-sm)"
+          },
+          "variableId": "VariableID:3714:15859",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-size-sm",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Size",
+      "subitem": "sm"
+    },
+    "path": ["Typography", "Font", "Size", "sm"],
+    "key": "{Typography.Font.Size.sm}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "52px",
+    "$description": "fontSize variable for 52",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "52px",
+        "Tablet": "48px",
+        "Mobile": "44px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Size-9xl)"
+        },
+        "variableId": "VariableID:3714:15860",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "{Typography Primitives.Size.15.$value}",
+      "$description": "fontSize variable for 52",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Size.15.$value}",
+          "Tablet": "{Typography Primitives.Size.14.$value}",
+          "Mobile": "{Typography Primitives.Size.13.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Size-9xl)"
+          },
+          "variableId": "VariableID:3714:15860",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-size-9xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Size",
+      "subitem": "9xl"
+    },
+    "path": ["Typography", "Font", "Size", "9xl"],
+    "key": "{Typography.Font.Size.9xl}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "28px",
+    "$description": "fontSize variable for 28",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "28px",
+        "Tablet": "28px",
+        "Mobile": "24px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Size-3xl)"
+        },
+        "variableId": "VariableID:3714:15862",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "{Typography Primitives.Size.09.$value}",
+      "$description": "fontSize variable for 28",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Size.09.$value}",
+          "Tablet": "{Typography Primitives.Size.09.$value}",
+          "Mobile": "{Typography Primitives.Size.08.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Size-3xl)"
+          },
+          "variableId": "VariableID:3714:15862",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-size-3xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Size",
+      "subitem": "3xl"
+    },
+    "path": ["Typography", "Font", "Size", "3xl"],
+    "key": "{Typography.Font.Size.3xl}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "20px",
+    "$description": "fontSize variable for 20",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "20px",
+        "Tablet": "20px",
+        "Mobile": "20px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Size-xl)"
+        },
+        "variableId": "VariableID:3714:15863",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "{Typography Primitives.Size.07.$value}",
+      "$description": "fontSize variable for 20",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Size.07.$value}",
+          "Tablet": "{Typography Primitives.Size.07.$value}",
+          "Mobile": "{Typography Primitives.Size.07.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Size-xl)"
+          },
+          "variableId": "VariableID:3714:15863",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-size-xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Size",
+      "subitem": "xl"
+    },
+    "path": ["Typography", "Font", "Size", "xl"],
+    "key": "{Typography.Font.Size.xl}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "40px",
+    "$description": "fontSize variable for 40",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "40px",
+        "Tablet": "40px",
+        "Mobile": "36px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Size-6xl)"
+        },
+        "variableId": "VariableID:3714:15866",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "{Typography Primitives.Size.12.$value}",
+      "$description": "fontSize variable for 40",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Size.12.$value}",
+          "Tablet": "{Typography Primitives.Size.12.$value}",
+          "Mobile": "{Typography Primitives.Size.11.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Size-6xl)"
+          },
+          "variableId": "VariableID:3714:15866",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-size-6xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Size",
+      "subitem": "6xl"
+    },
+    "path": ["Typography", "Font", "Size", "6xl"],
+    "key": "{Typography.Font.Size.6xl}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "16px",
+    "$description": "fontSize variable for 16",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "16px",
+        "Tablet": "16px",
+        "Mobile": "14px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Size-md)"
+        },
+        "variableId": "VariableID:3714:15868",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "{Typography Primitives.Size.05.$value}",
+      "$description": "fontSize variable for 16",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Size.05.$value}",
+          "Tablet": "{Typography Primitives.Size.05.$value}",
+          "Mobile": "{Typography Primitives.Size.04.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Size-md)"
+          },
+          "variableId": "VariableID:3714:15868",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-size-md",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Size",
+      "subitem": "md"
+    },
+    "path": ["Typography", "Font", "Size", "md"],
+    "key": "{Typography.Font.Size.md}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "18px",
+    "$description": "fontSize variable for 18",
+    "scopes": ["FONT_SIZE"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "18px",
+        "Tablet": "18px",
+        "Mobile": "16px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Size-lg)"
+        },
+        "variableId": "VariableID:3714:15869",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "{Typography Primitives.Size.06.$value}",
+      "$description": "fontSize variable for 18",
+      "scopes": ["FONT_SIZE"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Size.06.$value}",
+          "Tablet": "{Typography Primitives.Size.06.$value}",
+          "Mobile": "{Typography Primitives.Size.05.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Size-lg)"
+          },
+          "variableId": "VariableID:3714:15869",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-size-lg",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Size",
+      "subitem": "lg"
+    },
+    "path": ["Typography", "Font", "Size", "lg"],
+    "key": "{Typography.Font.Size.lg}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "32px",
+    "$description": "",
+    "scopes": ["ALL_SCOPES"],
+    "$extensions": {
+      "mode": {
+        "Desktop": "32px",
+        "Tablet": "32px",
+        "Mobile": "28px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--FLDS-Font-Size-4xl)"
+        },
+        "variableId": "VariableID:3714:15870",
+        "collection": {
+          "id": "VariableCollectionId:3422:12966",
+          "name": "Typography",
+          "defaultModeId": "3422:0"
+        }
+      }
+    },
+    "filePath": "static/first-ledger.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "{Typography Primitives.Size.10.$value}",
+      "$description": "",
+      "scopes": ["ALL_SCOPES"],
+      "$extensions": {
+        "mode": {
+          "Desktop": "{Typography Primitives.Size.10.$value}",
+          "Tablet": "{Typography Primitives.Size.10.$value}",
+          "Mobile": "{Typography Primitives.Size.09.$value}"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--FLDS-Font-Size-4xl)"
+          },
+          "variableId": "VariableID:3714:15870",
+          "collection": {
+            "id": "VariableCollectionId:3422:12966",
+            "name": "Typography",
+            "defaultModeId": "3422:0"
+          }
+        }
+      }
+    },
+    "name": "flds-typography-font-size-4xl",
+    "attributes": {
+      "category": "Typography",
+      "type": "Font",
+      "item": "Size",
+      "subitem": "4xl"
+    },
+    "path": ["Typography", "Font", "Size", "4xl"],
+    "key": "{Typography.Font.Size.4xl}"
+  }
+]
