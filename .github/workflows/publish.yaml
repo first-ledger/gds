@@ -5,11 +5,11 @@ on:
   push:
     tags:
       - 'gds@*'
-
-secrets:
-  GHA_TOKEN: ${{ secrets.GHA_TOKEN }} # GitHub Actions token for authentication
-  NPM_TOKEN: ${{ secrets.NPM_TOKEN }} # Token for publishing to npm
-  GITHUB_TOKEN: ${{ secrets.GHA_TOKEN }} # Token for GitHub API access
+    secrets:
+      GHA_TOKEN:
+        required: true
+      NPM_TOKEN:
+        required: true
 
 jobs:
   branch-name:
@@ -83,7 +83,7 @@ jobs:
         id: create_release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GHA_TOKEN }}
         with:
           tag_name: ${{ github.ref }}
           release_name: ${{ github.ref_name }}
@@ -95,7 +95,7 @@ jobs:
         id: upload-release-asset
         uses: actions/upload-release-asset@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GHA_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./bundle.zip
