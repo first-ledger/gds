@@ -28,14 +28,19 @@ jobs:
         id: get_name
         run: |
           if [[ "${{ github.ref }}" == refs/tags/* ]]; then
-            # Get the branch associated with the tag
+            # Get branches where this tag exists
             raw=$(git branch -r --contains ${{ github.ref }})
             branches="$(echo ${raw//origin\//} | tr -d '\n')"
+            if [ -z "$branches" ]; then
+              # If no branches contain the tag, use the tag name itself
+              branches="${{ github.ref_name }}"
+            fi
           else
+            # For branches, use the ref_name
             branches="${{ github.ref_name }}"
           fi
           echo "var=$branches" >> $GITHUB_OUTPUT
-          echo "Branches where this tag exists : $branches."
+          echo "Branches or Tag where this reference exists: $branches."
 
   create-release:
     runs-on: ubuntu-latest
