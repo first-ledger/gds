@@ -81,6 +81,7 @@ jobs:
           cmd: 'pnpm pub'
           tag: 'beta'
           dry: 'false'
+          access: 'public'
 
       - name: Publish Latest to npm
         if: needs.branch-name.outputs.base_ref_branch == 'prod'
@@ -90,6 +91,7 @@ jobs:
           cmd: 'pnpm pub'
           tag: 'latest'
           dry: 'false'
+          access: 'public'
 
       - name: Get version number
         id: version-number

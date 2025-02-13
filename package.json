@@ -2,7 +2,6 @@
   "name": "@first-ledger/gds",
   "version": "0.0.1-b.1",
   "description": "This project is a comprehensive design system that integrates design tokens and typography for the First Ledger and First Ledger Mobile applications, facilitating a cohesive visual experience across platforms.",
-  "main": "index.js",
   "keywords": [
     "design",
     "system",

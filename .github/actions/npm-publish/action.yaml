@@ -27,6 +27,13 @@ inputs:
     description: 'Publish Type Tag'
     required: true
 
+  # Tag to apply to the published package
+  access:
+    type: string
+    default: 'private'
+    description: 'Publish Type Visibility'
+    required: true
+
   # Indicates whether the publish is a dry run
   dry:
     type: string
@@ -47,13 +54,13 @@ runs:
     - name: Publish pkg on NPM 📦
       if: ${{ inputs.dry == '' || inputs.dry == 'false' }}
       shell: bash
-      run: '${{inputs.cmd}} --tag ${{inputs.tag}}'
+      run: '${{inputs.cmd}} --tag ${{inputs.tag}} --access ${{inputs.access}}
       env:
         NODE_AUTH_TOKEN: ${{inputs.token}}
 
     - name: Publish pkg on NPM
       if: inputs.dry == 'true'
       shell: bash
-      run: '${{inputs.cmd}} --tag ${{inputs.tag}} --dry-run'
+      run: '${{inputs.cmd}} --tag ${{inputs.tag}} --access ${{inputs.access}} --dry-run'
       env:
         NODE_AUTH_TOKEN: ${{inputs.token}}
