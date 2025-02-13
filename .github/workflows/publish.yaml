@@ -15,7 +15,11 @@ jobs:
   branch-name:
     runs-on: ubuntu-latest
     outputs:
-      branches: ${{ steps.get_name.outputs.var }}
+      current_branch: ${{ steps.branch-names.outputs.current_branch }}
+      base_ref_branch: : ${{ steps.branch-names.outputs.base_ref_branch }}
+      ref_branch: ${{ steps.branch-names.outputs.ref_branch }}
+      is_tag: ${{ steps.branch-names.outputs.is_tag }}
+      tag: ${{ steps.branch-names.outputs.tag }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -24,12 +28,22 @@ jobs:
           ref: ${{ github.ref_name }}
           token: ${{ secrets.GHA_TOKEN  }}
 
-      - name: Get current branch
-        id: get_name
+      - uses: tj-actions/branch-names@v8
+        id: branch-names
+
+      - name: Running on a tag branch.
+        if: steps.branch-names.outputs.is_tag == 'true'
         run: |
-          branches="${{ github.event.base_ref/refs\/heads\// }}"
-          echo "var=$branches" >> $GITHUB_OUTPUT
-          echo "Branches where this tag exists : $branches."
+          echo "Running on: ${{ steps.branch-names.outputs.tag }}"
+        
+      - name: Get the current tag
+        if: steps.branch-names.outputs.is_tag == 'true' 
+        run: |
+          echo "${{ steps.branch-names.outputs.tag }}"
+
+      - name: Get Base Ref branch names
+        run: |
+          echo "${{ steps.branch-names.outputs.base_ref_branch }}"
 
   create-release:
     runs-on: ubuntu-latest
@@ -60,7 +74,7 @@ jobs:
         run: 'pnpm build'
 
       - name: Publish Beta to npm
-        if: contains(needs.branch-name.outputs.branches, 'beta')
+        if: needs.branch-name.outputs.base_ref_branch == 'beta'
         uses: ./.github/actions/npm-publish
         with:
           token: ${{ secrets.NPM_TOKEN }}
@@ -69,7 +83,7 @@ jobs:
           dry: 'false'
 
       - name: Publish Latest to npm
-        if: contains(needs.branch-name.outputs.branches, 'prod')
+        if: needs.branch-name.outputs.base_ref_branch == 'prod'
         uses: ./.github/actions/npm-publish
         with:
           token: ${{ secrets.NPM_TOKEN }}
