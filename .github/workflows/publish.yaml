@@ -44,6 +44,7 @@ jobs:
           node_version: '21.6.1'
           pkg_manager: 'pnpm'
           scope: '@first-ledger'
+          env_file: 'skip'
 
       - name: Install Deps using pnpm
         uses: ./.github/actions/install-deps

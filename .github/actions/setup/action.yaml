@@ -58,6 +58,15 @@ runs:
       run: |
         echo "${{ inputs.env_file }}" | base64 -d > /tmp/envfile
 
+    # Check if env_file equals "skip"; if so, skip all remaining steps
+    - name: Check env_file input
+      shell: bash
+      run: |
+        if [[ "${{ inputs.env_file }}" == "skip" ]]; then
+          echo "ENV_FILE is set to 'skip'. Skipping all remaining steps."
+          exit 0  # Exit successfully to skip remaining steps
+        fi
+
     # Step to inject the environment file if provided
     # The env_file input is expected to be a base64-encoded string. If you need to pass an actual .env file content, make sure to base64 encode it before using it as input.
     - name: 'Inject env file if provided'
