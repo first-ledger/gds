@@ -1,50 +1,54 @@
 name: Setup Environment
-description: "Setup the environment - node, environement variables, and package manager cache"
-author: "Honeycluster"
+description: 'Setup the environment - node, environement variables, and package manager cache'
+author: 'Honeycluster'
 
 inputs:
   # Node.js version to use for setting up the environment.
   node_version:
     required: true
     type: string
-    description: "NodeJS version to use"
-    default: "20"
+    description: 'NodeJS version to use'
+    default: '20'
 
   # Package manager to use. Can be npm, yarn, or pnpm.
   pkg_manager:
     required: false
     type: string
-    description: "The package manager to use. Supported values: npm, yarn, pnpm."
+    description: 'The package manager to use. Supported values: npm, yarn, pnpm.'
 
   # The scope of the organization repository. Optional.
   scope:
     required: false
     type: string
-    description: "Scope of the organization repository."
+    description: 'Scope of the organization repository.'
 
   # The scope of the organization repository. Optional.
   working_dir:
     required: false
     type: string
-    description: "Working directory."
-    default: "."
+    description: 'Working directory.'
+    default: '.'
 
   # Path or base64-encoded content of the environment file. Optional.
   env_file:
-    description: "Env File to be injected"
+    description: 'Env File to be injected'
     required: false
 
 runs:
-  using: "composite"
+  using: 'composite'
   steps:
+    - name: Setup pnpm
+      if: ${{ inputs.pkg_manager == 'pnpm' }}
+      uses: pnpm/action-setup@v3
+
     # Step to set up Node.js environment and cache node_modules
     - name: Set up Node with cache
       uses: actions/setup-node@v4
       with:
-        node-version: "${{ inputs.node_version }}" # Use the Node.js version passed as input
-        registry-url: "https://registry.npmjs.org" # Use the NPM registry
-        scope: "${{ inputs.scope }}" # Use the provided scope if any
-        cache: "${{ inputs.pkg_manager }}" # Use the package manager specified in the input (npm, yarn, pnpm)
+        node-version: '${{ inputs.node_version }}' # Use the Node.js version passed as input
+        registry-url: 'https://registry.npmjs.org' # Use the NPM registry
+        scope: '${{ inputs.scope }}' # Use the provided scope if any
+        cache: '${{ inputs.pkg_manager }}' # Use the package manager specified in the input (npm, yarn, pnpm)
 
     - name: Decode ENV_FILE secret
       shell: bash
@@ -54,7 +58,7 @@ runs:
 
     # Step to inject the environment file if provided
     # The env_file input is expected to be a base64-encoded string. If you need to pass an actual .env file content, make sure to base64 encode it before using it as input.
-    - name: "Inject env file if provided"
+    - name: 'Inject env file if provided'
       shell: bash
       working-directory: ${{ inputs.working_dir }}
       run: |
