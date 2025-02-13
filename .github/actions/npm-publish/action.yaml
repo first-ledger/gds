@@ -42,6 +42,7 @@ runs:
       with:
         node-version: '${{ inputs.node_version }}' # Use the Node.js version passed as input
         registry-url: 'https://registry.npmjs.org'
+        scope: '@first-ledger'
 
     - name: Publish pkg on NPM 📦
       if: ${{ inputs.dry == '' || inputs.dry == 'false' }}
