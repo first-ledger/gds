@@ -34,6 +34,7 @@ const tokens = createTokens({
 
   ...GlobalSizes.aggregator,
   ...MobileSizes.aggregator,
+  ...MobileFonts.fonts,
 
   // Start of overrides
   // Overrides the default tamagui size tokens
