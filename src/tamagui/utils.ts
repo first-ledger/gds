@@ -86,6 +86,12 @@ export const getConfigTemplate = (
     import * as GlobalSizes from './assets/Globals/sizes';
     import * as MobileSizes from './assets/Mobile/sizes';
 
+    // Import Fonts
+    import * as DesktopFonts from './assets/Desktop/fonts';
+    import * as MobileFonts from './assets/Mobile/fonts';
+    import * as TabletFonts from './assets/Tablet/fonts';
+
+
     const tokens = createTokens({
       light: { ...Light.keyed },
       dark: { ...Dark.keyed },
@@ -127,6 +133,7 @@ export const getConfigTemplate = (
     const config = createTamagui({
       ...defaultConfig,
       themes,
+      fonts: MobileFonts.aggregation,
       tokens: {
         ...defaultConfig.tokens,
         ...tokens,

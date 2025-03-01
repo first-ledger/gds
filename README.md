@@ -52,19 +52,16 @@ The following table outlines the folders within the `styles` directory:
 
 The following table outlines the modes and how to apply them in your codebase:
 
-| Modes            | Description                                                                           |
-| ---------------- | ------------------------------------------------------------------------------------- |
-| `Globals`        | Contains the global styles and tokens and should be applied to the entire application |
-| **Themes**       |                                                                                       |
-| `Dark`           | Contains all styles and tokens for the dark theme                                     |
-| `Light`          | Contains all styles and tokens for the light theme                                    |
-| **Typography**   |                                                                                       |
-| `Mobile`         | Contains all styles and tokens for the mobile viewports                               |
-| `Tablet`         | Contains all styles and tokens for the tablet viewports                               |
-| `Desktop`        | Contains all styles and tokens for the desktop viewports                              |
-| **Applications** |                                                                                       |
-| `FL`             | Contains styles and tokens for the First Ledger application                           |
-| `DIRE`           | Contains styles and tokens for the Dire Wallet application                            |
+| Modes          | Description                                                                           |
+| -------------- | ------------------------------------------------------------------------------------- |
+| `Globals`      | Contains the global styles and tokens and should be applied to the entire application |
+| **Themes**     |                                                                                       |
+| `Dark`         | Contains all styles and tokens for the dark theme                                     |
+| `Light`        | Contains all styles and tokens for the light theme                                    |
+| **Typography** |                                                                                       |
+| `Mobile`       | Contains all styles and tokens for the mobile viewports                               |
+| `Tablet`       | Contains all styles and tokens for the tablet viewports                               |
+| `Desktop`      | Contains all styles and tokens for the desktop viewports                              |
 
 ## Design Token Convention
 

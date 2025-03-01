@@ -65,6 +65,11 @@ const createConfig = (mode, platform) => {
             format: 'ts/size',
             filter: `filter/${mode}/size`,
           },
+          {
+            destination: 'fonts.ts',
+            format: 'ts/font',
+            filter: `filter/${mode}/font`,
+          },
         ],
       },
     },
@@ -210,6 +215,122 @@ handler.registerFormat({
   },
 });
 
+handler.registerFormat({
+  name: 'ts/font',
+  format: function (dictionary) {
+    let combined = {};
+    let fontFamily = {};
+    let fonts = {};
+    let size = {};
+    let zIndex = {};
+    let space = {};
+    dictionary.dictionary.allTokens.forEach((prop) => {
+      if (prop.$type !== 'typography') return;
+      let name = formatTokenName(prop.name);
+
+      let property = [...name.split('_')].slice(3).join('.').toLowerCase();
+      let fontGroup = [...name.split('_')].slice(3)[0].toLowerCase();
+      let typeOne = [...name.split('_')].slice(3)[1].toLowerCase();
+      let typeTwo = [...name.split('_')].slice(3)[2].toLowerCase();
+      let typeThree;
+      if ([...name.split('_')].slice(3).length > 3)
+        typeThree = [...name.split('_')].slice(3)[3].toLowerCase();
+
+      if (typeThree) fontGroup = fontGroup + '_' + typeOne;
+
+      let isTypeOneWeight = false;
+      let isTypeTwoWeight = false;
+
+      let isTypeOneDecriptor = false;
+      if (typeThree) isTypeOneDecriptor = true;
+
+      if (
+        !isTypeOneDecriptor &&
+        ['light', 'regular', 'medium', 'semibold', 'bold', 'extrabold', 'strong'].includes(typeOne)
+      )
+        isTypeOneWeight = true;
+
+      if (
+        isTypeOneDecriptor &&
+        ['light', 'regular', 'medium', 'semibold', 'bold', 'extrabold', 'strong'].includes(typeTwo)
+      )
+        isTypeTwoWeight = true;
+
+      if (fontGroup === 'label') isTypeOneWeight = false;
+
+      if (!combined[fontGroup]) combined[fontGroup] = {};
+
+      let family = ['family', prop.$value['fontFamily']];
+      let weight = ['weight', prop.$value['fontWeight']];
+      let size = ['size', parseInt(prop.$value['fontSize'].replace('px', ''))];
+
+      let lineHeight = prop.$value['lineHeight'];
+      if (lineHeight === 'auto') lineHeight = '120%';
+      const isLineHeightPercent = lineHeight.includes('%');
+
+      if (isLineHeightPercent) lineHeight = parseInt(lineHeight.replace('%', ''));
+      if (isLineHeightPercent) lineHeight = (lineHeight / 100) * size[1];
+      let line = ['lineHeight', Math.round(lineHeight * 100) / 100];
+
+      if (!combined[fontGroup][family[0]]) combined[fontGroup][family[0]] = {};
+      combined[fontGroup][family[0]] = family[1];
+
+      [weight, size, line].forEach(([name, value]) => {
+        let type = isTypeOneWeight ? typeTwo : typeOne;
+
+        if (name === 'weight' && isTypeOneWeight) type = typeOne;
+        if (name === 'weight' && !isTypeOneWeight) type = typeTwo;
+
+        if (typeThree && name === 'weight' && isTypeTwoWeight) type = typeTwo;
+        if (typeThree && name === 'weight' && !isTypeTwoWeight) type = typeThree;
+
+        if (!combined[fontGroup][name]) combined[fontGroup][name] = {};
+        combined[fontGroup][name][type] = value;
+      });
+
+      property = 'wds.' + property;
+
+      if (!fonts[property]) fonts[property] = {};
+      fonts[property] = prop.$value;
+
+      // if (property.includes('radius')) radius[token.toLowerCase()] = prop.$value;
+      // if (property.includes('space')) space[token.toLowerCase()] = prop.$value;
+      // if (property.includes('zIndex')) zIndex[token.toLowerCase()] = prop.$value;
+      // if (property.includes('size')) size[token.toLowerCase()] = prop.$value;
+    });
+
+    let fontGroups = Object.entries(combined);
+    let c = '';
+    let a = '';
+
+    fontGroups.map(([type, content]) => {
+      let s = `
+        export const ${type}_font = createFont(
+          ${JSON.stringify(content)})
+      `;
+      c = c + s;
+    });
+
+    fontGroups.map(([type, content]) => {
+      let t = type.replace('_', '.');
+
+      let s = `'${t}' : ${type}_font,`;
+      a = a + s;
+    });
+
+    //@ts-ignore
+    return `
+    import { createFont } from 'tamagui'
+
+    export const fonts = ${JSON.stringify(fonts, null, 2)}
+
+    ${c}
+
+    export const aggregation = {${a}}
+    `;
+  },
+});
+
 modes.map(async (mode) => {
   handler.registerFilter({
     name: `filter/${mode}/typography`,
@@ -242,6 +363,12 @@ modes.map(async (mode) => {
     name: `filter/${mode}/size`,
     filter: (token) =>
       filterMode(token, mode) && token.$type === 'dimension' && size_modes.includes(mode),
+  });
+
+  handler.registerFilter({
+    name: `filter/${mode}/font`,
+    filter: (token) =>
+      filterMode(token, mode) && token.$type === 'typography' && typography_modes.includes(mode),
   });
 
   handler.registerPreprocessor({

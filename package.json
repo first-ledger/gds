@@ -1,18 +1,20 @@
 {
   "name": "@first-ledger/gds",
-  "version": "0.0.1-b.2",
+  "version": "0.0.1-b.4",
   "description": "This project is a comprehensive design system that integrates design tokens and typography for the First Ledger and First Ledger Mobile applications, facilitating a cohesive visual experience across platforms.",
   "keywords": [
     "design",
     "system",
     "figma",
     "tailwind",
+    "tamagui",
     "typography",
     "tokens"
   ],
   "author": "First Ledger",
   "license": "MIT",
   "files": [
+    "assets",
     "dist",
     "styles"
   ],
@@ -53,11 +55,14 @@
     "testOne": "pnpm env -- jest --config ./config/jest.config.ts --coverage --forceExit"
   },
   "prettier": "./config/prettier.config.js",
-  "dependencies": {},
   "devDependencies": {
+    "@tamagui/config": "^1.125.20",
+    "@tamagui/theme-builder": "^1.125.20",
     "@types/fs-extra": "^11.0.4",
     "@types/jest": "^29.5.14",
     "@types/node": "^20.17.17",
+    "autoprefixer": "^10.4.20",
+    "change-case": "^5.4.4",
     "concurrently": "^9.1.2",
     "esbuild": "^0.23.1",
     "fs-extra": "^11.3.0",
@@ -65,13 +70,12 @@
     "lodash": "^4.17.21",
     "path": "^0.12.7",
     "prettier": "^3.4.2",
+    "style-dictionary": "^4.3.2",
+    "tailwindcss": "^3.4.17",
+    "tamagui": "^1.125.20",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "tsc-alias": "^1.8.10",
-    "typescript": "^5.7.3",
-    "autoprefixer": "^10.4.20",
-    "change-case": "^5.4.4",
-    "style-dictionary": "^4.3.2",
-    "tailwindcss": "^3.4.17"
+    "typescript": "^5.7.3"
   }
 }
