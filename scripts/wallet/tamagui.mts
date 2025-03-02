@@ -219,7 +219,7 @@ handler.registerFormat({
   name: 'ts/font',
   format: function (dictionary) {
     let combined = {};
-    let fontFamily = {};
+    let fontFamilies: Set<string> = new Set();
     let fonts = {};
     let variants = {};
     let size = {};
@@ -288,6 +288,7 @@ handler.registerFormat({
 
       if (!variants[property]) variants[property] = {};
       variants[property]['fontFamily'] = family[1];
+      fontFamilies.add(family[1]);
 
       [weight, size, line, spacing].forEach(([name, value]) => {
         let type = isTypeOneWeight ? typeTwo : typeOne;
@@ -340,13 +341,22 @@ handler.registerFormat({
       a = a + s;
     });
 
+    let processedVariants = JSON.stringify(variants, null, 2).replaceAll('}', '} as const');
+    fontFamilies.forEach((family) => {
+      console.log(family);
+      processedVariants = processedVariants.replaceAll(
+        `"fontFamily": "${family}"`,
+        `"fontFamily": "${family}" as "unset"`
+      );
+    });
+
     //@ts-ignore
     return `
     import { createFont } from 'tamagui'
 
     export const fonts = ${JSON.stringify(fonts, null, 2)}
 
-    export const variants = ${JSON.stringify(variants, null, 2).replaceAll(`"fontFamily": "Inter"`, `"fontFamily": "Inter" as "unset"`).replaceAll('}', '} as const')}
+    export const variants = ${processedVariants}
 
     ${c}
 

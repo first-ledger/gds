@@ -2159,21 +2159,21 @@
     "letterSpacing": 0
   } as const,
   "paragraph.code.light": {
-    "fontFamily": "Roboto Mono",
+    "fontFamily": "Roboto Mono" as "unset",
     "fontWeight": 400,
     "fontSize": 16,
     "lineHeight": 16,
     "letterSpacing": 0
   } as const,
   "paragraph.code.regular": {
-    "fontFamily": "Roboto Mono",
+    "fontFamily": "Roboto Mono" as "unset",
     "fontWeight": 400,
     "fontSize": 16,
     "lineHeight": 16,
     "letterSpacing": 0
   } as const,
   "paragraph.code.bold": {
-    "fontFamily": "Roboto Mono",
+    "fontFamily": "Roboto Mono" as "unset",
     "fontWeight": 700,
     "fontSize": 16,
     "lineHeight": 16,
@@ -2530,14 +2530,14 @@
     "letterSpacing": 0
   } as const,
   "utilities.component.notes.regular": {
-    "fontFamily": "Roboto Mono",
+    "fontFamily": "Roboto Mono" as "unset",
     "fontWeight": "400",
     "fontSize": 16,
     "lineHeight": 22.4,
     "letterSpacing": 0
   } as const,
   "utilities.component.notes.bold": {
-    "fontFamily": "Roboto Mono",
+    "fontFamily": "Roboto Mono" as "unset",
     "fontWeight": "700",
     "fontSize": 16,
     "lineHeight": 22.4,
