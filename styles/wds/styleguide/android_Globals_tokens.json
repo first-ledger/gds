@@ -3,7 +3,9 @@
     "$type": "color",
     "$value": "rgba(255, 255, 255, 0.02)",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -24,7 +26,9 @@
       "$type": "color",
       "$value": "#ffffff05",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -46,14 +50,20 @@
       "type": "White",
       "item": "50"
     },
-    "path": ["Color Primitives", "White", "50"],
+    "path": [
+      "Color Primitives",
+      "White",
+      "50"
+    ],
     "key": "{Color Primitives.White.50}"
   },
   {
     "$type": "color",
     "$value": "rgba(255, 255, 255, 0.05)",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -74,7 +84,9 @@
       "$type": "color",
       "$value": "#ffffff0d",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -96,14 +108,20 @@
       "type": "White",
       "item": "100"
     },
-    "path": ["Color Primitives", "White", "100"],
+    "path": [
+      "Color Primitives",
+      "White",
+      "100"
+    ],
     "key": "{Color Primitives.White.100}"
   },
   {
     "$type": "color",
     "$value": "rgba(255, 255, 255, 0.1)",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -124,7 +142,9 @@
       "$type": "color",
       "$value": "#ffffff1a",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -146,14 +166,20 @@
       "type": "White",
       "item": "200"
     },
-    "path": ["Color Primitives", "White", "200"],
+    "path": [
+      "Color Primitives",
+      "White",
+      "200"
+    ],
     "key": "{Color Primitives.White.200}"
   },
   {
     "$type": "color",
     "$value": "rgba(255, 255, 255, 0.2)",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -174,7 +200,9 @@
       "$type": "color",
       "$value": "#ffffff33",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -196,14 +224,20 @@
       "type": "White",
       "item": "300"
     },
-    "path": ["Color Primitives", "White", "300"],
+    "path": [
+      "Color Primitives",
+      "White",
+      "300"
+    ],
     "key": "{Color Primitives.White.300}"
   },
   {
     "$type": "color",
     "$value": "rgba(255, 255, 255, 0.4)",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -224,7 +258,9 @@
       "$type": "color",
       "$value": "#ffffff66",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -246,14 +282,20 @@
       "type": "White",
       "item": "400"
     },
-    "path": ["Color Primitives", "White", "400"],
+    "path": [
+      "Color Primitives",
+      "White",
+      "400"
+    ],
     "key": "{Color Primitives.White.400}"
   },
   {
     "$type": "color",
     "$value": "rgba(255, 255, 255, 0.7)",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -274,7 +316,9 @@
       "$type": "color",
       "$value": "#ffffffb3",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -296,14 +340,20 @@
       "type": "White",
       "item": "500"
     },
-    "path": ["Color Primitives", "White", "500"],
+    "path": [
+      "Color Primitives",
+      "White",
+      "500"
+    ],
     "key": "{Color Primitives.White.500}"
   },
   {
     "$type": "color",
     "$value": "rgba(255, 255, 255, 0.8)",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -324,7 +374,9 @@
       "$type": "color",
       "$value": "#ffffffcc",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -346,14 +398,20 @@
       "type": "White",
       "item": "600"
     },
-    "path": ["Color Primitives", "White", "600"],
+    "path": [
+      "Color Primitives",
+      "White",
+      "600"
+    ],
     "key": "{Color Primitives.White.600}"
   },
   {
     "$type": "color",
     "$value": "rgba(255, 255, 255, 0.85)",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -374,7 +432,9 @@
       "$type": "color",
       "$value": "#ffffffd9",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -396,14 +456,20 @@
       "type": "White",
       "item": "700"
     },
-    "path": ["Color Primitives", "White", "700"],
+    "path": [
+      "Color Primitives",
+      "White",
+      "700"
+    ],
     "key": "{Color Primitives.White.700}"
   },
   {
     "$type": "color",
     "$value": "rgba(255, 255, 255, 0.9)",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -424,7 +490,9 @@
       "$type": "color",
       "$value": "#ffffffe6",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -446,14 +514,20 @@
       "type": "White",
       "item": "800"
     },
-    "path": ["Color Primitives", "White", "800"],
+    "path": [
+      "Color Primitives",
+      "White",
+      "800"
+    ],
     "key": "{Color Primitives.White.800}"
   },
   {
     "$type": "color",
     "$value": "rgba(255, 255, 255, 0.95)",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -474,7 +548,9 @@
       "$type": "color",
       "$value": "#fffffff2",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -496,14 +572,20 @@
       "type": "White",
       "item": "900"
     },
-    "path": ["Color Primitives", "White", "900"],
+    "path": [
+      "Color Primitives",
+      "White",
+      "900"
+    ],
     "key": "{Color Primitives.White.900}"
   },
   {
     "$type": "color",
     "$value": "#ffffff",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -524,7 +606,9 @@
       "$type": "color",
       "$value": "#ffffff",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -546,7 +630,11 @@
       "type": "White",
       "item": "1000"
     },
-    "path": ["Color Primitives", "White", "1000"],
+    "path": [
+      "Color Primitives",
+      "White",
+      "1000"
+    ],
     "key": "{Color Primitives.White.1000}"
   },
   {
@@ -596,7 +684,11 @@
       "type": "Brand",
       "item": "100"
     },
-    "path": ["Color Primitives", "Brand", "100"],
+    "path": [
+      "Color Primitives",
+      "Brand",
+      "100"
+    ],
     "key": "{Color Primitives.Brand.100}"
   },
   {
@@ -646,7 +738,11 @@
       "type": "Brand",
       "item": "200"
     },
-    "path": ["Color Primitives", "Brand", "200"],
+    "path": [
+      "Color Primitives",
+      "Brand",
+      "200"
+    ],
     "key": "{Color Primitives.Brand.200}"
   },
   {
@@ -696,7 +792,11 @@
       "type": "Brand",
       "item": "300"
     },
-    "path": ["Color Primitives", "Brand", "300"],
+    "path": [
+      "Color Primitives",
+      "Brand",
+      "300"
+    ],
     "key": "{Color Primitives.Brand.300}"
   },
   {
@@ -746,7 +846,11 @@
       "type": "Brand",
       "item": "400"
     },
-    "path": ["Color Primitives", "Brand", "400"],
+    "path": [
+      "Color Primitives",
+      "Brand",
+      "400"
+    ],
     "key": "{Color Primitives.Brand.400}"
   },
   {
@@ -796,7 +900,11 @@
       "type": "Brand",
       "item": "500"
     },
-    "path": ["Color Primitives", "Brand", "500"],
+    "path": [
+      "Color Primitives",
+      "Brand",
+      "500"
+    ],
     "key": "{Color Primitives.Brand.500}"
   },
   {
@@ -846,7 +954,11 @@
       "type": "Brand",
       "item": "600"
     },
-    "path": ["Color Primitives", "Brand", "600"],
+    "path": [
+      "Color Primitives",
+      "Brand",
+      "600"
+    ],
     "key": "{Color Primitives.Brand.600}"
   },
   {
@@ -896,7 +1008,11 @@
       "type": "Brand",
       "item": "700"
     },
-    "path": ["Color Primitives", "Brand", "700"],
+    "path": [
+      "Color Primitives",
+      "Brand",
+      "700"
+    ],
     "key": "{Color Primitives.Brand.700}"
   },
   {
@@ -946,7 +1062,11 @@
       "type": "Brand",
       "item": "800"
     },
-    "path": ["Color Primitives", "Brand", "800"],
+    "path": [
+      "Color Primitives",
+      "Brand",
+      "800"
+    ],
     "key": "{Color Primitives.Brand.800}"
   },
   {
@@ -996,7 +1116,11 @@
       "type": "Brand",
       "item": "900"
     },
-    "path": ["Color Primitives", "Brand", "900"],
+    "path": [
+      "Color Primitives",
+      "Brand",
+      "900"
+    ],
     "key": "{Color Primitives.Brand.900}"
   },
   {
@@ -1046,7 +1170,11 @@
       "type": "Brand",
       "item": "1000"
     },
-    "path": ["Color Primitives", "Brand", "1000"],
+    "path": [
+      "Color Primitives",
+      "Brand",
+      "1000"
+    ],
     "key": "{Color Primitives.Brand.1000}"
   },
   {
@@ -1096,7 +1224,11 @@
       "type": "Red",
       "item": "100"
     },
-    "path": ["Color Primitives", "Red", "100"],
+    "path": [
+      "Color Primitives",
+      "Red",
+      "100"
+    ],
     "key": "{Color Primitives.Red.100}"
   },
   {
@@ -1146,7 +1278,11 @@
       "type": "Red",
       "item": "200"
     },
-    "path": ["Color Primitives", "Red", "200"],
+    "path": [
+      "Color Primitives",
+      "Red",
+      "200"
+    ],
     "key": "{Color Primitives.Red.200}"
   },
   {
@@ -1196,7 +1332,11 @@
       "type": "Red",
       "item": "300"
     },
-    "path": ["Color Primitives", "Red", "300"],
+    "path": [
+      "Color Primitives",
+      "Red",
+      "300"
+    ],
     "key": "{Color Primitives.Red.300}"
   },
   {
@@ -1246,7 +1386,11 @@
       "type": "Red",
       "item": "400"
     },
-    "path": ["Color Primitives", "Red", "400"],
+    "path": [
+      "Color Primitives",
+      "Red",
+      "400"
+    ],
     "key": "{Color Primitives.Red.400}"
   },
   {
@@ -1296,7 +1440,11 @@
       "type": "Red",
       "item": "500"
     },
-    "path": ["Color Primitives", "Red", "500"],
+    "path": [
+      "Color Primitives",
+      "Red",
+      "500"
+    ],
     "key": "{Color Primitives.Red.500}"
   },
   {
@@ -1346,7 +1494,11 @@
       "type": "Red",
       "item": "600"
     },
-    "path": ["Color Primitives", "Red", "600"],
+    "path": [
+      "Color Primitives",
+      "Red",
+      "600"
+    ],
     "key": "{Color Primitives.Red.600}"
   },
   {
@@ -1396,7 +1548,11 @@
       "type": "Red",
       "item": "700"
     },
-    "path": ["Color Primitives", "Red", "700"],
+    "path": [
+      "Color Primitives",
+      "Red",
+      "700"
+    ],
     "key": "{Color Primitives.Red.700}"
   },
   {
@@ -1446,7 +1602,11 @@
       "type": "Red",
       "item": "800"
     },
-    "path": ["Color Primitives", "Red", "800"],
+    "path": [
+      "Color Primitives",
+      "Red",
+      "800"
+    ],
     "key": "{Color Primitives.Red.800}"
   },
   {
@@ -1496,7 +1656,11 @@
       "type": "Red",
       "item": "900"
     },
-    "path": ["Color Primitives", "Red", "900"],
+    "path": [
+      "Color Primitives",
+      "Red",
+      "900"
+    ],
     "key": "{Color Primitives.Red.900}"
   },
   {
@@ -1546,7 +1710,11 @@
       "type": "Red",
       "item": "1000"
     },
-    "path": ["Color Primitives", "Red", "1000"],
+    "path": [
+      "Color Primitives",
+      "Red",
+      "1000"
+    ],
     "key": "{Color Primitives.Red.1000}"
   },
   {
@@ -1596,7 +1764,11 @@
       "type": "Yellow",
       "item": "100"
     },
-    "path": ["Color Primitives", "Yellow", "100"],
+    "path": [
+      "Color Primitives",
+      "Yellow",
+      "100"
+    ],
     "key": "{Color Primitives.Yellow.100}"
   },
   {
@@ -1646,7 +1818,11 @@
       "type": "Yellow",
       "item": "200"
     },
-    "path": ["Color Primitives", "Yellow", "200"],
+    "path": [
+      "Color Primitives",
+      "Yellow",
+      "200"
+    ],
     "key": "{Color Primitives.Yellow.200}"
   },
   {
@@ -1696,7 +1872,11 @@
       "type": "Yellow",
       "item": "300"
     },
-    "path": ["Color Primitives", "Yellow", "300"],
+    "path": [
+      "Color Primitives",
+      "Yellow",
+      "300"
+    ],
     "key": "{Color Primitives.Yellow.300}"
   },
   {
@@ -1746,7 +1926,11 @@
       "type": "Yellow",
       "item": "400"
     },
-    "path": ["Color Primitives", "Yellow", "400"],
+    "path": [
+      "Color Primitives",
+      "Yellow",
+      "400"
+    ],
     "key": "{Color Primitives.Yellow.400}"
   },
   {
@@ -1796,7 +1980,11 @@
       "type": "Yellow",
       "item": "500"
     },
-    "path": ["Color Primitives", "Yellow", "500"],
+    "path": [
+      "Color Primitives",
+      "Yellow",
+      "500"
+    ],
     "key": "{Color Primitives.Yellow.500}"
   },
   {
@@ -1846,7 +2034,11 @@
       "type": "Yellow",
       "item": "600"
     },
-    "path": ["Color Primitives", "Yellow", "600"],
+    "path": [
+      "Color Primitives",
+      "Yellow",
+      "600"
+    ],
     "key": "{Color Primitives.Yellow.600}"
   },
   {
@@ -1896,7 +2088,11 @@
       "type": "Yellow",
       "item": "700"
     },
-    "path": ["Color Primitives", "Yellow", "700"],
+    "path": [
+      "Color Primitives",
+      "Yellow",
+      "700"
+    ],
     "key": "{Color Primitives.Yellow.700}"
   },
   {
@@ -1946,7 +2142,11 @@
       "type": "Yellow",
       "item": "800"
     },
-    "path": ["Color Primitives", "Yellow", "800"],
+    "path": [
+      "Color Primitives",
+      "Yellow",
+      "800"
+    ],
     "key": "{Color Primitives.Yellow.800}"
   },
   {
@@ -1996,7 +2196,11 @@
       "type": "Yellow",
       "item": "900"
     },
-    "path": ["Color Primitives", "Yellow", "900"],
+    "path": [
+      "Color Primitives",
+      "Yellow",
+      "900"
+    ],
     "key": "{Color Primitives.Yellow.900}"
   },
   {
@@ -2046,7 +2250,11 @@
       "type": "Yellow",
       "item": "1000"
     },
-    "path": ["Color Primitives", "Yellow", "1000"],
+    "path": [
+      "Color Primitives",
+      "Yellow",
+      "1000"
+    ],
     "key": "{Color Primitives.Yellow.1000}"
   },
   {
@@ -2096,7 +2304,11 @@
       "type": "Green",
       "item": "100"
     },
-    "path": ["Color Primitives", "Green", "100"],
+    "path": [
+      "Color Primitives",
+      "Green",
+      "100"
+    ],
     "key": "{Color Primitives.Green.100}"
   },
   {
@@ -2146,7 +2358,11 @@
       "type": "Green",
       "item": "200"
     },
-    "path": ["Color Primitives", "Green", "200"],
+    "path": [
+      "Color Primitives",
+      "Green",
+      "200"
+    ],
     "key": "{Color Primitives.Green.200}"
   },
   {
@@ -2196,7 +2412,11 @@
       "type": "Green",
       "item": "300"
     },
-    "path": ["Color Primitives", "Green", "300"],
+    "path": [
+      "Color Primitives",
+      "Green",
+      "300"
+    ],
     "key": "{Color Primitives.Green.300}"
   },
   {
@@ -2246,7 +2466,11 @@
       "type": "Green",
       "item": "400"
     },
-    "path": ["Color Primitives", "Green", "400"],
+    "path": [
+      "Color Primitives",
+      "Green",
+      "400"
+    ],
     "key": "{Color Primitives.Green.400}"
   },
   {
@@ -2296,7 +2520,11 @@
       "type": "Green",
       "item": "500"
     },
-    "path": ["Color Primitives", "Green", "500"],
+    "path": [
+      "Color Primitives",
+      "Green",
+      "500"
+    ],
     "key": "{Color Primitives.Green.500}"
   },
   {
@@ -2346,7 +2574,11 @@
       "type": "Green",
       "item": "600"
     },
-    "path": ["Color Primitives", "Green", "600"],
+    "path": [
+      "Color Primitives",
+      "Green",
+      "600"
+    ],
     "key": "{Color Primitives.Green.600}"
   },
   {
@@ -2396,7 +2628,11 @@
       "type": "Green",
       "item": "700"
     },
-    "path": ["Color Primitives", "Green", "700"],
+    "path": [
+      "Color Primitives",
+      "Green",
+      "700"
+    ],
     "key": "{Color Primitives.Green.700}"
   },
   {
@@ -2446,7 +2682,11 @@
       "type": "Green",
       "item": "800"
     },
-    "path": ["Color Primitives", "Green", "800"],
+    "path": [
+      "Color Primitives",
+      "Green",
+      "800"
+    ],
     "key": "{Color Primitives.Green.800}"
   },
   {
@@ -2496,7 +2736,11 @@
       "type": "Green",
       "item": "900"
     },
-    "path": ["Color Primitives", "Green", "900"],
+    "path": [
+      "Color Primitives",
+      "Green",
+      "900"
+    ],
     "key": "{Color Primitives.Green.900}"
   },
   {
@@ -2546,14 +2790,20 @@
       "type": "Green",
       "item": "1000"
     },
-    "path": ["Color Primitives", "Green", "1000"],
+    "path": [
+      "Color Primitives",
+      "Green",
+      "1000"
+    ],
     "key": "{Color Primitives.Green.1000}"
   },
   {
     "$type": "color",
     "$value": "rgba(12, 12, 13, 0.05)",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -2574,7 +2824,9 @@
       "$type": "color",
       "$value": "#0c0c0d0d",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -2596,14 +2848,20 @@
       "type": "Black",
       "item": "50"
     },
-    "path": ["Color Primitives", "Black", "50"],
+    "path": [
+      "Color Primitives",
+      "Black",
+      "50"
+    ],
     "key": "{Color Primitives.Black.50}"
   },
   {
     "$type": "color",
     "$value": "rgba(12, 12, 13, 0.05)",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -2624,7 +2882,9 @@
       "$type": "color",
       "$value": "#0c0c0d0d",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -2646,14 +2906,20 @@
       "type": "Black",
       "item": "100"
     },
-    "path": ["Color Primitives", "Black", "100"],
+    "path": [
+      "Color Primitives",
+      "Black",
+      "100"
+    ],
     "key": "{Color Primitives.Black.100}"
   },
   {
     "$type": "color",
     "$value": "rgba(12, 12, 13, 0.1)",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -2674,7 +2940,9 @@
       "$type": "color",
       "$value": "#0c0c0d1a",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -2696,14 +2964,20 @@
       "type": "Black",
       "item": "200"
     },
-    "path": ["Color Primitives", "Black", "200"],
+    "path": [
+      "Color Primitives",
+      "Black",
+      "200"
+    ],
     "key": "{Color Primitives.Black.200}"
   },
   {
     "$type": "color",
     "$value": "rgba(12, 12, 13, 0.2)",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -2724,7 +2998,9 @@
       "$type": "color",
       "$value": "#0c0c0d33",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -2746,14 +3022,20 @@
       "type": "Black",
       "item": "300"
     },
-    "path": ["Color Primitives", "Black", "300"],
+    "path": [
+      "Color Primitives",
+      "Black",
+      "300"
+    ],
     "key": "{Color Primitives.Black.300}"
   },
   {
     "$type": "color",
     "$value": "rgba(12, 12, 13, 0.4)",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -2774,7 +3056,9 @@
       "$type": "color",
       "$value": "#0c0c0d66",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -2796,14 +3080,20 @@
       "type": "Black",
       "item": "400"
     },
-    "path": ["Color Primitives", "Black", "400"],
+    "path": [
+      "Color Primitives",
+      "Black",
+      "400"
+    ],
     "key": "{Color Primitives.Black.400}"
   },
   {
     "$type": "color",
     "$value": "rgba(12, 12, 13, 0.7)",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -2824,7 +3114,9 @@
       "$type": "color",
       "$value": "#0c0c0db3",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -2846,14 +3138,20 @@
       "type": "Black",
       "item": "500"
     },
-    "path": ["Color Primitives", "Black", "500"],
+    "path": [
+      "Color Primitives",
+      "Black",
+      "500"
+    ],
     "key": "{Color Primitives.Black.500}"
   },
   {
     "$type": "color",
     "$value": "rgba(12, 12, 13, 0.8)",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -2874,7 +3172,9 @@
       "$type": "color",
       "$value": "#0c0c0dcc",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -2896,14 +3196,20 @@
       "type": "Black",
       "item": "600"
     },
-    "path": ["Color Primitives", "Black", "600"],
+    "path": [
+      "Color Primitives",
+      "Black",
+      "600"
+    ],
     "key": "{Color Primitives.Black.600}"
   },
   {
     "$type": "color",
     "$value": "rgba(12, 12, 13, 0.85)",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -2924,7 +3230,9 @@
       "$type": "color",
       "$value": "#0c0c0dd9",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -2946,14 +3254,20 @@
       "type": "Black",
       "item": "700"
     },
-    "path": ["Color Primitives", "Black", "700"],
+    "path": [
+      "Color Primitives",
+      "Black",
+      "700"
+    ],
     "key": "{Color Primitives.Black.700}"
   },
   {
     "$type": "color",
     "$value": "rgba(12, 12, 13, 0.9)",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -2974,7 +3288,9 @@
       "$type": "color",
       "$value": "#0c0c0de6",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -2996,14 +3312,20 @@
       "type": "Black",
       "item": "800"
     },
-    "path": ["Color Primitives", "Black", "800"],
+    "path": [
+      "Color Primitives",
+      "Black",
+      "800"
+    ],
     "key": "{Color Primitives.Black.800}"
   },
   {
     "$type": "color",
     "$value": "rgba(12, 12, 13, 0.95)",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -3024,7 +3346,9 @@
       "$type": "color",
       "$value": "#0c0c0df2",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -3046,14 +3370,20 @@
       "type": "Black",
       "item": "900"
     },
-    "path": ["Color Primitives", "Black", "900"],
+    "path": [
+      "Color Primitives",
+      "Black",
+      "900"
+    ],
     "key": "{Color Primitives.Black.900}"
   },
   {
     "$type": "color",
     "$value": "#0c0c0d",
     "$description": "",
-    "scopes": ["EFFECT_COLOR"],
+    "scopes": [
+      "EFFECT_COLOR"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -3074,7 +3404,9 @@
       "$type": "color",
       "$value": "#0c0c0d",
       "$description": "",
-      "scopes": ["EFFECT_COLOR"],
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -3096,7 +3428,11 @@
       "type": "Black",
       "item": "1000"
     },
-    "path": ["Color Primitives", "Black", "1000"],
+    "path": [
+      "Color Primitives",
+      "Black",
+      "1000"
+    ],
     "key": "{Color Primitives.Black.1000}"
   },
   {
@@ -3146,7 +3482,11 @@
       "type": "Gray",
       "item": "100"
     },
-    "path": ["Color Primitives", "Gray", "100"],
+    "path": [
+      "Color Primitives",
+      "Gray",
+      "100"
+    ],
     "key": "{Color Primitives.Gray.100}"
   },
   {
@@ -3196,7 +3536,11 @@
       "type": "Gray",
       "item": "200"
     },
-    "path": ["Color Primitives", "Gray", "200"],
+    "path": [
+      "Color Primitives",
+      "Gray",
+      "200"
+    ],
     "key": "{Color Primitives.Gray.200}"
   },
   {
@@ -3246,7 +3590,11 @@
       "type": "Gray",
       "item": "300"
     },
-    "path": ["Color Primitives", "Gray", "300"],
+    "path": [
+      "Color Primitives",
+      "Gray",
+      "300"
+    ],
     "key": "{Color Primitives.Gray.300}"
   },
   {
@@ -3296,7 +3644,11 @@
       "type": "Gray",
       "item": "400"
     },
-    "path": ["Color Primitives", "Gray", "400"],
+    "path": [
+      "Color Primitives",
+      "Gray",
+      "400"
+    ],
     "key": "{Color Primitives.Gray.400}"
   },
   {
@@ -3346,7 +3698,11 @@
       "type": "Gray",
       "item": "500"
     },
-    "path": ["Color Primitives", "Gray", "500"],
+    "path": [
+      "Color Primitives",
+      "Gray",
+      "500"
+    ],
     "key": "{Color Primitives.Gray.500}"
   },
   {
@@ -3396,7 +3752,11 @@
       "type": "Gray",
       "item": "600"
     },
-    "path": ["Color Primitives", "Gray", "600"],
+    "path": [
+      "Color Primitives",
+      "Gray",
+      "600"
+    ],
     "key": "{Color Primitives.Gray.600}"
   },
   {
@@ -3446,7 +3806,11 @@
       "type": "Gray",
       "item": "700"
     },
-    "path": ["Color Primitives", "Gray", "700"],
+    "path": [
+      "Color Primitives",
+      "Gray",
+      "700"
+    ],
     "key": "{Color Primitives.Gray.700}"
   },
   {
@@ -3496,7 +3860,11 @@
       "type": "Gray",
       "item": "800"
     },
-    "path": ["Color Primitives", "Gray", "800"],
+    "path": [
+      "Color Primitives",
+      "Gray",
+      "800"
+    ],
     "key": "{Color Primitives.Gray.800}"
   },
   {
@@ -3546,7 +3914,11 @@
       "type": "Gray",
       "item": "900"
     },
-    "path": ["Color Primitives", "Gray", "900"],
+    "path": [
+      "Color Primitives",
+      "Gray",
+      "900"
+    ],
     "key": "{Color Primitives.Gray.900}"
   },
   {
@@ -3596,14 +3968,20 @@
       "type": "Gray",
       "item": "1000"
     },
-    "path": ["Color Primitives", "Gray", "1000"],
+    "path": [
+      "Color Primitives",
+      "Gray",
+      "1000"
+    ],
     "key": "{Color Primitives.Gray.1000}"
   },
   {
     "$type": "color",
     "$value": "rgba(135, 165, 255, 0.05)",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -3624,7 +4002,9 @@
       "$type": "color",
       "$value": "#87a5ff0d",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -3646,14 +4026,20 @@
       "type": "Brand-Overlay",
       "item": "100"
     },
-    "path": ["Color Primitives", "Brand-Overlay", "100"],
+    "path": [
+      "Color Primitives",
+      "Brand-Overlay",
+      "100"
+    ],
     "key": "{Color Primitives.Brand-Overlay.100}"
   },
   {
     "$type": "color",
     "$value": "rgba(69, 110, 235, 0.1)",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -3674,7 +4060,9 @@
       "$type": "color",
       "$value": "#456eeb1a",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -3696,14 +4084,20 @@
       "type": "Brand-Overlay",
       "item": "200"
     },
-    "path": ["Color Primitives", "Brand-Overlay", "200"],
+    "path": [
+      "Color Primitives",
+      "Brand-Overlay",
+      "200"
+    ],
     "key": "{Color Primitives.Brand-Overlay.200}"
   },
   {
     "$type": "color",
     "$value": "rgba(69, 110, 235, 0.15)",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -3724,7 +4118,9 @@
       "$type": "color",
       "$value": "#456eeb26",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -3746,14 +4142,20 @@
       "type": "Brand-Overlay",
       "item": "300"
     },
-    "path": ["Color Primitives", "Brand-Overlay", "300"],
+    "path": [
+      "Color Primitives",
+      "Brand-Overlay",
+      "300"
+    ],
     "key": "{Color Primitives.Brand-Overlay.300}"
   },
   {
     "$type": "color",
     "$value": "rgba(69, 110, 235, 0.2)",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -3774,7 +4176,9 @@
       "$type": "color",
       "$value": "#456eeb33",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -3796,14 +4200,20 @@
       "type": "Brand-Overlay",
       "item": "400"
     },
-    "path": ["Color Primitives", "Brand-Overlay", "400"],
+    "path": [
+      "Color Primitives",
+      "Brand-Overlay",
+      "400"
+    ],
     "key": "{Color Primitives.Brand-Overlay.400}"
   },
   {
     "$type": "color",
     "$value": "#f3f3f3",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -3824,7 +4234,9 @@
       "$type": "color",
       "$value": "#f3f3f3",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -3846,14 +4258,20 @@
       "type": "Slate",
       "item": "100"
     },
-    "path": ["Color Primitives", "Slate", "100"],
+    "path": [
+      "Color Primitives",
+      "Slate",
+      "100"
+    ],
     "key": "{Color Primitives.Slate.100}"
   },
   {
     "$type": "color",
     "$value": "#e3e3e3",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -3874,7 +4292,9 @@
       "$type": "color",
       "$value": "#e3e3e3",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -3896,14 +4316,20 @@
       "type": "Slate",
       "item": "200"
     },
-    "path": ["Color Primitives", "Slate", "200"],
+    "path": [
+      "Color Primitives",
+      "Slate",
+      "200"
+    ],
     "key": "{Color Primitives.Slate.200}"
   },
   {
     "$type": "color",
     "$value": "#cdcdcd",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -3924,7 +4350,9 @@
       "$type": "color",
       "$value": "#cdcdcd",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -3946,14 +4374,20 @@
       "type": "Slate",
       "item": "300"
     },
-    "path": ["Color Primitives", "Slate", "300"],
+    "path": [
+      "Color Primitives",
+      "Slate",
+      "300"
+    ],
     "key": "{Color Primitives.Slate.300}"
   },
   {
     "$type": "color",
     "$value": "#b2b2b2",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -3974,7 +4408,9 @@
       "$type": "color",
       "$value": "#b2b2b2",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -3996,14 +4432,20 @@
       "type": "Slate",
       "item": "400"
     },
-    "path": ["Color Primitives", "Slate", "400"],
+    "path": [
+      "Color Primitives",
+      "Slate",
+      "400"
+    ],
     "key": "{Color Primitives.Slate.400}"
   },
   {
     "$type": "color",
     "$value": "#949494",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -4024,7 +4466,9 @@
       "$type": "color",
       "$value": "#949494",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -4046,14 +4490,20 @@
       "type": "Slate",
       "item": "500"
     },
-    "path": ["Color Primitives", "Slate", "500"],
+    "path": [
+      "Color Primitives",
+      "Slate",
+      "500"
+    ],
     "key": "{Color Primitives.Slate.500}"
   },
   {
     "$type": "color",
     "$value": "#767676",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -4074,7 +4524,9 @@
       "$type": "color",
       "$value": "#767676",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -4096,14 +4548,20 @@
       "type": "Slate",
       "item": "600"
     },
-    "path": ["Color Primitives", "Slate", "600"],
+    "path": [
+      "Color Primitives",
+      "Slate",
+      "600"
+    ],
     "key": "{Color Primitives.Slate.600}"
   },
   {
     "$type": "color",
     "$value": "#5a5a5a",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -4124,7 +4582,9 @@
       "$type": "color",
       "$value": "#5a5a5a",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -4146,14 +4606,20 @@
       "type": "Slate",
       "item": "700"
     },
-    "path": ["Color Primitives", "Slate", "700"],
+    "path": [
+      "Color Primitives",
+      "Slate",
+      "700"
+    ],
     "key": "{Color Primitives.Slate.700}"
   },
   {
     "$type": "color",
     "$value": "#434343",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -4174,7 +4640,9 @@
       "$type": "color",
       "$value": "#434343",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -4196,14 +4664,20 @@
       "type": "Slate",
       "item": "800"
     },
-    "path": ["Color Primitives", "Slate", "800"],
+    "path": [
+      "Color Primitives",
+      "Slate",
+      "800"
+    ],
     "key": "{Color Primitives.Slate.800}"
   },
   {
     "$type": "color",
     "$value": "#303030",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -4224,7 +4698,9 @@
       "$type": "color",
       "$value": "#303030",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -4246,14 +4722,20 @@
       "type": "Slate",
       "item": "900"
     },
-    "path": ["Color Primitives", "Slate", "900"],
+    "path": [
+      "Color Primitives",
+      "Slate",
+      "900"
+    ],
     "key": "{Color Primitives.Slate.900}"
   },
   {
     "$type": "color",
     "$value": "#242424",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -4274,7 +4756,9 @@
       "$type": "color",
       "$value": "#242424",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -4296,14 +4780,20 @@
       "type": "Slate",
       "item": "1000"
     },
-    "path": ["Color Primitives", "Slate", "1000"],
+    "path": [
+      "Color Primitives",
+      "Slate",
+      "1000"
+    ],
     "key": "{Color Primitives.Slate.1000}"
   },
   {
     "$type": "color",
     "$value": "#f0fdfa",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -4324,7 +4814,9 @@
       "$type": "color",
       "$value": "#f0fdfa",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -4346,14 +4838,20 @@
       "type": "Teal",
       "item": "50"
     },
-    "path": ["Color Primitives", "Teal", "50"],
+    "path": [
+      "Color Primitives",
+      "Teal",
+      "50"
+    ],
     "key": "{Color Primitives.Teal.50}"
   },
   {
     "$type": "color",
     "$value": "#ccfbf1",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -4374,7 +4872,9 @@
       "$type": "color",
       "$value": "#ccfbf1",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -4396,14 +4896,20 @@
       "type": "Teal",
       "item": "100"
     },
-    "path": ["Color Primitives", "Teal", "100"],
+    "path": [
+      "Color Primitives",
+      "Teal",
+      "100"
+    ],
     "key": "{Color Primitives.Teal.100}"
   },
   {
     "$type": "color",
     "$value": "#99f6e4",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -4424,7 +4930,9 @@
       "$type": "color",
       "$value": "#99f6e4",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -4446,14 +4954,20 @@
       "type": "Teal",
       "item": "200"
     },
-    "path": ["Color Primitives", "Teal", "200"],
+    "path": [
+      "Color Primitives",
+      "Teal",
+      "200"
+    ],
     "key": "{Color Primitives.Teal.200}"
   },
   {
     "$type": "color",
     "$value": "#5eead4",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -4474,7 +4988,9 @@
       "$type": "color",
       "$value": "#5eead4",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -4496,14 +5012,20 @@
       "type": "Teal",
       "item": "300"
     },
-    "path": ["Color Primitives", "Teal", "300"],
+    "path": [
+      "Color Primitives",
+      "Teal",
+      "300"
+    ],
     "key": "{Color Primitives.Teal.300}"
   },
   {
     "$type": "color",
     "$value": "#2dd4bf",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -4524,7 +5046,9 @@
       "$type": "color",
       "$value": "#2dd4bf",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -4546,14 +5070,20 @@
       "type": "Teal",
       "item": "400"
     },
-    "path": ["Color Primitives", "Teal", "400"],
+    "path": [
+      "Color Primitives",
+      "Teal",
+      "400"
+    ],
     "key": "{Color Primitives.Teal.400}"
   },
   {
     "$type": "color",
     "$value": "#14b8a6",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -4574,7 +5104,9 @@
       "$type": "color",
       "$value": "#14b8a6",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -4596,14 +5128,20 @@
       "type": "Teal",
       "item": "500"
     },
-    "path": ["Color Primitives", "Teal", "500"],
+    "path": [
+      "Color Primitives",
+      "Teal",
+      "500"
+    ],
     "key": "{Color Primitives.Teal.500}"
   },
   {
     "$type": "color",
     "$value": "#0d9488",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -4624,7 +5162,9 @@
       "$type": "color",
       "$value": "#0d9488",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -4646,14 +5186,20 @@
       "type": "Teal",
       "item": "600"
     },
-    "path": ["Color Primitives", "Teal", "600"],
+    "path": [
+      "Color Primitives",
+      "Teal",
+      "600"
+    ],
     "key": "{Color Primitives.Teal.600}"
   },
   {
     "$type": "color",
     "$value": "#0f766e",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -4674,7 +5220,9 @@
       "$type": "color",
       "$value": "#0f766e",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -4696,14 +5244,20 @@
       "type": "Teal",
       "item": "700"
     },
-    "path": ["Color Primitives", "Teal", "700"],
+    "path": [
+      "Color Primitives",
+      "Teal",
+      "700"
+    ],
     "key": "{Color Primitives.Teal.700}"
   },
   {
     "$type": "color",
     "$value": "#115e59",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -4724,7 +5278,9 @@
       "$type": "color",
       "$value": "#115e59",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -4746,14 +5302,20 @@
       "type": "Teal",
       "item": "800"
     },
-    "path": ["Color Primitives", "Teal", "800"],
+    "path": [
+      "Color Primitives",
+      "Teal",
+      "800"
+    ],
     "key": "{Color Primitives.Teal.800}"
   },
   {
     "$type": "color",
     "$value": "#134e4a",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -4774,7 +5336,9 @@
       "$type": "color",
       "$value": "#134e4a",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -4796,14 +5360,20 @@
       "type": "Teal",
       "item": "900"
     },
-    "path": ["Color Primitives", "Teal", "900"],
+    "path": [
+      "Color Primitives",
+      "Teal",
+      "900"
+    ],
     "key": "{Color Primitives.Teal.900}"
   },
   {
     "$type": "color",
     "$value": "#ecfdf5",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -4824,7 +5394,9 @@
       "$type": "color",
       "$value": "#ecfdf5",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -4846,14 +5418,20 @@
       "type": "Emerald",
       "item": "50"
     },
-    "path": ["Color Primitives", "Emerald", "50"],
+    "path": [
+      "Color Primitives",
+      "Emerald",
+      "50"
+    ],
     "key": "{Color Primitives.Emerald.50}"
   },
   {
     "$type": "color",
     "$value": "#d1fae5",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -4874,7 +5452,9 @@
       "$type": "color",
       "$value": "#d1fae5",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -4896,14 +5476,20 @@
       "type": "Emerald",
       "item": "100"
     },
-    "path": ["Color Primitives", "Emerald", "100"],
+    "path": [
+      "Color Primitives",
+      "Emerald",
+      "100"
+    ],
     "key": "{Color Primitives.Emerald.100}"
   },
   {
     "$type": "color",
     "$value": "#a7f3d0",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -4924,7 +5510,9 @@
       "$type": "color",
       "$value": "#a7f3d0",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -4946,14 +5534,20 @@
       "type": "Emerald",
       "item": "200"
     },
-    "path": ["Color Primitives", "Emerald", "200"],
+    "path": [
+      "Color Primitives",
+      "Emerald",
+      "200"
+    ],
     "key": "{Color Primitives.Emerald.200}"
   },
   {
     "$type": "color",
     "$value": "#6ee7b7",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -4974,7 +5568,9 @@
       "$type": "color",
       "$value": "#6ee7b7",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -4996,14 +5592,20 @@
       "type": "Emerald",
       "item": "300"
     },
-    "path": ["Color Primitives", "Emerald", "300"],
+    "path": [
+      "Color Primitives",
+      "Emerald",
+      "300"
+    ],
     "key": "{Color Primitives.Emerald.300}"
   },
   {
     "$type": "color",
     "$value": "#34d399",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -5024,7 +5626,9 @@
       "$type": "color",
       "$value": "#34d399",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -5046,14 +5650,20 @@
       "type": "Emerald",
       "item": "400"
     },
-    "path": ["Color Primitives", "Emerald", "400"],
+    "path": [
+      "Color Primitives",
+      "Emerald",
+      "400"
+    ],
     "key": "{Color Primitives.Emerald.400}"
   },
   {
     "$type": "color",
     "$value": "#10b981",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -5074,7 +5684,9 @@
       "$type": "color",
       "$value": "#10b981",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -5096,14 +5708,20 @@
       "type": "Emerald",
       "item": "500"
     },
-    "path": ["Color Primitives", "Emerald", "500"],
+    "path": [
+      "Color Primitives",
+      "Emerald",
+      "500"
+    ],
     "key": "{Color Primitives.Emerald.500}"
   },
   {
     "$type": "color",
     "$value": "#059669",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -5124,7 +5742,9 @@
       "$type": "color",
       "$value": "#059669",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -5146,14 +5766,20 @@
       "type": "Emerald",
       "item": "600"
     },
-    "path": ["Color Primitives", "Emerald", "600"],
+    "path": [
+      "Color Primitives",
+      "Emerald",
+      "600"
+    ],
     "key": "{Color Primitives.Emerald.600}"
   },
   {
     "$type": "color",
     "$value": "#047857",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -5174,7 +5800,9 @@
       "$type": "color",
       "$value": "#047857",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -5196,14 +5824,20 @@
       "type": "Emerald",
       "item": "700"
     },
-    "path": ["Color Primitives", "Emerald", "700"],
+    "path": [
+      "Color Primitives",
+      "Emerald",
+      "700"
+    ],
     "key": "{Color Primitives.Emerald.700}"
   },
   {
     "$type": "color",
     "$value": "#065f46",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -5224,7 +5858,9 @@
       "$type": "color",
       "$value": "#065f46",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -5246,14 +5882,20 @@
       "type": "Emerald",
       "item": "800"
     },
-    "path": ["Color Primitives", "Emerald", "800"],
+    "path": [
+      "Color Primitives",
+      "Emerald",
+      "800"
+    ],
     "key": "{Color Primitives.Emerald.800}"
   },
   {
     "$type": "color",
     "$value": "#064e3b",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -5274,7 +5916,9 @@
       "$type": "color",
       "$value": "#064e3b",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -5296,14 +5940,20 @@
       "type": "Emerald",
       "item": "900"
     },
-    "path": ["Color Primitives", "Emerald", "900"],
+    "path": [
+      "Color Primitives",
+      "Emerald",
+      "900"
+    ],
     "key": "{Color Primitives.Emerald.900}"
   },
   {
     "$type": "color",
     "$value": "#f7fee7",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -5324,7 +5974,9 @@
       "$type": "color",
       "$value": "#f7fee7",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -5346,14 +5998,20 @@
       "type": "Lime",
       "item": "50"
     },
-    "path": ["Color Primitives", "Lime", "50"],
+    "path": [
+      "Color Primitives",
+      "Lime",
+      "50"
+    ],
     "key": "{Color Primitives.Lime.50}"
   },
   {
     "$type": "color",
     "$value": "#ecfccb",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -5374,7 +6032,9 @@
       "$type": "color",
       "$value": "#ecfccb",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -5396,14 +6056,20 @@
       "type": "Lime",
       "item": "100"
     },
-    "path": ["Color Primitives", "Lime", "100"],
+    "path": [
+      "Color Primitives",
+      "Lime",
+      "100"
+    ],
     "key": "{Color Primitives.Lime.100}"
   },
   {
     "$type": "color",
     "$value": "#d9f99d",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -5424,7 +6090,9 @@
       "$type": "color",
       "$value": "#d9f99d",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -5446,14 +6114,20 @@
       "type": "Lime",
       "item": "200"
     },
-    "path": ["Color Primitives", "Lime", "200"],
+    "path": [
+      "Color Primitives",
+      "Lime",
+      "200"
+    ],
     "key": "{Color Primitives.Lime.200}"
   },
   {
     "$type": "color",
     "$value": "#bef264",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -5474,7 +6148,9 @@
       "$type": "color",
       "$value": "#bef264",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -5496,14 +6172,20 @@
       "type": "Lime",
       "item": "300"
     },
-    "path": ["Color Primitives", "Lime", "300"],
+    "path": [
+      "Color Primitives",
+      "Lime",
+      "300"
+    ],
     "key": "{Color Primitives.Lime.300}"
   },
   {
     "$type": "color",
     "$value": "#a3e635",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -5524,7 +6206,9 @@
       "$type": "color",
       "$value": "#a3e635",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -5546,14 +6230,20 @@
       "type": "Lime",
       "item": "400"
     },
-    "path": ["Color Primitives", "Lime", "400"],
+    "path": [
+      "Color Primitives",
+      "Lime",
+      "400"
+    ],
     "key": "{Color Primitives.Lime.400}"
   },
   {
     "$type": "color",
     "$value": "#84cc16",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -5574,7 +6264,9 @@
       "$type": "color",
       "$value": "#84cc16",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -5596,14 +6288,20 @@
       "type": "Lime",
       "item": "500"
     },
-    "path": ["Color Primitives", "Lime", "500"],
+    "path": [
+      "Color Primitives",
+      "Lime",
+      "500"
+    ],
     "key": "{Color Primitives.Lime.500}"
   },
   {
     "$type": "color",
     "$value": "#65a30d",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -5624,7 +6322,9 @@
       "$type": "color",
       "$value": "#65a30d",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -5646,14 +6346,20 @@
       "type": "Lime",
       "item": "600"
     },
-    "path": ["Color Primitives", "Lime", "600"],
+    "path": [
+      "Color Primitives",
+      "Lime",
+      "600"
+    ],
     "key": "{Color Primitives.Lime.600}"
   },
   {
     "$type": "color",
     "$value": "#4d7c0f",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -5674,7 +6380,9 @@
       "$type": "color",
       "$value": "#4d7c0f",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -5696,14 +6404,20 @@
       "type": "Lime",
       "item": "700"
     },
-    "path": ["Color Primitives", "Lime", "700"],
+    "path": [
+      "Color Primitives",
+      "Lime",
+      "700"
+    ],
     "key": "{Color Primitives.Lime.700}"
   },
   {
     "$type": "color",
     "$value": "#3f6212",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -5724,7 +6438,9 @@
       "$type": "color",
       "$value": "#3f6212",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -5746,14 +6462,20 @@
       "type": "Lime",
       "item": "800"
     },
-    "path": ["Color Primitives", "Lime", "800"],
+    "path": [
+      "Color Primitives",
+      "Lime",
+      "800"
+    ],
     "key": "{Color Primitives.Lime.800}"
   },
   {
     "$type": "color",
     "$value": "#365314",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -5774,7 +6496,9 @@
       "$type": "color",
       "$value": "#365314",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -5796,14 +6520,20 @@
       "type": "Lime",
       "item": "900"
     },
-    "path": ["Color Primitives", "Lime", "900"],
+    "path": [
+      "Color Primitives",
+      "Lime",
+      "900"
+    ],
     "key": "{Color Primitives.Lime.900}"
   },
   {
     "$type": "color",
     "$value": "#fffdea",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -5824,7 +6554,9 @@
       "$type": "color",
       "$value": "#fffdea",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -5846,14 +6578,20 @@
       "type": "Honey",
       "item": "50"
     },
-    "path": ["Color Primitives", "Honey", "50"],
+    "path": [
+      "Color Primitives",
+      "Honey",
+      "50"
+    ],
     "key": "{Color Primitives.Honey.50}"
   },
   {
     "$type": "color",
     "$value": "#fff6c5",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -5874,7 +6612,9 @@
       "$type": "color",
       "$value": "#fff6c5",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -5896,14 +6636,20 @@
       "type": "Honey",
       "item": "100"
     },
-    "path": ["Color Primitives", "Honey", "100"],
+    "path": [
+      "Color Primitives",
+      "Honey",
+      "100"
+    ],
     "key": "{Color Primitives.Honey.100}"
   },
   {
     "$type": "color",
     "$value": "#ffed85",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -5924,7 +6670,9 @@
       "$type": "color",
       "$value": "#ffed85",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -5946,14 +6694,20 @@
       "type": "Honey",
       "item": "200"
     },
-    "path": ["Color Primitives", "Honey", "200"],
+    "path": [
+      "Color Primitives",
+      "Honey",
+      "200"
+    ],
     "key": "{Color Primitives.Honey.200}"
   },
   {
     "$type": "color",
     "$value": "#ffdd46",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -5974,7 +6728,9 @@
       "$type": "color",
       "$value": "#ffdd46",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -5996,14 +6752,20 @@
       "type": "Honey",
       "item": "300"
     },
-    "path": ["Color Primitives", "Honey", "300"],
+    "path": [
+      "Color Primitives",
+      "Honey",
+      "300"
+    ],
     "key": "{Color Primitives.Honey.300}"
   },
   {
     "$type": "color",
     "$value": "#ffca1b",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -6024,7 +6786,9 @@
       "$type": "color",
       "$value": "#ffca1b",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -6046,14 +6810,20 @@
       "type": "Honey",
       "item": "400"
     },
-    "path": ["Color Primitives", "Honey", "400"],
+    "path": [
+      "Color Primitives",
+      "Honey",
+      "400"
+    ],
     "key": "{Color Primitives.Honey.400}"
   },
   {
     "$type": "color",
     "$value": "#ffa800",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -6074,7 +6844,9 @@
       "$type": "color",
       "$value": "#ffa800",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -6096,14 +6868,20 @@
       "type": "Honey",
       "item": "500"
     },
-    "path": ["Color Primitives", "Honey", "500"],
+    "path": [
+      "Color Primitives",
+      "Honey",
+      "500"
+    ],
     "key": "{Color Primitives.Honey.500}"
   },
   {
     "$type": "color",
     "$value": "#e27f00",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -6124,7 +6902,9 @@
       "$type": "color",
       "$value": "#e27f00",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -6146,14 +6926,20 @@
       "type": "Honey",
       "item": "600"
     },
-    "path": ["Color Primitives", "Honey", "600"],
+    "path": [
+      "Color Primitives",
+      "Honey",
+      "600"
+    ],
     "key": "{Color Primitives.Honey.600}"
   },
   {
     "$type": "color",
     "$value": "#bb5802",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -6174,7 +6960,9 @@
       "$type": "color",
       "$value": "#bb5802",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -6196,14 +6984,20 @@
       "type": "Honey",
       "item": "700"
     },
-    "path": ["Color Primitives", "Honey", "700"],
+    "path": [
+      "Color Primitives",
+      "Honey",
+      "700"
+    ],
     "key": "{Color Primitives.Honey.700}"
   },
   {
     "$type": "color",
     "$value": "#984308",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -6224,7 +7018,9 @@
       "$type": "color",
       "$value": "#984308",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -6246,14 +7042,20 @@
       "type": "Honey",
       "item": "800"
     },
-    "path": ["Color Primitives", "Honey", "800"],
+    "path": [
+      "Color Primitives",
+      "Honey",
+      "800"
+    ],
     "key": "{Color Primitives.Honey.800}"
   },
   {
     "$type": "color",
     "$value": "#7c370b",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -6274,7 +7076,9 @@
       "$type": "color",
       "$value": "#7c370b",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -6296,14 +7100,20 @@
       "type": "Honey",
       "item": "900"
     },
-    "path": ["Color Primitives", "Honey", "900"],
+    "path": [
+      "Color Primitives",
+      "Honey",
+      "900"
+    ],
     "key": "{Color Primitives.Honey.900}"
   },
   {
     "$type": "color",
     "$value": "#f0f9ff",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -6324,7 +7134,9 @@
       "$type": "color",
       "$value": "#f0f9ff",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -6346,14 +7158,20 @@
       "type": "Sky",
       "item": "50"
     },
-    "path": ["Color Primitives", "Sky", "50"],
+    "path": [
+      "Color Primitives",
+      "Sky",
+      "50"
+    ],
     "key": "{Color Primitives.Sky.50}"
   },
   {
     "$type": "color",
     "$value": "#e0f2fe",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -6374,7 +7192,9 @@
       "$type": "color",
       "$value": "#e0f2fe",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -6396,14 +7216,20 @@
       "type": "Sky",
       "item": "100"
     },
-    "path": ["Color Primitives", "Sky", "100"],
+    "path": [
+      "Color Primitives",
+      "Sky",
+      "100"
+    ],
     "key": "{Color Primitives.Sky.100}"
   },
   {
     "$type": "color",
     "$value": "#bae6fd",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -6424,7 +7250,9 @@
       "$type": "color",
       "$value": "#bae6fd",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -6446,14 +7274,20 @@
       "type": "Sky",
       "item": "200"
     },
-    "path": ["Color Primitives", "Sky", "200"],
+    "path": [
+      "Color Primitives",
+      "Sky",
+      "200"
+    ],
     "key": "{Color Primitives.Sky.200}"
   },
   {
     "$type": "color",
     "$value": "#7dd3fc",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -6474,7 +7308,9 @@
       "$type": "color",
       "$value": "#7dd3fc",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -6496,14 +7332,20 @@
       "type": "Sky",
       "item": "300"
     },
-    "path": ["Color Primitives", "Sky", "300"],
+    "path": [
+      "Color Primitives",
+      "Sky",
+      "300"
+    ],
     "key": "{Color Primitives.Sky.300}"
   },
   {
     "$type": "color",
     "$value": "#38bdf8",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -6524,7 +7366,9 @@
       "$type": "color",
       "$value": "#38bdf8",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -6546,14 +7390,20 @@
       "type": "Sky",
       "item": "400"
     },
-    "path": ["Color Primitives", "Sky", "400"],
+    "path": [
+      "Color Primitives",
+      "Sky",
+      "400"
+    ],
     "key": "{Color Primitives.Sky.400}"
   },
   {
     "$type": "color",
     "$value": "#0ea5e9",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -6574,7 +7424,9 @@
       "$type": "color",
       "$value": "#0ea5e9",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -6596,14 +7448,20 @@
       "type": "Sky",
       "item": "500"
     },
-    "path": ["Color Primitives", "Sky", "500"],
+    "path": [
+      "Color Primitives",
+      "Sky",
+      "500"
+    ],
     "key": "{Color Primitives.Sky.500}"
   },
   {
     "$type": "color",
     "$value": "#0284c7",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -6624,7 +7482,9 @@
       "$type": "color",
       "$value": "#0284c7",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -6646,14 +7506,20 @@
       "type": "Sky",
       "item": "600"
     },
-    "path": ["Color Primitives", "Sky", "600"],
+    "path": [
+      "Color Primitives",
+      "Sky",
+      "600"
+    ],
     "key": "{Color Primitives.Sky.600}"
   },
   {
     "$type": "color",
     "$value": "#0369a1",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -6674,7 +7540,9 @@
       "$type": "color",
       "$value": "#0369a1",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -6696,14 +7564,20 @@
       "type": "Sky",
       "item": "700"
     },
-    "path": ["Color Primitives", "Sky", "700"],
+    "path": [
+      "Color Primitives",
+      "Sky",
+      "700"
+    ],
     "key": "{Color Primitives.Sky.700}"
   },
   {
     "$type": "color",
     "$value": "#075985",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -6724,7 +7598,9 @@
       "$type": "color",
       "$value": "#075985",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -6746,14 +7622,20 @@
       "type": "Sky",
       "item": "800"
     },
-    "path": ["Color Primitives", "Sky", "800"],
+    "path": [
+      "Color Primitives",
+      "Sky",
+      "800"
+    ],
     "key": "{Color Primitives.Sky.800}"
   },
   {
     "$type": "color",
     "$value": "#0c4a6e",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -6774,7 +7656,9 @@
       "$type": "color",
       "$value": "#0c4a6e",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -6796,14 +7680,20 @@
       "type": "Sky",
       "item": "900"
     },
-    "path": ["Color Primitives", "Sky", "900"],
+    "path": [
+      "Color Primitives",
+      "Sky",
+      "900"
+    ],
     "key": "{Color Primitives.Sky.900}"
   },
   {
     "$type": "color",
     "$value": "#eef2ff",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -6824,7 +7714,9 @@
       "$type": "color",
       "$value": "#eef2ff",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -6846,14 +7738,20 @@
       "type": "Lavendar",
       "item": "50"
     },
-    "path": ["Color Primitives", "Lavendar", "50"],
+    "path": [
+      "Color Primitives",
+      "Lavendar",
+      "50"
+    ],
     "key": "{Color Primitives.Lavendar.50}"
   },
   {
     "$type": "color",
     "$value": "#e0e7ff",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -6874,7 +7772,9 @@
       "$type": "color",
       "$value": "#e0e7ff",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -6896,14 +7796,20 @@
       "type": "Lavendar",
       "item": "100"
     },
-    "path": ["Color Primitives", "Lavendar", "100"],
+    "path": [
+      "Color Primitives",
+      "Lavendar",
+      "100"
+    ],
     "key": "{Color Primitives.Lavendar.100}"
   },
   {
     "$type": "color",
     "$value": "#c7d2fe",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -6924,7 +7830,9 @@
       "$type": "color",
       "$value": "#c7d2fe",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -6946,14 +7854,20 @@
       "type": "Lavendar",
       "item": "200"
     },
-    "path": ["Color Primitives", "Lavendar", "200"],
+    "path": [
+      "Color Primitives",
+      "Lavendar",
+      "200"
+    ],
     "key": "{Color Primitives.Lavendar.200}"
   },
   {
     "$type": "color",
     "$value": "#a5b4fc",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -6974,7 +7888,9 @@
       "$type": "color",
       "$value": "#a5b4fc",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -6996,14 +7912,20 @@
       "type": "Lavendar",
       "item": "300"
     },
-    "path": ["Color Primitives", "Lavendar", "300"],
+    "path": [
+      "Color Primitives",
+      "Lavendar",
+      "300"
+    ],
     "key": "{Color Primitives.Lavendar.300}"
   },
   {
     "$type": "color",
     "$value": "#818cf8",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -7024,7 +7946,9 @@
       "$type": "color",
       "$value": "#818cf8",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -7046,14 +7970,20 @@
       "type": "Lavendar",
       "item": "400"
     },
-    "path": ["Color Primitives", "Lavendar", "400"],
+    "path": [
+      "Color Primitives",
+      "Lavendar",
+      "400"
+    ],
     "key": "{Color Primitives.Lavendar.400}"
   },
   {
     "$type": "color",
     "$value": "#4d50dc",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -7074,7 +8004,9 @@
       "$type": "color",
       "$value": "#4d50dc",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -7096,14 +8028,20 @@
       "type": "Lavendar",
       "item": "500"
     },
-    "path": ["Color Primitives", "Lavendar", "500"],
+    "path": [
+      "Color Primitives",
+      "Lavendar",
+      "500"
+    ],
     "key": "{Color Primitives.Lavendar.500}"
   },
   {
     "$type": "color",
     "$value": "#4f46e5",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -7124,7 +8062,9 @@
       "$type": "color",
       "$value": "#4f46e5",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -7146,14 +8086,20 @@
       "type": "Lavendar",
       "item": "600"
     },
-    "path": ["Color Primitives", "Lavendar", "600"],
+    "path": [
+      "Color Primitives",
+      "Lavendar",
+      "600"
+    ],
     "key": "{Color Primitives.Lavendar.600}"
   },
   {
     "$type": "color",
     "$value": "#4338ca",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -7174,7 +8120,9 @@
       "$type": "color",
       "$value": "#4338ca",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -7196,14 +8144,20 @@
       "type": "Lavendar",
       "item": "700"
     },
-    "path": ["Color Primitives", "Lavendar", "700"],
+    "path": [
+      "Color Primitives",
+      "Lavendar",
+      "700"
+    ],
     "key": "{Color Primitives.Lavendar.700}"
   },
   {
     "$type": "color",
     "$value": "#3730a3",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -7224,7 +8178,9 @@
       "$type": "color",
       "$value": "#3730a3",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -7246,14 +8202,20 @@
       "type": "Lavendar",
       "item": "800"
     },
-    "path": ["Color Primitives", "Lavendar", "800"],
+    "path": [
+      "Color Primitives",
+      "Lavendar",
+      "800"
+    ],
     "key": "{Color Primitives.Lavendar.800}"
   },
   {
     "$type": "color",
     "$value": "#312e81",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -7274,7 +8236,9 @@
       "$type": "color",
       "$value": "#312e81",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -7296,14 +8260,20 @@
       "type": "Lavendar",
       "item": "900"
     },
-    "path": ["Color Primitives", "Lavendar", "900"],
+    "path": [
+      "Color Primitives",
+      "Lavendar",
+      "900"
+    ],
     "key": "{Color Primitives.Lavendar.900}"
   },
   {
     "$type": "color",
     "$value": "#fce7f3",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -7324,7 +8294,9 @@
       "$type": "color",
       "$value": "#fce7f3",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -7346,14 +8318,20 @@
       "type": "Pink",
       "item": "100"
     },
-    "path": ["Color Primitives", "Pink", "100"],
+    "path": [
+      "Color Primitives",
+      "Pink",
+      "100"
+    ],
     "key": "{Color Primitives.Pink.100}"
   },
   {
     "$type": "color",
     "$value": "#fbcfe8",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -7374,7 +8352,9 @@
       "$type": "color",
       "$value": "#fbcfe8",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -7396,14 +8376,20 @@
       "type": "Pink",
       "item": "200"
     },
-    "path": ["Color Primitives", "Pink", "200"],
+    "path": [
+      "Color Primitives",
+      "Pink",
+      "200"
+    ],
     "key": "{Color Primitives.Pink.200}"
   },
   {
     "$type": "color",
     "$value": "#f9a8d4",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -7424,7 +8410,9 @@
       "$type": "color",
       "$value": "#f9a8d4",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -7446,14 +8434,20 @@
       "type": "Pink",
       "item": "300"
     },
-    "path": ["Color Primitives", "Pink", "300"],
+    "path": [
+      "Color Primitives",
+      "Pink",
+      "300"
+    ],
     "key": "{Color Primitives.Pink.300}"
   },
   {
     "$type": "color",
     "$value": "#f472b6",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -7474,7 +8468,9 @@
       "$type": "color",
       "$value": "#f472b6",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -7496,14 +8492,20 @@
       "type": "Pink",
       "item": "400"
     },
-    "path": ["Color Primitives", "Pink", "400"],
+    "path": [
+      "Color Primitives",
+      "Pink",
+      "400"
+    ],
     "key": "{Color Primitives.Pink.400}"
   },
   {
     "$type": "color",
     "$value": "#ec4899",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -7524,7 +8526,9 @@
       "$type": "color",
       "$value": "#ec4899",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -7546,14 +8550,20 @@
       "type": "Pink",
       "item": "500"
     },
-    "path": ["Color Primitives", "Pink", "500"],
+    "path": [
+      "Color Primitives",
+      "Pink",
+      "500"
+    ],
     "key": "{Color Primitives.Pink.500}"
   },
   {
     "$type": "color",
     "$value": "#db2777",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -7574,7 +8584,9 @@
       "$type": "color",
       "$value": "#db2777",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -7596,14 +8608,20 @@
       "type": "Pink",
       "item": "600"
     },
-    "path": ["Color Primitives", "Pink", "600"],
+    "path": [
+      "Color Primitives",
+      "Pink",
+      "600"
+    ],
     "key": "{Color Primitives.Pink.600}"
   },
   {
     "$type": "color",
     "$value": "#be185d",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -7624,7 +8642,9 @@
       "$type": "color",
       "$value": "#be185d",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -7646,14 +8666,20 @@
       "type": "Pink",
       "item": "700"
     },
-    "path": ["Color Primitives", "Pink", "700"],
+    "path": [
+      "Color Primitives",
+      "Pink",
+      "700"
+    ],
     "key": "{Color Primitives.Pink.700}"
   },
   {
     "$type": "color",
     "$value": "#9d174d",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -7674,7 +8700,9 @@
       "$type": "color",
       "$value": "#9d174d",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -7696,14 +8724,20 @@
       "type": "Pink",
       "item": "800"
     },
-    "path": ["Color Primitives", "Pink", "800"],
+    "path": [
+      "Color Primitives",
+      "Pink",
+      "800"
+    ],
     "key": "{Color Primitives.Pink.800}"
   },
   {
     "$type": "color",
     "$value": "#831843",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -7724,7 +8758,9 @@
       "$type": "color",
       "$value": "#831843",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -7746,14 +8782,20 @@
       "type": "Pink",
       "item": "900"
     },
-    "path": ["Color Primitives", "Pink", "900"],
+    "path": [
+      "Color Primitives",
+      "Pink",
+      "900"
+    ],
     "key": "{Color Primitives.Pink.900}"
   },
   {
     "$type": "color",
     "$value": "#fff1f2",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -7774,7 +8816,9 @@
       "$type": "color",
       "$value": "#fff1f2",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -7796,14 +8840,20 @@
       "type": "Rose",
       "item": "50"
     },
-    "path": ["Color Primitives", "Rose", "50"],
+    "path": [
+      "Color Primitives",
+      "Rose",
+      "50"
+    ],
     "key": "{Color Primitives.Rose.50}"
   },
   {
     "$type": "color",
     "$value": "#ffe4e6",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -7824,7 +8874,9 @@
       "$type": "color",
       "$value": "#ffe4e6",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -7846,14 +8898,20 @@
       "type": "Rose",
       "item": "100"
     },
-    "path": ["Color Primitives", "Rose", "100"],
+    "path": [
+      "Color Primitives",
+      "Rose",
+      "100"
+    ],
     "key": "{Color Primitives.Rose.100}"
   },
   {
     "$type": "color",
     "$value": "#fecdd3",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -7874,7 +8932,9 @@
       "$type": "color",
       "$value": "#fecdd3",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -7896,14 +8956,20 @@
       "type": "Rose",
       "item": "200"
     },
-    "path": ["Color Primitives", "Rose", "200"],
+    "path": [
+      "Color Primitives",
+      "Rose",
+      "200"
+    ],
     "key": "{Color Primitives.Rose.200}"
   },
   {
     "$type": "color",
     "$value": "#fda4af",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -7924,7 +8990,9 @@
       "$type": "color",
       "$value": "#fda4af",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -7946,14 +9014,20 @@
       "type": "Rose",
       "item": "300"
     },
-    "path": ["Color Primitives", "Rose", "300"],
+    "path": [
+      "Color Primitives",
+      "Rose",
+      "300"
+    ],
     "key": "{Color Primitives.Rose.300}"
   },
   {
     "$type": "color",
     "$value": "#fb7185",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -7974,7 +9048,9 @@
       "$type": "color",
       "$value": "#fb7185",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -7996,14 +9072,20 @@
       "type": "Rose",
       "item": "400"
     },
-    "path": ["Color Primitives", "Rose", "400"],
+    "path": [
+      "Color Primitives",
+      "Rose",
+      "400"
+    ],
     "key": "{Color Primitives.Rose.400}"
   },
   {
     "$type": "color",
     "$value": "#f43f5e",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -8024,7 +9106,9 @@
       "$type": "color",
       "$value": "#f43f5e",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -8046,14 +9130,20 @@
       "type": "Rose",
       "item": "500"
     },
-    "path": ["Color Primitives", "Rose", "500"],
+    "path": [
+      "Color Primitives",
+      "Rose",
+      "500"
+    ],
     "key": "{Color Primitives.Rose.500}"
   },
   {
     "$type": "color",
     "$value": "#e11d48",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -8074,7 +9164,9 @@
       "$type": "color",
       "$value": "#e11d48",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -8096,14 +9188,20 @@
       "type": "Rose",
       "item": "600"
     },
-    "path": ["Color Primitives", "Rose", "600"],
+    "path": [
+      "Color Primitives",
+      "Rose",
+      "600"
+    ],
     "key": "{Color Primitives.Rose.600}"
   },
   {
     "$type": "color",
     "$value": "#be123c",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -8124,7 +9222,9 @@
       "$type": "color",
       "$value": "#be123c",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -8146,14 +9246,20 @@
       "type": "Rose",
       "item": "700"
     },
-    "path": ["Color Primitives", "Rose", "700"],
+    "path": [
+      "Color Primitives",
+      "Rose",
+      "700"
+    ],
     "key": "{Color Primitives.Rose.700}"
   },
   {
     "$type": "color",
     "$value": "#9f1239",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -8174,7 +9280,9 @@
       "$type": "color",
       "$value": "#9f1239",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -8196,14 +9304,20 @@
       "type": "Rose",
       "item": "800"
     },
-    "path": ["Color Primitives", "Rose", "800"],
+    "path": [
+      "Color Primitives",
+      "Rose",
+      "800"
+    ],
     "key": "{Color Primitives.Rose.800}"
   },
   {
     "$type": "color",
     "$value": "#881337",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -8224,7 +9338,9 @@
       "$type": "color",
       "$value": "#881337",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -8246,14 +9362,20 @@
       "type": "Rose",
       "item": "900"
     },
-    "path": ["Color Primitives", "Rose", "900"],
+    "path": [
+      "Color Primitives",
+      "Rose",
+      "900"
+    ],
     "key": "{Color Primitives.Rose.900}"
   },
   {
     "$type": "color",
     "$value": "#ecfeff",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -8274,7 +9396,9 @@
       "$type": "color",
       "$value": "#ecfeff",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -8296,14 +9420,20 @@
       "type": "Cyan",
       "item": "50"
     },
-    "path": ["Color Primitives", "Cyan", "50"],
+    "path": [
+      "Color Primitives",
+      "Cyan",
+      "50"
+    ],
     "key": "{Color Primitives.Cyan.50}"
   },
   {
     "$type": "color",
     "$value": "#cffafe",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -8324,7 +9454,9 @@
       "$type": "color",
       "$value": "#cffafe",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -8346,14 +9478,20 @@
       "type": "Cyan",
       "item": "100"
     },
-    "path": ["Color Primitives", "Cyan", "100"],
+    "path": [
+      "Color Primitives",
+      "Cyan",
+      "100"
+    ],
     "key": "{Color Primitives.Cyan.100}"
   },
   {
     "$type": "color",
     "$value": "#a5f3fc",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -8374,7 +9512,9 @@
       "$type": "color",
       "$value": "#a5f3fc",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -8396,14 +9536,20 @@
       "type": "Cyan",
       "item": "200"
     },
-    "path": ["Color Primitives", "Cyan", "200"],
+    "path": [
+      "Color Primitives",
+      "Cyan",
+      "200"
+    ],
     "key": "{Color Primitives.Cyan.200}"
   },
   {
     "$type": "color",
     "$value": "#67e8f9",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -8424,7 +9570,9 @@
       "$type": "color",
       "$value": "#67e8f9",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -8446,14 +9594,20 @@
       "type": "Cyan",
       "item": "300"
     },
-    "path": ["Color Primitives", "Cyan", "300"],
+    "path": [
+      "Color Primitives",
+      "Cyan",
+      "300"
+    ],
     "key": "{Color Primitives.Cyan.300}"
   },
   {
     "$type": "color",
     "$value": "#22d3ee",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -8474,7 +9628,9 @@
       "$type": "color",
       "$value": "#22d3ee",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -8496,14 +9652,20 @@
       "type": "Cyan",
       "item": "400"
     },
-    "path": ["Color Primitives", "Cyan", "400"],
+    "path": [
+      "Color Primitives",
+      "Cyan",
+      "400"
+    ],
     "key": "{Color Primitives.Cyan.400}"
   },
   {
     "$type": "color",
     "$value": "#06b6d4",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -8524,7 +9686,9 @@
       "$type": "color",
       "$value": "#06b6d4",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -8546,14 +9710,20 @@
       "type": "Cyan",
       "item": "500"
     },
-    "path": ["Color Primitives", "Cyan", "500"],
+    "path": [
+      "Color Primitives",
+      "Cyan",
+      "500"
+    ],
     "key": "{Color Primitives.Cyan.500}"
   },
   {
     "$type": "color",
     "$value": "#0891b2",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -8574,7 +9744,9 @@
       "$type": "color",
       "$value": "#0891b2",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -8596,14 +9768,20 @@
       "type": "Cyan",
       "item": "600"
     },
-    "path": ["Color Primitives", "Cyan", "600"],
+    "path": [
+      "Color Primitives",
+      "Cyan",
+      "600"
+    ],
     "key": "{Color Primitives.Cyan.600}"
   },
   {
     "$type": "color",
     "$value": "#0e7490",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -8624,7 +9802,9 @@
       "$type": "color",
       "$value": "#0e7490",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -8646,14 +9826,20 @@
       "type": "Cyan",
       "item": "700"
     },
-    "path": ["Color Primitives", "Cyan", "700"],
+    "path": [
+      "Color Primitives",
+      "Cyan",
+      "700"
+    ],
     "key": "{Color Primitives.Cyan.700}"
   },
   {
     "$type": "color",
     "$value": "#155e75",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -8674,7 +9860,9 @@
       "$type": "color",
       "$value": "#155e75",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -8696,14 +9884,20 @@
       "type": "Cyan",
       "item": "800"
     },
-    "path": ["Color Primitives", "Cyan", "800"],
+    "path": [
+      "Color Primitives",
+      "Cyan",
+      "800"
+    ],
     "key": "{Color Primitives.Cyan.800}"
   },
   {
     "$type": "color",
     "$value": "#164e63",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -8724,7 +9918,9 @@
       "$type": "color",
       "$value": "#164e63",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -8746,14 +9942,20 @@
       "type": "Cyan",
       "item": "900"
     },
-    "path": ["Color Primitives", "Cyan", "900"],
+    "path": [
+      "Color Primitives",
+      "Cyan",
+      "900"
+    ],
     "key": "{Color Primitives.Cyan.900}"
   },
   {
     "$type": "color",
     "$value": "#ffede5",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -8774,7 +9976,9 @@
       "$type": "color",
       "$value": "#ffede5",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -8796,14 +10000,20 @@
       "type": "Tangerine",
       "item": "50"
     },
-    "path": ["Color Primitives", "Tangerine", "50"],
+    "path": [
+      "Color Primitives",
+      "Tangerine",
+      "50"
+    ],
     "key": "{Color Primitives.Tangerine.50}"
   },
   {
     "$type": "color",
     "$value": "#ffdccc",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -8824,7 +10034,9 @@
       "$type": "color",
       "$value": "#ffdccc",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -8846,14 +10058,20 @@
       "type": "Tangerine",
       "item": "100"
     },
-    "path": ["Color Primitives", "Tangerine", "100"],
+    "path": [
+      "Color Primitives",
+      "Tangerine",
+      "100"
+    ],
     "key": "{Color Primitives.Tangerine.100}"
   },
   {
     "$type": "color",
     "$value": "#ffcab3",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -8874,7 +10092,9 @@
       "$type": "color",
       "$value": "#ffcab3",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -8896,14 +10116,20 @@
       "type": "Tangerine",
       "item": "200"
     },
-    "path": ["Color Primitives", "Tangerine", "200"],
+    "path": [
+      "Color Primitives",
+      "Tangerine",
+      "200"
+    ],
     "key": "{Color Primitives.Tangerine.200}"
   },
   {
     "$type": "color",
     "$value": "#feb89a",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -8924,7 +10150,9 @@
       "$type": "color",
       "$value": "#feb89a",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -8946,14 +10174,20 @@
       "type": "Tangerine",
       "item": "300"
     },
-    "path": ["Color Primitives", "Tangerine", "300"],
+    "path": [
+      "Color Primitives",
+      "Tangerine",
+      "300"
+    ],
     "key": "{Color Primitives.Tangerine.300}"
   },
   {
     "$type": "color",
     "$value": "#fba782",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -8974,7 +10208,9 @@
       "$type": "color",
       "$value": "#fba782",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -8996,14 +10232,20 @@
       "type": "Tangerine",
       "item": "400"
     },
-    "path": ["Color Primitives", "Tangerine", "400"],
+    "path": [
+      "Color Primitives",
+      "Tangerine",
+      "400"
+    ],
     "key": "{Color Primitives.Tangerine.400}"
   },
   {
     "$type": "color",
     "$value": "#f7956b",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -9024,7 +10266,9 @@
       "$type": "color",
       "$value": "#f7956b",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -9046,14 +10290,20 @@
       "type": "Tangerine",
       "item": "500"
     },
-    "path": ["Color Primitives", "Tangerine", "500"],
+    "path": [
+      "Color Primitives",
+      "Tangerine",
+      "500"
+    ],
     "key": "{Color Primitives.Tangerine.500}"
   },
   {
     "$type": "color",
     "$value": "#f28253",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -9074,7 +10324,9 @@
       "$type": "color",
       "$value": "#f28253",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -9096,14 +10348,20 @@
       "type": "Tangerine",
       "item": "600"
     },
-    "path": ["Color Primitives", "Tangerine", "600"],
+    "path": [
+      "Color Primitives",
+      "Tangerine",
+      "600"
+    ],
     "key": "{Color Primitives.Tangerine.600}"
   },
   {
     "$type": "color",
     "$value": "#ec703c",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -9124,7 +10382,9 @@
       "$type": "color",
       "$value": "#ec703c",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -9146,14 +10406,20 @@
       "type": "Tangerine",
       "item": "700"
     },
-    "path": ["Color Primitives", "Tangerine", "700"],
+    "path": [
+      "Color Primitives",
+      "Tangerine",
+      "700"
+    ],
     "key": "{Color Primitives.Tangerine.700}"
   },
   {
     "$type": "color",
     "$value": "#e55c23",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -9174,7 +10440,9 @@
       "$type": "color",
       "$value": "#e55c23",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -9196,14 +10464,20 @@
       "type": "Tangerine",
       "item": "800"
     },
-    "path": ["Color Primitives", "Tangerine", "800"],
+    "path": [
+      "Color Primitives",
+      "Tangerine",
+      "800"
+    ],
     "key": "{Color Primitives.Tangerine.800}"
   },
   {
     "$type": "color",
     "$value": "#de4600",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -9224,7 +10498,9 @@
       "$type": "color",
       "$value": "#de4600",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -9246,14 +10522,20 @@
       "type": "Tangerine",
       "item": "900"
     },
-    "path": ["Color Primitives", "Tangerine", "900"],
+    "path": [
+      "Color Primitives",
+      "Tangerine",
+      "900"
+    ],
     "key": "{Color Primitives.Tangerine.900}"
   },
   {
     "$type": "color",
     "$value": "#ecfeff",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -9274,7 +10556,9 @@
       "$type": "color",
       "$value": "{Color Primitives.Cyan.50.$value}",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -9296,7 +10580,11 @@
       "type": "Brand-Muted",
       "item": "50"
     },
-    "path": ["Color Primitives", "Brand-Muted", "50"],
+    "path": [
+      "Color Primitives",
+      "Brand-Muted",
+      "50"
+    ],
     "key": "{Color Primitives.Brand-Muted.50}"
   },
   {
@@ -9346,7 +10634,11 @@
       "type": "Brand-Muted",
       "item": "100"
     },
-    "path": ["Color Primitives", "Brand-Muted", "100"],
+    "path": [
+      "Color Primitives",
+      "Brand-Muted",
+      "100"
+    ],
     "key": "{Color Primitives.Brand-Muted.100}"
   },
   {
@@ -9396,7 +10688,11 @@
       "type": "Brand-Muted",
       "item": "200"
     },
-    "path": ["Color Primitives", "Brand-Muted", "200"],
+    "path": [
+      "Color Primitives",
+      "Brand-Muted",
+      "200"
+    ],
     "key": "{Color Primitives.Brand-Muted.200}"
   },
   {
@@ -9446,7 +10742,11 @@
       "type": "Brand-Muted",
       "item": "300"
     },
-    "path": ["Color Primitives", "Brand-Muted", "300"],
+    "path": [
+      "Color Primitives",
+      "Brand-Muted",
+      "300"
+    ],
     "key": "{Color Primitives.Brand-Muted.300}"
   },
   {
@@ -9496,7 +10796,11 @@
       "type": "Brand-Muted",
       "item": "400"
     },
-    "path": ["Color Primitives", "Brand-Muted", "400"],
+    "path": [
+      "Color Primitives",
+      "Brand-Muted",
+      "400"
+    ],
     "key": "{Color Primitives.Brand-Muted.400}"
   },
   {
@@ -9546,7 +10850,11 @@
       "type": "Brand-Muted",
       "item": "500"
     },
-    "path": ["Color Primitives", "Brand-Muted", "500"],
+    "path": [
+      "Color Primitives",
+      "Brand-Muted",
+      "500"
+    ],
     "key": "{Color Primitives.Brand-Muted.500}"
   },
   {
@@ -9596,7 +10904,11 @@
       "type": "Brand-Muted",
       "item": "600"
     },
-    "path": ["Color Primitives", "Brand-Muted", "600"],
+    "path": [
+      "Color Primitives",
+      "Brand-Muted",
+      "600"
+    ],
     "key": "{Color Primitives.Brand-Muted.600}"
   },
   {
@@ -9646,7 +10958,11 @@
       "type": "Brand-Muted",
       "item": "700"
     },
-    "path": ["Color Primitives", "Brand-Muted", "700"],
+    "path": [
+      "Color Primitives",
+      "Brand-Muted",
+      "700"
+    ],
     "key": "{Color Primitives.Brand-Muted.700}"
   },
   {
@@ -9696,7 +11012,11 @@
       "type": "Brand-Muted",
       "item": "800"
     },
-    "path": ["Color Primitives", "Brand-Muted", "800"],
+    "path": [
+      "Color Primitives",
+      "Brand-Muted",
+      "800"
+    ],
     "key": "{Color Primitives.Brand-Muted.800}"
   },
   {
@@ -9746,7 +11066,11 @@
       "type": "Brand-Muted",
       "item": "900"
     },
-    "path": ["Color Primitives", "Brand-Muted", "900"],
+    "path": [
+      "Color Primitives",
+      "Brand-Muted",
+      "900"
+    ],
     "key": "{Color Primitives.Brand-Muted.900}"
   },
   {
@@ -9796,7 +11120,11 @@
       "type": "Brand-Muted",
       "item": "1000"
     },
-    "path": ["Color Primitives", "Brand-Muted", "1000"],
+    "path": [
+      "Color Primitives",
+      "Brand-Muted",
+      "1000"
+    ],
     "key": "{Color Primitives.Brand-Muted.1000}"
   },
   {
@@ -9846,7 +11174,11 @@
       "type": "Scale",
       "item": "Scale 10"
     },
-    "path": ["Typography Primitives", "Scale", "Scale 10"],
+    "path": [
+      "Typography Primitives",
+      "Scale",
+      "Scale 10"
+    ],
     "key": "{Typography Primitives.Scale.Scale 10}"
   },
   {
@@ -9896,7 +11228,11 @@
       "type": "Scale",
       "item": "Scale 09"
     },
-    "path": ["Typography Primitives", "Scale", "Scale 09"],
+    "path": [
+      "Typography Primitives",
+      "Scale",
+      "Scale 09"
+    ],
     "key": "{Typography Primitives.Scale.Scale 09}"
   },
   {
@@ -9946,7 +11282,11 @@
       "type": "Scale",
       "item": "Scale 08"
     },
-    "path": ["Typography Primitives", "Scale", "Scale 08"],
+    "path": [
+      "Typography Primitives",
+      "Scale",
+      "Scale 08"
+    ],
     "key": "{Typography Primitives.Scale.Scale 08}"
   },
   {
@@ -9996,7 +11336,11 @@
       "type": "Scale",
       "item": "Scale 07"
     },
-    "path": ["Typography Primitives", "Scale", "Scale 07"],
+    "path": [
+      "Typography Primitives",
+      "Scale",
+      "Scale 07"
+    ],
     "key": "{Typography Primitives.Scale.Scale 07}"
   },
   {
@@ -10046,7 +11390,11 @@
       "type": "Scale",
       "item": "Scale 06"
     },
-    "path": ["Typography Primitives", "Scale", "Scale 06"],
+    "path": [
+      "Typography Primitives",
+      "Scale",
+      "Scale 06"
+    ],
     "key": "{Typography Primitives.Scale.Scale 06}"
   },
   {
@@ -10096,7 +11444,11 @@
       "type": "Scale",
       "item": "Scale 05"
     },
-    "path": ["Typography Primitives", "Scale", "Scale 05"],
+    "path": [
+      "Typography Primitives",
+      "Scale",
+      "Scale 05"
+    ],
     "key": "{Typography Primitives.Scale.Scale 05}"
   },
   {
@@ -10146,7 +11498,11 @@
       "type": "Scale",
       "item": "Scale 04"
     },
-    "path": ["Typography Primitives", "Scale", "Scale 04"],
+    "path": [
+      "Typography Primitives",
+      "Scale",
+      "Scale 04"
+    ],
     "key": "{Typography Primitives.Scale.Scale 04}"
   },
   {
@@ -10196,7 +11552,11 @@
       "type": "Scale",
       "item": "Scale 03"
     },
-    "path": ["Typography Primitives", "Scale", "Scale 03"],
+    "path": [
+      "Typography Primitives",
+      "Scale",
+      "Scale 03"
+    ],
     "key": "{Typography Primitives.Scale.Scale 03}"
   },
   {
@@ -10246,7 +11606,11 @@
       "type": "Scale",
       "item": "Scale 02"
     },
-    "path": ["Typography Primitives", "Scale", "Scale 02"],
+    "path": [
+      "Typography Primitives",
+      "Scale",
+      "Scale 02"
+    ],
     "key": "{Typography Primitives.Scale.Scale 02}"
   },
   {
@@ -10296,14 +11660,20 @@
       "type": "Scale",
       "item": "Scale 01"
     },
-    "path": ["Typography Primitives", "Scale", "Scale 01"],
+    "path": [
+      "Typography Primitives",
+      "Scale",
+      "Scale 01"
+    ],
     "key": "{Typography Primitives.Scale.Scale 01}"
   },
   {
     "$type": "string",
     "$value": "800",
     "$description": "",
-    "scopes": ["FONT_WEIGHT"],
+    "scopes": [
+      "FONT_WEIGHT"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -10324,7 +11694,9 @@
       "$type": "string",
       "$value": "800",
       "$description": "",
-      "scopes": ["FONT_WEIGHT"],
+      "scopes": [
+        "FONT_WEIGHT"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -10346,14 +11718,20 @@
       "type": "Weight",
       "item": "Extrabold"
     },
-    "path": ["Typography Primitives", "Weight", "Extrabold"],
+    "path": [
+      "Typography Primitives",
+      "Weight",
+      "Extrabold"
+    ],
     "key": "{Typography Primitives.Weight.Extrabold}"
   },
   {
     "$type": "string",
     "$value": "500",
     "$description": "fontWeight variable for medium",
-    "scopes": ["FONT_WEIGHT"],
+    "scopes": [
+      "FONT_WEIGHT"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -10374,7 +11752,9 @@
       "$type": "string",
       "$value": "500",
       "$description": "fontWeight variable for medium",
-      "scopes": ["FONT_WEIGHT"],
+      "scopes": [
+        "FONT_WEIGHT"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -10396,14 +11776,20 @@
       "type": "Weight",
       "item": "Medium"
     },
-    "path": ["Typography Primitives", "Weight", "Medium"],
+    "path": [
+      "Typography Primitives",
+      "Weight",
+      "Medium"
+    ],
     "key": "{Typography Primitives.Weight.Medium}"
   },
   {
     "$type": "string",
     "$value": "400",
     "$description": "fontWeight variable for regular",
-    "scopes": ["FONT_WEIGHT"],
+    "scopes": [
+      "FONT_WEIGHT"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -10424,7 +11810,9 @@
       "$type": "string",
       "$value": "400",
       "$description": "fontWeight variable for regular",
-      "scopes": ["FONT_WEIGHT"],
+      "scopes": [
+        "FONT_WEIGHT"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -10446,14 +11834,20 @@
       "type": "Weight",
       "item": "Regular"
     },
-    "path": ["Typography Primitives", "Weight", "Regular"],
+    "path": [
+      "Typography Primitives",
+      "Weight",
+      "Regular"
+    ],
     "key": "{Typography Primitives.Weight.Regular}"
   },
   {
     "$type": "string",
     "$value": "900",
     "$description": "",
-    "scopes": ["FONT_WEIGHT"],
+    "scopes": [
+      "FONT_WEIGHT"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -10474,7 +11868,9 @@
       "$type": "string",
       "$value": "900",
       "$description": "",
-      "scopes": ["FONT_WEIGHT"],
+      "scopes": [
+        "FONT_WEIGHT"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -10496,14 +11892,20 @@
       "type": "Weight",
       "item": "Black"
     },
-    "path": ["Typography Primitives", "Weight", "Black"],
+    "path": [
+      "Typography Primitives",
+      "Weight",
+      "Black"
+    ],
     "key": "{Typography Primitives.Weight.Black}"
   },
   {
     "$type": "string",
     "$value": "700",
     "$description": "fontWeight variable for bold",
-    "scopes": ["FONT_WEIGHT"],
+    "scopes": [
+      "FONT_WEIGHT"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -10524,7 +11926,9 @@
       "$type": "string",
       "$value": "700",
       "$description": "fontWeight variable for bold",
-      "scopes": ["FONT_WEIGHT"],
+      "scopes": [
+        "FONT_WEIGHT"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -10546,14 +11950,20 @@
       "type": "Weight",
       "item": "Bold"
     },
-    "path": ["Typography Primitives", "Weight", "Bold"],
+    "path": [
+      "Typography Primitives",
+      "Weight",
+      "Bold"
+    ],
     "key": "{Typography Primitives.Weight.Bold}"
   },
   {
     "$type": "string",
     "$value": "600",
     "$description": "",
-    "scopes": ["FONT_WEIGHT"],
+    "scopes": [
+      "FONT_WEIGHT"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -10574,7 +11984,9 @@
       "$type": "string",
       "$value": "600",
       "$description": "",
-      "scopes": ["FONT_WEIGHT"],
+      "scopes": [
+        "FONT_WEIGHT"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -10596,14 +12008,20 @@
       "type": "Weight",
       "item": "Semibold"
     },
-    "path": ["Typography Primitives", "Weight", "Semibold"],
+    "path": [
+      "Typography Primitives",
+      "Weight",
+      "Semibold"
+    ],
     "key": "{Typography Primitives.Weight.Semibold}"
   },
   {
     "$type": "string",
     "$value": "300",
     "$description": "",
-    "scopes": ["FONT_WEIGHT"],
+    "scopes": [
+      "FONT_WEIGHT"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -10624,7 +12042,9 @@
       "$type": "string",
       "$value": "300",
       "$description": "",
-      "scopes": ["FONT_WEIGHT"],
+      "scopes": [
+        "FONT_WEIGHT"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -10646,14 +12066,20 @@
       "type": "Weight",
       "item": "Light"
     },
-    "path": ["Typography Primitives", "Weight", "Light"],
+    "path": [
+      "Typography Primitives",
+      "Weight",
+      "Light"
+    ],
     "key": "{Typography Primitives.Weight.Light}"
   },
   {
     "$type": "string",
     "$value": "200",
     "$description": "",
-    "scopes": ["FONT_WEIGHT"],
+    "scopes": [
+      "FONT_WEIGHT"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -10674,7 +12100,9 @@
       "$type": "string",
       "$value": "200",
       "$description": "",
-      "scopes": ["FONT_WEIGHT"],
+      "scopes": [
+        "FONT_WEIGHT"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -10696,14 +12124,20 @@
       "type": "Weight",
       "item": "Extralight"
     },
-    "path": ["Typography Primitives", "Weight", "Extralight"],
+    "path": [
+      "Typography Primitives",
+      "Weight",
+      "Extralight"
+    ],
     "key": "{Typography Primitives.Weight.Extralight}"
   },
   {
     "$type": "string",
     "$value": "100",
     "$description": "",
-    "scopes": ["FONT_WEIGHT"],
+    "scopes": [
+      "FONT_WEIGHT"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -10724,7 +12158,9 @@
       "$type": "string",
       "$value": "100",
       "$description": "",
-      "scopes": ["FONT_WEIGHT"],
+      "scopes": [
+        "FONT_WEIGHT"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -10746,14 +12182,20 @@
       "type": "Weight",
       "item": "Thin"
     },
-    "path": ["Typography Primitives", "Weight", "Thin"],
+    "path": [
+      "Typography Primitives",
+      "Weight",
+      "Thin"
+    ],
     "key": "{Typography Primitives.Weight.Thin}"
   },
   {
     "$type": "dimension",
     "$value": "32px",
     "$description": "fontSize variable for 32",
-    "scopes": ["FONT_SIZE"],
+    "scopes": [
+      "FONT_SIZE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -10774,7 +12216,9 @@
       "$type": "dimension",
       "$value": "32px",
       "$description": "fontSize variable for 32",
-      "scopes": ["FONT_SIZE"],
+      "scopes": [
+        "FONT_SIZE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -10796,14 +12240,20 @@
       "type": "Size",
       "item": "10"
     },
-    "path": ["Typography Primitives", "Size", "10"],
+    "path": [
+      "Typography Primitives",
+      "Size",
+      "10"
+    ],
     "key": "{Typography Primitives.Size.10}"
   },
   {
     "$type": "dimension",
     "$value": "36px",
     "$description": "fontSize variable for 36",
-    "scopes": ["FONT_SIZE"],
+    "scopes": [
+      "FONT_SIZE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -10824,7 +12274,9 @@
       "$type": "dimension",
       "$value": "36px",
       "$description": "fontSize variable for 36",
-      "scopes": ["FONT_SIZE"],
+      "scopes": [
+        "FONT_SIZE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -10846,14 +12298,20 @@
       "type": "Size",
       "item": "11"
     },
-    "path": ["Typography Primitives", "Size", "11"],
+    "path": [
+      "Typography Primitives",
+      "Size",
+      "11"
+    ],
     "key": "{Typography Primitives.Size.11}"
   },
   {
     "$type": "dimension",
     "$value": "40px",
     "$description": "fontSize variable for 40",
-    "scopes": ["FONT_SIZE"],
+    "scopes": [
+      "FONT_SIZE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -10874,7 +12332,9 @@
       "$type": "dimension",
       "$value": "40px",
       "$description": "fontSize variable for 40",
-      "scopes": ["FONT_SIZE"],
+      "scopes": [
+        "FONT_SIZE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -10896,14 +12356,20 @@
       "type": "Size",
       "item": "12"
     },
-    "path": ["Typography Primitives", "Size", "12"],
+    "path": [
+      "Typography Primitives",
+      "Size",
+      "12"
+    ],
     "key": "{Typography Primitives.Size.12}"
   },
   {
     "$type": "dimension",
     "$value": "44px",
     "$description": "fontSize variable for 44",
-    "scopes": ["FONT_SIZE"],
+    "scopes": [
+      "FONT_SIZE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -10924,7 +12390,9 @@
       "$type": "dimension",
       "$value": "44px",
       "$description": "fontSize variable for 44",
-      "scopes": ["FONT_SIZE"],
+      "scopes": [
+        "FONT_SIZE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -10946,14 +12414,20 @@
       "type": "Size",
       "item": "13"
     },
-    "path": ["Typography Primitives", "Size", "13"],
+    "path": [
+      "Typography Primitives",
+      "Size",
+      "13"
+    ],
     "key": "{Typography Primitives.Size.13}"
   },
   {
     "$type": "dimension",
     "$value": "48px",
     "$description": "fontSize variable for 44",
-    "scopes": ["FONT_SIZE"],
+    "scopes": [
+      "FONT_SIZE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -10974,7 +12448,9 @@
       "$type": "dimension",
       "$value": "48px",
       "$description": "fontSize variable for 44",
-      "scopes": ["FONT_SIZE"],
+      "scopes": [
+        "FONT_SIZE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -10996,14 +12472,20 @@
       "type": "Size",
       "item": "14"
     },
-    "path": ["Typography Primitives", "Size", "14"],
+    "path": [
+      "Typography Primitives",
+      "Size",
+      "14"
+    ],
     "key": "{Typography Primitives.Size.14}"
   },
   {
     "$type": "dimension",
     "$value": "52px",
     "$description": "fontSize variable for 52",
-    "scopes": ["FONT_SIZE"],
+    "scopes": [
+      "FONT_SIZE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -11024,7 +12506,9 @@
       "$type": "dimension",
       "$value": "52px",
       "$description": "fontSize variable for 52",
-      "scopes": ["FONT_SIZE"],
+      "scopes": [
+        "FONT_SIZE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -11046,14 +12530,20 @@
       "type": "Size",
       "item": "15"
     },
-    "path": ["Typography Primitives", "Size", "15"],
+    "path": [
+      "Typography Primitives",
+      "Size",
+      "15"
+    ],
     "key": "{Typography Primitives.Size.15}"
   },
   {
     "$type": "dimension",
     "$value": "64px",
     "$description": "fontSize variable for 52",
-    "scopes": ["FONT_SIZE"],
+    "scopes": [
+      "FONT_SIZE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -11074,7 +12564,9 @@
       "$type": "dimension",
       "$value": "64px",
       "$description": "fontSize variable for 52",
-      "scopes": ["FONT_SIZE"],
+      "scopes": [
+        "FONT_SIZE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -11096,14 +12588,20 @@
       "type": "Size",
       "item": "16"
     },
-    "path": ["Typography Primitives", "Size", "16"],
+    "path": [
+      "Typography Primitives",
+      "Size",
+      "16"
+    ],
     "key": "{Typography Primitives.Size.16}"
   },
   {
     "$type": "dimension",
     "$value": "72px",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -11124,7 +12622,9 @@
       "$type": "dimension",
       "$value": "72px",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -11146,14 +12646,20 @@
       "type": "Size",
       "item": "17"
     },
-    "path": ["Typography Primitives", "Size", "17"],
+    "path": [
+      "Typography Primitives",
+      "Size",
+      "17"
+    ],
     "key": "{Typography Primitives.Size.17}"
   },
   {
     "$type": "dimension",
     "$value": "20px",
     "$description": "fontSize variable for 20",
-    "scopes": ["FONT_SIZE"],
+    "scopes": [
+      "FONT_SIZE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -11174,7 +12680,9 @@
       "$type": "dimension",
       "$value": "20px",
       "$description": "fontSize variable for 20",
-      "scopes": ["FONT_SIZE"],
+      "scopes": [
+        "FONT_SIZE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -11196,14 +12704,20 @@
       "type": "Size",
       "item": "07"
     },
-    "path": ["Typography Primitives", "Size", "07"],
+    "path": [
+      "Typography Primitives",
+      "Size",
+      "07"
+    ],
     "key": "{Typography Primitives.Size.07}"
   },
   {
     "$type": "dimension",
     "$value": "14px",
     "$description": "fontSize variable for 14",
-    "scopes": ["FONT_SIZE"],
+    "scopes": [
+      "FONT_SIZE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -11224,7 +12738,9 @@
       "$type": "dimension",
       "$value": "14px",
       "$description": "fontSize variable for 14",
-      "scopes": ["FONT_SIZE"],
+      "scopes": [
+        "FONT_SIZE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -11246,14 +12762,20 @@
       "type": "Size",
       "item": "04"
     },
-    "path": ["Typography Primitives", "Size", "04"],
+    "path": [
+      "Typography Primitives",
+      "Size",
+      "04"
+    ],
     "key": "{Typography Primitives.Size.04}"
   },
   {
     "$type": "dimension",
     "$value": "18px",
     "$description": "fontSize variable for 18",
-    "scopes": ["FONT_SIZE"],
+    "scopes": [
+      "FONT_SIZE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -11274,7 +12796,9 @@
       "$type": "dimension",
       "$value": "18px",
       "$description": "fontSize variable for 18",
-      "scopes": ["FONT_SIZE"],
+      "scopes": [
+        "FONT_SIZE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -11296,14 +12820,20 @@
       "type": "Size",
       "item": "06"
     },
-    "path": ["Typography Primitives", "Size", "06"],
+    "path": [
+      "Typography Primitives",
+      "Size",
+      "06"
+    ],
     "key": "{Typography Primitives.Size.06}"
   },
   {
     "$type": "dimension",
     "$value": "12px",
     "$description": "fontSize variable for 12",
-    "scopes": ["FONT_SIZE"],
+    "scopes": [
+      "FONT_SIZE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -11324,7 +12854,9 @@
       "$type": "dimension",
       "$value": "12px",
       "$description": "fontSize variable for 12",
-      "scopes": ["FONT_SIZE"],
+      "scopes": [
+        "FONT_SIZE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -11346,14 +12878,20 @@
       "type": "Size",
       "item": "03"
     },
-    "path": ["Typography Primitives", "Size", "03"],
+    "path": [
+      "Typography Primitives",
+      "Size",
+      "03"
+    ],
     "key": "{Typography Primitives.Size.03}"
   },
   {
     "$type": "dimension",
     "$value": "10px",
     "$description": "fontSize variable for 10",
-    "scopes": ["FONT_SIZE"],
+    "scopes": [
+      "FONT_SIZE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -11374,7 +12912,9 @@
       "$type": "dimension",
       "$value": "10px",
       "$description": "fontSize variable for 10",
-      "scopes": ["FONT_SIZE"],
+      "scopes": [
+        "FONT_SIZE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -11396,14 +12936,20 @@
       "type": "Size",
       "item": "02"
     },
-    "path": ["Typography Primitives", "Size", "02"],
+    "path": [
+      "Typography Primitives",
+      "Size",
+      "02"
+    ],
     "key": "{Typography Primitives.Size.02}"
   },
   {
     "$type": "dimension",
     "$value": "16px",
     "$description": "fontSize variable for 16",
-    "scopes": ["FONT_SIZE"],
+    "scopes": [
+      "FONT_SIZE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -11424,7 +12970,9 @@
       "$type": "dimension",
       "$value": "16px",
       "$description": "fontSize variable for 16",
-      "scopes": ["FONT_SIZE"],
+      "scopes": [
+        "FONT_SIZE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -11446,14 +12994,20 @@
       "type": "Size",
       "item": "05"
     },
-    "path": ["Typography Primitives", "Size", "05"],
+    "path": [
+      "Typography Primitives",
+      "Size",
+      "05"
+    ],
     "key": "{Typography Primitives.Size.05}"
   },
   {
     "$type": "dimension",
     "$value": "28px",
     "$description": "fontSize variable for 28",
-    "scopes": ["FONT_SIZE"],
+    "scopes": [
+      "FONT_SIZE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -11474,7 +13028,9 @@
       "$type": "dimension",
       "$value": "28px",
       "$description": "fontSize variable for 28",
-      "scopes": ["FONT_SIZE"],
+      "scopes": [
+        "FONT_SIZE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -11496,14 +13052,20 @@
       "type": "Size",
       "item": "09"
     },
-    "path": ["Typography Primitives", "Size", "09"],
+    "path": [
+      "Typography Primitives",
+      "Size",
+      "09"
+    ],
     "key": "{Typography Primitives.Size.09}"
   },
   {
     "$type": "dimension",
     "$value": "24px",
     "$description": "fontSize variable for 24",
-    "scopes": ["FONT_SIZE"],
+    "scopes": [
+      "FONT_SIZE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -11524,7 +13086,9 @@
       "$type": "dimension",
       "$value": "24px",
       "$description": "fontSize variable for 24",
-      "scopes": ["FONT_SIZE"],
+      "scopes": [
+        "FONT_SIZE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -11546,14 +13110,20 @@
       "type": "Size",
       "item": "08"
     },
-    "path": ["Typography Primitives", "Size", "08"],
+    "path": [
+      "Typography Primitives",
+      "Size",
+      "08"
+    ],
     "key": "{Typography Primitives.Size.08}"
   },
   {
     "$type": "dimension",
     "$value": "8px",
     "$description": "fontSize variable for 10",
-    "scopes": ["FONT_SIZE"],
+    "scopes": [
+      "FONT_SIZE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -11574,7 +13144,9 @@
       "$type": "dimension",
       "$value": "8px",
       "$description": "fontSize variable for 10",
-      "scopes": ["FONT_SIZE"],
+      "scopes": [
+        "FONT_SIZE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -11596,14 +13168,20 @@
       "type": "Size",
       "item": "01"
     },
-    "path": ["Typography Primitives", "Size", "01"],
+    "path": [
+      "Typography Primitives",
+      "Size",
+      "01"
+    ],
     "key": "{Typography Primitives.Size.01}"
   },
   {
     "$type": "string",
     "$value": "Inter",
     "$description": "fontFamily variable for Inter",
-    "scopes": ["FONT_FAMILY"],
+    "scopes": [
+      "FONT_FAMILY"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -11624,7 +13202,9 @@
       "$type": "string",
       "$value": "Inter",
       "$description": "fontFamily variable for Inter",
-      "scopes": ["FONT_FAMILY"],
+      "scopes": [
+        "FONT_FAMILY"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -11646,14 +13226,20 @@
       "type": "Family",
       "item": "Inter"
     },
-    "path": ["Typography Primitives", "Family", "Inter"],
+    "path": [
+      "Typography Primitives",
+      "Family",
+      "Inter"
+    ],
     "key": "{Typography Primitives.Family.Inter}"
   },
   {
     "$type": "string",
     "$value": "Roboto Mono",
     "$description": "",
-    "scopes": ["FONT_FAMILY"],
+    "scopes": [
+      "FONT_FAMILY"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -11674,7 +13260,9 @@
       "$type": "string",
       "$value": "Roboto Mono",
       "$description": "",
-      "scopes": ["FONT_FAMILY"],
+      "scopes": [
+        "FONT_FAMILY"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -11696,14 +13284,20 @@
       "type": "Family",
       "item": "Mono"
     },
-    "path": ["Typography Primitives", "Family", "Mono"],
+    "path": [
+      "Typography Primitives",
+      "Family",
+      "Mono"
+    ],
     "key": "{Typography Primitives.Family.Mono}"
   },
   {
     "$type": "string",
     "$value": "Noto Serif",
     "$description": "",
-    "scopes": ["FONT_FAMILY"],
+    "scopes": [
+      "FONT_FAMILY"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -11724,7 +13318,9 @@
       "$type": "string",
       "$value": "Noto Serif",
       "$description": "",
-      "scopes": ["FONT_FAMILY"],
+      "scopes": [
+        "FONT_FAMILY"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -11746,14 +13342,20 @@
       "type": "Family",
       "item": "Serif"
     },
-    "path": ["Typography Primitives", "Family", "Serif"],
+    "path": [
+      "Typography Primitives",
+      "Family",
+      "Serif"
+    ],
     "key": "{Typography Primitives.Family.Serif}"
   },
   {
     "$type": "string",
     "$value": "Black Italic",
     "$description": "",
-    "scopes": ["FONT_STYLE"],
+    "scopes": [
+      "FONT_STYLE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -11774,7 +13376,9 @@
       "$type": "string",
       "$value": "Black Italic",
       "$description": "",
-      "scopes": ["FONT_STYLE"],
+      "scopes": [
+        "FONT_STYLE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -11796,14 +13400,20 @@
       "type": "Italic",
       "item": "Black"
     },
-    "path": ["Typography Primitives", "Italic", "Black"],
+    "path": [
+      "Typography Primitives",
+      "Italic",
+      "Black"
+    ],
     "key": "{Typography Primitives.Italic.Black}"
   },
   {
     "$type": "string",
     "$value": "Extra Bold Italic",
     "$description": "",
-    "scopes": ["FONT_STYLE"],
+    "scopes": [
+      "FONT_STYLE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -11824,7 +13434,9 @@
       "$type": "string",
       "$value": "Extra Bold Italic",
       "$description": "",
-      "scopes": ["FONT_STYLE"],
+      "scopes": [
+        "FONT_STYLE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -11846,14 +13458,20 @@
       "type": "Italic",
       "item": "Extrabold"
     },
-    "path": ["Typography Primitives", "Italic", "Extrabold"],
+    "path": [
+      "Typography Primitives",
+      "Italic",
+      "Extrabold"
+    ],
     "key": "{Typography Primitives.Italic.Extrabold}"
   },
   {
     "$type": "string",
     "$value": "Bold Italic",
     "$description": "",
-    "scopes": ["FONT_STYLE"],
+    "scopes": [
+      "FONT_STYLE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -11874,7 +13492,9 @@
       "$type": "string",
       "$value": "Bold Italic",
       "$description": "",
-      "scopes": ["FONT_STYLE"],
+      "scopes": [
+        "FONT_STYLE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -11896,14 +13516,20 @@
       "type": "Italic",
       "item": "Bold"
     },
-    "path": ["Typography Primitives", "Italic", "Bold"],
+    "path": [
+      "Typography Primitives",
+      "Italic",
+      "Bold"
+    ],
     "key": "{Typography Primitives.Italic.Bold}"
   },
   {
     "$type": "string",
     "$value": "Semi Bold Italic",
     "$description": "",
-    "scopes": ["FONT_STYLE"],
+    "scopes": [
+      "FONT_STYLE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -11924,7 +13550,9 @@
       "$type": "string",
       "$value": "Semi Bold Italic",
       "$description": "",
-      "scopes": ["FONT_STYLE"],
+      "scopes": [
+        "FONT_STYLE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -11946,14 +13574,20 @@
       "type": "Italic",
       "item": "Semibold"
     },
-    "path": ["Typography Primitives", "Italic", "Semibold"],
+    "path": [
+      "Typography Primitives",
+      "Italic",
+      "Semibold"
+    ],
     "key": "{Typography Primitives.Italic.Semibold}"
   },
   {
     "$type": "string",
     "$value": "Medium Italic",
     "$description": "",
-    "scopes": ["FONT_STYLE"],
+    "scopes": [
+      "FONT_STYLE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -11974,7 +13608,9 @@
       "$type": "string",
       "$value": "Medium Italic",
       "$description": "",
-      "scopes": ["FONT_STYLE"],
+      "scopes": [
+        "FONT_STYLE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -11996,14 +13632,20 @@
       "type": "Italic",
       "item": "Medium"
     },
-    "path": ["Typography Primitives", "Italic", "Medium"],
+    "path": [
+      "Typography Primitives",
+      "Italic",
+      "Medium"
+    ],
     "key": "{Typography Primitives.Italic.Medium}"
   },
   {
     "$type": "string",
     "$value": "Thin Italic",
     "$description": "",
-    "scopes": ["FONT_STYLE"],
+    "scopes": [
+      "FONT_STYLE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -12024,7 +13666,9 @@
       "$type": "string",
       "$value": "Thin Italic",
       "$description": "",
-      "scopes": ["FONT_STYLE"],
+      "scopes": [
+        "FONT_STYLE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -12046,14 +13690,20 @@
       "type": "Italic",
       "item": "Thin"
     },
-    "path": ["Typography Primitives", "Italic", "Thin"],
+    "path": [
+      "Typography Primitives",
+      "Italic",
+      "Thin"
+    ],
     "key": "{Typography Primitives.Italic.Thin}"
   },
   {
     "$type": "string",
     "$value": "Italic",
     "$description": "",
-    "scopes": ["FONT_STYLE"],
+    "scopes": [
+      "FONT_STYLE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -12074,7 +13724,9 @@
       "$type": "string",
       "$value": "Italic",
       "$description": "",
-      "scopes": ["FONT_STYLE"],
+      "scopes": [
+        "FONT_STYLE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -12096,14 +13748,20 @@
       "type": "Italic",
       "item": "Regular"
     },
-    "path": ["Typography Primitives", "Italic", "Regular"],
+    "path": [
+      "Typography Primitives",
+      "Italic",
+      "Regular"
+    ],
     "key": "{Typography Primitives.Italic.Regular}"
   },
   {
     "$type": "string",
     "$value": "Light Italic",
     "$description": "",
-    "scopes": ["FONT_STYLE"],
+    "scopes": [
+      "FONT_STYLE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -12124,7 +13782,9 @@
       "$type": "string",
       "$value": "Light Italic",
       "$description": "",
-      "scopes": ["FONT_STYLE"],
+      "scopes": [
+        "FONT_STYLE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -12146,14 +13806,20 @@
       "type": "Italic",
       "item": "Light"
     },
-    "path": ["Typography Primitives", "Italic", "Light"],
+    "path": [
+      "Typography Primitives",
+      "Italic",
+      "Light"
+    ],
     "key": "{Typography Primitives.Italic.Light}"
   },
   {
     "$type": "string",
     "$value": "Extra Light Italic",
     "$description": "",
-    "scopes": ["FONT_STYLE"],
+    "scopes": [
+      "FONT_STYLE"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -12174,7 +13840,9 @@
       "$type": "string",
       "$value": "Extra Light Italic",
       "$description": "",
-      "scopes": ["FONT_STYLE"],
+      "scopes": [
+        "FONT_STYLE"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -12196,14 +13864,20 @@
       "type": "Italic",
       "item": "Extralight"
     },
-    "path": ["Typography Primitives", "Italic", "Extralight"],
+    "path": [
+      "Typography Primitives",
+      "Italic",
+      "Extralight"
+    ],
     "key": "{Typography Primitives.Italic.Extralight}"
   },
   {
     "$type": "string",
     "$value": "100%",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -12224,7 +13898,9 @@
       "$type": "string",
       "$value": "100%",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -12246,14 +13922,20 @@
       "type": "Percentage",
       "item": "100"
     },
-    "path": ["Typography Primitives", "Percentage", "100"],
+    "path": [
+      "Typography Primitives",
+      "Percentage",
+      "100"
+    ],
     "key": "{Typography Primitives.Percentage.100}"
   },
   {
     "$type": "string",
     "$value": "105%",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -12274,7 +13956,9 @@
       "$type": "string",
       "$value": "105%",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -12296,14 +13980,20 @@
       "type": "Percentage",
       "item": "105"
     },
-    "path": ["Typography Primitives", "Percentage", "105"],
+    "path": [
+      "Typography Primitives",
+      "Percentage",
+      "105"
+    ],
     "key": "{Typography Primitives.Percentage.105}"
   },
   {
     "$type": "string",
     "$value": "110%",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -12324,7 +14014,9 @@
       "$type": "string",
       "$value": "110%",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -12346,14 +14038,20 @@
       "type": "Percentage",
       "item": "110"
     },
-    "path": ["Typography Primitives", "Percentage", "110"],
+    "path": [
+      "Typography Primitives",
+      "Percentage",
+      "110"
+    ],
     "key": "{Typography Primitives.Percentage.110}"
   },
   {
     "$type": "string",
     "$value": "115%",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -12374,7 +14072,9 @@
       "$type": "string",
       "$value": "115%",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -12396,14 +14096,20 @@
       "type": "Percentage",
       "item": "115"
     },
-    "path": ["Typography Primitives", "Percentage", "115"],
+    "path": [
+      "Typography Primitives",
+      "Percentage",
+      "115"
+    ],
     "key": "{Typography Primitives.Percentage.115}"
   },
   {
     "$type": "string",
     "$value": "120%",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -12424,7 +14130,9 @@
       "$type": "string",
       "$value": "120%",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -12446,14 +14154,20 @@
       "type": "Percentage",
       "item": "120"
     },
-    "path": ["Typography Primitives", "Percentage", "120"],
+    "path": [
+      "Typography Primitives",
+      "Percentage",
+      "120"
+    ],
     "key": "{Typography Primitives.Percentage.120}"
   },
   {
     "$type": "string",
     "$value": "125%",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -12474,7 +14188,9 @@
       "$type": "string",
       "$value": "125%",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -12496,14 +14212,20 @@
       "type": "Percentage",
       "item": "125"
     },
-    "path": ["Typography Primitives", "Percentage", "125"],
+    "path": [
+      "Typography Primitives",
+      "Percentage",
+      "125"
+    ],
     "key": "{Typography Primitives.Percentage.125}"
   },
   {
     "$type": "string",
     "$value": "150%",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -12524,7 +14246,9 @@
       "$type": "string",
       "$value": "150%",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -12546,14 +14270,20 @@
       "type": "Percentage",
       "item": "150"
     },
-    "path": ["Typography Primitives", "Percentage", "150"],
+    "path": [
+      "Typography Primitives",
+      "Percentage",
+      "150"
+    ],
     "key": "{Typography Primitives.Percentage.150}"
   },
   {
     "$type": "string",
     "$value": "175%",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -12574,7 +14304,9 @@
       "$type": "string",
       "$value": "175%",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -12596,14 +14328,20 @@
       "type": "Percentage",
       "item": "175"
     },
-    "path": ["Typography Primitives", "Percentage", "175"],
+    "path": [
+      "Typography Primitives",
+      "Percentage",
+      "175"
+    ],
     "key": "{Typography Primitives.Percentage.175}"
   },
   {
     "$type": "string",
     "$value": "200%",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -12624,7 +14362,9 @@
       "$type": "string",
       "$value": "200%",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -12646,14 +14386,20 @@
       "type": "Percentage",
       "item": "200"
     },
-    "path": ["Typography Primitives", "Percentage", "200"],
+    "path": [
+      "Typography Primitives",
+      "Percentage",
+      "200"
+    ],
     "key": "{Typography Primitives.Percentage.200}"
   },
   {
     "$type": "string",
     "$value": "50%",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -12674,7 +14420,9 @@
       "$type": "string",
       "$value": "50%",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -12696,14 +14444,20 @@
       "type": "Percentage",
       "item": "050"
     },
-    "path": ["Typography Primitives", "Percentage", "050"],
+    "path": [
+      "Typography Primitives",
+      "Percentage",
+      "050"
+    ],
     "key": "{Typography Primitives.Percentage.050}"
   },
   {
     "$type": "string",
     "$value": "90%",
     "$description": "",
-    "scopes": ["ALL_SCOPES"],
+    "scopes": [
+      "ALL_SCOPES"
+    ],
     "$extensions": {
       "mode": {},
       "figma": {
@@ -12724,7 +14478,9 @@
       "$type": "string",
       "$value": "90%",
       "$description": "",
-      "scopes": ["ALL_SCOPES"],
+      "scopes": [
+        "ALL_SCOPES"
+      ],
       "$extensions": {
         "mode": {},
         "figma": {
@@ -12746,7 +14502,11 @@
       "type": "Percentage",
       "item": "090"
     },
-    "path": ["Typography Primitives", "Percentage", "090"],
+    "path": [
+      "Typography Primitives",
+      "Percentage",
+      "090"
+    ],
     "key": "{Typography Primitives.Percentage.090}"
   }
 ]

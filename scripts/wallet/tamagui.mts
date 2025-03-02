@@ -221,6 +221,7 @@ handler.registerFormat({
     let combined = {};
     let fontFamily = {};
     let fonts = {};
+    let variants = {};
     let size = {};
     let zIndex = {};
     let space = {};
@@ -265,17 +266,30 @@ handler.registerFormat({
       let size = ['size', parseInt(prop.$value['fontSize'].replace('px', ''))];
 
       let lineHeight = prop.$value['lineHeight'];
-      if (lineHeight === 'auto') lineHeight = '120%';
+      if (lineHeight === 'auto' || lineHeight === null) lineHeight = '120%';
       const isLineHeightPercent = lineHeight.includes('%');
-
+      if (!isLineHeightPercent) lineHeight = parseInt(lineHeight.replace('px', ''));
       if (isLineHeightPercent) lineHeight = parseInt(lineHeight.replace('%', ''));
+      // @ts-ignore
       if (isLineHeightPercent) lineHeight = (lineHeight / 100) * size[1];
       let line = ['lineHeight', Math.round(lineHeight * 100) / 100];
+
+      let letterSpacing = prop.$value['letterSpacing'];
+      if (letterSpacing === 'auto' || letterSpacing === null) letterSpacing = '0%';
+      const isLetterSpacingPercent = letterSpacing.includes('%');
+      if (!isLetterSpacingPercent) letterSpacing = parseInt(letterSpacing.replace('px', ''));
+      if (isLetterSpacingPercent) letterSpacing = parseInt(letterSpacing.replace('%', ''));
+      // @ts-ignore
+      if (isLetterSpacingPercent) letterSpacing = (letterSpacing / 100) * size[1];
+      let spacing = ['letterSpacing', Math.round(letterSpacing * 100) / 100];
 
       if (!combined[fontGroup][family[0]]) combined[fontGroup][family[0]] = {};
       combined[fontGroup][family[0]] = family[1];
 
-      [weight, size, line].forEach(([name, value]) => {
+      if (!variants[property]) variants[property] = {};
+      variants[property]['fontFamily'] = family[1];
+
+      [weight, size, line, spacing].forEach(([name, value]) => {
         let type = isTypeOneWeight ? typeTwo : typeOne;
 
         if (name === 'weight' && isTypeOneWeight) type = typeOne;
@@ -286,6 +300,14 @@ handler.registerFormat({
 
         if (!combined[fontGroup][name]) combined[fontGroup][name] = {};
         combined[fontGroup][name][type] = value;
+
+        if (name === 'weight') name = 'fontWeight';
+        if (name === 'size') name = 'fontSize';
+        if (name === 'line') name = 'lineHeight';
+        if (name === 'spacing') name = 'letterSpacing';
+
+        if (!variants[property]) variants[property] = {};
+        variants[property][name] = value;
       });
 
       property = 'wds.' + property;
@@ -323,6 +345,8 @@ handler.registerFormat({
     import { createFont } from 'tamagui'
 
     export const fonts = ${JSON.stringify(fonts, null, 2)}
+
+    export const variants = ${JSON.stringify(variants, null, 2).replaceAll(`"fontFamily": "Inter"`, `"fontFamily": "Inter" as "unset"`).replaceAll('}', '} as const')}
 
     ${c}
 
@@ -416,6 +440,7 @@ const config = [
     hooks: {
       formats: {
         tamaguiFormat: ({ dictionary }) => {
+          // @ts-ignore
           return getTamaguiConfigFormat({
             dictionary,
             ...sharedConfigOpts,
@@ -434,6 +459,7 @@ const config = [
     hooks: {
       formats: {
         tamaguiFormat: ({ dictionary }) => {
+          // @ts-ignore
           return getTamaguiThemeFormat({
             dictionary,
             ...sharedConfigOpts,
@@ -446,6 +472,7 @@ const config = [
 
 const run = async () => {
   config.forEach(async (c) => {
+    // @ts-ignore
     const builder = new StyleDictionaryModule(makeSdTamagui(c));
     await builder.hasInitialized;
     await builder.buildAllPlatforms();

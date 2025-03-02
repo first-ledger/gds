@@ -1,109 +1,113 @@
-import { createThemes, defaultComponentThemes } from '@tamagui/theme-builder';
 
-// Import WDS Colors
-import * as Light from './assets/Light/palette';
-import * as Dark from './assets/Dark/palette';
+      import { createThemes, defaultComponentThemes } from '@tamagui/theme-builder';
 
-const lightShadows = {
-  shadow1: 'rgba(0,0,0,0.04)',
-  shadow2: 'rgba(0,0,0,0.08)',
-  shadow3: 'rgba(0,0,0,0.16)',
-  shadow4: 'rgba(0,0,0,0.24)',
-  shadow5: 'rgba(0,0,0,0.32)',
-  shadow6: 'rgba(0,0,0,0.4)',
-};
+      // Import WDS Colors
+      import * as Light from './assets/Light/palette';
+      import * as Dark from './assets/Dark/palette';
 
-const darkShadows = {
-  shadow1: 'rgba(0,0,0,0.2)',
-  shadow2: 'rgba(0,0,0,0.3)',
-  shadow3: 'rgba(0,0,0,0.4)',
-  shadow4: 'rgba(0,0,0,0.5)',
-  shadow5: 'rgba(0,0,0,0.6)',
-  shadow6: 'rgba(0,0,0,0.7)',
-};
+      const lightShadows = {
+        shadow1: 'rgba(0,0,0,0.04)',
+        shadow2: 'rgba(0,0,0,0.08)',
+        shadow3: 'rgba(0,0,0,0.16)',
+        shadow4: 'rgba(0,0,0,0.24)',
+        shadow5: 'rgba(0,0,0,0.32)',
+        shadow6: 'rgba(0,0,0,0.4)',
+      };
 
-// we're adding some example sub-themes for you to show how they are done, "success" "warning", "error":
+      const darkShadows = {
+        shadow1: 'rgba(0,0,0,0.2)',
+        shadow2: 'rgba(0,0,0,0.3)',
+        shadow3: 'rgba(0,0,0,0.4)',
+        shadow4: 'rgba(0,0,0,0.5)',
+        shadow5: 'rgba(0,0,0,0.6)',
+        shadow6: 'rgba(0,0,0,0.7)',
+      };
 
-const builtThemes = createThemes({
-  // Component design tokens, outside of components -> defaults to base template
-  // background: string;
-  // backgroundFocus: string;
-  // backgroundHover: string;
-  // backgroundPress: string;
-  // borderColor: string;
-  // borderColorFocus: string;
-  // borderColorHover: string;
-  // borderColorPress: string;
-  // color: string;
-  // colorFocus: string;
-  // colorHover: string;
-  // colorPress: string;
-  // colorTransparent: string;
-  // placeholderColor: string;
-  // shadowColor: string;
-  // shadowColorFocus: string;
-  // shadowColorHover: string;
-  // shadowColorPress: string;
-  componentThemes: defaultComponentThemes,
+      // we're adding some example sub-themes for you to show how they are done, "success" "warning", "error":
 
-  base: {
-    palette: {
-      dark: Dark.base,
-      light: Light.base,
-    },
+      const builtThemes = createThemes({
 
-    extra: {
-      light: {
-        ...Light.keyed,
-        ...lightShadows,
-        shadowColor: lightShadows.shadow1,
-      },
-      dark: {
-        ...Dark.keyed,
-        ...darkShadows,
-        shadowColor: darkShadows.shadow1,
-      },
-    },
-  },
+        // Component design tokens, outside of components -> defaults to base template
+          // background: string;
+          // backgroundFocus: string;
+          // backgroundHover: string;
+          // backgroundPress: string;
+          // borderColor: string;
+          // borderColorFocus: string;
+          // borderColorHover: string;
+          // borderColorPress: string;
+          // color: string;
+          // colorFocus: string;
+          // colorHover: string;
+          // colorPress: string;
+          // colorTransparent: string;
+          // placeholderColor: string;
+          // shadowColor: string;
+          // shadowColorFocus: string;
+          // shadowColorHover: string;
+          // shadowColorPress: string;
+        componentThemes: defaultComponentThemes,
 
-  accent: {
-    palette: {
-      dark: Dark.accent,
-      light: Light.accent,
-    },
-  },
+        base: {
+          palette: {
+            dark: Dark.base,
+            light: Light.base,
+          },
 
-  childrenThemes: {
-    warning: {
-      palette: {
-        dark: Object.values(Dark.modals.yellow),
-        light: Object.values(Light.modals.yellow),
-      },
-    },
+          extra: {
+            light: {
+              ...Light.keyed,
+              ...lightShadows,
+              shadowColor: lightShadows.shadow1,
+            },
+            dark: {
+              ...Dark.keyed,
+              ...darkShadows,
+              shadowColor: darkShadows.shadow1,
+            },
+          },
+        },
 
-    error: {
-      palette: {
-        dark: Object.values(Dark.modals.red),
-        light: Object.values(Light.modals.red),
-      },
-    },
+        accent: {
+          palette: {
+            dark: Dark.accent,
+            light: Light.accent,
+          },
+        },
 
-    success: {
-      palette: {
-        dark: Object.values(Dark.modals.green),
-        light: Object.values(Light.modals.green),
-      },
-    },
-  },
-});
+        childrenThemes: {
+          warning: {
+            palette: {
+              dark: Object.values(Dark.modals.yellow),
+              light: Object.values(Light.modals.yellow),
+            },
+          },
 
-export type Themes = typeof builtThemes;
+          error: {
+            palette: {
+              dark: Object.values(Dark.modals.red),
+              light: Object.values(Light.modals.red),
+            },
+          },
 
-// this is optional, but saves client-side JS bundle size by leaving out themes on client.
-// tamagui automatically hydrates themes from css back into JS for you and the tamagui
-// bundler plugins automate setting TAMAGUI_ENVIRONMENT.
+          success: {
+            palette: {
+              dark: Object.values(Dark.modals.green),
+              light: Object.values(Light.modals.green),
+            },
+          },
+        },
 
-export const themes: Themes =
-  process.env.TAMAGUI_ENVIRONMENT === 'client' && process.env.NODE_ENV === 'production'
-    ? ({} as any)
-    : (builtThemes as any);
+      });
+
+      export type Themes = typeof builtThemes;
+
+      // this is optional, but saves client-side JS bundle size by leaving out themes on client.
+      // tamagui automatically hydrates themes from css back into JS for you and the tamagui
+      // bundler plugins automate setting TAMAGUI_ENVIRONMENT.
+
+      export const themes: Themes =
+        process.env.TAMAGUI_ENVIRONMENT === 'client' && process.env.NODE_ENV === 'production'
+          ? ({} as any)
+          : (builtThemes as any);
+  

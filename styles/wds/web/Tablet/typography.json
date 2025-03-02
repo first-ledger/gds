@@ -44,7 +44,13 @@
       "subitem": "Large",
       "state": "Light"
     },
-    "path": ["Typography", "Typography", "Display", "Large", "Light"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Display",
+      "Large",
+      "Light"
+    ],
     "key": "{Typography.Typography.Display.Large.Light}"
   },
   {
@@ -92,7 +98,13 @@
       "subitem": "Large",
       "state": "Reguler"
     },
-    "path": ["Typography", "Typography", "Display", "Large", "Reguler"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Display",
+      "Large",
+      "Reguler"
+    ],
     "key": "{Typography.Typography.Display.Large.Reguler}"
   },
   {
@@ -140,7 +152,13 @@
       "subitem": "Large",
       "state": "Medium"
     },
-    "path": ["Typography", "Typography", "Display", "Large", "Medium"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Display",
+      "Large",
+      "Medium"
+    ],
     "key": "{Typography.Typography.Display.Large.Medium}"
   },
   {
@@ -188,7 +206,13 @@
       "subitem": "Large",
       "state": "Semibold"
     },
-    "path": ["Typography", "Typography", "Display", "Large", "Semibold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Display",
+      "Large",
+      "Semibold"
+    ],
     "key": "{Typography.Typography.Display.Large.Semibold}"
   },
   {
@@ -236,7 +260,13 @@
       "subitem": "Large",
       "state": "Bold"
     },
-    "path": ["Typography", "Typography", "Display", "Large", "Bold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Display",
+      "Large",
+      "Bold"
+    ],
     "key": "{Typography.Typography.Display.Large.Bold}"
   },
   {
@@ -284,7 +314,13 @@
       "subitem": "Large",
       "state": "Extrabold"
     },
-    "path": ["Typography", "Typography", "Display", "Large", "Extrabold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Display",
+      "Large",
+      "Extrabold"
+    ],
     "key": "{Typography.Typography.Display.Large.Extrabold}"
   },
   {
@@ -332,7 +368,13 @@
       "subitem": "Large",
       "state": "Strong"
     },
-    "path": ["Typography", "Typography", "Display", "Large", "Strong"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Display",
+      "Large",
+      "Strong"
+    ],
     "key": "{Typography.Typography.Display.Large.Strong}"
   },
   {
@@ -380,7 +422,13 @@
       "subitem": "Small",
       "state": "Light"
     },
-    "path": ["Typography", "Typography", "Display", "Small", "Light"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Display",
+      "Small",
+      "Light"
+    ],
     "key": "{Typography.Typography.Display.Small.Light}"
   },
   {
@@ -428,7 +476,13 @@
       "subitem": "Small",
       "state": "Regular"
     },
-    "path": ["Typography", "Typography", "Display", "Small", "Regular"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Display",
+      "Small",
+      "Regular"
+    ],
     "key": "{Typography.Typography.Display.Small.Regular}"
   },
   {
@@ -476,7 +530,13 @@
       "subitem": "Small",
       "state": "Medium"
     },
-    "path": ["Typography", "Typography", "Display", "Small", "Medium"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Display",
+      "Small",
+      "Medium"
+    ],
     "key": "{Typography.Typography.Display.Small.Medium}"
   },
   {
@@ -524,7 +584,13 @@
       "subitem": "Small",
       "state": "Semibold"
     },
-    "path": ["Typography", "Typography", "Display", "Small", "Semibold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Display",
+      "Small",
+      "Semibold"
+    ],
     "key": "{Typography.Typography.Display.Small.Semibold}"
   },
   {
@@ -572,7 +638,13 @@
       "subitem": "Small",
       "state": "Bold"
     },
-    "path": ["Typography", "Typography", "Display", "Small", "Bold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Display",
+      "Small",
+      "Bold"
+    ],
     "key": "{Typography.Typography.Display.Small.Bold}"
   },
   {
@@ -620,7 +692,13 @@
       "subitem": "Small",
       "state": "Extrabold"
     },
-    "path": ["Typography", "Typography", "Display", "Small", "Extrabold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Display",
+      "Small",
+      "Extrabold"
+    ],
     "key": "{Typography.Typography.Display.Small.Extrabold}"
   },
   {
@@ -668,7 +746,13 @@
       "subitem": "Small",
       "state": "Strong"
     },
-    "path": ["Typography", "Typography", "Display", "Small", "Strong"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Display",
+      "Small",
+      "Strong"
+    ],
     "key": "{Typography.Typography.Display.Small.Strong}"
   },
   {
@@ -716,7 +800,13 @@
       "subitem": "H1",
       "state": "Light"
     },
-    "path": ["Typography", "Typography", "Heading", "H1", "Light"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H1",
+      "Light"
+    ],
     "key": "{Typography.Typography.Heading.H1.Light}"
   },
   {
@@ -764,7 +854,13 @@
       "subitem": "H1",
       "state": "Medium"
     },
-    "path": ["Typography", "Typography", "Heading", "H1", "Medium"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H1",
+      "Medium"
+    ],
     "key": "{Typography.Typography.Heading.H1.Medium}"
   },
   {
@@ -812,7 +908,13 @@
       "subitem": "H1",
       "state": "Semibold"
     },
-    "path": ["Typography", "Typography", "Heading", "H1", "Semibold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H1",
+      "Semibold"
+    ],
     "key": "{Typography.Typography.Heading.H1.Semibold}"
   },
   {
@@ -860,7 +962,13 @@
       "subitem": "H1",
       "state": "Bold"
     },
-    "path": ["Typography", "Typography", "Heading", "H1", "Bold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H1",
+      "Bold"
+    ],
     "key": "{Typography.Typography.Heading.H1.Bold}"
   },
   {
@@ -908,7 +1016,13 @@
       "subitem": "H1",
       "state": "Extrabold"
     },
-    "path": ["Typography", "Typography", "Heading", "H1", "Extrabold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H1",
+      "Extrabold"
+    ],
     "key": "{Typography.Typography.Heading.H1.Extrabold}"
   },
   {
@@ -956,7 +1070,13 @@
       "subitem": "H1",
       "state": "Strong"
     },
-    "path": ["Typography", "Typography", "Heading", "H1", "Strong"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H1",
+      "Strong"
+    ],
     "key": "{Typography.Typography.Heading.H1.Strong}"
   },
   {
@@ -1004,7 +1124,13 @@
       "subitem": "H2",
       "state": "Light"
     },
-    "path": ["Typography", "Typography", "Heading", "H2", "Light"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H2",
+      "Light"
+    ],
     "key": "{Typography.Typography.Heading.H2.Light}"
   },
   {
@@ -1052,7 +1178,13 @@
       "subitem": "H2",
       "state": "Medium"
     },
-    "path": ["Typography", "Typography", "Heading", "H2", "Medium"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H2",
+      "Medium"
+    ],
     "key": "{Typography.Typography.Heading.H2.Medium}"
   },
   {
@@ -1100,7 +1232,13 @@
       "subitem": "H2",
       "state": "Bold"
     },
-    "path": ["Typography", "Typography", "Heading", "H2", "Bold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H2",
+      "Bold"
+    ],
     "key": "{Typography.Typography.Heading.H2.Bold}"
   },
   {
@@ -1148,7 +1286,13 @@
       "subitem": "H2",
       "state": "Semibold"
     },
-    "path": ["Typography", "Typography", "Heading", "H2", "Semibold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H2",
+      "Semibold"
+    ],
     "key": "{Typography.Typography.Heading.H2.Semibold}"
   },
   {
@@ -1196,7 +1340,13 @@
       "subitem": "H2",
       "state": "Extrabold"
     },
-    "path": ["Typography", "Typography", "Heading", "H2", "Extrabold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H2",
+      "Extrabold"
+    ],
     "key": "{Typography.Typography.Heading.H2.Extrabold}"
   },
   {
@@ -1244,7 +1394,13 @@
       "subitem": "H2",
       "state": "Strong"
     },
-    "path": ["Typography", "Typography", "Heading", "H2", "Strong"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H2",
+      "Strong"
+    ],
     "key": "{Typography.Typography.Heading.H2.Strong}"
   },
   {
@@ -1292,7 +1448,13 @@
       "subitem": "H3",
       "state": "Light"
     },
-    "path": ["Typography", "Typography", "Heading", "H3", "Light"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H3",
+      "Light"
+    ],
     "key": "{Typography.Typography.Heading.H3.Light}"
   },
   {
@@ -1340,7 +1502,13 @@
       "subitem": "H3",
       "state": "Regular"
     },
-    "path": ["Typography", "Typography", "Heading", "H3", "Regular"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H3",
+      "Regular"
+    ],
     "key": "{Typography.Typography.Heading.H3.Regular}"
   },
   {
@@ -1388,7 +1556,13 @@
       "subitem": "H3",
       "state": "Medium"
     },
-    "path": ["Typography", "Typography", "Heading", "H3", "Medium"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H3",
+      "Medium"
+    ],
     "key": "{Typography.Typography.Heading.H3.Medium}"
   },
   {
@@ -1436,7 +1610,13 @@
       "subitem": "H3",
       "state": "Semilbold"
     },
-    "path": ["Typography", "Typography", "Heading", "H3", "Semilbold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H3",
+      "Semilbold"
+    ],
     "key": "{Typography.Typography.Heading.H3.Semilbold}"
   },
   {
@@ -1484,7 +1664,13 @@
       "subitem": "H3",
       "state": "Bold"
     },
-    "path": ["Typography", "Typography", "Heading", "H3", "Bold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H3",
+      "Bold"
+    ],
     "key": "{Typography.Typography.Heading.H3.Bold}"
   },
   {
@@ -1532,7 +1718,13 @@
       "subitem": "H3",
       "state": "Strong"
     },
-    "path": ["Typography", "Typography", "Heading", "H3", "Strong"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H3",
+      "Strong"
+    ],
     "key": "{Typography.Typography.Heading.H3.Strong}"
   },
   {
@@ -1580,7 +1772,13 @@
       "subitem": "H4",
       "state": "Light"
     },
-    "path": ["Typography", "Typography", "Heading", "H4", "Light"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H4",
+      "Light"
+    ],
     "key": "{Typography.Typography.Heading.H4.Light}"
   },
   {
@@ -1628,7 +1826,13 @@
       "subitem": "H4",
       "state": "Regular"
     },
-    "path": ["Typography", "Typography", "Heading", "H4", "Regular"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H4",
+      "Regular"
+    ],
     "key": "{Typography.Typography.Heading.H4.Regular}"
   },
   {
@@ -1676,7 +1880,13 @@
       "subitem": "H4",
       "state": "Medium"
     },
-    "path": ["Typography", "Typography", "Heading", "H4", "Medium"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H4",
+      "Medium"
+    ],
     "key": "{Typography.Typography.Heading.H4.Medium}"
   },
   {
@@ -1724,7 +1934,13 @@
       "subitem": "H4",
       "state": "Semibold"
     },
-    "path": ["Typography", "Typography", "Heading", "H4", "Semibold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H4",
+      "Semibold"
+    ],
     "key": "{Typography.Typography.Heading.H4.Semibold}"
   },
   {
@@ -1772,7 +1988,13 @@
       "subitem": "H4",
       "state": "Bold"
     },
-    "path": ["Typography", "Typography", "Heading", "H4", "Bold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H4",
+      "Bold"
+    ],
     "key": "{Typography.Typography.Heading.H4.Bold}"
   },
   {
@@ -1820,7 +2042,13 @@
       "subitem": "H4",
       "state": "Strong"
     },
-    "path": ["Typography", "Typography", "Heading", "H4", "Strong"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H4",
+      "Strong"
+    ],
     "key": "{Typography.Typography.Heading.H4.Strong}"
   },
   {
@@ -1868,7 +2096,13 @@
       "subitem": "H5",
       "state": "Light"
     },
-    "path": ["Typography", "Typography", "Heading", "H5", "Light"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H5",
+      "Light"
+    ],
     "key": "{Typography.Typography.Heading.H5.Light}"
   },
   {
@@ -1916,7 +2150,13 @@
       "subitem": "H5",
       "state": "Regular"
     },
-    "path": ["Typography", "Typography", "Heading", "H5", "Regular"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H5",
+      "Regular"
+    ],
     "key": "{Typography.Typography.Heading.H5.Regular}"
   },
   {
@@ -1964,7 +2204,13 @@
       "subitem": "H5",
       "state": "Medium"
     },
-    "path": ["Typography", "Typography", "Heading", "H5", "Medium"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H5",
+      "Medium"
+    ],
     "key": "{Typography.Typography.Heading.H5.Medium}"
   },
   {
@@ -2012,7 +2258,13 @@
       "subitem": "H5",
       "state": "Semibold"
     },
-    "path": ["Typography", "Typography", "Heading", "H5", "Semibold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H5",
+      "Semibold"
+    ],
     "key": "{Typography.Typography.Heading.H5.Semibold}"
   },
   {
@@ -2060,7 +2312,13 @@
       "subitem": "H5",
       "state": "Bold"
     },
-    "path": ["Typography", "Typography", "Heading", "H5", "Bold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H5",
+      "Bold"
+    ],
     "key": "{Typography.Typography.Heading.H5.Bold}"
   },
   {
@@ -2108,7 +2366,13 @@
       "subitem": "H5",
       "state": "Strong"
     },
-    "path": ["Typography", "Typography", "Heading", "H5", "Strong"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H5",
+      "Strong"
+    ],
     "key": "{Typography.Typography.Heading.H5.Strong}"
   },
   {
@@ -2156,7 +2420,13 @@
       "subitem": "H6",
       "state": "Light"
     },
-    "path": ["Typography", "Typography", "Heading", "H6", "Light"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H6",
+      "Light"
+    ],
     "key": "{Typography.Typography.Heading.H6.Light}"
   },
   {
@@ -2204,7 +2474,13 @@
       "subitem": "H6",
       "state": "Regular"
     },
-    "path": ["Typography", "Typography", "Heading", "H6", "Regular"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H6",
+      "Regular"
+    ],
     "key": "{Typography.Typography.Heading.H6.Regular}"
   },
   {
@@ -2252,7 +2528,13 @@
       "subitem": "H6",
       "state": "Medium"
     },
-    "path": ["Typography", "Typography", "Heading", "H6", "Medium"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H6",
+      "Medium"
+    ],
     "key": "{Typography.Typography.Heading.H6.Medium}"
   },
   {
@@ -2300,7 +2582,13 @@
       "subitem": "H6",
       "state": "Semibold"
     },
-    "path": ["Typography", "Typography", "Heading", "H6", "Semibold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H6",
+      "Semibold"
+    ],
     "key": "{Typography.Typography.Heading.H6.Semibold}"
   },
   {
@@ -2348,7 +2636,13 @@
       "subitem": "H6",
       "state": "Bold"
     },
-    "path": ["Typography", "Typography", "Heading", "H6", "Bold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H6",
+      "Bold"
+    ],
     "key": "{Typography.Typography.Heading.H6.Bold}"
   },
   {
@@ -2396,7 +2690,13 @@
       "subitem": "H6",
       "state": "Strong"
     },
-    "path": ["Typography", "Typography", "Heading", "H6", "Strong"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "H6",
+      "Strong"
+    ],
     "key": "{Typography.Typography.Heading.H6.Strong}"
   },
   {
@@ -2444,7 +2744,14 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Light"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Title",
+      "Page",
+      "Light"
+    ],
     "key": "{Typography.Typography.Heading.Title.Page.Light}"
   },
   {
@@ -2492,7 +2799,14 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Regular"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Title",
+      "Page",
+      "Regular"
+    ],
     "key": "{Typography.Typography.Heading.Title.Page.Regular}"
   },
   {
@@ -2540,7 +2854,14 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Medium"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Title",
+      "Page",
+      "Medium"
+    ],
     "key": "{Typography.Typography.Heading.Title.Page.Medium}"
   },
   {
@@ -2588,7 +2909,14 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Semibold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Title",
+      "Page",
+      "Semibold"
+    ],
     "key": "{Typography.Typography.Heading.Title.Page.Semibold}"
   },
   {
@@ -2636,7 +2964,14 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Bold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Title",
+      "Page",
+      "Bold"
+    ],
     "key": "{Typography.Typography.Heading.Title.Page.Bold}"
   },
   {
@@ -2684,7 +3019,14 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": ["Typography", "Typography", "Heading", "Title", "Page", "ExtraBold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Title",
+      "Page",
+      "ExtraBold"
+    ],
     "key": "{Typography.Typography.Heading.Title.Page.ExtraBold}"
   },
   {
@@ -2732,7 +3074,14 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Strong"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Title",
+      "Page",
+      "Strong"
+    ],
     "key": "{Typography.Typography.Heading.Title.Page.Strong}"
   },
   {
@@ -2780,7 +3129,14 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Light"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Title",
+      "Hero",
+      "Light"
+    ],
     "key": "{Typography.Typography.Heading.Title.Hero.Light}"
   },
   {
@@ -2828,7 +3184,14 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Regular"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Title",
+      "Hero",
+      "Regular"
+    ],
     "key": "{Typography.Typography.Heading.Title.Hero.Regular}"
   },
   {
@@ -2876,7 +3239,14 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Medium"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Title",
+      "Hero",
+      "Medium"
+    ],
     "key": "{Typography.Typography.Heading.Title.Hero.Medium}"
   },
   {
@@ -2924,7 +3294,14 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Semibold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Title",
+      "Hero",
+      "Semibold"
+    ],
     "key": "{Typography.Typography.Heading.Title.Hero.Semibold}"
   },
   {
@@ -2972,7 +3349,14 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Bold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Title",
+      "Hero",
+      "Bold"
+    ],
     "key": "{Typography.Typography.Heading.Title.Hero.Bold}"
   },
   {
@@ -3020,7 +3404,14 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Extrabold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Title",
+      "Hero",
+      "Extrabold"
+    ],
     "key": "{Typography.Typography.Heading.Title.Hero.Extrabold}"
   },
   {
@@ -3068,7 +3459,14 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Strong"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Title",
+      "Hero",
+      "Strong"
+    ],
     "key": "{Typography.Typography.Heading.Title.Hero.Strong}"
   },
   {
@@ -3116,7 +3514,13 @@
       "subitem": "Subtitle",
       "state": "Light"
     },
-    "path": ["Typography", "Typography", "Heading", "Subtitle", "Light"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Subtitle",
+      "Light"
+    ],
     "key": "{Typography.Typography.Heading.Subtitle.Light}"
   },
   {
@@ -3164,7 +3568,13 @@
       "subitem": "Subtitle",
       "state": "Regular"
     },
-    "path": ["Typography", "Typography", "Heading", "Subtitle", "Regular"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Subtitle",
+      "Regular"
+    ],
     "key": "{Typography.Typography.Heading.Subtitle.Regular}"
   },
   {
@@ -3212,7 +3622,13 @@
       "subitem": "Subtitle",
       "state": "Medium"
     },
-    "path": ["Typography", "Typography", "Heading", "Subtitle", "Medium"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Subtitle",
+      "Medium"
+    ],
     "key": "{Typography.Typography.Heading.Subtitle.Medium}"
   },
   {
@@ -3260,7 +3676,13 @@
       "subitem": "Subtitle",
       "state": "Semibold"
     },
-    "path": ["Typography", "Typography", "Heading", "Subtitle", "Semibold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Subtitle",
+      "Semibold"
+    ],
     "key": "{Typography.Typography.Heading.Subtitle.Semibold}"
   },
   {
@@ -3308,7 +3730,13 @@
       "subitem": "Subtitle",
       "state": "Bold"
     },
-    "path": ["Typography", "Typography", "Heading", "Subtitle", "Bold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Subtitle",
+      "Bold"
+    ],
     "key": "{Typography.Typography.Heading.Subtitle.Bold}"
   },
   {
@@ -3356,7 +3784,13 @@
       "subitem": "Subtitle",
       "state": "Extrabold"
     },
-    "path": ["Typography", "Typography", "Heading", "Subtitle", "Extrabold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Subtitle",
+      "Extrabold"
+    ],
     "key": "{Typography.Typography.Heading.Subtitle.Extrabold}"
   },
   {
@@ -3404,7 +3838,13 @@
       "subitem": "Subtitle",
       "state": "Strong"
     },
-    "path": ["Typography", "Typography", "Heading", "Subtitle", "Strong"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Heading",
+      "Subtitle",
+      "Strong"
+    ],
     "key": "{Typography.Typography.Heading.Subtitle.Strong}"
   },
   {
@@ -3452,7 +3892,14 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Regular"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Body",
+      "Small",
+      "Regular"
+    ],
     "key": "{Typography.Typography.Paragraph.Body.Small.Regular}"
   },
   {
@@ -3500,7 +3947,14 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Light"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Body",
+      "Small",
+      "Light"
+    ],
     "key": "{Typography.Typography.Paragraph.Body.Small.Light}"
   },
   {
@@ -3548,7 +4002,14 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Medium"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Body",
+      "Small",
+      "Medium"
+    ],
     "key": "{Typography.Typography.Paragraph.Body.Small.Medium}"
   },
   {
@@ -3596,7 +4057,14 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Semibold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Body",
+      "Small",
+      "Semibold"
+    ],
     "key": "{Typography.Typography.Paragraph.Body.Small.Semibold}"
   },
   {
@@ -3644,7 +4112,14 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Bold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Body",
+      "Small",
+      "Bold"
+    ],
     "key": "{Typography.Typography.Paragraph.Body.Small.Bold}"
   },
   {
@@ -3692,7 +4167,14 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Extrabold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Body",
+      "Small",
+      "Extrabold"
+    ],
     "key": "{Typography.Typography.Paragraph.Body.Small.Extrabold}"
   },
   {
@@ -3740,7 +4222,14 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Strong"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Body",
+      "Small",
+      "Strong"
+    ],
     "key": "{Typography.Typography.Paragraph.Body.Small.Strong}"
   },
   {
@@ -3788,7 +4277,14 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Light"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Body",
+      "Large",
+      "Light"
+    ],
     "key": "{Typography.Typography.Paragraph.Body.Large.Light}"
   },
   {
@@ -3836,7 +4332,14 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Medium"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Body",
+      "Large",
+      "Medium"
+    ],
     "key": "{Typography.Typography.Paragraph.Body.Large.Medium}"
   },
   {
@@ -3884,7 +4387,14 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Regular"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Body",
+      "Large",
+      "Regular"
+    ],
     "key": "{Typography.Typography.Paragraph.Body.Large.Regular}"
   },
   {
@@ -3932,7 +4442,14 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Semibold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Body",
+      "Large",
+      "Semibold"
+    ],
     "key": "{Typography.Typography.Paragraph.Body.Large.Semibold}"
   },
   {
@@ -3980,7 +4497,14 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Bold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Body",
+      "Large",
+      "Bold"
+    ],
     "key": "{Typography.Typography.Paragraph.Body.Large.Bold}"
   },
   {
@@ -4028,7 +4552,14 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Extrabold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Body",
+      "Large",
+      "Extrabold"
+    ],
     "key": "{Typography.Typography.Paragraph.Body.Large.Extrabold}"
   },
   {
@@ -4076,7 +4607,14 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Strong"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Body",
+      "Large",
+      "Strong"
+    ],
     "key": "{Typography.Typography.Paragraph.Body.Large.Strong}"
   },
   {
@@ -4124,7 +4662,14 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Italic"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Body",
+      "Large",
+      "Italic"
+    ],
     "key": "{Typography.Typography.Paragraph.Body.Large.Italic}"
   },
   {
@@ -4172,7 +4717,13 @@
       "subitem": "Code",
       "state": "Light"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Code", "Light"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Code",
+      "Light"
+    ],
     "key": "{Typography.Typography.Paragraph.Code.Light}"
   },
   {
@@ -4220,7 +4771,13 @@
       "subitem": "Code",
       "state": "Regular"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Code", "Regular"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Code",
+      "Regular"
+    ],
     "key": "{Typography.Typography.Paragraph.Code.Regular}"
   },
   {
@@ -4268,7 +4825,13 @@
       "subitem": "Code",
       "state": "Bold"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Code", "Bold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Code",
+      "Bold"
+    ],
     "key": "{Typography.Typography.Paragraph.Code.Bold}"
   },
   {
@@ -4316,7 +4879,13 @@
       "subitem": "Link",
       "state": "Light"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Link", "Light"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Link",
+      "Light"
+    ],
     "key": "{Typography.Typography.Paragraph.Link.Light}"
   },
   {
@@ -4364,7 +4933,13 @@
       "subitem": "Link",
       "state": "Regular"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Link", "Regular"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Link",
+      "Regular"
+    ],
     "key": "{Typography.Typography.Paragraph.Link.Regular}"
   },
   {
@@ -4412,7 +4987,13 @@
       "subitem": "Link",
       "state": "Bold"
     },
-    "path": ["Typography", "Typography", "Paragraph", "Link", "Bold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Paragraph",
+      "Link",
+      "Bold"
+    ],
     "key": "{Typography.Typography.Paragraph.Link.Bold}"
   },
   {
@@ -4460,7 +5041,13 @@
       "subitem": "Regular",
       "state": "2xs"
     },
-    "path": ["Typography", "Typography", "Text", "Regular", "2xs"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Regular",
+      "2xs"
+    ],
     "key": "{Typography.Typography.Text.Regular.2xs}"
   },
   {
@@ -4508,7 +5095,13 @@
       "subitem": "Regular",
       "state": "xs"
     },
-    "path": ["Typography", "Typography", "Text", "Regular", "xs"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Regular",
+      "xs"
+    ],
     "key": "{Typography.Typography.Text.Regular.xs}"
   },
   {
@@ -4556,7 +5149,13 @@
       "subitem": "Regular",
       "state": "sm"
     },
-    "path": ["Typography", "Typography", "Text", "Regular", "sm"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Regular",
+      "sm"
+    ],
     "key": "{Typography.Typography.Text.Regular.sm}"
   },
   {
@@ -4604,7 +5203,13 @@
       "subitem": "Regular",
       "state": "md"
     },
-    "path": ["Typography", "Typography", "Text", "Regular", "md"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Regular",
+      "md"
+    ],
     "key": "{Typography.Typography.Text.Regular.md}"
   },
   {
@@ -4652,7 +5257,13 @@
       "subitem": "Regular",
       "state": "lg"
     },
-    "path": ["Typography", "Typography", "Text", "Regular", "lg"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Regular",
+      "lg"
+    ],
     "key": "{Typography.Typography.Text.Regular.lg}"
   },
   {
@@ -4700,7 +5311,13 @@
       "subitem": "Regular",
       "state": "xl"
     },
-    "path": ["Typography", "Typography", "Text", "Regular", "xl"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Regular",
+      "xl"
+    ],
     "key": "{Typography.Typography.Text.Regular.xl}"
   },
   {
@@ -4748,7 +5365,13 @@
       "subitem": "Regular",
       "state": "2xl"
     },
-    "path": ["Typography", "Typography", "Text", "Regular", "2xl"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Regular",
+      "2xl"
+    ],
     "key": "{Typography.Typography.Text.Regular.2xl}"
   },
   {
@@ -4796,7 +5419,13 @@
       "subitem": "Regular",
       "state": "3xl"
     },
-    "path": ["Typography", "Typography", "Text", "Regular", "3xl"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Regular",
+      "3xl"
+    ],
     "key": "{Typography.Typography.Text.Regular.3xl}"
   },
   {
@@ -4844,7 +5473,13 @@
       "subitem": "Regular",
       "state": "4xl"
     },
-    "path": ["Typography", "Typography", "Text", "Regular", "4xl"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Regular",
+      "4xl"
+    ],
     "key": "{Typography.Typography.Text.Regular.4xl}"
   },
   {
@@ -4892,7 +5527,13 @@
       "subitem": "Regular",
       "state": "5xl"
     },
-    "path": ["Typography", "Typography", "Text", "Regular", "5xl"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Regular",
+      "5xl"
+    ],
     "key": "{Typography.Typography.Text.Regular.5xl}"
   },
   {
@@ -4940,7 +5581,13 @@
       "subitem": "Regular",
       "state": "6xl"
     },
-    "path": ["Typography", "Typography", "Text", "Regular", "6xl"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Regular",
+      "6xl"
+    ],
     "key": "{Typography.Typography.Text.Regular.6xl}"
   },
   {
@@ -4988,7 +5635,13 @@
       "subitem": "Regular",
       "state": "7xl"
     },
-    "path": ["Typography", "Typography", "Text", "Regular", "7xl"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Regular",
+      "7xl"
+    ],
     "key": "{Typography.Typography.Text.Regular.7xl}"
   },
   {
@@ -5036,7 +5689,13 @@
       "subitem": "Regular",
       "state": "8xl"
     },
-    "path": ["Typography", "Typography", "Text", "Regular", "8xl"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Regular",
+      "8xl"
+    ],
     "key": "{Typography.Typography.Text.Regular.8xl}"
   },
   {
@@ -5084,7 +5743,13 @@
       "subitem": "Bold",
       "state": "2xs"
     },
-    "path": ["Typography", "Typography", "Text", "Bold", "2xs"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Bold",
+      "2xs"
+    ],
     "key": "{Typography.Typography.Text.Bold.2xs}"
   },
   {
@@ -5132,7 +5797,13 @@
       "subitem": "Bold",
       "state": "xs"
     },
-    "path": ["Typography", "Typography", "Text", "Bold", "xs"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Bold",
+      "xs"
+    ],
     "key": "{Typography.Typography.Text.Bold.xs}"
   },
   {
@@ -5180,7 +5851,13 @@
       "subitem": "Bold",
       "state": "sm"
     },
-    "path": ["Typography", "Typography", "Text", "Bold", "sm"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Bold",
+      "sm"
+    ],
     "key": "{Typography.Typography.Text.Bold.sm}"
   },
   {
@@ -5228,7 +5905,13 @@
       "subitem": "Bold",
       "state": "md"
     },
-    "path": ["Typography", "Typography", "Text", "Bold", "md"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Bold",
+      "md"
+    ],
     "key": "{Typography.Typography.Text.Bold.md}"
   },
   {
@@ -5276,7 +5959,13 @@
       "subitem": "Bold",
       "state": "lg"
     },
-    "path": ["Typography", "Typography", "Text", "Bold", "lg"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Bold",
+      "lg"
+    ],
     "key": "{Typography.Typography.Text.Bold.lg}"
   },
   {
@@ -5324,7 +6013,13 @@
       "subitem": "Bold",
       "state": "xl"
     },
-    "path": ["Typography", "Typography", "Text", "Bold", "xl"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Bold",
+      "xl"
+    ],
     "key": "{Typography.Typography.Text.Bold.xl}"
   },
   {
@@ -5372,7 +6067,13 @@
       "subitem": "Bold",
       "state": "2xl"
     },
-    "path": ["Typography", "Typography", "Text", "Bold", "2xl"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Bold",
+      "2xl"
+    ],
     "key": "{Typography.Typography.Text.Bold.2xl}"
   },
   {
@@ -5420,7 +6121,13 @@
       "subitem": "Bold",
       "state": "3xl"
     },
-    "path": ["Typography", "Typography", "Text", "Bold", "3xl"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Bold",
+      "3xl"
+    ],
     "key": "{Typography.Typography.Text.Bold.3xl}"
   },
   {
@@ -5468,7 +6175,13 @@
       "subitem": "Bold",
       "state": "4xl"
     },
-    "path": ["Typography", "Typography", "Text", "Bold", "4xl"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Bold",
+      "4xl"
+    ],
     "key": "{Typography.Typography.Text.Bold.4xl}"
   },
   {
@@ -5516,7 +6229,13 @@
       "subitem": "Bold",
       "state": "5xl"
     },
-    "path": ["Typography", "Typography", "Text", "Bold", "5xl"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Bold",
+      "5xl"
+    ],
     "key": "{Typography.Typography.Text.Bold.5xl}"
   },
   {
@@ -5564,7 +6283,13 @@
       "subitem": "Bold",
       "state": "6xl"
     },
-    "path": ["Typography", "Typography", "Text", "Bold", "6xl"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Bold",
+      "6xl"
+    ],
     "key": "{Typography.Typography.Text.Bold.6xl}"
   },
   {
@@ -5612,7 +6337,13 @@
       "subitem": "Bold",
       "state": "7xl"
     },
-    "path": ["Typography", "Typography", "Text", "Bold", "7xl"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Bold",
+      "7xl"
+    ],
     "key": "{Typography.Typography.Text.Bold.7xl}"
   },
   {
@@ -5660,7 +6391,13 @@
       "subitem": "Bold",
       "state": "8xl"
     },
-    "path": ["Typography", "Typography", "Text", "Bold", "8xl"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Text",
+      "Bold",
+      "8xl"
+    ],
     "key": "{Typography.Typography.Text.Bold.8xl}"
   },
   {
@@ -5708,7 +6445,13 @@
       "subitem": "Small",
       "state": "Light"
     },
-    "path": ["Typography", "Typography", "Label", "Small", "Light"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Small",
+      "Light"
+    ],
     "key": "{Typography.Typography.Label.Small.Light}"
   },
   {
@@ -5756,7 +6499,13 @@
       "subitem": "Small",
       "state": "Regular"
     },
-    "path": ["Typography", "Typography", "Label", "Small", "Regular"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Small",
+      "Regular"
+    ],
     "key": "{Typography.Typography.Label.Small.Regular}"
   },
   {
@@ -5804,7 +6553,13 @@
       "subitem": "Small",
       "state": "Medium"
     },
-    "path": ["Typography", "Typography", "Label", "Small", "Medium"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Small",
+      "Medium"
+    ],
     "key": "{Typography.Typography.Label.Small.Medium}"
   },
   {
@@ -5852,7 +6607,13 @@
       "subitem": "Small",
       "state": "Semibold"
     },
-    "path": ["Typography", "Typography", "Label", "Small", "Semibold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Small",
+      "Semibold"
+    ],
     "key": "{Typography.Typography.Label.Small.Semibold}"
   },
   {
@@ -5900,7 +6661,13 @@
       "subitem": "Small",
       "state": "Bold"
     },
-    "path": ["Typography", "Typography", "Label", "Small", "Bold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Small",
+      "Bold"
+    ],
     "key": "{Typography.Typography.Label.Small.Bold}"
   },
   {
@@ -5948,7 +6715,13 @@
       "subitem": "Small",
       "state": "Extrabold"
     },
-    "path": ["Typography", "Typography", "Label", "Small", "Extrabold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Small",
+      "Extrabold"
+    ],
     "key": "{Typography.Typography.Label.Small.Extrabold}"
   },
   {
@@ -5996,7 +6769,13 @@
       "subitem": "Small",
       "state": "Strong"
     },
-    "path": ["Typography", "Typography", "Label", "Small", "Strong"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Small",
+      "Strong"
+    ],
     "key": "{Typography.Typography.Label.Small.Strong}"
   },
   {
@@ -6044,7 +6823,13 @@
       "subitem": "Medium",
       "state": "Light"
     },
-    "path": ["Typography", "Typography", "Label", "Medium", "Light"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Medium",
+      "Light"
+    ],
     "key": "{Typography.Typography.Label.Medium.Light}"
   },
   {
@@ -6092,7 +6877,13 @@
       "subitem": "Medium",
       "state": "Regular"
     },
-    "path": ["Typography", "Typography", "Label", "Medium", "Regular"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Medium",
+      "Regular"
+    ],
     "key": "{Typography.Typography.Label.Medium.Regular}"
   },
   {
@@ -6140,7 +6931,13 @@
       "subitem": "Medium",
       "state": "Medium"
     },
-    "path": ["Typography", "Typography", "Label", "Medium", "Medium"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Medium",
+      "Medium"
+    ],
     "key": "{Typography.Typography.Label.Medium.Medium}"
   },
   {
@@ -6188,7 +6985,13 @@
       "subitem": "Medium",
       "state": "Semibold"
     },
-    "path": ["Typography", "Typography", "Label", "Medium", "Semibold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Medium",
+      "Semibold"
+    ],
     "key": "{Typography.Typography.Label.Medium.Semibold}"
   },
   {
@@ -6236,7 +7039,13 @@
       "subitem": "Medium",
       "state": "Bold"
     },
-    "path": ["Typography", "Typography", "Label", "Medium", "Bold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Medium",
+      "Bold"
+    ],
     "key": "{Typography.Typography.Label.Medium.Bold}"
   },
   {
@@ -6284,7 +7093,13 @@
       "subitem": "Medium",
       "state": "Extrabold"
     },
-    "path": ["Typography", "Typography", "Label", "Medium", "Extrabold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Medium",
+      "Extrabold"
+    ],
     "key": "{Typography.Typography.Label.Medium.Extrabold}"
   },
   {
@@ -6332,7 +7147,13 @@
       "subitem": "Medium",
       "state": "Strong"
     },
-    "path": ["Typography", "Typography", "Label", "Medium", "Strong"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Medium",
+      "Strong"
+    ],
     "key": "{Typography.Typography.Label.Medium.Strong}"
   },
   {
@@ -6380,7 +7201,13 @@
       "subitem": "Large",
       "state": "Light"
     },
-    "path": ["Typography", "Typography", "Label", "Large", "Light"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Large",
+      "Light"
+    ],
     "key": "{Typography.Typography.Label.Large.Light}"
   },
   {
@@ -6428,7 +7255,13 @@
       "subitem": "Large",
       "state": "Regular"
     },
-    "path": ["Typography", "Typography", "Label", "Large", "Regular"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Large",
+      "Regular"
+    ],
     "key": "{Typography.Typography.Label.Large.Regular}"
   },
   {
@@ -6476,7 +7309,13 @@
       "subitem": "Large",
       "state": "Medium"
     },
-    "path": ["Typography", "Typography", "Label", "Large", "Medium"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Large",
+      "Medium"
+    ],
     "key": "{Typography.Typography.Label.Large.Medium}"
   },
   {
@@ -6524,7 +7363,13 @@
       "subitem": "Large",
       "state": "Semibold"
     },
-    "path": ["Typography", "Typography", "Label", "Large", "Semibold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Large",
+      "Semibold"
+    ],
     "key": "{Typography.Typography.Label.Large.Semibold}"
   },
   {
@@ -6572,7 +7417,13 @@
       "subitem": "Large",
       "state": "Bold"
     },
-    "path": ["Typography", "Typography", "Label", "Large", "Bold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Large",
+      "Bold"
+    ],
     "key": "{Typography.Typography.Label.Large.Bold}"
   },
   {
@@ -6620,7 +7471,13 @@
       "subitem": "Large",
       "state": "Extrabold"
     },
-    "path": ["Typography", "Typography", "Label", "Large", "Extrabold"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Large",
+      "Extrabold"
+    ],
     "key": "{Typography.Typography.Label.Large.Extrabold}"
   },
   {
@@ -6668,7 +7525,13 @@
       "subitem": "Large",
       "state": "Strong"
     },
-    "path": ["Typography", "Typography", "Label", "Large", "Strong"],
+    "path": [
+      "Typography",
+      "Typography",
+      "Label",
+      "Large",
+      "Strong"
+    ],
     "key": "{Typography.Typography.Label.Large.Strong}"
   },
   {
@@ -6716,7 +7579,13 @@
       "subitem": "Component notes",
       "state": "Regular"
     },
-    "path": ["Typography", "Typography", ".Utilities", "Component notes", "Regular"],
+    "path": [
+      "Typography",
+      "Typography",
+      ".Utilities",
+      "Component notes",
+      "Regular"
+    ],
     "key": "{Typography.Typography..Utilities.Component notes.Regular}"
   },
   {
@@ -6764,7 +7633,13 @@
       "subitem": "Component notes",
       "state": "Bold"
     },
-    "path": ["Typography", "Typography", ".Utilities", "Component notes", "Bold"],
+    "path": [
+      "Typography",
+      "Typography",
+      ".Utilities",
+      "Component notes",
+      "Bold"
+    ],
     "key": "{Typography.Typography..Utilities.Component notes.Bold}"
   }
 ]

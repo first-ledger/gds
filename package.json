@@ -1,6 +1,6 @@
 {
   "name": "@first-ledger/gds",
-  "version": "0.0.1-b.5",
+  "version": "0.0.1-b.6",
   "description": "This project is a comprehensive design system that integrates design tokens and typography for the First Ledger and First Ledger Mobile applications, facilitating a cohesive visual experience across platforms.",
   "keywords": [
     "design",
@@ -19,13 +19,14 @@
     "styles"
   ],
   "scripts": {
-    "ts-node": "ts-node -P ./config/tsconfig.test.json",
+    "ts": "pnpm tsx --tsconfig ./config/tsconfig.test.json",
+    "tsnode": "ts-node -P ./config/tsconfig.test.json",
     "-------------------------------": "",
     "script:flds:design": "node ./scripts/first-ledger/design.mjs",
     "script:flds:tw": "node ./scripts/first-ledger/tw.mjs",
     "script:flds": "pnpm script:flds:design && pnpm script:flds:tw",
     "-----------------------------------": "",
-    "script:wds:tamagui": "node ./scripts/wallet/tamagui.mjs",
+    "script:wds:tamagui": "pnpm ts ./scripts/wallet/tamagui.mts",
     "script:wds:design": "node ./scripts/wallet/design.mjs",
     "script:wds": "pnpm script:wds:design && pnpm script:wds:tamagui",
     "---------------------------------": "",
@@ -76,6 +77,7 @@
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "tsc-alias": "^1.8.10",
-    "typescript": "^5.7.3"
+    "typescript": "^5.7.3",
+    "tsx": "^4.19.3"
   }
 }
