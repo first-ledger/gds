@@ -483,6 +483,8 @@
   <dimen name="wds_size_icon_2_x_large">1280.00dp</dimen>
   <dimen name="wds_size_icon_x_large">960.00dp</dimen>
   <dimen name="wds_size_icon_3_x_large">1600.00dp</dimen>
+  <dimen name="wds_size_icon_x_small">288.00dp</dimen>
+  <dimen name="wds_size_icon_2_x_small">224.00dp</dimen>
   <dimen name="wds_size_padding_desktop">192.00dp</dimen>
   <string name="wds_typography_font_family_primary">Inter</string>
   <string name="wds_typography_font_family_secondary">Noto Serif</string>

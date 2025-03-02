@@ -10464,6 +10464,54 @@
             }
           }
         }
+      },
+      "X Small": {
+        "$type": "dimension",
+        "$value": "18px",
+        "$description": "",
+        "scopes": ["ALL_SCOPES"],
+        "$extensions": {
+          "mode": {
+            "Desktop": "18px",
+            "Tablet": "18px",
+            "Mobile": "18px"
+          },
+          "figma": {
+            "codeSyntax": {
+              "WEB": "var(--WDS-Icon-Small)"
+            },
+            "variableId": "VariableID:5060:2",
+            "collection": {
+              "id": "VariableCollectionId:9:11257",
+              "name": "Size",
+              "defaultModeId": "9:7"
+            }
+          }
+        }
+      },
+      "2X Small": {
+        "$type": "dimension",
+        "$value": "14px",
+        "$description": "",
+        "scopes": ["ALL_SCOPES"],
+        "$extensions": {
+          "mode": {
+            "Desktop": "14px",
+            "Tablet": "14px",
+            "Mobile": "14px"
+          },
+          "figma": {
+            "codeSyntax": {
+              "WEB": "var(--WDS-Icon-Small)"
+            },
+            "variableId": "VariableID:5060:6",
+            "collection": {
+              "id": "VariableCollectionId:9:11257",
+              "name": "Size",
+              "defaultModeId": "9:7"
+            }
+          }
+        }
       }
     },
     "Padding": {
@@ -25050,7 +25098,7 @@
         "Modals",
         "Theme"
       ],
-      "createdAt": "2025-02-12T06:40:23.192Z"
+      "createdAt": "2025-03-02T17:37:11.059Z"
     }
   }
 }

@@ -3829,6 +3829,138 @@
   },
   {
     "$type": "dimension",
+    "$value": "18px",
+    "$description": "",
+    "scopes": [
+      "ALL_SCOPES"
+    ],
+    "$extensions": {
+      "mode": {
+        "Desktop": "18px",
+        "Tablet": "18px",
+        "Mobile": "18px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--WDS-Icon-Small)"
+        },
+        "variableId": "VariableID:5060:2",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/wallet.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "18px",
+      "$description": "",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "$extensions": {
+        "mode": {
+          "Desktop": "18px",
+          "Tablet": "18px",
+          "Mobile": "18px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--WDS-Icon-Small)"
+          },
+          "variableId": "VariableID:5060:2",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "wds-size-icon-x-small",
+    "attributes": {
+      "category": "Size",
+      "type": "Icon",
+      "item": "X Small"
+    },
+    "path": [
+      "Size",
+      "Icon",
+      "X Small"
+    ],
+    "key": "{Size.Icon.X Small}"
+  },
+  {
+    "$type": "dimension",
+    "$value": "14px",
+    "$description": "",
+    "scopes": [
+      "ALL_SCOPES"
+    ],
+    "$extensions": {
+      "mode": {
+        "Desktop": "14px",
+        "Tablet": "14px",
+        "Mobile": "14px"
+      },
+      "figma": {
+        "codeSyntax": {
+          "WEB": "var(--WDS-Icon-Small)"
+        },
+        "variableId": "VariableID:5060:6",
+        "collection": {
+          "id": "VariableCollectionId:9:11257",
+          "name": "Size",
+          "defaultModeId": "9:7"
+        }
+      }
+    },
+    "filePath": "static/wallet.json",
+    "isSource": true,
+    "original": {
+      "$type": "dimension",
+      "$value": "14px",
+      "$description": "",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "$extensions": {
+        "mode": {
+          "Desktop": "14px",
+          "Tablet": "14px",
+          "Mobile": "14px"
+        },
+        "figma": {
+          "codeSyntax": {
+            "WEB": "var(--WDS-Icon-Small)"
+          },
+          "variableId": "VariableID:5060:6",
+          "collection": {
+            "id": "VariableCollectionId:9:11257",
+            "name": "Size",
+            "defaultModeId": "9:7"
+          }
+        }
+      }
+    },
+    "name": "wds-size-icon-2-x-small",
+    "attributes": {
+      "category": "Size",
+      "type": "Icon",
+      "item": "2X Small"
+    },
+    "path": [
+      "Size",
+      "Icon",
+      "2X Small"
+    ],
+    "key": "{Size.Icon.2X Small}"
+  },
+  {
+    "$type": "dimension",
     "$value": "48px",
     "$description": "",
     "scopes": [

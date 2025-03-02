@@ -191,6 +191,11 @@ handler.registerFormat({
       if (property === 'zindex') property = 'zIndex';
       property = 'wds.' + property;
 
+      if (typeof prop.$value === 'string' && prop.$value.includes('px'))
+        prop.$value.replace('px', '');
+
+      prop.$value = parseFloat(prop.$value);
+
       if (!combined[property]) combined[property] = {};
       combined[property][token.toLowerCase()] = prop.$value;
 

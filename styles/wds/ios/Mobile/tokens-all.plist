@@ -4222,6 +4222,10 @@
 <integer>960.00f</integer>
   <key>WdsSizeIcon3XLarge</key>
 <integer>1600.00f</integer>
+  <key>WdsSizeIconXSmall</key>
+<integer>288.00f</integer>
+  <key>WdsSizeIcon2XSmall</key>
+<integer>224.00f</integer>
   <key>WdsSizePaddingDesktop</key>
 <integer>192.00f</integer>
   <key>WdsTypographyFontFamilyPrimary</key>
