@@ -1,0 +1,152 @@
+export const defaultComponentThemes = {
+  ListItem: { template: 'surface1' },
+  SelectTrigger: { template: 'surface1' },
+  Card: { template: 'surface1' },
+  Button: { template: 'surface3' },
+  Checkbox: { template: 'surface2' },
+  Switch: { template: 'surface2' },
+  SwitchThumb: { template: 'inverse' },
+  TooltipContent: { template: 'surface2' },
+  Progress: { template: 'surface1' },
+  RadioGroupItem: { template: 'surface2' },
+  TooltipArrow: { template: 'surface1' },
+  SliderTrackActive: { template: 'surface3' },
+  SliderTrack: { template: 'surface1' },
+  SliderThumb: { template: 'inverse' },
+  Tooltip: { template: 'inverse' },
+  ProgressIndicator: { template: 'inverse' },
+  Input: { template: 'surface1' },
+  TextArea: { template: 'surface1' },
+} satisfies SimpleThemesDefinition
+
+
+export const TemplateMap = {
+  "base": {
+    "light": {
+      "background": "color7",
+      "backgroundHover": "color6",
+      "backgroundPress": "color8",
+      "backgroundFocus": "color8",
+      "borderColor": "color10",
+      "borderColorHover": "color9",
+      "borderColorPress": "color11",
+      "borderColorFocus": "color10",
+      "color": "color7",
+      "colorHover": "color6",
+      "colorPress": "color7",
+      "colorFocus": "color6",
+      "placeholderColor": "color4",
+      "outlineColor": "color11"
+    },
+    "dark": {
+      "background": "color7",
+      "backgroundHover": "color8",
+      "backgroundPress": "color6",
+      "backgroundFocus": "color6",
+      "borderColor": "color10",
+      "borderColorHover": "color11",
+      "borderColorPress": "color9",
+      "borderColorFocus": "color10",
+      "color": "color7",
+      "colorHover": "color6",
+      "colorPress": "color7",
+      "colorFocus": "color6",
+      "placeholderColor": "color4",
+      "outlineColor": "color11"
+    }
+  },
+  "surface1": {
+    "light": {
+      "background": "color8",
+      "backgroundHover": "color7",
+      "backgroundPress": "color9",
+      "backgroundFocus": "color9",
+      "borderColor": "color11",
+      "borderColorHover": "color10",
+      "borderColorPress": "undefined",
+      "borderColorFocus": "color11"
+    },
+    "dark": {
+      "background": "color8",
+      "backgroundHover": "color9",
+      "backgroundPress": "color7",
+      "backgroundFocus": "color7",
+      "borderColor": "color11",
+      "borderColorHover": "undefined",
+      "borderColorPress": "color10",
+      "borderColorFocus": "color11"
+    }
+  },
+  "surface2": {
+    "light": {
+      "background": "color9",
+      "backgroundHover": "color8",
+      "backgroundPress": "color10",
+      "backgroundFocus": "color10",
+      "borderColor": "undefined",
+      "borderColorHover": "color11",
+      "borderColorPress": "undefined",
+      "borderColorFocus": "undefined"
+    },
+    "dark": {
+      "background": "color9",
+      "backgroundHover": "color10",
+      "backgroundPress": "color8",
+      "backgroundFocus": "color8",
+      "borderColor": "undefined",
+      "borderColorHover": "undefined",
+      "borderColorPress": "color11",
+      "borderColorFocus": "undefined"
+    }
+  },
+  "surface3": {
+    "light": {
+      "background": "color10",
+      "backgroundHover": "color9",
+      "backgroundPress": "undefined",
+      "backgroundFocus": "undefined",
+      "borderColor": "undefined",
+      "borderColorHover": "undefined",
+      "borderColorPress": "undefined",
+      "borderColorFocus": "undefined"
+    },
+    "dark": {
+      "background": "color10",
+      "backgroundHover": "undefined",
+      "backgroundPress": "color9",
+      "backgroundFocus": "color9",
+      "borderColor": "undefined",
+      "borderColorHover": "undefined",
+      "borderColorPress": "undefined",
+      "borderColorFocus": "undefined"
+    }
+  },
+  "alt1": {
+    "color": "color6",
+    "colorHover": "color5",
+    "colorPress": "color6",
+    "colorFocus": "color5"
+  },
+  "alt2": {
+    "color": "color5",
+    "colorHover": "color4",
+    "colorPress": "color5",
+    "colorFocus": "color4"
+  },
+  "inverse": {
+    "background": "color7",
+    "backgroundHover": "color8",
+    "backgroundPress": "color6",
+    "backgroundFocus": "color6",
+    "borderColor": "color4",
+    "borderColorHover": "color5",
+    "borderColorPress": "color3",
+    "borderColorFocus": "color4",
+    "color": "color7",
+    "colorHover": "color8",
+    "colorPress": "color7",
+    "colorFocus": "color8",
+    "placeholderColor": "color10",
+    "outlineColor": "color2"
+  }
+}

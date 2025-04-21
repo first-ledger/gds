@@ -3,6 +3,10 @@ import type { Config } from 'style-dictionary/types/Config';
 import type { SdTailwindConfigType, TailwindFormatObjType } from './types.js';
 import utils from './utils.js';
 
+const toNormalCase = (str: string) => {
+  return str.toLowerCase().replace(/\b\w/g, (match) => match.toUpperCase());
+};
+
 const handleTokenAttribute = (
   type: SdTailwindConfigType['type'],
   isVariables: SdTailwindConfigType['isVariables'],
@@ -18,8 +22,8 @@ const handleTokenAttribute = (
      */
     if (isVariables && cur.attributes.category !== 'screens') {
       acc[arr.join('.')] = prefix
-        ? `var(--${utils.addHyphen(prefix) + cur.name})`
-        : `var(--${cur.name})`;
+        ? `var(--${utils.addHyphen(prefix) + toNormalCase(cur.name)})`
+        : `var(--${toNormalCase(cur.name)})`;
     } else {
       acc[arr.join('.')] = cur['$value'] || cur['value'];
     }
