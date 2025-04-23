@@ -8,5 +8,12 @@
       "@/tests/*": ["tests/*"]
     }
   },
-  "include": ["src", "tests", "static", "scripts/builder.ts", "scripts/index.mjs", "scripts/tw.mjs"]
+  "include": [
+    "src",
+    "tests",
+    "static",
+    "scripts/builder.ts",
+    "scripts/index.mjs",
+    "scripts/first-ledger/tw.mjs"
+  ]
 }
