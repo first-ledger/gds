@@ -1301,11 +1301,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "0px",
-            "Tablet": "0px",
-            "Mobile": "0px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-0)"
@@ -1327,11 +1323,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "4px",
-            "Tablet": "4px",
-            "Mobile": "4px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-100)"
@@ -1353,11 +1345,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "6px",
-            "Tablet": "6px",
-            "Mobile": "6px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-150)"
@@ -1379,11 +1367,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "8px",
-            "Tablet": "8px",
-            "Mobile": "8px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-200)"
@@ -1405,11 +1389,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "12px",
-            "Tablet": "12px",
-            "Mobile": "12px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-300)"
@@ -1431,11 +1411,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "16px",
-            "Tablet": "16px",
-            "Mobile": "16px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-400)"
@@ -1457,11 +1433,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "20px",
-            "Tablet": "20px",
-            "Mobile": "20px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-400)"
@@ -1483,11 +1455,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "24px",
-            "Tablet": "24px",
-            "Mobile": "24px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-600)"
@@ -1509,11 +1477,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "32px",
-            "Tablet": "32px",
-            "Mobile": "32px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-800)"
@@ -1535,11 +1499,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "36px",
-            "Tablet": "36px",
-            "Mobile": "36px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-800)"
@@ -1561,11 +1521,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "42px",
-            "Tablet": "42px",
-            "Mobile": "42px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-800)"
@@ -1587,11 +1543,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "48px",
-            "Tablet": "48px",
-            "Mobile": "48px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-1200)"
@@ -1613,11 +1565,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "64px",
-            "Tablet": "64px",
-            "Mobile": "64px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-1600)"
@@ -1639,11 +1587,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "96px",
-            "Tablet": "96px",
-            "Mobile": "96px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-2400)"
@@ -1665,11 +1609,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "128px",
-            "Tablet": "128px",
-            "Mobile": "128px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-3000)"
@@ -1691,11 +1631,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "160px",
-            "Tablet": "160px",
-            "Mobile": "160px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-4000)"
@@ -1717,11 +1653,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "-4px",
-            "Tablet": "-4px",
-            "Mobile": "-4px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-Negative 100)"
@@ -1743,11 +1675,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "-8px",
-            "Tablet": "-8px",
-            "Mobile": "-8px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-Negative 200)"
@@ -1769,11 +1697,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "-12px",
-            "Tablet": "-12px",
-            "Mobile": "-12px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-Negative 300)"
@@ -1795,11 +1719,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "-16px",
-            "Tablet": "-16px",
-            "Mobile": "-16px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-Negative 400)"
@@ -1821,11 +1741,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "-24px",
-            "Tablet": "-24px",
-            "Mobile": "-24px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-Negative 600)"
@@ -1847,11 +1763,7 @@
           "GAP"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "2px",
-            "Tablet": "2px",
-            "Mobile": "2px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Space-050)"
@@ -1875,11 +1787,7 @@
           "CORNER_RADIUS"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "4px",
-            "Tablet": "4px",
-            "Mobile": "4px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Radius-100)"
@@ -1901,11 +1809,7 @@
           "CORNER_RADIUS"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "10px",
-            "Tablet": "10px",
-            "Mobile": "10px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Radius-200)"
@@ -1927,11 +1831,7 @@
           "CORNER_RADIUS"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "16px",
-            "Tablet": "16px",
-            "Mobile": "16px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Radius-300)"
@@ -1953,11 +1853,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "20px",
-            "Tablet": "20px",
-            "Mobile": "20px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Radius-400)"
@@ -1979,11 +1875,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "48px",
-            "Tablet": "48px",
-            "Mobile": "48px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Radius-480)"
@@ -2005,11 +1897,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "50px",
-            "Tablet": "50px",
-            "Mobile": "50px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Radius-500)"
@@ -2031,11 +1919,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "60px",
-            "Tablet": "60px",
-            "Mobile": "60px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Radius-600)"
@@ -2057,11 +1941,7 @@
           "CORNER_RADIUS"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "9999px",
-            "Tablet": "9999px",
-            "Mobile": "9999px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Radius-Full)"
@@ -2085,11 +1965,7 @@
           "EFFECT_FLOAT"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "0px",
-            "Tablet": "0px",
-            "Mobile": "0px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Depth-0)"
@@ -2111,11 +1987,7 @@
           "EFFECT_FLOAT"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "4px",
-            "Tablet": "4px",
-            "Mobile": "4px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Depth-100)"
@@ -2137,11 +2009,7 @@
           "EFFECT_FLOAT"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "8px",
-            "Tablet": "8px",
-            "Mobile": "8px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Depth-200)"
@@ -2163,11 +2031,7 @@
           "EFFECT_FLOAT"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "16px",
-            "Tablet": "16px",
-            "Mobile": "16px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Depth-400)"
@@ -2189,11 +2053,7 @@
           "EFFECT_FLOAT"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "32px",
-            "Tablet": "32px",
-            "Mobile": "32px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Depth-800)"
@@ -2215,11 +2075,7 @@
           "EFFECT_FLOAT"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "48px",
-            "Tablet": "48px",
-            "Mobile": "48px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Depth-1200)"
@@ -2241,11 +2097,7 @@
           "EFFECT_FLOAT"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "1px",
-            "Tablet": "1px",
-            "Mobile": "1px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Depth-025)"
@@ -2267,11 +2119,7 @@
           "EFFECT_FLOAT"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "-1px",
-            "Tablet": "-1px",
-            "Mobile": "-1px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Depth-Negative 025)"
@@ -2293,11 +2141,7 @@
           "EFFECT_FLOAT"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "-4px",
-            "Tablet": "-4px",
-            "Mobile": "-4px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Depth-Negative 100)"
@@ -2319,11 +2163,7 @@
           "EFFECT_FLOAT"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "-8px",
-            "Tablet": "-8px",
-            "Mobile": "-8px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Depth-Negative 200)"
@@ -2345,11 +2185,7 @@
           "EFFECT_FLOAT"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "-16px",
-            "Tablet": "-16px",
-            "Mobile": "-16px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Depth-Negative 400)"
@@ -2371,11 +2207,7 @@
           "EFFECT_FLOAT"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "-32px",
-            "Tablet": "-32px",
-            "Mobile": "-32px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Depth-Negative 800)"
@@ -2397,11 +2229,7 @@
           "EFFECT_FLOAT"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "-48px",
-            "Tablet": "-48px",
-            "Mobile": "-48px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Depth-Negative 1200)"
@@ -2425,11 +2253,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "1px",
-            "Tablet": "1px",
-            "Mobile": "1px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Border-100)"
@@ -2451,11 +2275,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "2px",
-            "Tablet": "2px",
-            "Mobile": "2px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Border-200)"
@@ -2477,11 +2297,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "2.5px",
-            "Tablet": "2.5px",
-            "Mobile": "2.5px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Border-250)"
@@ -2503,11 +2319,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "3px",
-            "Tablet": "3px",
-            "Mobile": "3px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Border-300)"
@@ -2529,11 +2341,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "4px",
-            "Tablet": "4px",
-            "Mobile": "4px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Border-400)"
@@ -2555,11 +2363,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "5px",
-            "Tablet": "5px",
-            "Mobile": "5px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Border-500)"
@@ -2583,11 +2387,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "1px",
-            "Tablet": "2px",
-            "Mobile": "2px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Ring-100)"
@@ -2609,11 +2409,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "2px",
-            "Tablet": "2px",
-            "Mobile": "2px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Ring-200)"
@@ -2635,11 +2431,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "4px",
-            "Tablet": "2px",
-            "Mobile": "2px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Ring-300)"
@@ -2661,11 +2453,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "6px",
-            "Tablet": "2px",
-            "Mobile": "2px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Ring-400)"
@@ -2687,11 +2475,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "8px",
-            "Tablet": "2px",
-            "Mobile": "2px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Ring-500)"
@@ -2715,11 +2499,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "4px",
-            "Tablet": "4px",
-            "Mobile": "4px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Blur-100)"
@@ -2743,11 +2523,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "24px",
-            "Tablet": "24px",
-            "Mobile": "24px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Icon-Small)"
@@ -2769,11 +2545,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "32px",
-            "Tablet": "32px",
-            "Mobile": "32px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Icon-Medium)"
@@ -2795,11 +2567,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "40px",
-            "Tablet": "40px",
-            "Mobile": "40px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Icon-Large)"
@@ -2821,11 +2589,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "80px",
-            "Tablet": "80px",
-            "Mobile": "80px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Icon-2X Large)"
@@ -2847,11 +2611,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "60px",
-            "Tablet": "60px",
-            "Mobile": "60px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Icon-X Large)"
@@ -2873,11 +2633,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "100px",
-            "Tablet": "100px",
-            "Mobile": "100px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Icon-3X Large)"
@@ -2899,11 +2655,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "18px",
-            "Tablet": "18px",
-            "Mobile": "18px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Icon-Small)"
@@ -2925,11 +2677,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "14px",
-            "Tablet": "14px",
-            "Mobile": "14px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Icon-Small)"
@@ -2951,11 +2699,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "16px",
-            "Tablet": "16px",
-            "Mobile": "16px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Icon-Small)"
@@ -2979,11 +2723,7 @@
           "ALL_SCOPES"
         ],
         "$extensions": {
-          "mode": {
-            "Desktop": "48px",
-            "Tablet": "24px",
-            "Mobile": "12px"
-          },
+          "mode": {},
           "figma": {
             "codeSyntax": {
               "WEB": "var(--WDS-Padding-Desktop)"
@@ -3010,11 +2750,7 @@
             "ALL_SCOPES"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Family.Inter.$value}",
-              "Tablet": "{Typography Primitives.Family.Inter.$value}",
-              "Mobile": "{Typography Primitives.Family.Inter.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Family-Primary)"
@@ -3036,11 +2772,7 @@
             "ALL_SCOPES"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Family.Serif.$value}",
-              "Tablet": "{Typography Primitives.Family.Serif.$value}",
-              "Mobile": "{Typography Primitives.Family.Serif.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Family-Secondary)"
@@ -3062,11 +2794,7 @@
             "ALL_SCOPES"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Family.Mono.$value}",
-              "Tablet": "{Typography Primitives.Family.Mono.$value}",
-              "Mobile": "{Typography Primitives.Family.Mono.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Family-Tertiary)"
@@ -3090,11 +2818,7 @@
             "ALL_SCOPES"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Percentage.100.$value}",
-              "Tablet": "{Typography Primitives.Percentage.100.$value}",
-              "Mobile": "{Typography Primitives.Percentage.090.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Line-0)"
@@ -3116,11 +2840,7 @@
             "ALL_SCOPES"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Percentage.105.$value}",
-              "Tablet": "{Typography Primitives.Percentage.105.$value}",
-              "Mobile": "{Typography Primitives.Percentage.100.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Line-1)"
@@ -3142,11 +2862,7 @@
             "ALL_SCOPES"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Percentage.110.$value}",
-              "Tablet": "{Typography Primitives.Percentage.105.$value}",
-              "Mobile": "{Typography Primitives.Percentage.110.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Line-2)"
@@ -3168,11 +2884,7 @@
             "ALL_SCOPES"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Percentage.125.$value}",
-              "Tablet": "{Typography Primitives.Percentage.115.$value}",
-              "Mobile": "{Typography Primitives.Percentage.120.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Line-3)"
@@ -3194,11 +2906,7 @@
             "ALL_SCOPES"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Percentage.150.$value}",
-              "Tablet": "{Typography Primitives.Percentage.120.$value}",
-              "Mobile": "{Typography Primitives.Percentage.125.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Line-4)"
@@ -3220,11 +2928,7 @@
             "ALL_SCOPES"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Percentage.200.$value}",
-              "Tablet": "{Typography Primitives.Percentage.175.$value}",
-              "Mobile": "{Typography Primitives.Percentage.150.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Line-5)"
@@ -3246,11 +2950,7 @@
             "ALL_SCOPES"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Percentage.090.$value}",
-              "Tablet": "{Typography Primitives.Percentage.090.$value}",
-              "Mobile": "{Typography Primitives.Percentage.090.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Line-Negative 1)"
@@ -3274,11 +2974,7 @@
             "ALL_SCOPES"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Percentage.100.$value}",
-              "Tablet": "{Typography Primitives.Percentage.100.$value}",
-              "Mobile": "{Typography Primitives.Percentage.090.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Spread-0)"
@@ -3300,11 +2996,7 @@
             "ALL_SCOPES"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Percentage.105.$value}",
-              "Tablet": "{Typography Primitives.Percentage.105.$value}",
-              "Mobile": "{Typography Primitives.Percentage.100.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Spread-1)"
@@ -3326,11 +3018,7 @@
             "ALL_SCOPES"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Percentage.110.$value}",
-              "Tablet": "{Typography Primitives.Percentage.105.$value}",
-              "Mobile": "{Typography Primitives.Percentage.110.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Spread-2)"
@@ -3352,11 +3040,7 @@
             "ALL_SCOPES"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Percentage.125.$value}",
-              "Tablet": "{Typography Primitives.Percentage.115.$value}",
-              "Mobile": "{Typography Primitives.Percentage.120.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Spread-3)"
@@ -3378,11 +3062,7 @@
             "ALL_SCOPES"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Percentage.150.$value}",
-              "Tablet": "{Typography Primitives.Percentage.120.$value}",
-              "Mobile": "{Typography Primitives.Percentage.125.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Spread-4)"
@@ -3404,11 +3084,7 @@
             "ALL_SCOPES"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Percentage.200.$value}",
-              "Tablet": "{Typography Primitives.Percentage.175.$value}",
-              "Mobile": "{Typography Primitives.Percentage.150.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Spread-5)"
@@ -3430,11 +3106,7 @@
             "ALL_SCOPES"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Percentage.090.$value}",
-              "Tablet": "{Typography Primitives.Percentage.090.$value}",
-              "Mobile": "{Typography Primitives.Percentage.090.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Spread-Negative 1)"
@@ -3458,11 +3130,7 @@
             "FONT_SIZE"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Size.08.$value}",
-              "Tablet": "{Typography Primitives.Size.08.$value}",
-              "Mobile": "{Typography Primitives.Size.07.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Size-2xl)"
@@ -3484,11 +3152,7 @@
             "FONT_SIZE"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Size.02.$value}",
-              "Tablet": "{Typography Primitives.Size.02.$value}",
-              "Mobile": "{Typography Primitives.Size.01.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Size-xs)"
@@ -3510,11 +3174,7 @@
             "FONT_SIZE"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Size.04.$value}",
-              "Tablet": "{Typography Primitives.Size.04.$value}",
-              "Mobile": "{Typography Primitives.Size.03.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Size-base)"
@@ -3536,11 +3196,7 @@
             "FONT_SIZE"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Size.14.$value}",
-              "Tablet": "{Typography Primitives.Size.14.$value}",
-              "Mobile": "{Typography Primitives.Size.13.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Size-8xl)"
@@ -3562,11 +3218,7 @@
             "FONT_SIZE"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Size.16.$value}",
-              "Tablet": "{Typography Primitives.Size.14.$value}",
-              "Mobile": "{Typography Primitives.Size.13.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Size-10xl)"
@@ -3588,11 +3240,7 @@
             "FONT_SIZE"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Size.11.$value}",
-              "Tablet": "{Typography Primitives.Size.11.$value}",
-              "Mobile": "{Typography Primitives.Size.10.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Size-5xl)"
@@ -3614,11 +3262,7 @@
             "ALL_SCOPES"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Size.17.$value}",
-              "Tablet": "{Typography Primitives.Size.17.$value}",
-              "Mobile": "{Typography Primitives.Size.15.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Size-11xl)"
@@ -3640,11 +3284,7 @@
             "FONT_SIZE"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Size.13.$value}",
-              "Tablet": "{Typography Primitives.Size.13.$value}",
-              "Mobile": "{Typography Primitives.Size.12.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Size-7xl)"
@@ -3666,11 +3306,7 @@
             "FONT_SIZE"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Size.03.$value}",
-              "Tablet": "{Typography Primitives.Size.03.$value}",
-              "Mobile": "{Typography Primitives.Size.02.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Size-sm)"
@@ -3692,11 +3328,7 @@
             "FONT_SIZE"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Size.15.$value}",
-              "Tablet": "{Typography Primitives.Size.14.$value}",
-              "Mobile": "{Typography Primitives.Size.13.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Size-9xl)"
@@ -3718,11 +3350,7 @@
             "FONT_SIZE"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Size.09.$value}",
-              "Tablet": "{Typography Primitives.Size.09.$value}",
-              "Mobile": "{Typography Primitives.Size.08.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Size-3xl)"
@@ -3744,11 +3372,7 @@
             "FONT_SIZE"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Size.07.$value}",
-              "Tablet": "{Typography Primitives.Size.07.$value}",
-              "Mobile": "{Typography Primitives.Size.07.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Size-xl)"
@@ -3770,11 +3394,7 @@
             "FONT_SIZE"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Size.12.$value}",
-              "Tablet": "{Typography Primitives.Size.12.$value}",
-              "Mobile": "{Typography Primitives.Size.11.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Size-6xl)"
@@ -3796,11 +3416,7 @@
             "FONT_SIZE"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Size.05.$value}",
-              "Tablet": "{Typography Primitives.Size.05.$value}",
-              "Mobile": "{Typography Primitives.Size.04.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Size-md)"
@@ -3822,11 +3438,7 @@
             "FONT_SIZE"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Size.06.$value}",
-              "Tablet": "{Typography Primitives.Size.06.$value}",
-              "Mobile": "{Typography Primitives.Size.05.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Size-lg)"
@@ -3848,11 +3460,7 @@
             "ALL_SCOPES"
           ],
           "$extensions": {
-            "mode": {
-              "Desktop": "{Typography Primitives.Size.10.$value}",
-              "Tablet": "{Typography Primitives.Size.10.$value}",
-              "Mobile": "{Typography Primitives.Size.09.$value}"
-            },
+            "mode": {},
             "figma": {
               "codeSyntax": {
                 "WEB": "var(--WDS-Font-Size-4xl)"
@@ -4222,7 +3830,7 @@
           "Extrabold": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "Inter",
+              "fontFamily": "{Typography.Font.Family.Primary.$value}",
               "fontWeight": 700,
               "fontStyle": "normal",
               "fontSize": "{Typography.Font.Size.7xl.$value}",
@@ -4241,7 +3849,7 @@
           "Strong": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "Inter",
+              "fontFamily": "{Typography.Font.Family.Primary.$value}",
               "fontWeight": 900,
               "fontStyle": "normal",
               "fontSize": "{Typography.Font.Size.7xl.$value}",
@@ -4262,7 +3870,7 @@
           "Light": {
             "$type": "typography",
             "$value": {
-              "fontFamily": "Inter",
+              "fontFamily": "{Typography.Font.Family.Primary.$value}",
               "fontWeight": 300,
               "fontStyle": "normal",
               "fontSize": "{Typography.Font.Size.4xl.$value}",
@@ -19133,7 +18741,7 @@
         "Modes",
         "Themes"
       ],
-      "createdAt": "2025-04-23T23:38:42.031Z"
+      "createdAt": "2025-04-23T23:45:02.460Z"
     }
   }
 }
