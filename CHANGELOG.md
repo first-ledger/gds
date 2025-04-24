@@ -1,5 +1,12 @@
 # GDS Changelog
 
+# [1.0.0-b.2](https://github.com/first-ledger/gds/compare/gds@1.0.0-b.1...gds@1.0.0-b.2) (2025-04-24)
+
+
+### Bug Fixes
+
+* update tokens ([9b30734](https://github.com/first-ledger/gds/commit/9b30734b61898a6ea6b5fe6f1dc9eb0716677eb2))
+
 # 1.0.0-b.1 (2025-04-24)
 
 
