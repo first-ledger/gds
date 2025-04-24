@@ -14,7 +14,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:8136dd8415b8f84408c56b207feddbd779e83034,"
+      "styleId": "S:9a50e237007ecd602e39dea3c3eeff89ed71eba0,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -33,7 +33,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:8136dd8415b8f84408c56b207feddbd779e83034,"
+        "styleId": "S:9a50e237007ecd602e39dea3c3eeff89ed71eba0,"
       }
     },
     "name": "flds-typography-typography-display-large-light",
@@ -44,13 +44,7 @@
       "subitem": "Large",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Large",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Display", "Large", "Light"],
     "key": "{Typography.Typography.Display.Large.Light}"
   },
   {
@@ -68,7 +62,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:e96a6fd6de9c63597b257d2850418605719046af,"
+      "styleId": "S:2a1a3e2091954e240f51da77ef860467da895b6a,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -87,7 +81,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:e96a6fd6de9c63597b257d2850418605719046af,"
+        "styleId": "S:2a1a3e2091954e240f51da77ef860467da895b6a,"
       }
     },
     "name": "flds-typography-typography-display-large-reguler",
@@ -98,13 +92,7 @@
       "subitem": "Large",
       "state": "Reguler"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Large",
-      "Reguler"
-    ],
+    "path": ["Typography", "Typography", "Display", "Large", "Reguler"],
     "key": "{Typography.Typography.Display.Large.Reguler}"
   },
   {
@@ -122,7 +110,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:2a9f061b1c8ee25561ac28cab91d56430cc49bae,"
+      "styleId": "S:67b80a4801658edf89d8505e0aa31602ce44a269,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -141,7 +129,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:2a9f061b1c8ee25561ac28cab91d56430cc49bae,"
+        "styleId": "S:67b80a4801658edf89d8505e0aa31602ce44a269,"
       }
     },
     "name": "flds-typography-typography-display-large-medium",
@@ -152,13 +140,7 @@
       "subitem": "Large",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Large",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Display", "Large", "Medium"],
     "key": "{Typography.Typography.Display.Large.Medium}"
   },
   {
@@ -176,7 +158,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:767a21863d15091782d3ce2cced09aaa5b48937d,"
+      "styleId": "S:af40dc6eca702df59c0409ab9d08ed45d6396de2,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -195,7 +177,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:767a21863d15091782d3ce2cced09aaa5b48937d,"
+        "styleId": "S:af40dc6eca702df59c0409ab9d08ed45d6396de2,"
       }
     },
     "name": "flds-typography-typography-display-large-semibold",
@@ -206,13 +188,7 @@
       "subitem": "Large",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Large",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Display", "Large", "Semibold"],
     "key": "{Typography.Typography.Display.Large.Semibold}"
   },
   {
@@ -230,7 +206,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:3ef46b5f99ddac144aeadaeed4c39521878abdb2,"
+      "styleId": "S:a1e50801421da2f4c3172a242b38f34269f58a66,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -249,7 +225,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:3ef46b5f99ddac144aeadaeed4c39521878abdb2,"
+        "styleId": "S:a1e50801421da2f4c3172a242b38f34269f58a66,"
       }
     },
     "name": "flds-typography-typography-display-large-bold",
@@ -260,13 +236,7 @@
       "subitem": "Large",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Large",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Display", "Large", "Bold"],
     "key": "{Typography.Typography.Display.Large.Bold}"
   },
   {
@@ -284,7 +254,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:c9a897c73dc60a1cceda9fa368eb5bbf66e7847f,"
+      "styleId": "S:dc2b24976321ddb4570640736173f5427ac725fa,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -303,7 +273,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:c9a897c73dc60a1cceda9fa368eb5bbf66e7847f,"
+        "styleId": "S:dc2b24976321ddb4570640736173f5427ac725fa,"
       }
     },
     "name": "flds-typography-typography-display-large-extrabold",
@@ -314,13 +284,7 @@
       "subitem": "Large",
       "state": "Extrabold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Large",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Display", "Large", "Extrabold"],
     "key": "{Typography.Typography.Display.Large.Extrabold}"
   },
   {
@@ -338,7 +302,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:ec5b34712777666ba0e7da396494cedf8b89c86c,"
+      "styleId": "S:ab7add2a807dd3c74d329c9edb4b4cb6ac6e336e,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -357,7 +321,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:ec5b34712777666ba0e7da396494cedf8b89c86c,"
+        "styleId": "S:ab7add2a807dd3c74d329c9edb4b4cb6ac6e336e,"
       }
     },
     "name": "flds-typography-typography-display-large-strong",
@@ -368,13 +332,7 @@
       "subitem": "Large",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Large",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Display", "Large", "Strong"],
     "key": "{Typography.Typography.Display.Large.Strong}"
   },
   {
@@ -392,7 +350,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:781a8c7e708eb010556809b1d90834e43fa156b9,"
+      "styleId": "S:117044ece206b91f29b907d63a908c2b6dfa2088,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -411,7 +369,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:781a8c7e708eb010556809b1d90834e43fa156b9,"
+        "styleId": "S:117044ece206b91f29b907d63a908c2b6dfa2088,"
       }
     },
     "name": "flds-typography-typography-display-small-light",
@@ -422,13 +380,7 @@
       "subitem": "Small",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Small",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Display", "Small", "Light"],
     "key": "{Typography.Typography.Display.Small.Light}"
   },
   {
@@ -446,7 +398,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:ad111309eb9b373acd1c76606e057e3cec984a1b,"
+      "styleId": "S:a2cc9eed227a652d7d61a8e70d9dcbef7d19e8c6,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -465,7 +417,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:ad111309eb9b373acd1c76606e057e3cec984a1b,"
+        "styleId": "S:a2cc9eed227a652d7d61a8e70d9dcbef7d19e8c6,"
       }
     },
     "name": "flds-typography-typography-display-small-regular",
@@ -476,13 +428,7 @@
       "subitem": "Small",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Small",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Display", "Small", "Regular"],
     "key": "{Typography.Typography.Display.Small.Regular}"
   },
   {
@@ -500,7 +446,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:163b85e3db47a8f163c9da95776c62082e917104,"
+      "styleId": "S:a76d23dd44857c887afdfbb82c78594012a50e9e,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -519,7 +465,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:163b85e3db47a8f163c9da95776c62082e917104,"
+        "styleId": "S:a76d23dd44857c887afdfbb82c78594012a50e9e,"
       }
     },
     "name": "flds-typography-typography-display-small-medium",
@@ -530,13 +476,7 @@
       "subitem": "Small",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Small",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Display", "Small", "Medium"],
     "key": "{Typography.Typography.Display.Small.Medium}"
   },
   {
@@ -554,7 +494,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:014b08bece7f6ec9059845426359eb661823ebdc,"
+      "styleId": "S:f4b9cbaa6b3b445a4c8e3453ea2b9308db304e96,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -573,7 +513,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:014b08bece7f6ec9059845426359eb661823ebdc,"
+        "styleId": "S:f4b9cbaa6b3b445a4c8e3453ea2b9308db304e96,"
       }
     },
     "name": "flds-typography-typography-display-small-semibold",
@@ -584,13 +524,7 @@
       "subitem": "Small",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Small",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Display", "Small", "Semibold"],
     "key": "{Typography.Typography.Display.Small.Semibold}"
   },
   {
@@ -608,7 +542,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:0891fe3e4605f83299bd61a623463809d109f156,"
+      "styleId": "S:b785d4a603f8433259c0d09edb6e1b4c42788a78,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -627,7 +561,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:0891fe3e4605f83299bd61a623463809d109f156,"
+        "styleId": "S:b785d4a603f8433259c0d09edb6e1b4c42788a78,"
       }
     },
     "name": "flds-typography-typography-display-small-bold",
@@ -638,13 +572,7 @@
       "subitem": "Small",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Small",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Display", "Small", "Bold"],
     "key": "{Typography.Typography.Display.Small.Bold}"
   },
   {
@@ -662,7 +590,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:22cc2c68fd4a50939b4b6e78b2d5d5af6b43845c,"
+      "styleId": "S:cd4c80980588b743069d1bd90216f6752a265468,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -681,7 +609,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:22cc2c68fd4a50939b4b6e78b2d5d5af6b43845c,"
+        "styleId": "S:cd4c80980588b743069d1bd90216f6752a265468,"
       }
     },
     "name": "flds-typography-typography-display-small-extrabold",
@@ -692,13 +620,7 @@
       "subitem": "Small",
       "state": "Extrabold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Small",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Display", "Small", "Extrabold"],
     "key": "{Typography.Typography.Display.Small.Extrabold}"
   },
   {
@@ -716,7 +638,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:64b53ea041da22b2ec0c9761346f2d5619e99d8a,"
+      "styleId": "S:73ad6388ec975d18b8318ce8def2330d74ffe39f,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -735,7 +657,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:64b53ea041da22b2ec0c9761346f2d5619e99d8a,"
+        "styleId": "S:73ad6388ec975d18b8318ce8def2330d74ffe39f,"
       }
     },
     "name": "flds-typography-typography-display-small-strong",
@@ -746,13 +668,7 @@
       "subitem": "Small",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Small",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Display", "Small", "Strong"],
     "key": "{Typography.Typography.Display.Small.Strong}"
   },
   {
@@ -770,7 +686,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:0b8bd63fc7636b4b576b2898f0da53b33b3b3631,"
+      "styleId": "S:05698490940ca5da11a30c87f0ffb716d99bf51f,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -789,7 +705,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:0b8bd63fc7636b4b576b2898f0da53b33b3b3631,"
+        "styleId": "S:05698490940ca5da11a30c87f0ffb716d99bf51f,"
       }
     },
     "name": "flds-typography-typography-heading-h1-light",
@@ -800,13 +716,7 @@
       "subitem": "H1",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H1",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H1", "Light"],
     "key": "{Typography.Typography.Heading.H1.Light}"
   },
   {
@@ -824,7 +734,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:3ce7762cd040a2e7915b30a23af7778b39c91225,"
+      "styleId": "S:ed4c18df16e994b6051aa5d730767d3b9aa11fa4,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -843,7 +753,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:3ce7762cd040a2e7915b30a23af7778b39c91225,"
+        "styleId": "S:ed4c18df16e994b6051aa5d730767d3b9aa11fa4,"
       }
     },
     "name": "flds-typography-typography-heading-h1-medium",
@@ -854,13 +764,7 @@
       "subitem": "H1",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H1",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H1", "Medium"],
     "key": "{Typography.Typography.Heading.H1.Medium}"
   },
   {
@@ -878,7 +782,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:5100446bc3e5a25b4496d0746951e1ee5bdb6d56,"
+      "styleId": "S:71b903e88f5a56cf9b3e9389e22f09aa4526cf4c,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -897,7 +801,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:5100446bc3e5a25b4496d0746951e1ee5bdb6d56,"
+        "styleId": "S:71b903e88f5a56cf9b3e9389e22f09aa4526cf4c,"
       }
     },
     "name": "flds-typography-typography-heading-h1-semibold",
@@ -908,13 +812,7 @@
       "subitem": "H1",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H1",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H1", "Semibold"],
     "key": "{Typography.Typography.Heading.H1.Semibold}"
   },
   {
@@ -932,7 +830,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:f535b91c28a1e0b9e6ecb0c1f44021fa99f76951,"
+      "styleId": "S:fba5ba577b9cb91ca908bab5d3b8d8889d3b33ed,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -951,7 +849,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:f535b91c28a1e0b9e6ecb0c1f44021fa99f76951,"
+        "styleId": "S:fba5ba577b9cb91ca908bab5d3b8d8889d3b33ed,"
       }
     },
     "name": "flds-typography-typography-heading-h1-bold",
@@ -962,13 +860,7 @@
       "subitem": "H1",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H1",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H1", "Bold"],
     "key": "{Typography.Typography.Heading.H1.Bold}"
   },
   {
@@ -986,7 +878,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:14c0ed59782b89e81885fba4b89c0918456a4f5f,"
+      "styleId": "S:7665b695e58417d266d62fb559cda4a274ef89ba,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -1005,7 +897,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:14c0ed59782b89e81885fba4b89c0918456a4f5f,"
+        "styleId": "S:7665b695e58417d266d62fb559cda4a274ef89ba,"
       }
     },
     "name": "flds-typography-typography-heading-h1-extrabold",
@@ -1016,13 +908,7 @@
       "subitem": "H1",
       "state": "Extrabold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H1",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H1", "Extrabold"],
     "key": "{Typography.Typography.Heading.H1.Extrabold}"
   },
   {
@@ -1040,7 +926,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:dc61b5db07f381c4e5098ce6c1a843fdacef6be2,"
+      "styleId": "S:f81e824e3807cba81f61fcee12b37f6622436e79,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -1059,7 +945,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:dc61b5db07f381c4e5098ce6c1a843fdacef6be2,"
+        "styleId": "S:f81e824e3807cba81f61fcee12b37f6622436e79,"
       }
     },
     "name": "flds-typography-typography-heading-h1-strong",
@@ -1070,13 +956,7 @@
       "subitem": "H1",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H1",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H1", "Strong"],
     "key": "{Typography.Typography.Heading.H1.Strong}"
   },
   {
@@ -1094,7 +974,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:74207859f32129b12823ff034f3a0d738a458376,"
+      "styleId": "S:8e5d683d3f01e5caf47b0de2ab8b54c18e5a5829,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -1113,7 +993,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:74207859f32129b12823ff034f3a0d738a458376,"
+        "styleId": "S:8e5d683d3f01e5caf47b0de2ab8b54c18e5a5829,"
       }
     },
     "name": "flds-typography-typography-heading-h2-light",
@@ -1124,13 +1004,7 @@
       "subitem": "H2",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H2",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H2", "Light"],
     "key": "{Typography.Typography.Heading.H2.Light}"
   },
   {
@@ -1148,7 +1022,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:511680bea82c7227b3e9503294bd275992855f23,"
+      "styleId": "S:91cfe1fc450bcc5f0c1d02697000768a944c7993,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -1167,7 +1041,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:511680bea82c7227b3e9503294bd275992855f23,"
+        "styleId": "S:91cfe1fc450bcc5f0c1d02697000768a944c7993,"
       }
     },
     "name": "flds-typography-typography-heading-h2-medium",
@@ -1178,13 +1052,7 @@
       "subitem": "H2",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H2",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H2", "Medium"],
     "key": "{Typography.Typography.Heading.H2.Medium}"
   },
   {
@@ -1202,7 +1070,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:888faf4fe1d02c0700c4c4347ec6bf79c6603313,"
+      "styleId": "S:0b3d1fa24ee8d23779197c1385a93643abd174de,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -1221,7 +1089,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:888faf4fe1d02c0700c4c4347ec6bf79c6603313,"
+        "styleId": "S:0b3d1fa24ee8d23779197c1385a93643abd174de,"
       }
     },
     "name": "flds-typography-typography-heading-h2-bold",
@@ -1232,13 +1100,7 @@
       "subitem": "H2",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H2",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H2", "Bold"],
     "key": "{Typography.Typography.Heading.H2.Bold}"
   },
   {
@@ -1256,7 +1118,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:25b1cddbf693b14ccb6bccd903bf7185b217bbb0,"
+      "styleId": "S:d8651e996201409b77831b81eed15f333c590286,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -1275,7 +1137,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:25b1cddbf693b14ccb6bccd903bf7185b217bbb0,"
+        "styleId": "S:d8651e996201409b77831b81eed15f333c590286,"
       }
     },
     "name": "flds-typography-typography-heading-h2-semibold",
@@ -1286,13 +1148,7 @@
       "subitem": "H2",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H2",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H2", "Semibold"],
     "key": "{Typography.Typography.Heading.H2.Semibold}"
   },
   {
@@ -1310,7 +1166,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:6114687b532e345ee8e5c6d909de78605af55f58,"
+      "styleId": "S:8668030083607636b93797394b61a88563dd8566,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -1329,7 +1185,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:6114687b532e345ee8e5c6d909de78605af55f58,"
+        "styleId": "S:8668030083607636b93797394b61a88563dd8566,"
       }
     },
     "name": "flds-typography-typography-heading-h2-extrabold",
@@ -1340,13 +1196,7 @@
       "subitem": "H2",
       "state": "Extrabold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H2",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H2", "Extrabold"],
     "key": "{Typography.Typography.Heading.H2.Extrabold}"
   },
   {
@@ -1364,7 +1214,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:f317540213bedd6318ea588feb55017c7c60d85c,"
+      "styleId": "S:f31400042b648de2d7dcfa96d21aeb24acfd74c3,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -1383,7 +1233,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:f317540213bedd6318ea588feb55017c7c60d85c,"
+        "styleId": "S:f31400042b648de2d7dcfa96d21aeb24acfd74c3,"
       }
     },
     "name": "flds-typography-typography-heading-h2-strong",
@@ -1394,13 +1244,7 @@
       "subitem": "H2",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H2",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H2", "Strong"],
     "key": "{Typography.Typography.Heading.H2.Strong}"
   },
   {
@@ -1418,7 +1262,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:e49f1ffe71e3d7c1fecff7da901b04f80f1cc10b,"
+      "styleId": "S:84e272d5ca74ff4075a98da5b3dbff6ae07b37fc,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -1437,7 +1281,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:e49f1ffe71e3d7c1fecff7da901b04f80f1cc10b,"
+        "styleId": "S:84e272d5ca74ff4075a98da5b3dbff6ae07b37fc,"
       }
     },
     "name": "flds-typography-typography-heading-h3-light",
@@ -1448,13 +1292,7 @@
       "subitem": "H3",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H3",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H3", "Light"],
     "key": "{Typography.Typography.Heading.H3.Light}"
   },
   {
@@ -1472,7 +1310,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:4278efdc674daf53e62463466dde87a4d13bfdfb,"
+      "styleId": "S:f6757bdd61e9380dd369eb4f6fa4bbb1112fa3b2,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -1491,7 +1329,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:4278efdc674daf53e62463466dde87a4d13bfdfb,"
+        "styleId": "S:f6757bdd61e9380dd369eb4f6fa4bbb1112fa3b2,"
       }
     },
     "name": "flds-typography-typography-heading-h3-regular",
@@ -1502,13 +1340,7 @@
       "subitem": "H3",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H3",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H3", "Regular"],
     "key": "{Typography.Typography.Heading.H3.Regular}"
   },
   {
@@ -1526,7 +1358,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:0763c24d90a4a05e04f6d56eced13cedc09adce1,"
+      "styleId": "S:58197470a4f82495a1d080f2709b3795bd2b89f2,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -1545,7 +1377,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:0763c24d90a4a05e04f6d56eced13cedc09adce1,"
+        "styleId": "S:58197470a4f82495a1d080f2709b3795bd2b89f2,"
       }
     },
     "name": "flds-typography-typography-heading-h3-medium",
@@ -1556,13 +1388,7 @@
       "subitem": "H3",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H3",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H3", "Medium"],
     "key": "{Typography.Typography.Heading.H3.Medium}"
   },
   {
@@ -1580,7 +1406,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:72699710f628634981abc68e0e2c9a8d0fe204e8,"
+      "styleId": "S:5381977ef16e620f47bb627f3a98eff3feb9ed2b,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -1599,7 +1425,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:72699710f628634981abc68e0e2c9a8d0fe204e8,"
+        "styleId": "S:5381977ef16e620f47bb627f3a98eff3feb9ed2b,"
       }
     },
     "name": "flds-typography-typography-heading-h3-semilbold",
@@ -1610,13 +1436,7 @@
       "subitem": "H3",
       "state": "Semilbold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H3",
-      "Semilbold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H3", "Semilbold"],
     "key": "{Typography.Typography.Heading.H3.Semilbold}"
   },
   {
@@ -1634,7 +1454,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:d512ab222a7880e6215badc11dd3f0c22f8ffacb,"
+      "styleId": "S:786cfbc70cada748bd23cb844fdb064b989e4447,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -1653,7 +1473,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:d512ab222a7880e6215badc11dd3f0c22f8ffacb,"
+        "styleId": "S:786cfbc70cada748bd23cb844fdb064b989e4447,"
       }
     },
     "name": "flds-typography-typography-heading-h3-bold",
@@ -1664,13 +1484,7 @@
       "subitem": "H3",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H3",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H3", "Bold"],
     "key": "{Typography.Typography.Heading.H3.Bold}"
   },
   {
@@ -1688,7 +1502,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:3f55b6632ff2f65b75edf417332e29bd8fe0aae7,"
+      "styleId": "S:81195113a966d75bb569a3ba6d7beddb769bb9b4,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -1707,7 +1521,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:3f55b6632ff2f65b75edf417332e29bd8fe0aae7,"
+        "styleId": "S:81195113a966d75bb569a3ba6d7beddb769bb9b4,"
       }
     },
     "name": "flds-typography-typography-heading-h3-strong",
@@ -1718,13 +1532,7 @@
       "subitem": "H3",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H3",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H3", "Strong"],
     "key": "{Typography.Typography.Heading.H3.Strong}"
   },
   {
@@ -1742,7 +1550,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:e00a8af58efe789d5114fce780f2b6dc2a40b8c0,"
+      "styleId": "S:10799053599cb1598696cb5e5bc42850c12c623b,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -1761,7 +1569,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:e00a8af58efe789d5114fce780f2b6dc2a40b8c0,"
+        "styleId": "S:10799053599cb1598696cb5e5bc42850c12c623b,"
       }
     },
     "name": "flds-typography-typography-heading-h4-light",
@@ -1772,13 +1580,7 @@
       "subitem": "H4",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H4",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H4", "Light"],
     "key": "{Typography.Typography.Heading.H4.Light}"
   },
   {
@@ -1796,7 +1598,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:759817633a1c1f980139a7cdd8d1369c88cc6df2,"
+      "styleId": "S:10b1e5e7c7c9e6f0843224674f8df12fcb860c51,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -1815,7 +1617,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:759817633a1c1f980139a7cdd8d1369c88cc6df2,"
+        "styleId": "S:10b1e5e7c7c9e6f0843224674f8df12fcb860c51,"
       }
     },
     "name": "flds-typography-typography-heading-h4-regular",
@@ -1826,13 +1628,7 @@
       "subitem": "H4",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H4",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H4", "Regular"],
     "key": "{Typography.Typography.Heading.H4.Regular}"
   },
   {
@@ -1850,7 +1646,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:db06e85703b85455f228701631927348fd83e2a9,"
+      "styleId": "S:12d5b69b3fbc6f2d23e48e1bd98dd6d42763c56f,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -1869,7 +1665,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:db06e85703b85455f228701631927348fd83e2a9,"
+        "styleId": "S:12d5b69b3fbc6f2d23e48e1bd98dd6d42763c56f,"
       }
     },
     "name": "flds-typography-typography-heading-h4-medium",
@@ -1880,13 +1676,7 @@
       "subitem": "H4",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H4",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H4", "Medium"],
     "key": "{Typography.Typography.Heading.H4.Medium}"
   },
   {
@@ -1904,7 +1694,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:f51e06fdd815bfeb81668952cacab60813e9a98c,"
+      "styleId": "S:83504a5c6235662ee6430af3538bf65329feb454,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -1923,7 +1713,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:f51e06fdd815bfeb81668952cacab60813e9a98c,"
+        "styleId": "S:83504a5c6235662ee6430af3538bf65329feb454,"
       }
     },
     "name": "flds-typography-typography-heading-h4-semibold",
@@ -1934,13 +1724,7 @@
       "subitem": "H4",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H4",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H4", "Semibold"],
     "key": "{Typography.Typography.Heading.H4.Semibold}"
   },
   {
@@ -1958,7 +1742,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:3800c1284202ece835a8b61626a15bf0895d0e8a,"
+      "styleId": "S:158e236d397cfec3b7a2a7b73c34f37ded3e652c,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -1977,7 +1761,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:3800c1284202ece835a8b61626a15bf0895d0e8a,"
+        "styleId": "S:158e236d397cfec3b7a2a7b73c34f37ded3e652c,"
       }
     },
     "name": "flds-typography-typography-heading-h4-bold",
@@ -1988,13 +1772,7 @@
       "subitem": "H4",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H4",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H4", "Bold"],
     "key": "{Typography.Typography.Heading.H4.Bold}"
   },
   {
@@ -2012,7 +1790,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:31ed52c73adeeb161b549e443e3208ef9b3d3b27,"
+      "styleId": "S:622bd8f7da6d34622bb35eade3a049b4817928c5,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -2031,7 +1809,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:31ed52c73adeeb161b549e443e3208ef9b3d3b27,"
+        "styleId": "S:622bd8f7da6d34622bb35eade3a049b4817928c5,"
       }
     },
     "name": "flds-typography-typography-heading-h4-strong",
@@ -2042,13 +1820,7 @@
       "subitem": "H4",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H4",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H4", "Strong"],
     "key": "{Typography.Typography.Heading.H4.Strong}"
   },
   {
@@ -2066,7 +1838,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:21d8ecdcb6f5dbd0af0bc61c394741d86030ae2f,"
+      "styleId": "S:7512054d14b440d858a4e285109a65bfdf1ac87a,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -2085,7 +1857,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:21d8ecdcb6f5dbd0af0bc61c394741d86030ae2f,"
+        "styleId": "S:7512054d14b440d858a4e285109a65bfdf1ac87a,"
       }
     },
     "name": "flds-typography-typography-heading-h5-light",
@@ -2096,13 +1868,7 @@
       "subitem": "H5",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H5",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H5", "Light"],
     "key": "{Typography.Typography.Heading.H5.Light}"
   },
   {
@@ -2120,7 +1886,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:6bc5646b3738845842bfd778d5fc429b895e3a37,"
+      "styleId": "S:1f345989c18581f68a85add9a909516e617685cd,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -2139,7 +1905,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:6bc5646b3738845842bfd778d5fc429b895e3a37,"
+        "styleId": "S:1f345989c18581f68a85add9a909516e617685cd,"
       }
     },
     "name": "flds-typography-typography-heading-h5-regular",
@@ -2150,13 +1916,7 @@
       "subitem": "H5",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H5",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H5", "Regular"],
     "key": "{Typography.Typography.Heading.H5.Regular}"
   },
   {
@@ -2174,7 +1934,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:e0008b4fb75197f9b300bc0d6fd4d59c3ed952b0,"
+      "styleId": "S:0e891bca24d6526f386e0d52396c5b3bd32fa338,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -2193,7 +1953,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:e0008b4fb75197f9b300bc0d6fd4d59c3ed952b0,"
+        "styleId": "S:0e891bca24d6526f386e0d52396c5b3bd32fa338,"
       }
     },
     "name": "flds-typography-typography-heading-h5-medium",
@@ -2204,13 +1964,7 @@
       "subitem": "H5",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H5",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H5", "Medium"],
     "key": "{Typography.Typography.Heading.H5.Medium}"
   },
   {
@@ -2228,7 +1982,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:8423e6d8c9f25ebc44d0c66661bb92d79d9543c2,"
+      "styleId": "S:9997c23036b4275f5c8f02011643c6300e7e3124,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -2247,7 +2001,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:8423e6d8c9f25ebc44d0c66661bb92d79d9543c2,"
+        "styleId": "S:9997c23036b4275f5c8f02011643c6300e7e3124,"
       }
     },
     "name": "flds-typography-typography-heading-h5-semibold",
@@ -2258,13 +2012,7 @@
       "subitem": "H5",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H5",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H5", "Semibold"],
     "key": "{Typography.Typography.Heading.H5.Semibold}"
   },
   {
@@ -2282,7 +2030,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:07a3f953cac9b1362a18221010b2385a1a5e39cf,"
+      "styleId": "S:d602f4e795e5485bbe5c18d4890bebf1e0079ba2,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -2301,7 +2049,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:07a3f953cac9b1362a18221010b2385a1a5e39cf,"
+        "styleId": "S:d602f4e795e5485bbe5c18d4890bebf1e0079ba2,"
       }
     },
     "name": "flds-typography-typography-heading-h5-bold",
@@ -2312,13 +2060,7 @@
       "subitem": "H5",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H5",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H5", "Bold"],
     "key": "{Typography.Typography.Heading.H5.Bold}"
   },
   {
@@ -2336,7 +2078,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:01cc1c768abfdd120991c37da93d38f41c304e7b,"
+      "styleId": "S:fbc3b0d5f48bb8df44a7121b78d96d5c4bbe70a6,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -2355,7 +2097,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:01cc1c768abfdd120991c37da93d38f41c304e7b,"
+        "styleId": "S:fbc3b0d5f48bb8df44a7121b78d96d5c4bbe70a6,"
       }
     },
     "name": "flds-typography-typography-heading-h5-strong",
@@ -2366,13 +2108,7 @@
       "subitem": "H5",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H5",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H5", "Strong"],
     "key": "{Typography.Typography.Heading.H5.Strong}"
   },
   {
@@ -2390,7 +2126,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:262bb621e66452df108aed90fedea27d514f2b4b,"
+      "styleId": "S:da1706916b62a656566a53dd9bbc0e5bc9cf4588,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -2409,7 +2145,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:262bb621e66452df108aed90fedea27d514f2b4b,"
+        "styleId": "S:da1706916b62a656566a53dd9bbc0e5bc9cf4588,"
       }
     },
     "name": "flds-typography-typography-heading-h6-light",
@@ -2420,13 +2156,7 @@
       "subitem": "H6",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H6",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H6", "Light"],
     "key": "{Typography.Typography.Heading.H6.Light}"
   },
   {
@@ -2444,7 +2174,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:ca7bdd208ba77e7a181480d535eef093d86a36a1,"
+      "styleId": "S:4d0a04d7af4f0aee122f9db97e0162a87fc697c1,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -2463,7 +2193,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:ca7bdd208ba77e7a181480d535eef093d86a36a1,"
+        "styleId": "S:4d0a04d7af4f0aee122f9db97e0162a87fc697c1,"
       }
     },
     "name": "flds-typography-typography-heading-h6-regular",
@@ -2474,13 +2204,7 @@
       "subitem": "H6",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H6",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H6", "Regular"],
     "key": "{Typography.Typography.Heading.H6.Regular}"
   },
   {
@@ -2498,7 +2222,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:05cad18293d1cb906725b826236404621821de2b,"
+      "styleId": "S:c9d1f94700b9d21a5fbbdc4e13e3ba52076fec93,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -2517,7 +2241,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:05cad18293d1cb906725b826236404621821de2b,"
+        "styleId": "S:c9d1f94700b9d21a5fbbdc4e13e3ba52076fec93,"
       }
     },
     "name": "flds-typography-typography-heading-h6-medium",
@@ -2528,13 +2252,7 @@
       "subitem": "H6",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H6",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H6", "Medium"],
     "key": "{Typography.Typography.Heading.H6.Medium}"
   },
   {
@@ -2552,7 +2270,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:38b3cd4ba465f353bd2bd611376b38326aa9676f,"
+      "styleId": "S:10e3293a948e4cbbe813555a6002cff63cdfefa3,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -2571,7 +2289,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:38b3cd4ba465f353bd2bd611376b38326aa9676f,"
+        "styleId": "S:10e3293a948e4cbbe813555a6002cff63cdfefa3,"
       }
     },
     "name": "flds-typography-typography-heading-h6-semibold",
@@ -2582,13 +2300,7 @@
       "subitem": "H6",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H6",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H6", "Semibold"],
     "key": "{Typography.Typography.Heading.H6.Semibold}"
   },
   {
@@ -2606,7 +2318,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:7f22eafb758865371a373c35c00aa514ade6991b,"
+      "styleId": "S:9e7fdf40a3bb90de887ab342ea5c9ddfa2d3eeb6,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -2625,7 +2337,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:7f22eafb758865371a373c35c00aa514ade6991b,"
+        "styleId": "S:9e7fdf40a3bb90de887ab342ea5c9ddfa2d3eeb6,"
       }
     },
     "name": "flds-typography-typography-heading-h6-bold",
@@ -2636,13 +2348,7 @@
       "subitem": "H6",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H6",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H6", "Bold"],
     "key": "{Typography.Typography.Heading.H6.Bold}"
   },
   {
@@ -2660,7 +2366,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:5d75c3041b05ccc14fa65003e7f85f394ab1d8e3,"
+      "styleId": "S:93f3a3d3b5eecabc12f1eb566c11b315aa9c6362,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -2679,7 +2385,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:5d75c3041b05ccc14fa65003e7f85f394ab1d8e3,"
+        "styleId": "S:93f3a3d3b5eecabc12f1eb566c11b315aa9c6362,"
       }
     },
     "name": "flds-typography-typography-heading-h6-strong",
@@ -2690,13 +2396,7 @@
       "subitem": "H6",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H6",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H6", "Strong"],
     "key": "{Typography.Typography.Heading.H6.Strong}"
   },
   {
@@ -2714,7 +2414,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:72bce27327d871fe74a694e8104240df2960273c,"
+      "styleId": "S:8049963f3c939ba619f73cc02aa1bd73f2ca5dc7,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -2733,7 +2433,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:72bce27327d871fe74a694e8104240df2960273c,"
+        "styleId": "S:8049963f3c939ba619f73cc02aa1bd73f2ca5dc7,"
       }
     },
     "name": "flds-typography-typography-heading-title-page-light",
@@ -2744,14 +2444,7 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Page",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Light"],
     "key": "{Typography.Typography.Heading.Title.Page.Light}"
   },
   {
@@ -2769,7 +2462,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:b369c629e4bde692303dc9e9b06206147714e4fd,"
+      "styleId": "S:3fa374cfbd585acce5971942cbb525335d8c74b8,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -2788,7 +2481,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:b369c629e4bde692303dc9e9b06206147714e4fd,"
+        "styleId": "S:3fa374cfbd585acce5971942cbb525335d8c74b8,"
       }
     },
     "name": "flds-typography-typography-heading-title-page-regular",
@@ -2799,14 +2492,7 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Page",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Regular"],
     "key": "{Typography.Typography.Heading.Title.Page.Regular}"
   },
   {
@@ -2824,7 +2510,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:e44fc152415b4803ebb8bf60043582c55b743b3b,"
+      "styleId": "S:6f2e7d2a9cc4d8d74d2ddc0a254ecfd08ad7f024,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -2843,7 +2529,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:e44fc152415b4803ebb8bf60043582c55b743b3b,"
+        "styleId": "S:6f2e7d2a9cc4d8d74d2ddc0a254ecfd08ad7f024,"
       }
     },
     "name": "flds-typography-typography-heading-title-page-medium",
@@ -2854,14 +2540,7 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Page",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Medium"],
     "key": "{Typography.Typography.Heading.Title.Page.Medium}"
   },
   {
@@ -2879,7 +2558,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:a76e5885b2faa81378ac0fcfffde6d2d3834d5d0,"
+      "styleId": "S:d4c389f9cde7d9d34894ca1220dde124805c3fa5,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -2898,7 +2577,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:a76e5885b2faa81378ac0fcfffde6d2d3834d5d0,"
+        "styleId": "S:d4c389f9cde7d9d34894ca1220dde124805c3fa5,"
       }
     },
     "name": "flds-typography-typography-heading-title-page-semibold",
@@ -2909,14 +2588,7 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Page",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Semibold"],
     "key": "{Typography.Typography.Heading.Title.Page.Semibold}"
   },
   {
@@ -2934,7 +2606,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:5edb56a96c88227de281548f459f9620502b6c5b,"
+      "styleId": "S:c3b897f17ae3a911f58180783b3b4acf5fbad96a,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -2953,7 +2625,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:5edb56a96c88227de281548f459f9620502b6c5b,"
+        "styleId": "S:c3b897f17ae3a911f58180783b3b4acf5fbad96a,"
       }
     },
     "name": "flds-typography-typography-heading-title-page-bold",
@@ -2964,14 +2636,7 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Page",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Bold"],
     "key": "{Typography.Typography.Heading.Title.Page.Bold}"
   },
   {
@@ -2989,7 +2654,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:e6a8fd0a9958c9165cb45f52b26b973823cd5c1d,"
+      "styleId": "S:4579058ed67e3a50b545cdf00bb64c5ae224c850,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -3008,7 +2673,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:e6a8fd0a9958c9165cb45f52b26b973823cd5c1d,"
+        "styleId": "S:4579058ed67e3a50b545cdf00bb64c5ae224c850,"
       }
     },
     "name": "flds-typography-typography-heading-title-page-extra-bold",
@@ -3019,14 +2684,7 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Page",
-      "ExtraBold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "ExtraBold"],
     "key": "{Typography.Typography.Heading.Title.Page.ExtraBold}"
   },
   {
@@ -3044,7 +2702,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:28dd0b9cf5ea59a155b880df56bbbb48ab5bb391,"
+      "styleId": "S:19bc6d25e5b1e2a85e0e9dd5872da0964b990e5c,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -3063,7 +2721,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:28dd0b9cf5ea59a155b880df56bbbb48ab5bb391,"
+        "styleId": "S:19bc6d25e5b1e2a85e0e9dd5872da0964b990e5c,"
       }
     },
     "name": "flds-typography-typography-heading-title-page-strong",
@@ -3074,14 +2732,7 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Page",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Strong"],
     "key": "{Typography.Typography.Heading.Title.Page.Strong}"
   },
   {
@@ -3099,7 +2750,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:c7efd19c35a3688b1568206e49ff6a4a8cb8bea2,"
+      "styleId": "S:f5102423acf23d2b4ea60ba4eef7389861f4e517,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -3118,7 +2769,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:c7efd19c35a3688b1568206e49ff6a4a8cb8bea2,"
+        "styleId": "S:f5102423acf23d2b4ea60ba4eef7389861f4e517,"
       }
     },
     "name": "flds-typography-typography-heading-title-hero-light",
@@ -3129,14 +2780,7 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Hero",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Light"],
     "key": "{Typography.Typography.Heading.Title.Hero.Light}"
   },
   {
@@ -3154,7 +2798,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:ab1f37441ab39d78ba513e00c8539266841d2ca8,"
+      "styleId": "S:abfa5f4890560afa1ce6567bf3baae4dabd427f5,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -3173,7 +2817,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:ab1f37441ab39d78ba513e00c8539266841d2ca8,"
+        "styleId": "S:abfa5f4890560afa1ce6567bf3baae4dabd427f5,"
       }
     },
     "name": "flds-typography-typography-heading-title-hero-regular",
@@ -3184,14 +2828,7 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Hero",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Regular"],
     "key": "{Typography.Typography.Heading.Title.Hero.Regular}"
   },
   {
@@ -3209,7 +2846,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:74918813b3df30c91fbe21c832c6409b98184422,"
+      "styleId": "S:21b2b43e9dbac65524fb715632d7dd4bfa3fa097,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -3228,7 +2865,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:74918813b3df30c91fbe21c832c6409b98184422,"
+        "styleId": "S:21b2b43e9dbac65524fb715632d7dd4bfa3fa097,"
       }
     },
     "name": "flds-typography-typography-heading-title-hero-medium",
@@ -3239,14 +2876,7 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Hero",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Medium"],
     "key": "{Typography.Typography.Heading.Title.Hero.Medium}"
   },
   {
@@ -3264,7 +2894,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:0dea11b570e9b7c666a462c3e4ece39a85e44357,"
+      "styleId": "S:391bd9549cffab67a8abc3f2bc7aa671c1fbe42e,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -3283,7 +2913,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:0dea11b570e9b7c666a462c3e4ece39a85e44357,"
+        "styleId": "S:391bd9549cffab67a8abc3f2bc7aa671c1fbe42e,"
       }
     },
     "name": "flds-typography-typography-heading-title-hero-semibold",
@@ -3294,14 +2924,7 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Hero",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Semibold"],
     "key": "{Typography.Typography.Heading.Title.Hero.Semibold}"
   },
   {
@@ -3319,7 +2942,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:90a746bebc3945e922a59dcbee26c442fe7ab381,"
+      "styleId": "S:5395cbc9fc0494905d36f89b64ba5a16e2260d92,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -3338,7 +2961,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:90a746bebc3945e922a59dcbee26c442fe7ab381,"
+        "styleId": "S:5395cbc9fc0494905d36f89b64ba5a16e2260d92,"
       }
     },
     "name": "flds-typography-typography-heading-title-hero-bold",
@@ -3349,14 +2972,7 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Hero",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Bold"],
     "key": "{Typography.Typography.Heading.Title.Hero.Bold}"
   },
   {
@@ -3374,7 +2990,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:34b288a8e3411a1593f5727b014f8a97e3bbd85a,"
+      "styleId": "S:55d5f4b489550e7fc69e5f7068581c4a9097c769,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -3393,7 +3009,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:34b288a8e3411a1593f5727b014f8a97e3bbd85a,"
+        "styleId": "S:55d5f4b489550e7fc69e5f7068581c4a9097c769,"
       }
     },
     "name": "flds-typography-typography-heading-title-hero-extrabold",
@@ -3404,14 +3020,7 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Hero",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Extrabold"],
     "key": "{Typography.Typography.Heading.Title.Hero.Extrabold}"
   },
   {
@@ -3429,7 +3038,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:7ca561f12294af6264e971a534c0ea019f146631,"
+      "styleId": "S:e55347748bac4910fc5ff5f1509b8ea9beafd9d2,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -3448,7 +3057,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:7ca561f12294af6264e971a534c0ea019f146631,"
+        "styleId": "S:e55347748bac4910fc5ff5f1509b8ea9beafd9d2,"
       }
     },
     "name": "flds-typography-typography-heading-title-hero-strong",
@@ -3459,14 +3068,7 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Hero",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Strong"],
     "key": "{Typography.Typography.Heading.Title.Hero.Strong}"
   },
   {
@@ -3484,7 +3086,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:84d968f06ae7ed4c358761f2b4e97ec2f4305a83,"
+      "styleId": "S:43c7a911bc1db8adb1c670bd15707c78289b3651,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -3503,7 +3105,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:84d968f06ae7ed4c358761f2b4e97ec2f4305a83,"
+        "styleId": "S:43c7a911bc1db8adb1c670bd15707c78289b3651,"
       }
     },
     "name": "flds-typography-typography-heading-subtitle-light",
@@ -3514,13 +3116,7 @@
       "subitem": "Subtitle",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Subtitle",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Light"],
     "key": "{Typography.Typography.Heading.Subtitle.Light}"
   },
   {
@@ -3538,7 +3134,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:fbc54e0ecb1425b0d219fb3d486779234b02549e,"
+      "styleId": "S:ba9a3295c44d1837f65852ca8ac550c1365d4c94,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -3557,7 +3153,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:fbc54e0ecb1425b0d219fb3d486779234b02549e,"
+        "styleId": "S:ba9a3295c44d1837f65852ca8ac550c1365d4c94,"
       }
     },
     "name": "flds-typography-typography-heading-subtitle-regular",
@@ -3568,13 +3164,7 @@
       "subitem": "Subtitle",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Subtitle",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Regular"],
     "key": "{Typography.Typography.Heading.Subtitle.Regular}"
   },
   {
@@ -3592,7 +3182,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:c2bb8db065e2182a5a4652159f3da300824c8cec,"
+      "styleId": "S:a6c21a7bb983571e675a26f8d60c7ebac43495fa,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -3611,7 +3201,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:c2bb8db065e2182a5a4652159f3da300824c8cec,"
+        "styleId": "S:a6c21a7bb983571e675a26f8d60c7ebac43495fa,"
       }
     },
     "name": "flds-typography-typography-heading-subtitle-medium",
@@ -3622,13 +3212,7 @@
       "subitem": "Subtitle",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Subtitle",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Medium"],
     "key": "{Typography.Typography.Heading.Subtitle.Medium}"
   },
   {
@@ -3646,7 +3230,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:d4347f426ca3b19613223f75cc8e8a959f864496,"
+      "styleId": "S:a19c4ad169a04b18ddc7b59365c582758abd394f,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -3665,7 +3249,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:d4347f426ca3b19613223f75cc8e8a959f864496,"
+        "styleId": "S:a19c4ad169a04b18ddc7b59365c582758abd394f,"
       }
     },
     "name": "flds-typography-typography-heading-subtitle-semibold",
@@ -3676,13 +3260,7 @@
       "subitem": "Subtitle",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Subtitle",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Semibold"],
     "key": "{Typography.Typography.Heading.Subtitle.Semibold}"
   },
   {
@@ -3700,7 +3278,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:6780b6c57f723b50d2673d8005ce311815f579c7,"
+      "styleId": "S:4fbd34e6a42ff10952d6a0f4b3de44f6fada562e,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -3719,7 +3297,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:6780b6c57f723b50d2673d8005ce311815f579c7,"
+        "styleId": "S:4fbd34e6a42ff10952d6a0f4b3de44f6fada562e,"
       }
     },
     "name": "flds-typography-typography-heading-subtitle-bold",
@@ -3730,13 +3308,7 @@
       "subitem": "Subtitle",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Subtitle",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Bold"],
     "key": "{Typography.Typography.Heading.Subtitle.Bold}"
   },
   {
@@ -3754,7 +3326,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:96ad9896300c023f38c87867c92177cb0d20d8bd,"
+      "styleId": "S:18a55e9031bdf51a2ecaec933bdf63a2973f216a,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -3773,7 +3345,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:96ad9896300c023f38c87867c92177cb0d20d8bd,"
+        "styleId": "S:18a55e9031bdf51a2ecaec933bdf63a2973f216a,"
       }
     },
     "name": "flds-typography-typography-heading-subtitle-extrabold",
@@ -3784,13 +3356,7 @@
       "subitem": "Subtitle",
       "state": "Extrabold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Subtitle",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Extrabold"],
     "key": "{Typography.Typography.Heading.Subtitle.Extrabold}"
   },
   {
@@ -3808,7 +3374,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:518abc2f2e85bd652c2cb9d2feb87b0078e5f674,"
+      "styleId": "S:dc92b5786a84a5798b25f89a2977c0b3c82a9350,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -3827,7 +3393,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:518abc2f2e85bd652c2cb9d2feb87b0078e5f674,"
+        "styleId": "S:dc92b5786a84a5798b25f89a2977c0b3c82a9350,"
       }
     },
     "name": "flds-typography-typography-heading-subtitle-strong",
@@ -3838,13 +3404,7 @@
       "subitem": "Subtitle",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Subtitle",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Strong"],
     "key": "{Typography.Typography.Heading.Subtitle.Strong}"
   },
   {
@@ -3862,7 +3422,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:9a9eefd11af604810392eeef4897c9f1528649fa,"
+      "styleId": "S:12dc3a3a4900eedb759d9f1acf28c83886e909a5,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -3881,7 +3441,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:9a9eefd11af604810392eeef4897c9f1528649fa,"
+        "styleId": "S:12dc3a3a4900eedb759d9f1acf28c83886e909a5,"
       }
     },
     "name": "flds-typography-typography-paragraph-body-small-regular",
@@ -3892,14 +3452,7 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Small",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Regular"],
     "key": "{Typography.Typography.Paragraph.Body.Small.Regular}"
   },
   {
@@ -3917,7 +3470,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:4938f30fe3b3f07668894014e802b3da6cb2a7c2,"
+      "styleId": "S:1874408264c70597614b5f6e8ae4ae83d850f091,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -3936,7 +3489,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:4938f30fe3b3f07668894014e802b3da6cb2a7c2,"
+        "styleId": "S:1874408264c70597614b5f6e8ae4ae83d850f091,"
       }
     },
     "name": "flds-typography-typography-paragraph-body-small-light",
@@ -3947,14 +3500,7 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Small",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Light"],
     "key": "{Typography.Typography.Paragraph.Body.Small.Light}"
   },
   {
@@ -3972,7 +3518,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:ab7b23673a2da27892deb5116a465a56708e0a74,"
+      "styleId": "S:9a4ec134d87bd9aca76d2d7220236e8b0a492ecd,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -3991,7 +3537,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:ab7b23673a2da27892deb5116a465a56708e0a74,"
+        "styleId": "S:9a4ec134d87bd9aca76d2d7220236e8b0a492ecd,"
       }
     },
     "name": "flds-typography-typography-paragraph-body-small-medium",
@@ -4002,14 +3548,7 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Small",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Medium"],
     "key": "{Typography.Typography.Paragraph.Body.Small.Medium}"
   },
   {
@@ -4027,7 +3566,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:6dad5ba5357b97f28103049befc2e981dfdc7920,"
+      "styleId": "S:5bc4409b93d88ac585273f8c2e21f8ae347d2cea,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -4046,7 +3585,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:6dad5ba5357b97f28103049befc2e981dfdc7920,"
+        "styleId": "S:5bc4409b93d88ac585273f8c2e21f8ae347d2cea,"
       }
     },
     "name": "flds-typography-typography-paragraph-body-small-semibold",
@@ -4057,14 +3596,7 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Small",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Semibold"],
     "key": "{Typography.Typography.Paragraph.Body.Small.Semibold}"
   },
   {
@@ -4082,7 +3614,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:8721943bc3f432291e3cdf47d1df8dabe5b757cd,"
+      "styleId": "S:33b32d8d315bf08781424285e149e19ef401e70e,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -4101,7 +3633,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:8721943bc3f432291e3cdf47d1df8dabe5b757cd,"
+        "styleId": "S:33b32d8d315bf08781424285e149e19ef401e70e,"
       }
     },
     "name": "flds-typography-typography-paragraph-body-small-bold",
@@ -4112,14 +3644,7 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Small",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Bold"],
     "key": "{Typography.Typography.Paragraph.Body.Small.Bold}"
   },
   {
@@ -4137,7 +3662,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:75cf74bb671495ba23ff1492d1352ad1aab3eaf7,"
+      "styleId": "S:93faac298e018b97af2341affb03a71ddc9fb3f0,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -4156,7 +3681,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:75cf74bb671495ba23ff1492d1352ad1aab3eaf7,"
+        "styleId": "S:93faac298e018b97af2341affb03a71ddc9fb3f0,"
       }
     },
     "name": "flds-typography-typography-paragraph-body-small-extrabold",
@@ -4167,14 +3692,7 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Small",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Extrabold"],
     "key": "{Typography.Typography.Paragraph.Body.Small.Extrabold}"
   },
   {
@@ -4192,7 +3710,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:42fd0ef5a1f1822cadc442f53b5f4549c679bda2,"
+      "styleId": "S:79722993a8a007228dd33ff312eb80c5d6cdbfd0,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -4211,7 +3729,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:42fd0ef5a1f1822cadc442f53b5f4549c679bda2,"
+        "styleId": "S:79722993a8a007228dd33ff312eb80c5d6cdbfd0,"
       }
     },
     "name": "flds-typography-typography-paragraph-body-small-strong",
@@ -4222,14 +3740,7 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Small",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Strong"],
     "key": "{Typography.Typography.Paragraph.Body.Small.Strong}"
   },
   {
@@ -4247,7 +3758,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:ca94a726c2aadbfa025536c9377ba38301d19825,"
+      "styleId": "S:86e68e0a278eb41ba97730f1c4386fdfb43ad7c7,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -4266,7 +3777,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:ca94a726c2aadbfa025536c9377ba38301d19825,"
+        "styleId": "S:86e68e0a278eb41ba97730f1c4386fdfb43ad7c7,"
       }
     },
     "name": "flds-typography-typography-paragraph-body-large-light",
@@ -4277,14 +3788,7 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Large",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Light"],
     "key": "{Typography.Typography.Paragraph.Body.Large.Light}"
   },
   {
@@ -4302,7 +3806,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:050593cca40f230d411e8124fab02137a3d1d885,"
+      "styleId": "S:6535558f15b466e4a2d8e3db7ae143a39b4e1fd4,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -4321,7 +3825,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:050593cca40f230d411e8124fab02137a3d1d885,"
+        "styleId": "S:6535558f15b466e4a2d8e3db7ae143a39b4e1fd4,"
       }
     },
     "name": "flds-typography-typography-paragraph-body-large-medium",
@@ -4332,14 +3836,7 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Large",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Medium"],
     "key": "{Typography.Typography.Paragraph.Body.Large.Medium}"
   },
   {
@@ -4357,7 +3854,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:a9caeeae043596b0e10ec81f8d3be9209704b511,"
+      "styleId": "S:8736abb953e314248f0122c225225348326fd013,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -4376,7 +3873,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:a9caeeae043596b0e10ec81f8d3be9209704b511,"
+        "styleId": "S:8736abb953e314248f0122c225225348326fd013,"
       }
     },
     "name": "flds-typography-typography-paragraph-body-large-regular",
@@ -4387,14 +3884,7 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Large",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Regular"],
     "key": "{Typography.Typography.Paragraph.Body.Large.Regular}"
   },
   {
@@ -4412,7 +3902,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:181311b71ed2ce0cc4a592287993364de5ac27a3,"
+      "styleId": "S:f81c1faff2b8bd370866190cad20beeeaf8ffe36,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -4431,7 +3921,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:181311b71ed2ce0cc4a592287993364de5ac27a3,"
+        "styleId": "S:f81c1faff2b8bd370866190cad20beeeaf8ffe36,"
       }
     },
     "name": "flds-typography-typography-paragraph-body-large-semibold",
@@ -4442,14 +3932,7 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Large",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Semibold"],
     "key": "{Typography.Typography.Paragraph.Body.Large.Semibold}"
   },
   {
@@ -4467,7 +3950,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:20913eb243731986412108bbc3167a7bce92187f,"
+      "styleId": "S:3b5059d2aa7bc07c4b95346f31c4a90c97fef8c4,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -4486,7 +3969,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:20913eb243731986412108bbc3167a7bce92187f,"
+        "styleId": "S:3b5059d2aa7bc07c4b95346f31c4a90c97fef8c4,"
       }
     },
     "name": "flds-typography-typography-paragraph-body-large-bold",
@@ -4497,14 +3980,7 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Large",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Bold"],
     "key": "{Typography.Typography.Paragraph.Body.Large.Bold}"
   },
   {
@@ -4522,7 +3998,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:2b6805cb0f46114639617fd340cb77e7f774bd4f,"
+      "styleId": "S:3ac12777c4d55458a3793d5d9c6184a3a519486c,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -4541,7 +4017,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:2b6805cb0f46114639617fd340cb77e7f774bd4f,"
+        "styleId": "S:3ac12777c4d55458a3793d5d9c6184a3a519486c,"
       }
     },
     "name": "flds-typography-typography-paragraph-body-large-extrabold",
@@ -4552,14 +4028,7 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Large",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Extrabold"],
     "key": "{Typography.Typography.Paragraph.Body.Large.Extrabold}"
   },
   {
@@ -4577,7 +4046,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:1af2fcafca9b24afecf15b2ac83a76f03f3156f2,"
+      "styleId": "S:0f513395b613caa895cf5cbd40d1cf7abc3abed6,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -4596,7 +4065,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:1af2fcafca9b24afecf15b2ac83a76f03f3156f2,"
+        "styleId": "S:0f513395b613caa895cf5cbd40d1cf7abc3abed6,"
       }
     },
     "name": "flds-typography-typography-paragraph-body-large-strong",
@@ -4607,14 +4076,7 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Large",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Strong"],
     "key": "{Typography.Typography.Paragraph.Body.Large.Strong}"
   },
   {
@@ -4632,7 +4094,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:d2f67d2c9976e29382482f5126c8101e8ff10258,"
+      "styleId": "S:b7d2cc39c8b90d714a175ce13a0b237fea22457f,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -4651,7 +4113,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:d2f67d2c9976e29382482f5126c8101e8ff10258,"
+        "styleId": "S:b7d2cc39c8b90d714a175ce13a0b237fea22457f,"
       }
     },
     "name": "flds-typography-typography-paragraph-body-large-italic",
@@ -4662,14 +4124,7 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Large",
-      "Italic"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Italic"],
     "key": "{Typography.Typography.Paragraph.Body.Large.Italic}"
   },
   {
@@ -4687,7 +4142,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:697f213a866951aeed1327fd145ab02d84efbd40,"
+      "styleId": "S:42b221d395f15c18c0f736960d4b06cbb2007e04,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -4706,7 +4161,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:697f213a866951aeed1327fd145ab02d84efbd40,"
+        "styleId": "S:42b221d395f15c18c0f736960d4b06cbb2007e04,"
       }
     },
     "name": "flds-typography-typography-paragraph-code-light",
@@ -4717,13 +4172,7 @@
       "subitem": "Code",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Code",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Code", "Light"],
     "key": "{Typography.Typography.Paragraph.Code.Light}"
   },
   {
@@ -4741,7 +4190,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:53e731bb9c27aa0e4102deb80672924acc458b63,"
+      "styleId": "S:6cd554ebd578efcbf65018518060fad946eb594b,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -4760,7 +4209,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:53e731bb9c27aa0e4102deb80672924acc458b63,"
+        "styleId": "S:6cd554ebd578efcbf65018518060fad946eb594b,"
       }
     },
     "name": "flds-typography-typography-paragraph-code-regular",
@@ -4771,13 +4220,7 @@
       "subitem": "Code",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Code",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Code", "Regular"],
     "key": "{Typography.Typography.Paragraph.Code.Regular}"
   },
   {
@@ -4795,7 +4238,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:96e889b6c81ecbc525d214b537d9e441cf1e1f9d,"
+      "styleId": "S:c39abb7e31a8470b087dc246f1578f1544bb68e1,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -4814,7 +4257,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:96e889b6c81ecbc525d214b537d9e441cf1e1f9d,"
+        "styleId": "S:c39abb7e31a8470b087dc246f1578f1544bb68e1,"
       }
     },
     "name": "flds-typography-typography-paragraph-code-bold",
@@ -4825,13 +4268,7 @@
       "subitem": "Code",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Code",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Code", "Bold"],
     "key": "{Typography.Typography.Paragraph.Code.Bold}"
   },
   {
@@ -4849,7 +4286,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:146856f3de7d8644e6b13d8b43f981e1d05a9437,"
+      "styleId": "S:e8649fbe119215c0bc6ad5cd2e73c4fe412592b8,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -4868,7 +4305,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:146856f3de7d8644e6b13d8b43f981e1d05a9437,"
+        "styleId": "S:e8649fbe119215c0bc6ad5cd2e73c4fe412592b8,"
       }
     },
     "name": "flds-typography-typography-paragraph-link-light",
@@ -4879,13 +4316,7 @@
       "subitem": "Link",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Link",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Link", "Light"],
     "key": "{Typography.Typography.Paragraph.Link.Light}"
   },
   {
@@ -4903,7 +4334,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:d07c2e44e3a2a7f2be93f35c6bb54a6e0c4ccb8d,"
+      "styleId": "S:944b70672d0c43209e28885743fd329ee13a5001,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -4922,7 +4353,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:d07c2e44e3a2a7f2be93f35c6bb54a6e0c4ccb8d,"
+        "styleId": "S:944b70672d0c43209e28885743fd329ee13a5001,"
       }
     },
     "name": "flds-typography-typography-paragraph-link-regular",
@@ -4933,13 +4364,7 @@
       "subitem": "Link",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Link",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Link", "Regular"],
     "key": "{Typography.Typography.Paragraph.Link.Regular}"
   },
   {
@@ -4957,7 +4382,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:32aa7fe3c7bf49b577eb6e2604f1d06cd55c49ca,"
+      "styleId": "S:bab9fb5fdcdae09a03ae07a114398e7cb2aaca01,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -4976,7 +4401,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:32aa7fe3c7bf49b577eb6e2604f1d06cd55c49ca,"
+        "styleId": "S:bab9fb5fdcdae09a03ae07a114398e7cb2aaca01,"
       }
     },
     "name": "flds-typography-typography-paragraph-link-bold",
@@ -4987,13 +4412,7 @@
       "subitem": "Link",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Link",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Link", "Bold"],
     "key": "{Typography.Typography.Paragraph.Link.Bold}"
   },
   {
@@ -5011,7 +4430,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:cbb18ff473563b484a2a46fce546da6775383f36,"
+      "styleId": "S:6ce5fe6aa9b5b86fb43354a43126bc6a16972d17,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -5030,7 +4449,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:cbb18ff473563b484a2a46fce546da6775383f36,"
+        "styleId": "S:6ce5fe6aa9b5b86fb43354a43126bc6a16972d17,"
       }
     },
     "name": "flds-typography-typography-text-regular-2xs",
@@ -5041,13 +4460,7 @@
       "subitem": "Regular",
       "state": "2xs"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "2xs"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "2xs"],
     "key": "{Typography.Typography.Text.Regular.2xs}"
   },
   {
@@ -5065,7 +4478,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:1f774d6efabb9b1b03b772ae695c44258253fbbf,"
+      "styleId": "S:a69378f0e4daca97ca1aacb2ee0eeafbe92c0467,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -5084,7 +4497,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:1f774d6efabb9b1b03b772ae695c44258253fbbf,"
+        "styleId": "S:a69378f0e4daca97ca1aacb2ee0eeafbe92c0467,"
       }
     },
     "name": "flds-typography-typography-text-regular-xs",
@@ -5095,13 +4508,7 @@
       "subitem": "Regular",
       "state": "xs"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "xs"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "xs"],
     "key": "{Typography.Typography.Text.Regular.xs}"
   },
   {
@@ -5119,7 +4526,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:1a7082cbda69797f007628e2052a1a7cc14ca449,"
+      "styleId": "S:b273e72dd21e551021f6ce5c7b9da769cae15e35,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -5138,7 +4545,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:1a7082cbda69797f007628e2052a1a7cc14ca449,"
+        "styleId": "S:b273e72dd21e551021f6ce5c7b9da769cae15e35,"
       }
     },
     "name": "flds-typography-typography-text-regular-sm",
@@ -5149,13 +4556,7 @@
       "subitem": "Regular",
       "state": "sm"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "sm"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "sm"],
     "key": "{Typography.Typography.Text.Regular.sm}"
   },
   {
@@ -5173,7 +4574,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:5f6c953a2a30e7ea5766aa180c1b390f5142e15b,"
+      "styleId": "S:9c23380520be0768118aaa7581fe6b3509345ca0,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -5192,7 +4593,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:5f6c953a2a30e7ea5766aa180c1b390f5142e15b,"
+        "styleId": "S:9c23380520be0768118aaa7581fe6b3509345ca0,"
       }
     },
     "name": "flds-typography-typography-text-regular-md",
@@ -5203,13 +4604,7 @@
       "subitem": "Regular",
       "state": "md"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "md"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "md"],
     "key": "{Typography.Typography.Text.Regular.md}"
   },
   {
@@ -5227,7 +4622,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:a99aff77bb0cb42d732b9fb1ba2b7bd1125dfb94,"
+      "styleId": "S:4ad87756862bdfca4dc6b7639b05f0d5d83e3556,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -5246,7 +4641,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:a99aff77bb0cb42d732b9fb1ba2b7bd1125dfb94,"
+        "styleId": "S:4ad87756862bdfca4dc6b7639b05f0d5d83e3556,"
       }
     },
     "name": "flds-typography-typography-text-regular-lg",
@@ -5257,13 +4652,7 @@
       "subitem": "Regular",
       "state": "lg"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "lg"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "lg"],
     "key": "{Typography.Typography.Text.Regular.lg}"
   },
   {
@@ -5281,7 +4670,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:275d76eef5140e6668559278d16a7e39da1e98fa,"
+      "styleId": "S:94dea75d3811bf10c0c77294b712705d64b5087b,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -5300,7 +4689,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:275d76eef5140e6668559278d16a7e39da1e98fa,"
+        "styleId": "S:94dea75d3811bf10c0c77294b712705d64b5087b,"
       }
     },
     "name": "flds-typography-typography-text-regular-xl",
@@ -5311,13 +4700,7 @@
       "subitem": "Regular",
       "state": "xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "xl"],
     "key": "{Typography.Typography.Text.Regular.xl}"
   },
   {
@@ -5335,7 +4718,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:c79e288f2c5d3207bb803c1e6c1c287ab7b5f5ad,"
+      "styleId": "S:5ab40b615c16803d7b3eb8a247e4b76b8a104c54,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -5354,7 +4737,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:c79e288f2c5d3207bb803c1e6c1c287ab7b5f5ad,"
+        "styleId": "S:5ab40b615c16803d7b3eb8a247e4b76b8a104c54,"
       }
     },
     "name": "flds-typography-typography-text-regular-2xl",
@@ -5365,13 +4748,7 @@
       "subitem": "Regular",
       "state": "2xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "2xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "2xl"],
     "key": "{Typography.Typography.Text.Regular.2xl}"
   },
   {
@@ -5389,7 +4766,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:5f8877b86b9fd79ec7d3b3ebf56053ba571ff3e2,"
+      "styleId": "S:ee4908afc7c63e6f6fa0c9d1aee961e7fd5b5da4,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -5408,7 +4785,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:5f8877b86b9fd79ec7d3b3ebf56053ba571ff3e2,"
+        "styleId": "S:ee4908afc7c63e6f6fa0c9d1aee961e7fd5b5da4,"
       }
     },
     "name": "flds-typography-typography-text-regular-3xl",
@@ -5419,13 +4796,7 @@
       "subitem": "Regular",
       "state": "3xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "3xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "3xl"],
     "key": "{Typography.Typography.Text.Regular.3xl}"
   },
   {
@@ -5443,7 +4814,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:e4da4814ffb200ebd15ed65e2967272860e5b932,"
+      "styleId": "S:bc1a5b4b39cd7350851de36d0c8406acfbf75021,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -5462,7 +4833,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:e4da4814ffb200ebd15ed65e2967272860e5b932,"
+        "styleId": "S:bc1a5b4b39cd7350851de36d0c8406acfbf75021,"
       }
     },
     "name": "flds-typography-typography-text-regular-4xl",
@@ -5473,13 +4844,7 @@
       "subitem": "Regular",
       "state": "4xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "4xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "4xl"],
     "key": "{Typography.Typography.Text.Regular.4xl}"
   },
   {
@@ -5497,7 +4862,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:71c7bba8e90e02d99137d3205b5f8de080fb6cd0,"
+      "styleId": "S:7bcef442701a1abb8f1bed0f99d3e883a56366ff,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -5516,7 +4881,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:71c7bba8e90e02d99137d3205b5f8de080fb6cd0,"
+        "styleId": "S:7bcef442701a1abb8f1bed0f99d3e883a56366ff,"
       }
     },
     "name": "flds-typography-typography-text-regular-5xl",
@@ -5527,13 +4892,7 @@
       "subitem": "Regular",
       "state": "5xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "5xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "5xl"],
     "key": "{Typography.Typography.Text.Regular.5xl}"
   },
   {
@@ -5551,7 +4910,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:1e81329c2870e264c6c7206549aeee06e2ee786f,"
+      "styleId": "S:7747b43e01a0af59caafd735ef0b962cee23a52c,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -5570,7 +4929,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:1e81329c2870e264c6c7206549aeee06e2ee786f,"
+        "styleId": "S:7747b43e01a0af59caafd735ef0b962cee23a52c,"
       }
     },
     "name": "flds-typography-typography-text-regular-6xl",
@@ -5581,13 +4940,7 @@
       "subitem": "Regular",
       "state": "6xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "6xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "6xl"],
     "key": "{Typography.Typography.Text.Regular.6xl}"
   },
   {
@@ -5605,7 +4958,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:389f41defb4667ca751d0b3124340beb616dce84,"
+      "styleId": "S:6b309d3ec9a690177279e5b7c43e61178f97ad36,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -5624,7 +4977,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:389f41defb4667ca751d0b3124340beb616dce84,"
+        "styleId": "S:6b309d3ec9a690177279e5b7c43e61178f97ad36,"
       }
     },
     "name": "flds-typography-typography-text-regular-7xl",
@@ -5635,13 +4988,7 @@
       "subitem": "Regular",
       "state": "7xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "7xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "7xl"],
     "key": "{Typography.Typography.Text.Regular.7xl}"
   },
   {
@@ -5659,7 +5006,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:4434c740516082211d3065dabafb58708cc6883b,"
+      "styleId": "S:af92c7bb1318031b5897ad9bc72e34968db40d42,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -5678,7 +5025,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:4434c740516082211d3065dabafb58708cc6883b,"
+        "styleId": "S:af92c7bb1318031b5897ad9bc72e34968db40d42,"
       }
     },
     "name": "flds-typography-typography-text-regular-8xl",
@@ -5689,13 +5036,7 @@
       "subitem": "Regular",
       "state": "8xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "8xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "8xl"],
     "key": "{Typography.Typography.Text.Regular.8xl}"
   },
   {
@@ -5713,7 +5054,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:9e52b6279725f3f848bda87b1cb8bfaf6823cb64,"
+      "styleId": "S:caf2d5ac39b918c3b054d98fc3336cfd4494367b,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -5732,7 +5073,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:9e52b6279725f3f848bda87b1cb8bfaf6823cb64,"
+        "styleId": "S:caf2d5ac39b918c3b054d98fc3336cfd4494367b,"
       }
     },
     "name": "flds-typography-typography-text-bold-2xs",
@@ -5743,13 +5084,7 @@
       "subitem": "Bold",
       "state": "2xs"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "2xs"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "2xs"],
     "key": "{Typography.Typography.Text.Bold.2xs}"
   },
   {
@@ -5767,7 +5102,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:b648c146470a4cac52689766eabb705fa4a80163,"
+      "styleId": "S:556ad8acc83e38b26194aae42e3739e28ab0b0c4,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -5786,7 +5121,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:b648c146470a4cac52689766eabb705fa4a80163,"
+        "styleId": "S:556ad8acc83e38b26194aae42e3739e28ab0b0c4,"
       }
     },
     "name": "flds-typography-typography-text-bold-xs",
@@ -5797,13 +5132,7 @@
       "subitem": "Bold",
       "state": "xs"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "xs"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "xs"],
     "key": "{Typography.Typography.Text.Bold.xs}"
   },
   {
@@ -5821,7 +5150,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:7ca35e0c55154a38ee57771f9fb1a44ffd7728a4,"
+      "styleId": "S:0573bdf82f160fcf0fca915fdd5126ba0448c6dc,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -5840,7 +5169,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:7ca35e0c55154a38ee57771f9fb1a44ffd7728a4,"
+        "styleId": "S:0573bdf82f160fcf0fca915fdd5126ba0448c6dc,"
       }
     },
     "name": "flds-typography-typography-text-bold-sm",
@@ -5851,13 +5180,7 @@
       "subitem": "Bold",
       "state": "sm"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "sm"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "sm"],
     "key": "{Typography.Typography.Text.Bold.sm}"
   },
   {
@@ -5875,7 +5198,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:8d6ce03780bb2675d83137aa0ca5064cd5d53e4b,"
+      "styleId": "S:4b166794e6e67ea861349b28352d3f2502cd6729,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -5894,7 +5217,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:8d6ce03780bb2675d83137aa0ca5064cd5d53e4b,"
+        "styleId": "S:4b166794e6e67ea861349b28352d3f2502cd6729,"
       }
     },
     "name": "flds-typography-typography-text-bold-md",
@@ -5905,13 +5228,7 @@
       "subitem": "Bold",
       "state": "md"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "md"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "md"],
     "key": "{Typography.Typography.Text.Bold.md}"
   },
   {
@@ -5929,7 +5246,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:ec7e34e8460178041d3e8cdf07fa7a453a040291,"
+      "styleId": "S:528b9b314a9922391ad0d4dae67ff06335fb3fd0,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -5948,7 +5265,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:ec7e34e8460178041d3e8cdf07fa7a453a040291,"
+        "styleId": "S:528b9b314a9922391ad0d4dae67ff06335fb3fd0,"
       }
     },
     "name": "flds-typography-typography-text-bold-lg",
@@ -5959,13 +5276,7 @@
       "subitem": "Bold",
       "state": "lg"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "lg"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "lg"],
     "key": "{Typography.Typography.Text.Bold.lg}"
   },
   {
@@ -5983,7 +5294,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:e5db70b650b0f3d6e1d3fe6d2f8258e2c9ead73b,"
+      "styleId": "S:38e0fb94e09d9ed0fd7c20d3a7ebc0ce3d95359c,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -6002,7 +5313,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:e5db70b650b0f3d6e1d3fe6d2f8258e2c9ead73b,"
+        "styleId": "S:38e0fb94e09d9ed0fd7c20d3a7ebc0ce3d95359c,"
       }
     },
     "name": "flds-typography-typography-text-bold-xl",
@@ -6013,13 +5324,7 @@
       "subitem": "Bold",
       "state": "xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "xl"],
     "key": "{Typography.Typography.Text.Bold.xl}"
   },
   {
@@ -6037,7 +5342,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:9d2eabd309dbdac71004aaebe97f92d47dcbcf80,"
+      "styleId": "S:db9678c163e5d15e9868f218898927531496e9b6,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -6056,7 +5361,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:9d2eabd309dbdac71004aaebe97f92d47dcbcf80,"
+        "styleId": "S:db9678c163e5d15e9868f218898927531496e9b6,"
       }
     },
     "name": "flds-typography-typography-text-bold-2xl",
@@ -6067,13 +5372,7 @@
       "subitem": "Bold",
       "state": "2xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "2xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "2xl"],
     "key": "{Typography.Typography.Text.Bold.2xl}"
   },
   {
@@ -6091,7 +5390,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:b138daa06fe9b4e039f17e8da309fe06536b3546,"
+      "styleId": "S:e4fe4a2274da38e46fb832aa93d3ad9446cfeb7b,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -6110,7 +5409,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:b138daa06fe9b4e039f17e8da309fe06536b3546,"
+        "styleId": "S:e4fe4a2274da38e46fb832aa93d3ad9446cfeb7b,"
       }
     },
     "name": "flds-typography-typography-text-bold-3xl",
@@ -6121,13 +5420,7 @@
       "subitem": "Bold",
       "state": "3xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "3xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "3xl"],
     "key": "{Typography.Typography.Text.Bold.3xl}"
   },
   {
@@ -6145,7 +5438,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:0216b52043ef60c537e2024e86ec7a1b295b1a64,"
+      "styleId": "S:ed9a39ce7b8bddef69bbf217d438670fcf7ec7da,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -6164,7 +5457,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:0216b52043ef60c537e2024e86ec7a1b295b1a64,"
+        "styleId": "S:ed9a39ce7b8bddef69bbf217d438670fcf7ec7da,"
       }
     },
     "name": "flds-typography-typography-text-bold-4xl",
@@ -6175,13 +5468,7 @@
       "subitem": "Bold",
       "state": "4xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "4xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "4xl"],
     "key": "{Typography.Typography.Text.Bold.4xl}"
   },
   {
@@ -6199,7 +5486,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:a38f502868dcf557e682893962c2009673bd936d,"
+      "styleId": "S:87259554173ecb37b870dc7717dc7a4adc1e3b10,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -6218,7 +5505,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:a38f502868dcf557e682893962c2009673bd936d,"
+        "styleId": "S:87259554173ecb37b870dc7717dc7a4adc1e3b10,"
       }
     },
     "name": "flds-typography-typography-text-bold-5xl",
@@ -6229,13 +5516,7 @@
       "subitem": "Bold",
       "state": "5xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "5xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "5xl"],
     "key": "{Typography.Typography.Text.Bold.5xl}"
   },
   {
@@ -6253,7 +5534,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:c30228cc353ec94d3a9f1c0d32bea9c4cc49ce2c,"
+      "styleId": "S:6ad6a8426d46e5c59da3155c51729928b798bffa,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -6272,7 +5553,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:c30228cc353ec94d3a9f1c0d32bea9c4cc49ce2c,"
+        "styleId": "S:6ad6a8426d46e5c59da3155c51729928b798bffa,"
       }
     },
     "name": "flds-typography-typography-text-bold-6xl",
@@ -6283,13 +5564,7 @@
       "subitem": "Bold",
       "state": "6xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "6xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "6xl"],
     "key": "{Typography.Typography.Text.Bold.6xl}"
   },
   {
@@ -6307,7 +5582,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:7d6adb7971fee4d696d98bcaa2875105683eeb56,"
+      "styleId": "S:6f3421c1d061ea3b6b9a64bf591d3f510baf413b,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -6326,7 +5601,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:7d6adb7971fee4d696d98bcaa2875105683eeb56,"
+        "styleId": "S:6f3421c1d061ea3b6b9a64bf591d3f510baf413b,"
       }
     },
     "name": "flds-typography-typography-text-bold-7xl",
@@ -6337,13 +5612,7 @@
       "subitem": "Bold",
       "state": "7xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "7xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "7xl"],
     "key": "{Typography.Typography.Text.Bold.7xl}"
   },
   {
@@ -6361,7 +5630,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:6370aed1929cd9a960a7df9d791d9fe539bf4ccb,"
+      "styleId": "S:5df8bb75f0bb3d65223eee8d21b9347490d39ebc,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -6380,7 +5649,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:6370aed1929cd9a960a7df9d791d9fe539bf4ccb,"
+        "styleId": "S:5df8bb75f0bb3d65223eee8d21b9347490d39ebc,"
       }
     },
     "name": "flds-typography-typography-text-bold-8xl",
@@ -6391,13 +5660,7 @@
       "subitem": "Bold",
       "state": "8xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "8xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "8xl"],
     "key": "{Typography.Typography.Text.Bold.8xl}"
   },
   {
@@ -6415,7 +5678,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:c3acc9f7f68cf17c773de7793dd4e196fb6ce9b9,"
+      "styleId": "S:f3a2e6eef3d0e65bdbe858240b2324c9ba52fb2e,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -6434,7 +5697,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:c3acc9f7f68cf17c773de7793dd4e196fb6ce9b9,"
+        "styleId": "S:f3a2e6eef3d0e65bdbe858240b2324c9ba52fb2e,"
       }
     },
     "name": "flds-typography-typography-label-small-light",
@@ -6445,13 +5708,7 @@
       "subitem": "Small",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Small",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Label", "Small", "Light"],
     "key": "{Typography.Typography.Label.Small.Light}"
   },
   {
@@ -6469,7 +5726,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:c3a7d174593673dff727b97e2e2b5f00b484009f,"
+      "styleId": "S:ac810fe17247233feb620420fd801809cdd1ebba,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -6488,7 +5745,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:c3a7d174593673dff727b97e2e2b5f00b484009f,"
+        "styleId": "S:ac810fe17247233feb620420fd801809cdd1ebba,"
       }
     },
     "name": "flds-typography-typography-label-small-regular",
@@ -6499,13 +5756,7 @@
       "subitem": "Small",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Small",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Label", "Small", "Regular"],
     "key": "{Typography.Typography.Label.Small.Regular}"
   },
   {
@@ -6523,7 +5774,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:7f04c610db124ea0b77cb6aee18e3e53180c7f54,"
+      "styleId": "S:2491cc15623e4c138fb23969389345be0876096b,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -6542,7 +5793,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:7f04c610db124ea0b77cb6aee18e3e53180c7f54,"
+        "styleId": "S:2491cc15623e4c138fb23969389345be0876096b,"
       }
     },
     "name": "flds-typography-typography-label-small-medium",
@@ -6553,13 +5804,7 @@
       "subitem": "Small",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Small",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Label", "Small", "Medium"],
     "key": "{Typography.Typography.Label.Small.Medium}"
   },
   {
@@ -6577,7 +5822,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:f39a9c6cb7caf530e8d38bbe805aa7d720e1f233,"
+      "styleId": "S:6a422237d54167c94772d1d2cee567b1f4d5231c,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -6596,7 +5841,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:f39a9c6cb7caf530e8d38bbe805aa7d720e1f233,"
+        "styleId": "S:6a422237d54167c94772d1d2cee567b1f4d5231c,"
       }
     },
     "name": "flds-typography-typography-label-small-semibold",
@@ -6607,13 +5852,7 @@
       "subitem": "Small",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Small",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Label", "Small", "Semibold"],
     "key": "{Typography.Typography.Label.Small.Semibold}"
   },
   {
@@ -6631,7 +5870,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:d9fd97cfbd6505a60c6c26e847f4a02b75a0a344,"
+      "styleId": "S:858fcedb9e074493d4b19e7691dcfdaa96919996,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -6650,7 +5889,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:d9fd97cfbd6505a60c6c26e847f4a02b75a0a344,"
+        "styleId": "S:858fcedb9e074493d4b19e7691dcfdaa96919996,"
       }
     },
     "name": "flds-typography-typography-label-small-bold",
@@ -6661,13 +5900,7 @@
       "subitem": "Small",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Small",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Label", "Small", "Bold"],
     "key": "{Typography.Typography.Label.Small.Bold}"
   },
   {
@@ -6685,7 +5918,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:3f6ee1f9c325b9a72850ff10ca63755490c91627,"
+      "styleId": "S:84914183ac288e9816a13f238fe986fad330f4da,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -6704,7 +5937,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:3f6ee1f9c325b9a72850ff10ca63755490c91627,"
+        "styleId": "S:84914183ac288e9816a13f238fe986fad330f4da,"
       }
     },
     "name": "flds-typography-typography-label-small-extrabold",
@@ -6715,13 +5948,7 @@
       "subitem": "Small",
       "state": "Extrabold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Small",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Label", "Small", "Extrabold"],
     "key": "{Typography.Typography.Label.Small.Extrabold}"
   },
   {
@@ -6739,7 +5966,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:62a76d857910d6bc2469c24c4f53efa9a0ecc7c7,"
+      "styleId": "S:0f2d506d4e009119a8315045c8427f4ec3c90777,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -6758,7 +5985,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:62a76d857910d6bc2469c24c4f53efa9a0ecc7c7,"
+        "styleId": "S:0f2d506d4e009119a8315045c8427f4ec3c90777,"
       }
     },
     "name": "flds-typography-typography-label-small-strong",
@@ -6769,13 +5996,7 @@
       "subitem": "Small",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Small",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Label", "Small", "Strong"],
     "key": "{Typography.Typography.Label.Small.Strong}"
   },
   {
@@ -6793,7 +6014,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:93372b5fe2eb5b894bde4d97c793f464b07f90df,"
+      "styleId": "S:9124ef111d02850cc6a6f60894c5cf7d4b5835b5,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -6812,7 +6033,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:93372b5fe2eb5b894bde4d97c793f464b07f90df,"
+        "styleId": "S:9124ef111d02850cc6a6f60894c5cf7d4b5835b5,"
       }
     },
     "name": "flds-typography-typography-label-medium-light",
@@ -6823,13 +6044,7 @@
       "subitem": "Medium",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Medium",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Label", "Medium", "Light"],
     "key": "{Typography.Typography.Label.Medium.Light}"
   },
   {
@@ -6847,7 +6062,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:28bd8cc96c04abbed4c3149bb62eefc621cea589,"
+      "styleId": "S:71b17118992742c54dadb347588aab1112c2303e,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -6866,7 +6081,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:28bd8cc96c04abbed4c3149bb62eefc621cea589,"
+        "styleId": "S:71b17118992742c54dadb347588aab1112c2303e,"
       }
     },
     "name": "flds-typography-typography-label-medium-regular",
@@ -6877,13 +6092,7 @@
       "subitem": "Medium",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Medium",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Label", "Medium", "Regular"],
     "key": "{Typography.Typography.Label.Medium.Regular}"
   },
   {
@@ -6901,7 +6110,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:674580ba4279950c0457837773e480d3990e878e,"
+      "styleId": "S:08c556c6f52838cb68cb21b6a15db67300f2ccb9,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -6920,7 +6129,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:674580ba4279950c0457837773e480d3990e878e,"
+        "styleId": "S:08c556c6f52838cb68cb21b6a15db67300f2ccb9,"
       }
     },
     "name": "flds-typography-typography-label-medium-medium",
@@ -6931,13 +6140,7 @@
       "subitem": "Medium",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Medium",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Label", "Medium", "Medium"],
     "key": "{Typography.Typography.Label.Medium.Medium}"
   },
   {
@@ -6955,7 +6158,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:5f7d9d813b68dd4458172533b7a4f4ac8a121a41,"
+      "styleId": "S:7e2a62495082cdfc0fc2c6fcf7392444f78adaf8,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -6974,7 +6177,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:5f7d9d813b68dd4458172533b7a4f4ac8a121a41,"
+        "styleId": "S:7e2a62495082cdfc0fc2c6fcf7392444f78adaf8,"
       }
     },
     "name": "flds-typography-typography-label-medium-semibold",
@@ -6985,13 +6188,7 @@
       "subitem": "Medium",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Medium",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Label", "Medium", "Semibold"],
     "key": "{Typography.Typography.Label.Medium.Semibold}"
   },
   {
@@ -7009,7 +6206,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:115309be6ceab1ae24a658f3c3285452d18d76f4,"
+      "styleId": "S:5382f1132f9174a50b3161f7ecb359aab58bdc52,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -7028,7 +6225,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:115309be6ceab1ae24a658f3c3285452d18d76f4,"
+        "styleId": "S:5382f1132f9174a50b3161f7ecb359aab58bdc52,"
       }
     },
     "name": "flds-typography-typography-label-medium-bold",
@@ -7039,13 +6236,7 @@
       "subitem": "Medium",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Medium",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Label", "Medium", "Bold"],
     "key": "{Typography.Typography.Label.Medium.Bold}"
   },
   {
@@ -7063,7 +6254,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:8fdd63e25fd4d33c629753276e9e074e925d8a48,"
+      "styleId": "S:e932ca833be4bb4439749319a1c61757d2b844f2,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -7082,7 +6273,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:8fdd63e25fd4d33c629753276e9e074e925d8a48,"
+        "styleId": "S:e932ca833be4bb4439749319a1c61757d2b844f2,"
       }
     },
     "name": "flds-typography-typography-label-medium-extrabold",
@@ -7093,13 +6284,7 @@
       "subitem": "Medium",
       "state": "Extrabold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Medium",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Label", "Medium", "Extrabold"],
     "key": "{Typography.Typography.Label.Medium.Extrabold}"
   },
   {
@@ -7117,7 +6302,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:f9933cf515d0896d699a7844d9e03bb5c988f1ec,"
+      "styleId": "S:9c266de828f413c755a87df798cab481f7acda81,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -7136,7 +6321,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:f9933cf515d0896d699a7844d9e03bb5c988f1ec,"
+        "styleId": "S:9c266de828f413c755a87df798cab481f7acda81,"
       }
     },
     "name": "flds-typography-typography-label-medium-strong",
@@ -7147,13 +6332,7 @@
       "subitem": "Medium",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Medium",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Label", "Medium", "Strong"],
     "key": "{Typography.Typography.Label.Medium.Strong}"
   },
   {
@@ -7171,7 +6350,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:7521ac6fd002b5acb520ecbb4f20280da1519391,"
+      "styleId": "S:72f9d6985503b1229e8c75c88886f1fa1197919c,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -7190,7 +6369,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:7521ac6fd002b5acb520ecbb4f20280da1519391,"
+        "styleId": "S:72f9d6985503b1229e8c75c88886f1fa1197919c,"
       }
     },
     "name": "flds-typography-typography-label-large-light",
@@ -7201,13 +6380,7 @@
       "subitem": "Large",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Large",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Label", "Large", "Light"],
     "key": "{Typography.Typography.Label.Large.Light}"
   },
   {
@@ -7225,7 +6398,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:202babce121bd53b4e792482176a0fe18c4a6b3a,"
+      "styleId": "S:dc90af754ee7429e3ccb83c66d5ec5a0c5f69a36,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -7244,7 +6417,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:202babce121bd53b4e792482176a0fe18c4a6b3a,"
+        "styleId": "S:dc90af754ee7429e3ccb83c66d5ec5a0c5f69a36,"
       }
     },
     "name": "flds-typography-typography-label-large-regular",
@@ -7255,13 +6428,7 @@
       "subitem": "Large",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Large",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Label", "Large", "Regular"],
     "key": "{Typography.Typography.Label.Large.Regular}"
   },
   {
@@ -7279,7 +6446,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:60990111d0619b61982961a8f5d1f84ffcd69c38,"
+      "styleId": "S:af119ad0873e6fde8e1107e98524b3f74165a687,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -7298,7 +6465,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:60990111d0619b61982961a8f5d1f84ffcd69c38,"
+        "styleId": "S:af119ad0873e6fde8e1107e98524b3f74165a687,"
       }
     },
     "name": "flds-typography-typography-label-large-medium",
@@ -7309,13 +6476,7 @@
       "subitem": "Large",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Large",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Label", "Large", "Medium"],
     "key": "{Typography.Typography.Label.Large.Medium}"
   },
   {
@@ -7333,7 +6494,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:8601a7c8d821710017d7eee4270c1b265f32a6df,"
+      "styleId": "S:ed5f394c769eee481013e155ae3ada4c00fbbda5,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -7352,7 +6513,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:8601a7c8d821710017d7eee4270c1b265f32a6df,"
+        "styleId": "S:ed5f394c769eee481013e155ae3ada4c00fbbda5,"
       }
     },
     "name": "flds-typography-typography-label-large-semibold",
@@ -7363,13 +6524,7 @@
       "subitem": "Large",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Large",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Label", "Large", "Semibold"],
     "key": "{Typography.Typography.Label.Large.Semibold}"
   },
   {
@@ -7387,7 +6542,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:00a6fe6bb587b814f4eb522a2fccdf928597820e,"
+      "styleId": "S:ae6b9c59e31278774ed1210feecf14b92132a618,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -7406,7 +6561,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:00a6fe6bb587b814f4eb522a2fccdf928597820e,"
+        "styleId": "S:ae6b9c59e31278774ed1210feecf14b92132a618,"
       }
     },
     "name": "flds-typography-typography-label-large-bold",
@@ -7417,13 +6572,7 @@
       "subitem": "Large",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Large",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Label", "Large", "Bold"],
     "key": "{Typography.Typography.Label.Large.Bold}"
   },
   {
@@ -7441,7 +6590,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:12ca746eb300fc59bf857a3356b0b302757cd73c,"
+      "styleId": "S:c181b48976cafd4a92a78da5ef8b2b68e9faa6eb,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -7460,7 +6609,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:12ca746eb300fc59bf857a3356b0b302757cd73c,"
+        "styleId": "S:c181b48976cafd4a92a78da5ef8b2b68e9faa6eb,"
       }
     },
     "name": "flds-typography-typography-label-large-extrabold",
@@ -7471,13 +6620,7 @@
       "subitem": "Large",
       "state": "Extrabold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Large",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Label", "Large", "Extrabold"],
     "key": "{Typography.Typography.Label.Large.Extrabold}"
   },
   {
@@ -7495,7 +6638,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:7299ed60b2bb241003e08a88a6d4eab4186b3a1d,"
+      "styleId": "S:7aef5f0c90b17f4048ebce7c047869c2401debc0,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -7514,7 +6657,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:7299ed60b2bb241003e08a88a6d4eab4186b3a1d,"
+        "styleId": "S:7aef5f0c90b17f4048ebce7c047869c2401debc0,"
       }
     },
     "name": "flds-typography-typography-label-large-strong",
@@ -7525,13 +6668,7 @@
       "subitem": "Large",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Large",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Label", "Large", "Strong"],
     "key": "{Typography.Typography.Label.Large.Strong}"
   },
   {
@@ -7549,7 +6686,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:e03d934c48eac6e2e40ca504c0714a72b89ab7ff,"
+      "styleId": "S:861b6d384392110eb057a698af0a06464afda54d,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -7568,7 +6705,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:e03d934c48eac6e2e40ca504c0714a72b89ab7ff,"
+        "styleId": "S:861b6d384392110eb057a698af0a06464afda54d,"
       }
     },
     "name": "flds-typography-typography-utilities-component-notes-regular",
@@ -7579,13 +6716,7 @@
       "subitem": "Component notes",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      ".Utilities",
-      "Component notes",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", ".Utilities", "Component notes", "Regular"],
     "key": "{Typography.Typography..Utilities.Component notes.Regular}"
   },
   {
@@ -7603,7 +6734,7 @@
     },
     "$description": "",
     "$extensions": {
-      "styleId": "S:6c6ee8ef66645deabfdcc8bab54ef2a3bd3539cc,"
+      "styleId": "S:b770c02112b68f34fce60b2b7656f632b382535a,"
     },
     "filePath": "static/first-ledger.json",
     "isSource": true,
@@ -7622,7 +6753,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:6c6ee8ef66645deabfdcc8bab54ef2a3bd3539cc,"
+        "styleId": "S:b770c02112b68f34fce60b2b7656f632b382535a,"
       }
     },
     "name": "flds-typography-typography-utilities-component-notes-bold",
@@ -7633,13 +6764,7 @@
       "subitem": "Component notes",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      ".Utilities",
-      "Component notes",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", ".Utilities", "Component notes", "Bold"],
     "key": "{Typography.Typography..Utilities.Component notes.Bold}"
   }
 ]

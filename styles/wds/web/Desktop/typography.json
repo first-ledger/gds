@@ -4,6 +4,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 300,
+      "fontStyle": "normal",
       "fontSize": "52px",
       "lineHeight": "105%",
       "letterSpacing": "0%",
@@ -23,6 +24,7 @@
       "$value": {
         "fontFamily": "{Typography.Font.Family.Primary.$value}",
         "fontWeight": 300,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.9xl.$value}",
         "lineHeight": "105%",
         "letterSpacing": "0%",
@@ -44,13 +46,7 @@
       "subitem": "Large",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Large",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Display", "Large", "Light"],
     "key": "{Typography.Typography.Display.Large.Light}"
   },
   {
@@ -58,6 +54,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "52px",
       "lineHeight": "105%",
       "letterSpacing": "0%",
@@ -77,6 +74,7 @@
       "$value": {
         "fontFamily": "{Typography.Font.Family.Primary.$value}",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.9xl.$value}",
         "lineHeight": "105%",
         "letterSpacing": "0%",
@@ -98,13 +96,7 @@
       "subitem": "Large",
       "state": "Reguler"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Large",
-      "Reguler"
-    ],
+    "path": ["Typography", "Typography", "Display", "Large", "Reguler"],
     "key": "{Typography.Typography.Display.Large.Reguler}"
   },
   {
@@ -112,6 +104,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 500,
+      "fontStyle": "normal",
       "fontSize": "52px",
       "lineHeight": "105%",
       "letterSpacing": "0%",
@@ -131,6 +124,7 @@
       "$value": {
         "fontFamily": "{Typography.Font.Family.Primary.$value}",
         "fontWeight": 500,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.9xl.$value}",
         "lineHeight": "105%",
         "letterSpacing": "0%",
@@ -152,13 +146,7 @@
       "subitem": "Large",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Large",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Display", "Large", "Medium"],
     "key": "{Typography.Typography.Display.Large.Medium}"
   },
   {
@@ -166,6 +154,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "52px",
       "lineHeight": "105%",
       "letterSpacing": "0%",
@@ -185,6 +174,7 @@
       "$value": {
         "fontFamily": "{Typography.Font.Family.Primary.$value}",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.9xl.$value}",
         "lineHeight": "105%",
         "letterSpacing": "0%",
@@ -206,13 +196,7 @@
       "subitem": "Large",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Large",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Display", "Large", "Semibold"],
     "key": "{Typography.Typography.Display.Large.Semibold}"
   },
   {
@@ -220,6 +204,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "52px",
       "lineHeight": "105%",
       "letterSpacing": "0%",
@@ -239,6 +224,7 @@
       "$value": {
         "fontFamily": "{Typography.Font.Family.Primary.$value}",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.9xl.$value}",
         "lineHeight": "105%",
         "letterSpacing": "0%",
@@ -260,20 +246,15 @@
       "subitem": "Large",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Large",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Display", "Large", "Bold"],
     "key": "{Typography.Typography.Display.Large.Bold}"
   },
   {
     "$type": "typography",
     "$value": {
       "fontFamily": "Inter",
-      "fontWeight": 800,
+      "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "52px",
       "lineHeight": "105%",
       "letterSpacing": "0%",
@@ -292,7 +273,8 @@
       "$type": "typography",
       "$value": {
         "fontFamily": "{Typography.Font.Family.Primary.$value}",
-        "fontWeight": 800,
+        "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.9xl.$value}",
         "lineHeight": "105%",
         "letterSpacing": "0%",
@@ -314,13 +296,7 @@
       "subitem": "Large",
       "state": "Extrabold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Large",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Display", "Large", "Extrabold"],
     "key": "{Typography.Typography.Display.Large.Extrabold}"
   },
   {
@@ -328,6 +304,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 900,
+      "fontStyle": "normal",
       "fontSize": "52px",
       "lineHeight": "105%",
       "letterSpacing": "0%",
@@ -347,6 +324,7 @@
       "$value": {
         "fontFamily": "{Typography.Font.Family.Primary.$value}",
         "fontWeight": 900,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.9xl.$value}",
         "lineHeight": "105%",
         "letterSpacing": "0%",
@@ -368,13 +346,7 @@
       "subitem": "Large",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Large",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Display", "Large", "Strong"],
     "key": "{Typography.Typography.Display.Large.Strong}"
   },
   {
@@ -382,6 +354,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 300,
+      "fontStyle": "normal",
       "fontSize": "44px",
       "lineHeight": "105%",
       "letterSpacing": "0%",
@@ -401,6 +374,7 @@
       "$value": {
         "fontFamily": "{Typography.Font.Family.Primary.$value}",
         "fontWeight": 300,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.7xl.$value}",
         "lineHeight": "105%",
         "letterSpacing": "0%",
@@ -422,13 +396,7 @@
       "subitem": "Small",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Small",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Display", "Small", "Light"],
     "key": "{Typography.Typography.Display.Small.Light}"
   },
   {
@@ -436,6 +404,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "44px",
       "lineHeight": "105%",
       "letterSpacing": "0%",
@@ -455,6 +424,7 @@
       "$value": {
         "fontFamily": "{Typography.Font.Family.Primary.$value}",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.7xl.$value}",
         "lineHeight": "105%",
         "letterSpacing": "0%",
@@ -476,13 +446,7 @@
       "subitem": "Small",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Small",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Display", "Small", "Regular"],
     "key": "{Typography.Typography.Display.Small.Regular}"
   },
   {
@@ -490,6 +454,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 500,
+      "fontStyle": "normal",
       "fontSize": "44px",
       "lineHeight": "105%",
       "letterSpacing": "0%",
@@ -509,6 +474,7 @@
       "$value": {
         "fontFamily": "{Typography.Font.Family.Primary.$value}",
         "fontWeight": 500,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.7xl.$value}",
         "lineHeight": "105%",
         "letterSpacing": "0%",
@@ -530,13 +496,7 @@
       "subitem": "Small",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Small",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Display", "Small", "Medium"],
     "key": "{Typography.Typography.Display.Small.Medium}"
   },
   {
@@ -544,6 +504,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "44px",
       "lineHeight": "105%",
       "letterSpacing": "0%",
@@ -563,6 +524,7 @@
       "$value": {
         "fontFamily": "{Typography.Font.Family.Primary.$value}",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.7xl.$value}",
         "lineHeight": "105%",
         "letterSpacing": "0%",
@@ -584,13 +546,7 @@
       "subitem": "Small",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Small",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Display", "Small", "Semibold"],
     "key": "{Typography.Typography.Display.Small.Semibold}"
   },
   {
@@ -598,6 +554,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "44px",
       "lineHeight": "105%",
       "letterSpacing": "0%",
@@ -617,6 +574,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.7xl.$value}",
         "lineHeight": "105%",
         "letterSpacing": "0%",
@@ -638,20 +596,15 @@
       "subitem": "Small",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Small",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Display", "Small", "Bold"],
     "key": "{Typography.Typography.Display.Small.Bold}"
   },
   {
     "$type": "typography",
     "$value": {
       "fontFamily": "Inter",
-      "fontWeight": 800,
+      "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "44px",
       "lineHeight": "105%",
       "letterSpacing": "0%",
@@ -670,7 +623,8 @@
       "$type": "typography",
       "$value": {
         "fontFamily": "Inter",
-        "fontWeight": 800,
+        "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.7xl.$value}",
         "lineHeight": "105%",
         "letterSpacing": "0%",
@@ -692,13 +646,7 @@
       "subitem": "Small",
       "state": "Extrabold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Small",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Display", "Small", "Extrabold"],
     "key": "{Typography.Typography.Display.Small.Extrabold}"
   },
   {
@@ -706,6 +654,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 900,
+      "fontStyle": "normal",
       "fontSize": "44px",
       "lineHeight": "105%",
       "letterSpacing": "0%",
@@ -725,6 +674,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 900,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.7xl.$value}",
         "lineHeight": "105%",
         "letterSpacing": "0%",
@@ -746,13 +696,7 @@
       "subitem": "Small",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Display",
-      "Small",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Display", "Small", "Strong"],
     "key": "{Typography.Typography.Display.Small.Strong}"
   },
   {
@@ -760,6 +704,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 300,
+      "fontStyle": "normal",
       "fontSize": "44px",
       "lineHeight": "115%",
       "letterSpacing": "0px",
@@ -779,6 +724,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 300,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.7xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0px",
@@ -800,13 +746,7 @@
       "subitem": "H1",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H1",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H1", "Light"],
     "key": "{Typography.Typography.Heading.H1.Light}"
   },
   {
@@ -814,6 +754,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 500,
+      "fontStyle": "normal",
       "fontSize": "44px",
       "lineHeight": "115%",
       "letterSpacing": "0px",
@@ -833,6 +774,7 @@
       "$value": {
         "fontFamily": "{Typography Primitives.Family.Inter.$value}",
         "fontWeight": 500,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.7xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0px",
@@ -854,13 +796,7 @@
       "subitem": "H1",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H1",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H1", "Medium"],
     "key": "{Typography.Typography.Heading.H1.Medium}"
   },
   {
@@ -868,6 +804,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "44px",
       "lineHeight": "115%",
       "letterSpacing": "0px",
@@ -887,6 +824,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.7xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0px",
@@ -908,13 +846,7 @@
       "subitem": "H1",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H1",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H1", "Semibold"],
     "key": "{Typography.Typography.Heading.H1.Semibold}"
   },
   {
@@ -922,6 +854,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "44px",
       "lineHeight": "115%",
       "letterSpacing": "0px",
@@ -941,6 +874,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.7xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0px",
@@ -962,20 +896,15 @@
       "subitem": "H1",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H1",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H1", "Bold"],
     "key": "{Typography.Typography.Heading.H1.Bold}"
   },
   {
     "$type": "typography",
     "$value": {
       "fontFamily": "Inter",
-      "fontWeight": 800,
+      "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "44px",
       "lineHeight": "115%",
       "letterSpacing": "0px",
@@ -994,7 +923,8 @@
       "$type": "typography",
       "$value": {
         "fontFamily": "Inter",
-        "fontWeight": 800,
+        "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.7xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0px",
@@ -1016,13 +946,7 @@
       "subitem": "H1",
       "state": "Extrabold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H1",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H1", "Extrabold"],
     "key": "{Typography.Typography.Heading.H1.Extrabold}"
   },
   {
@@ -1030,6 +954,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 900,
+      "fontStyle": "normal",
       "fontSize": "44px",
       "lineHeight": "115%",
       "letterSpacing": "0px",
@@ -1049,6 +974,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 900,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.7xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0px",
@@ -1070,13 +996,7 @@
       "subitem": "H1",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H1",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H1", "Strong"],
     "key": "{Typography.Typography.Heading.H1.Strong}"
   },
   {
@@ -1084,6 +1004,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 300,
+      "fontStyle": "normal",
       "fontSize": "32px",
       "lineHeight": "115%",
       "letterSpacing": "0px",
@@ -1103,6 +1024,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 300,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.4xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0px",
@@ -1124,13 +1046,7 @@
       "subitem": "H2",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H2",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H2", "Light"],
     "key": "{Typography.Typography.Heading.H2.Light}"
   },
   {
@@ -1138,6 +1054,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 500,
+      "fontStyle": "normal",
       "fontSize": "32px",
       "lineHeight": "115%",
       "letterSpacing": "0px",
@@ -1157,6 +1074,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 500,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.4xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0px",
@@ -1178,13 +1096,7 @@
       "subitem": "H2",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H2",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H2", "Medium"],
     "key": "{Typography.Typography.Heading.H2.Medium}"
   },
   {
@@ -1192,6 +1104,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "32px",
       "lineHeight": "115%",
       "letterSpacing": "0px",
@@ -1211,6 +1124,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.4xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0px",
@@ -1232,13 +1146,7 @@
       "subitem": "H2",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H2",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H2", "Bold"],
     "key": "{Typography.Typography.Heading.H2.Bold}"
   },
   {
@@ -1246,6 +1154,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "32px",
       "lineHeight": "115%",
       "letterSpacing": "0px",
@@ -1265,6 +1174,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.4xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0px",
@@ -1286,20 +1196,15 @@
       "subitem": "H2",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H2",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H2", "Semibold"],
     "key": "{Typography.Typography.Heading.H2.Semibold}"
   },
   {
     "$type": "typography",
     "$value": {
       "fontFamily": "Inter",
-      "fontWeight": 800,
+      "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "32px",
       "lineHeight": "115%",
       "letterSpacing": "0px",
@@ -1318,7 +1223,8 @@
       "$type": "typography",
       "$value": {
         "fontFamily": "Inter",
-        "fontWeight": 800,
+        "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.4xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0px",
@@ -1340,13 +1246,7 @@
       "subitem": "H2",
       "state": "Extrabold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H2",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H2", "Extrabold"],
     "key": "{Typography.Typography.Heading.H2.Extrabold}"
   },
   {
@@ -1354,6 +1254,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 900,
+      "fontStyle": "normal",
       "fontSize": "32px",
       "lineHeight": "115%",
       "letterSpacing": "0px",
@@ -1373,6 +1274,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 900,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.4xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0px",
@@ -1394,13 +1296,7 @@
       "subitem": "H2",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H2",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H2", "Strong"],
     "key": "{Typography.Typography.Heading.H2.Strong}"
   },
   {
@@ -1408,6 +1304,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 300,
+      "fontStyle": "normal",
       "fontSize": "28px",
       "lineHeight": "115%",
       "letterSpacing": "0px",
@@ -1427,6 +1324,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 300,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.3xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0px",
@@ -1448,13 +1346,7 @@
       "subitem": "H3",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H3",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H3", "Light"],
     "key": "{Typography.Typography.Heading.H3.Light}"
   },
   {
@@ -1462,6 +1354,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "28px",
       "lineHeight": "115%",
       "letterSpacing": "0px",
@@ -1481,6 +1374,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.3xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0px",
@@ -1502,13 +1396,7 @@
       "subitem": "H3",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H3",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H3", "Regular"],
     "key": "{Typography.Typography.Heading.H3.Regular}"
   },
   {
@@ -1516,6 +1404,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 500,
+      "fontStyle": "normal",
       "fontSize": "28px",
       "lineHeight": "115%",
       "letterSpacing": "0px",
@@ -1535,6 +1424,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 500,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.3xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0px",
@@ -1556,13 +1446,7 @@
       "subitem": "H3",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H3",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H3", "Medium"],
     "key": "{Typography.Typography.Heading.H3.Medium}"
   },
   {
@@ -1570,6 +1454,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "28px",
       "lineHeight": "115%",
       "letterSpacing": "0px",
@@ -1589,6 +1474,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.3xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0px",
@@ -1610,13 +1496,7 @@
       "subitem": "H3",
       "state": "Semilbold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H3",
-      "Semilbold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H3", "Semilbold"],
     "key": "{Typography.Typography.Heading.H3.Semilbold}"
   },
   {
@@ -1624,6 +1504,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "28px",
       "lineHeight": "115%",
       "letterSpacing": "0px",
@@ -1643,6 +1524,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.3xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0px",
@@ -1664,13 +1546,7 @@
       "subitem": "H3",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H3",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H3", "Bold"],
     "key": "{Typography.Typography.Heading.H3.Bold}"
   },
   {
@@ -1678,6 +1554,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 900,
+      "fontStyle": "normal",
       "fontSize": "28px",
       "lineHeight": "115%",
       "letterSpacing": "0px",
@@ -1697,6 +1574,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 900,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.3xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0px",
@@ -1718,13 +1596,7 @@
       "subitem": "H3",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H3",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H3", "Strong"],
     "key": "{Typography.Typography.Heading.H3.Strong}"
   },
   {
@@ -1732,6 +1604,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 300,
+      "fontStyle": "normal",
       "fontSize": "24px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -1751,6 +1624,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 300,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.2xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -1772,13 +1646,7 @@
       "subitem": "H4",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H4",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H4", "Light"],
     "key": "{Typography.Typography.Heading.H4.Light}"
   },
   {
@@ -1786,6 +1654,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "24px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -1805,6 +1674,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.2xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -1826,13 +1696,7 @@
       "subitem": "H4",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H4",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H4", "Regular"],
     "key": "{Typography.Typography.Heading.H4.Regular}"
   },
   {
@@ -1840,6 +1704,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 500,
+      "fontStyle": "normal",
       "fontSize": "24px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -1859,6 +1724,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 500,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.2xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -1880,13 +1746,7 @@
       "subitem": "H4",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H4",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H4", "Medium"],
     "key": "{Typography.Typography.Heading.H4.Medium}"
   },
   {
@@ -1894,6 +1754,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "24px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -1913,6 +1774,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.2xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -1934,13 +1796,7 @@
       "subitem": "H4",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H4",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H4", "Semibold"],
     "key": "{Typography.Typography.Heading.H4.Semibold}"
   },
   {
@@ -1948,6 +1804,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "24px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -1967,6 +1824,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.2xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -1988,13 +1846,7 @@
       "subitem": "H4",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H4",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H4", "Bold"],
     "key": "{Typography.Typography.Heading.H4.Bold}"
   },
   {
@@ -2002,6 +1854,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 900,
+      "fontStyle": "normal",
       "fontSize": "24px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -2021,6 +1874,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 900,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.2xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -2042,13 +1896,7 @@
       "subitem": "H4",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H4",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H4", "Strong"],
     "key": "{Typography.Typography.Heading.H4.Strong}"
   },
   {
@@ -2056,6 +1904,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 300,
+      "fontStyle": "normal",
       "fontSize": "20px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -2075,6 +1924,7 @@
       "$value": {
         "fontFamily": "{Typography Primitives.Family.Inter.$value}",
         "fontWeight": 300,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -2096,13 +1946,7 @@
       "subitem": "H5",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H5",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H5", "Light"],
     "key": "{Typography.Typography.Heading.H5.Light}"
   },
   {
@@ -2110,6 +1954,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "20px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -2129,6 +1974,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -2150,13 +1996,7 @@
       "subitem": "H5",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H5",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H5", "Regular"],
     "key": "{Typography.Typography.Heading.H5.Regular}"
   },
   {
@@ -2164,6 +2004,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 500,
+      "fontStyle": "normal",
       "fontSize": "20px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -2183,6 +2024,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 500,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -2204,13 +2046,7 @@
       "subitem": "H5",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H5",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H5", "Medium"],
     "key": "{Typography.Typography.Heading.H5.Medium}"
   },
   {
@@ -2218,6 +2054,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "20px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -2237,6 +2074,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -2258,13 +2096,7 @@
       "subitem": "H5",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H5",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H5", "Semibold"],
     "key": "{Typography.Typography.Heading.H5.Semibold}"
   },
   {
@@ -2272,6 +2104,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "20px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -2291,6 +2124,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -2312,13 +2146,7 @@
       "subitem": "H5",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H5",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H5", "Bold"],
     "key": "{Typography.Typography.Heading.H5.Bold}"
   },
   {
@@ -2326,6 +2154,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 900,
+      "fontStyle": "normal",
       "fontSize": "20px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -2345,6 +2174,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 900,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.xl.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -2366,13 +2196,7 @@
       "subitem": "H5",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H5",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H5", "Strong"],
     "key": "{Typography.Typography.Heading.H5.Strong}"
   },
   {
@@ -2380,6 +2204,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 300,
+      "fontStyle": "normal",
       "fontSize": "18px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -2399,6 +2224,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 300,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.lg.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -2420,13 +2246,7 @@
       "subitem": "H6",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H6",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H6", "Light"],
     "key": "{Typography.Typography.Heading.H6.Light}"
   },
   {
@@ -2434,6 +2254,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "18px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -2453,6 +2274,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.lg.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -2474,13 +2296,7 @@
       "subitem": "H6",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H6",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H6", "Regular"],
     "key": "{Typography.Typography.Heading.H6.Regular}"
   },
   {
@@ -2488,6 +2304,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 500,
+      "fontStyle": "normal",
       "fontSize": "18px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -2507,6 +2324,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 500,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.lg.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -2528,13 +2346,7 @@
       "subitem": "H6",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H6",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H6", "Medium"],
     "key": "{Typography.Typography.Heading.H6.Medium}"
   },
   {
@@ -2542,6 +2354,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "18px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -2561,6 +2374,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.lg.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -2582,13 +2396,7 @@
       "subitem": "H6",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H6",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H6", "Semibold"],
     "key": "{Typography.Typography.Heading.H6.Semibold}"
   },
   {
@@ -2596,6 +2404,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "18px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -2615,6 +2424,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.lg.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -2636,13 +2446,7 @@
       "subitem": "H6",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H6",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H6", "Bold"],
     "key": "{Typography.Typography.Heading.H6.Bold}"
   },
   {
@@ -2650,6 +2454,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 900,
+      "fontStyle": "normal",
       "fontSize": "18px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -2669,6 +2474,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 900,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.lg.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -2690,13 +2496,7 @@
       "subitem": "H6",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "H6",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Heading", "H6", "Strong"],
     "key": "{Typography.Typography.Heading.H6.Strong}"
   },
   {
@@ -2704,6 +2504,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 300,
+      "fontStyle": "normal",
       "fontSize": "48px",
       "lineHeight": "120%",
       "letterSpacing": "0%",
@@ -2723,6 +2524,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 300,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.8xl.$value}",
         "lineHeight": "120%",
         "letterSpacing": "0%",
@@ -2744,14 +2546,7 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Page",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Light"],
     "key": "{Typography.Typography.Heading.Title.Page.Light}"
   },
   {
@@ -2759,6 +2554,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "48px",
       "lineHeight": "120%",
       "letterSpacing": "0%",
@@ -2778,6 +2574,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.8xl.$value}",
         "lineHeight": "120%",
         "letterSpacing": "0%",
@@ -2799,14 +2596,7 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Page",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Regular"],
     "key": "{Typography.Typography.Heading.Title.Page.Regular}"
   },
   {
@@ -2814,6 +2604,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 500,
+      "fontStyle": "normal",
       "fontSize": "48px",
       "lineHeight": "120%",
       "letterSpacing": "0%",
@@ -2833,6 +2624,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 500,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.8xl.$value}",
         "lineHeight": "120%",
         "letterSpacing": "0%",
@@ -2854,14 +2646,7 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Page",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Medium"],
     "key": "{Typography.Typography.Heading.Title.Page.Medium}"
   },
   {
@@ -2869,6 +2654,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "48px",
       "lineHeight": "120%",
       "letterSpacing": "0%",
@@ -2888,6 +2674,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.8xl.$value}",
         "lineHeight": "120%",
         "letterSpacing": "0%",
@@ -2909,14 +2696,7 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Page",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Semibold"],
     "key": "{Typography.Typography.Heading.Title.Page.Semibold}"
   },
   {
@@ -2924,6 +2704,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "48px",
       "lineHeight": "120%",
       "letterSpacing": "0%",
@@ -2943,6 +2724,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.8xl.$value}",
         "lineHeight": "120%",
         "letterSpacing": "0%",
@@ -2964,21 +2746,15 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Page",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Bold"],
     "key": "{Typography.Typography.Heading.Title.Page.Bold}"
   },
   {
     "$type": "typography",
     "$value": {
       "fontFamily": "Inter",
-      "fontWeight": 800,
+      "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "48px",
       "lineHeight": "120%",
       "letterSpacing": "0%",
@@ -2997,7 +2773,8 @@
       "$type": "typography",
       "$value": {
         "fontFamily": "Inter",
-        "fontWeight": 800,
+        "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.8xl.$value}",
         "lineHeight": "120%",
         "letterSpacing": "0%",
@@ -3019,14 +2796,7 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Page",
-      "ExtraBold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "ExtraBold"],
     "key": "{Typography.Typography.Heading.Title.Page.ExtraBold}"
   },
   {
@@ -3034,6 +2804,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 900,
+      "fontStyle": "normal",
       "fontSize": "48px",
       "lineHeight": "120%",
       "letterSpacing": "0%",
@@ -3053,6 +2824,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 900,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.8xl.$value}",
         "lineHeight": "120%",
         "letterSpacing": "0%",
@@ -3074,14 +2846,7 @@
       "subitem": "Title",
       "state": "Page"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Page",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Page", "Strong"],
     "key": "{Typography.Typography.Heading.Title.Page.Strong}"
   },
   {
@@ -3089,6 +2854,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 300,
+      "fontStyle": "normal",
       "fontSize": "64px",
       "lineHeight": "120%",
       "letterSpacing": "0%",
@@ -3108,6 +2874,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 300,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.10xl.$value}",
         "lineHeight": "120%",
         "letterSpacing": "0%",
@@ -3129,14 +2896,7 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Hero",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Light"],
     "key": "{Typography.Typography.Heading.Title.Hero.Light}"
   },
   {
@@ -3144,6 +2904,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "64px",
       "lineHeight": "120%",
       "letterSpacing": "0%",
@@ -3163,6 +2924,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.10xl.$value}",
         "lineHeight": "120%",
         "letterSpacing": "0%",
@@ -3184,14 +2946,7 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Hero",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Regular"],
     "key": "{Typography.Typography.Heading.Title.Hero.Regular}"
   },
   {
@@ -3199,6 +2954,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 500,
+      "fontStyle": "normal",
       "fontSize": "64px",
       "lineHeight": "120%",
       "letterSpacing": "0%",
@@ -3218,6 +2974,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 500,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.10xl.$value}",
         "lineHeight": "120%",
         "letterSpacing": "0%",
@@ -3239,14 +2996,7 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Hero",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Medium"],
     "key": "{Typography.Typography.Heading.Title.Hero.Medium}"
   },
   {
@@ -3254,6 +3004,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "64px",
       "lineHeight": "120%",
       "letterSpacing": "0%",
@@ -3273,6 +3024,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.10xl.$value}",
         "lineHeight": "120%",
         "letterSpacing": "0%",
@@ -3294,14 +3046,7 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Hero",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Semibold"],
     "key": "{Typography.Typography.Heading.Title.Hero.Semibold}"
   },
   {
@@ -3309,6 +3054,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "64px",
       "lineHeight": "120%",
       "letterSpacing": "0%",
@@ -3328,6 +3074,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.10xl.$value}",
         "lineHeight": "120%",
         "letterSpacing": "0%",
@@ -3349,21 +3096,15 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Hero",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Bold"],
     "key": "{Typography.Typography.Heading.Title.Hero.Bold}"
   },
   {
     "$type": "typography",
     "$value": {
       "fontFamily": "Inter",
-      "fontWeight": 800,
+      "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "64px",
       "lineHeight": "120%",
       "letterSpacing": "0%",
@@ -3382,7 +3123,8 @@
       "$type": "typography",
       "$value": {
         "fontFamily": "Inter",
-        "fontWeight": 800,
+        "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.10xl.$value}",
         "lineHeight": "120%",
         "letterSpacing": "0%",
@@ -3404,14 +3146,7 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Hero",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Extrabold"],
     "key": "{Typography.Typography.Heading.Title.Hero.Extrabold}"
   },
   {
@@ -3419,6 +3154,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 900,
+      "fontStyle": "normal",
       "fontSize": "64px",
       "lineHeight": "120%",
       "letterSpacing": "0%",
@@ -3438,6 +3174,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 900,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.10xl.$value}",
         "lineHeight": "120%",
         "letterSpacing": "0%",
@@ -3459,14 +3196,7 @@
       "subitem": "Title",
       "state": "Hero"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Title",
-      "Hero",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Title", "Hero", "Strong"],
     "key": "{Typography.Typography.Heading.Title.Hero.Strong}"
   },
   {
@@ -3474,6 +3204,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 300,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -3493,6 +3224,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 300,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -3514,13 +3246,7 @@
       "subitem": "Subtitle",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Subtitle",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Light"],
     "key": "{Typography.Typography.Heading.Subtitle.Light}"
   },
   {
@@ -3528,6 +3254,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -3547,6 +3274,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -3568,13 +3296,7 @@
       "subitem": "Subtitle",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Subtitle",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Regular"],
     "key": "{Typography.Typography.Heading.Subtitle.Regular}"
   },
   {
@@ -3582,6 +3304,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 500,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -3601,6 +3324,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 500,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -3622,13 +3346,7 @@
       "subitem": "Subtitle",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Subtitle",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Medium"],
     "key": "{Typography.Typography.Heading.Subtitle.Medium}"
   },
   {
@@ -3636,6 +3354,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -3655,6 +3374,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -3676,13 +3396,7 @@
       "subitem": "Subtitle",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Subtitle",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Semibold"],
     "key": "{Typography.Typography.Heading.Subtitle.Semibold}"
   },
   {
@@ -3690,6 +3404,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -3709,6 +3424,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -3730,20 +3446,15 @@
       "subitem": "Subtitle",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Subtitle",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Bold"],
     "key": "{Typography.Typography.Heading.Subtitle.Bold}"
   },
   {
     "$type": "typography",
     "$value": {
       "fontFamily": "Inter",
-      "fontWeight": 800,
+      "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -3762,7 +3473,8 @@
       "$type": "typography",
       "$value": {
         "fontFamily": "Inter",
-        "fontWeight": 800,
+        "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -3784,13 +3496,7 @@
       "subitem": "Subtitle",
       "state": "Extrabold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Subtitle",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Extrabold"],
     "key": "{Typography.Typography.Heading.Subtitle.Extrabold}"
   },
   {
@@ -3798,6 +3504,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 900,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -3817,6 +3524,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 900,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -3838,13 +3546,7 @@
       "subitem": "Subtitle",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Heading",
-      "Subtitle",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Heading", "Subtitle", "Strong"],
     "key": "{Typography.Typography.Heading.Subtitle.Strong}"
   },
   {
@@ -3852,6 +3554,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -3871,6 +3574,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -3892,14 +3596,7 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Small",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Regular"],
     "key": "{Typography.Typography.Paragraph.Body.Small.Regular}"
   },
   {
@@ -3907,6 +3604,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 300,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -3926,6 +3624,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 300,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -3947,14 +3646,7 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Small",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Light"],
     "key": "{Typography.Typography.Paragraph.Body.Small.Light}"
   },
   {
@@ -3962,6 +3654,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 500,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -3981,6 +3674,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 500,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -4002,14 +3696,7 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Small",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Medium"],
     "key": "{Typography.Typography.Paragraph.Body.Small.Medium}"
   },
   {
@@ -4017,6 +3704,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -4036,6 +3724,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -4057,14 +3746,7 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Small",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Semibold"],
     "key": "{Typography.Typography.Paragraph.Body.Small.Semibold}"
   },
   {
@@ -4072,6 +3754,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -4091,6 +3774,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -4112,21 +3796,15 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Small",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Bold"],
     "key": "{Typography.Typography.Paragraph.Body.Small.Bold}"
   },
   {
     "$type": "typography",
     "$value": {
       "fontFamily": "Inter",
-      "fontWeight": 800,
+      "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -4145,7 +3823,8 @@
       "$type": "typography",
       "$value": {
         "fontFamily": "Inter",
-        "fontWeight": 800,
+        "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -4167,14 +3846,7 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Small",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Extrabold"],
     "key": "{Typography.Typography.Paragraph.Body.Small.Extrabold}"
   },
   {
@@ -4182,6 +3854,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 900,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -4201,6 +3874,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 900,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -4222,14 +3896,7 @@
       "subitem": "Body",
       "state": "Small"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Small",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Small", "Strong"],
     "key": "{Typography.Typography.Paragraph.Body.Small.Strong}"
   },
   {
@@ -4237,6 +3904,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 300,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -4256,6 +3924,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 300,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -4277,14 +3946,7 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Large",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Light"],
     "key": "{Typography.Typography.Paragraph.Body.Large.Light}"
   },
   {
@@ -4292,6 +3954,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 500,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -4311,6 +3974,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 500,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -4332,14 +3996,7 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Large",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Medium"],
     "key": "{Typography.Typography.Paragraph.Body.Large.Medium}"
   },
   {
@@ -4347,6 +4004,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -4366,6 +4024,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -4387,14 +4046,7 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Large",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Regular"],
     "key": "{Typography.Typography.Paragraph.Body.Large.Regular}"
   },
   {
@@ -4402,6 +4054,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -4421,6 +4074,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -4442,14 +4096,7 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Large",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Semibold"],
     "key": "{Typography.Typography.Paragraph.Body.Large.Semibold}"
   },
   {
@@ -4457,6 +4104,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -4476,6 +4124,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -4497,21 +4146,15 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Large",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Bold"],
     "key": "{Typography.Typography.Paragraph.Body.Large.Bold}"
   },
   {
     "$type": "typography",
     "$value": {
       "fontFamily": "Inter",
-      "fontWeight": 800,
+      "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -4530,7 +4173,8 @@
       "$type": "typography",
       "$value": {
         "fontFamily": "Inter",
-        "fontWeight": 800,
+        "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -4552,14 +4196,7 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Large",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Extrabold"],
     "key": "{Typography.Typography.Paragraph.Body.Large.Extrabold}"
   },
   {
@@ -4567,6 +4204,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 900,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -4586,6 +4224,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 900,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -4607,14 +4246,7 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Large",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Strong"],
     "key": "{Typography.Typography.Paragraph.Body.Large.Strong}"
   },
   {
@@ -4622,6 +4254,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "italic",
       "fontSize": "16px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -4641,6 +4274,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "italic",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -4662,14 +4296,7 @@
       "subitem": "Body",
       "state": "Large"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Body",
-      "Large",
-      "Italic"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Body", "Large", "Italic"],
     "key": "{Typography.Typography.Paragraph.Body.Large.Italic}"
   },
   {
@@ -4677,6 +4304,7 @@
     "$value": {
       "fontFamily": "Roboto Mono",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "100%",
       "letterSpacing": "0%",
@@ -4696,6 +4324,7 @@
       "$value": {
         "fontFamily": "{Typography.Font.Family.Tertiary.$value}",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "100%",
         "letterSpacing": "0%",
@@ -4717,13 +4346,7 @@
       "subitem": "Code",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Code",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Code", "Light"],
     "key": "{Typography.Typography.Paragraph.Code.Light}"
   },
   {
@@ -4731,6 +4354,7 @@
     "$value": {
       "fontFamily": "Roboto Mono",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "100%",
       "letterSpacing": "0%",
@@ -4750,6 +4374,7 @@
       "$value": {
         "fontFamily": "{Typography.Font.Family.Tertiary.$value}",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "100%",
         "letterSpacing": "0%",
@@ -4771,13 +4396,7 @@
       "subitem": "Code",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Code",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Code", "Regular"],
     "key": "{Typography.Typography.Paragraph.Code.Regular}"
   },
   {
@@ -4785,6 +4404,7 @@
     "$value": {
       "fontFamily": "Roboto Mono",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "100%",
       "letterSpacing": "0%",
@@ -4804,6 +4424,7 @@
       "$value": {
         "fontFamily": "{Typography.Font.Family.Tertiary.$value}",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "100%",
         "letterSpacing": "0%",
@@ -4825,13 +4446,7 @@
       "subitem": "Code",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Code",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Code", "Bold"],
     "key": "{Typography.Typography.Paragraph.Code.Bold}"
   },
   {
@@ -4839,6 +4454,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 300,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "125%",
       "letterSpacing": "0%",
@@ -4858,6 +4474,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 300,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "125%",
         "letterSpacing": "0%",
@@ -4879,13 +4496,7 @@
       "subitem": "Link",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Link",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Link", "Light"],
     "key": "{Typography.Typography.Paragraph.Link.Light}"
   },
   {
@@ -4893,6 +4504,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "125%",
       "letterSpacing": "0%",
@@ -4912,6 +4524,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "125%",
         "letterSpacing": "0%",
@@ -4933,13 +4546,7 @@
       "subitem": "Link",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Link",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Link", "Regular"],
     "key": "{Typography.Typography.Paragraph.Link.Regular}"
   },
   {
@@ -4947,6 +4554,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "125%",
       "letterSpacing": "0%",
@@ -4966,6 +4574,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "125%",
         "letterSpacing": "0%",
@@ -4987,13 +4596,7 @@
       "subitem": "Link",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Paragraph",
-      "Link",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Paragraph", "Link", "Bold"],
     "key": "{Typography.Typography.Paragraph.Link.Bold}"
   },
   {
@@ -5001,6 +4604,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "10px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -5020,6 +4624,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.xs.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -5041,13 +4646,7 @@
       "subitem": "Regular",
       "state": "2xs"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "2xs"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "2xs"],
     "key": "{Typography.Typography.Text.Regular.2xs}"
   },
   {
@@ -5055,6 +4654,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "12px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -5074,6 +4674,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.sm.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -5095,13 +4696,7 @@
       "subitem": "Regular",
       "state": "xs"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "xs"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "xs"],
     "key": "{Typography.Typography.Text.Regular.xs}"
   },
   {
@@ -5109,6 +4704,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -5128,6 +4724,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -5149,13 +4746,7 @@
       "subitem": "Regular",
       "state": "sm"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "sm"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "sm"],
     "key": "{Typography.Typography.Text.Regular.sm}"
   },
   {
@@ -5163,6 +4754,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -5182,6 +4774,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -5203,13 +4796,7 @@
       "subitem": "Regular",
       "state": "md"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "md"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "md"],
     "key": "{Typography.Typography.Text.Regular.md}"
   },
   {
@@ -5217,6 +4804,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "18px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -5236,6 +4824,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.lg.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -5257,13 +4846,7 @@
       "subitem": "Regular",
       "state": "lg"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "lg"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "lg"],
     "key": "{Typography.Typography.Text.Regular.lg}"
   },
   {
@@ -5271,6 +4854,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "20px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -5290,6 +4874,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.xl.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -5311,13 +4896,7 @@
       "subitem": "Regular",
       "state": "xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "xl"],
     "key": "{Typography.Typography.Text.Regular.xl}"
   },
   {
@@ -5325,6 +4904,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "24px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -5344,6 +4924,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.2xl.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -5365,13 +4946,7 @@
       "subitem": "Regular",
       "state": "2xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "2xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "2xl"],
     "key": "{Typography.Typography.Text.Regular.2xl}"
   },
   {
@@ -5379,6 +4954,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "32px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -5398,6 +4974,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.4xl.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -5419,13 +4996,7 @@
       "subitem": "Regular",
       "state": "3xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "3xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "3xl"],
     "key": "{Typography.Typography.Text.Regular.3xl}"
   },
   {
@@ -5433,6 +5004,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "36px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -5452,6 +5024,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.5xl.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -5473,13 +5046,7 @@
       "subitem": "Regular",
       "state": "4xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "4xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "4xl"],
     "key": "{Typography.Typography.Text.Regular.4xl}"
   },
   {
@@ -5487,6 +5054,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "48px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -5506,6 +5074,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.8xl.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -5527,13 +5096,7 @@
       "subitem": "Regular",
       "state": "5xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "5xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "5xl"],
     "key": "{Typography.Typography.Text.Regular.5xl}"
   },
   {
@@ -5541,6 +5104,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "52px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -5560,6 +5124,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.9xl.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -5581,13 +5146,7 @@
       "subitem": "Regular",
       "state": "6xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "6xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "6xl"],
     "key": "{Typography.Typography.Text.Regular.6xl}"
   },
   {
@@ -5595,6 +5154,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "64px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -5614,6 +5174,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.10xl.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -5635,13 +5196,7 @@
       "subitem": "Regular",
       "state": "7xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "7xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "7xl"],
     "key": "{Typography.Typography.Text.Regular.7xl}"
   },
   {
@@ -5649,6 +5204,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "72px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -5668,6 +5224,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.11xl.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -5689,13 +5246,7 @@
       "subitem": "Regular",
       "state": "8xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Regular",
-      "8xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Regular", "8xl"],
     "key": "{Typography.Typography.Text.Regular.8xl}"
   },
   {
@@ -5703,6 +5254,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "10px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -5722,6 +5274,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.xs.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -5743,13 +5296,7 @@
       "subitem": "Bold",
       "state": "2xs"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "2xs"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "2xs"],
     "key": "{Typography.Typography.Text.Bold.2xs}"
   },
   {
@@ -5757,6 +5304,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "12px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -5776,6 +5324,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.sm.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -5797,13 +5346,7 @@
       "subitem": "Bold",
       "state": "xs"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "xs"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "xs"],
     "key": "{Typography.Typography.Text.Bold.xs}"
   },
   {
@@ -5811,6 +5354,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -5830,6 +5374,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -5851,13 +5396,7 @@
       "subitem": "Bold",
       "state": "sm"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "sm"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "sm"],
     "key": "{Typography.Typography.Text.Bold.sm}"
   },
   {
@@ -5865,6 +5404,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -5884,6 +5424,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -5905,13 +5446,7 @@
       "subitem": "Bold",
       "state": "md"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "md"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "md"],
     "key": "{Typography.Typography.Text.Bold.md}"
   },
   {
@@ -5919,6 +5454,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "18px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -5938,6 +5474,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.lg.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -5959,13 +5496,7 @@
       "subitem": "Bold",
       "state": "lg"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "lg"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "lg"],
     "key": "{Typography.Typography.Text.Bold.lg}"
   },
   {
@@ -5973,6 +5504,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "20px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -5992,6 +5524,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.xl.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -6013,13 +5546,7 @@
       "subitem": "Bold",
       "state": "xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "xl"],
     "key": "{Typography.Typography.Text.Bold.xl}"
   },
   {
@@ -6027,6 +5554,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "24px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -6046,6 +5574,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.2xl.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -6067,13 +5596,7 @@
       "subitem": "Bold",
       "state": "2xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "2xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "2xl"],
     "key": "{Typography.Typography.Text.Bold.2xl}"
   },
   {
@@ -6081,6 +5604,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "32px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -6100,6 +5624,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.4xl.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -6121,13 +5646,7 @@
       "subitem": "Bold",
       "state": "3xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "3xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "3xl"],
     "key": "{Typography.Typography.Text.Bold.3xl}"
   },
   {
@@ -6135,6 +5654,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "36px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -6154,6 +5674,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.5xl.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -6175,13 +5696,7 @@
       "subitem": "Bold",
       "state": "4xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "4xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "4xl"],
     "key": "{Typography.Typography.Text.Bold.4xl}"
   },
   {
@@ -6189,6 +5704,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "48px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -6208,6 +5724,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.8xl.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -6229,13 +5746,7 @@
       "subitem": "Bold",
       "state": "5xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "5xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "5xl"],
     "key": "{Typography.Typography.Text.Bold.5xl}"
   },
   {
@@ -6243,6 +5754,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "52px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -6262,6 +5774,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.9xl.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -6283,13 +5796,7 @@
       "subitem": "Bold",
       "state": "6xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "6xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "6xl"],
     "key": "{Typography.Typography.Text.Bold.6xl}"
   },
   {
@@ -6297,6 +5804,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "64px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -6316,6 +5824,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.10xl.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -6337,13 +5846,7 @@
       "subitem": "Bold",
       "state": "7xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "7xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "7xl"],
     "key": "{Typography.Typography.Text.Bold.7xl}"
   },
   {
@@ -6351,6 +5854,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "72px",
       "lineHeight": "auto",
       "letterSpacing": "0%",
@@ -6370,6 +5874,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.11xl.$value}",
         "lineHeight": "auto",
         "letterSpacing": "0%",
@@ -6391,13 +5896,7 @@
       "subitem": "Bold",
       "state": "8xl"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Text",
-      "Bold",
-      "8xl"
-    ],
+    "path": ["Typography", "Typography", "Text", "Bold", "8xl"],
     "key": "{Typography.Typography.Text.Bold.8xl}"
   },
   {
@@ -6405,6 +5904,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 300,
+      "fontStyle": "normal",
       "fontSize": "12px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -6424,6 +5924,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 300,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.sm.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -6445,13 +5946,7 @@
       "subitem": "Small",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Small",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Label", "Small", "Light"],
     "key": "{Typography.Typography.Label.Small.Light}"
   },
   {
@@ -6459,6 +5954,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "12px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -6478,6 +5974,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.sm.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -6499,13 +5996,7 @@
       "subitem": "Small",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Small",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Label", "Small", "Regular"],
     "key": "{Typography.Typography.Label.Small.Regular}"
   },
   {
@@ -6513,6 +6004,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 500,
+      "fontStyle": "normal",
       "fontSize": "12px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -6532,6 +6024,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 500,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.sm.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -6553,13 +6046,7 @@
       "subitem": "Small",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Small",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Label", "Small", "Medium"],
     "key": "{Typography.Typography.Label.Small.Medium}"
   },
   {
@@ -6567,6 +6054,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "12px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -6586,6 +6074,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.sm.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -6607,13 +6096,7 @@
       "subitem": "Small",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Small",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Label", "Small", "Semibold"],
     "key": "{Typography.Typography.Label.Small.Semibold}"
   },
   {
@@ -6621,6 +6104,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "12px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -6640,6 +6124,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.sm.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -6661,20 +6146,15 @@
       "subitem": "Small",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Small",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Label", "Small", "Bold"],
     "key": "{Typography.Typography.Label.Small.Bold}"
   },
   {
     "$type": "typography",
     "$value": {
       "fontFamily": "Inter",
-      "fontWeight": 800,
+      "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "12px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -6693,7 +6173,8 @@
       "$type": "typography",
       "$value": {
         "fontFamily": "Inter",
-        "fontWeight": 800,
+        "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.sm.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -6715,13 +6196,7 @@
       "subitem": "Small",
       "state": "Extrabold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Small",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Label", "Small", "Extrabold"],
     "key": "{Typography.Typography.Label.Small.Extrabold}"
   },
   {
@@ -6729,6 +6204,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 900,
+      "fontStyle": "normal",
       "fontSize": "12px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -6748,6 +6224,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 900,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.sm.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -6769,13 +6246,7 @@
       "subitem": "Small",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Small",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Label", "Small", "Strong"],
     "key": "{Typography.Typography.Label.Small.Strong}"
   },
   {
@@ -6783,6 +6254,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 300,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -6802,6 +6274,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 300,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -6823,13 +6296,7 @@
       "subitem": "Medium",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Medium",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Label", "Medium", "Light"],
     "key": "{Typography.Typography.Label.Medium.Light}"
   },
   {
@@ -6837,6 +6304,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -6856,6 +6324,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -6877,13 +6346,7 @@
       "subitem": "Medium",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Medium",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Label", "Medium", "Regular"],
     "key": "{Typography.Typography.Label.Medium.Regular}"
   },
   {
@@ -6891,6 +6354,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 500,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -6910,6 +6374,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 500,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -6931,13 +6396,7 @@
       "subitem": "Medium",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Medium",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Label", "Medium", "Medium"],
     "key": "{Typography.Typography.Label.Medium.Medium}"
   },
   {
@@ -6945,6 +6404,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -6964,6 +6424,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -6985,13 +6446,7 @@
       "subitem": "Medium",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Medium",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Label", "Medium", "Semibold"],
     "key": "{Typography.Typography.Label.Medium.Semibold}"
   },
   {
@@ -6999,6 +6454,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -7018,6 +6474,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -7039,20 +6496,15 @@
       "subitem": "Medium",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Medium",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Label", "Medium", "Bold"],
     "key": "{Typography.Typography.Label.Medium.Bold}"
   },
   {
     "$type": "typography",
     "$value": {
       "fontFamily": "Inter",
-      "fontWeight": 800,
+      "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -7071,7 +6523,8 @@
       "$type": "typography",
       "$value": {
         "fontFamily": "Inter",
-        "fontWeight": 800,
+        "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -7093,13 +6546,7 @@
       "subitem": "Medium",
       "state": "Extrabold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Medium",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Label", "Medium", "Extrabold"],
     "key": "{Typography.Typography.Label.Medium.Extrabold}"
   },
   {
@@ -7107,6 +6554,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 900,
+      "fontStyle": "normal",
       "fontSize": "14px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -7126,6 +6574,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 900,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.base.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -7147,13 +6596,7 @@
       "subitem": "Medium",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Medium",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Label", "Medium", "Strong"],
     "key": "{Typography.Typography.Label.Medium.Strong}"
   },
   {
@@ -7161,6 +6604,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 300,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -7180,6 +6624,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 300,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -7201,13 +6646,7 @@
       "subitem": "Large",
       "state": "Light"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Large",
-      "Light"
-    ],
+    "path": ["Typography", "Typography", "Label", "Large", "Light"],
     "key": "{Typography.Typography.Label.Large.Light}"
   },
   {
@@ -7215,6 +6654,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -7234,6 +6674,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -7255,13 +6696,7 @@
       "subitem": "Large",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Large",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", "Label", "Large", "Regular"],
     "key": "{Typography.Typography.Label.Large.Regular}"
   },
   {
@@ -7269,6 +6704,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 500,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -7288,6 +6724,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 500,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -7309,13 +6746,7 @@
       "subitem": "Large",
       "state": "Medium"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Large",
-      "Medium"
-    ],
+    "path": ["Typography", "Typography", "Label", "Large", "Medium"],
     "key": "{Typography.Typography.Label.Large.Medium}"
   },
   {
@@ -7323,6 +6754,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 600,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -7342,6 +6774,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 600,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -7363,13 +6796,7 @@
       "subitem": "Large",
       "state": "Semibold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Large",
-      "Semibold"
-    ],
+    "path": ["Typography", "Typography", "Label", "Large", "Semibold"],
     "key": "{Typography.Typography.Label.Large.Semibold}"
   },
   {
@@ -7377,6 +6804,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -7396,6 +6824,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -7417,20 +6846,15 @@
       "subitem": "Large",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Large",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", "Label", "Large", "Bold"],
     "key": "{Typography.Typography.Label.Large.Bold}"
   },
   {
     "$type": "typography",
     "$value": {
       "fontFamily": "Inter",
-      "fontWeight": 800,
+      "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -7449,7 +6873,8 @@
       "$type": "typography",
       "$value": {
         "fontFamily": "Inter",
-        "fontWeight": 800,
+        "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -7471,13 +6896,7 @@
       "subitem": "Large",
       "state": "Extrabold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Large",
-      "Extrabold"
-    ],
+    "path": ["Typography", "Typography", "Label", "Large", "Extrabold"],
     "key": "{Typography.Typography.Label.Large.Extrabold}"
   },
   {
@@ -7485,6 +6904,7 @@
     "$value": {
       "fontFamily": "Inter",
       "fontWeight": 900,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "115%",
       "letterSpacing": "0%",
@@ -7504,6 +6924,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontWeight": 900,
+        "fontStyle": "normal",
         "fontSize": "{Typography.Font.Size.md.$value}",
         "lineHeight": "115%",
         "letterSpacing": "0%",
@@ -7525,20 +6946,15 @@
       "subitem": "Large",
       "state": "Strong"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      "Label",
-      "Large",
-      "Strong"
-    ],
+    "path": ["Typography", "Typography", "Label", "Large", "Strong"],
     "key": "{Typography.Typography.Label.Large.Strong}"
   },
   {
     "$type": "typography",
     "$value": {
       "fontFamily": "Roboto Mono",
-      "fontWeight": "400",
+      "fontWeight": 400,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -7557,7 +6973,8 @@
       "$type": "typography",
       "$value": {
         "fontFamily": "{Typography Primitives.Family.Mono.$value}",
-        "fontWeight": "{Typography Primitives.Weight.Regular.$value}",
+        "fontWeight": 400,
+        "fontStyle": "normal",
         "fontSize": "{Typography Primitives.Scale.Scale 03.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -7579,20 +6996,15 @@
       "subitem": "Component notes",
       "state": "Regular"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      ".Utilities",
-      "Component notes",
-      "Regular"
-    ],
+    "path": ["Typography", "Typography", ".Utilities", "Component notes", "Regular"],
     "key": "{Typography.Typography..Utilities.Component notes.Regular}"
   },
   {
     "$type": "typography",
     "$value": {
       "fontFamily": "Roboto Mono",
-      "fontWeight": "700",
+      "fontWeight": 700,
+      "fontStyle": "normal",
       "fontSize": "16px",
       "lineHeight": "140%",
       "letterSpacing": "0%",
@@ -7611,7 +7023,8 @@
       "$type": "typography",
       "$value": {
         "fontFamily": "{Typography Primitives.Family.Mono.$value}",
-        "fontWeight": "{Typography Primitives.Weight.Bold.$value}",
+        "fontWeight": 700,
+        "fontStyle": "normal",
         "fontSize": "{Typography Primitives.Scale.Scale 03.$value}",
         "lineHeight": "140%",
         "letterSpacing": "0%",
@@ -7633,13 +7046,7 @@
       "subitem": "Component notes",
       "state": "Bold"
     },
-    "path": [
-      "Typography",
-      "Typography",
-      ".Utilities",
-      "Component notes",
-      "Bold"
-    ],
+    "path": ["Typography", "Typography", ".Utilities", "Component notes", "Bold"],
     "key": "{Typography.Typography..Utilities.Component notes.Bold}"
   }
 ]

@@ -1,113 +1,132 @@
+import { createThemes, defaultComponentThemes } from '@tamagui/theme-builder';
 
-      import { createThemes, defaultComponentThemes } from '@tamagui/theme-builder';
+// Import Themed Palettes
+import * as Dark from './assets/Dark/palette';
+import * as Light from './assets/Light/palette';
 
-      // Import WDS Colors
-      import * as Light from './assets/Light/palette';
-      import * as Dark from './assets/Dark/palette';
+// Import Themed Palettes
+import * as Default from './assets/themes/Default/palette';
+import * as Alternative from './assets/themes/Alternative/palette';
+import * as Neutral from './assets/themes/Neutral/palette';
 
-      const lightShadows = {
-        shadow1: 'rgba(0,0,0,0.04)',
-        shadow2: 'rgba(0,0,0,0.08)',
-        shadow3: 'rgba(0,0,0,0.16)',
-        shadow4: 'rgba(0,0,0,0.24)',
-        shadow5: 'rgba(0,0,0,0.32)',
-        shadow6: 'rgba(0,0,0,0.4)',
-      };
+const builtThemes = createThemes({
+  componentThemes: defaultComponentThemes,
 
-      const darkShadows = {
-        shadow1: 'rgba(0,0,0,0.2)',
-        shadow2: 'rgba(0,0,0,0.3)',
-        shadow3: 'rgba(0,0,0,0.4)',
-        shadow4: 'rgba(0,0,0,0.5)',
-        shadow5: 'rgba(0,0,0,0.6)',
-        shadow6: 'rgba(0,0,0,0.7)',
-      };
+  base: {
+    palette: {
+      dark: Default.base_dark,
+      light: Default.base_light,
+      // @ts-ignore
+      default_dark: Default.base_dark,
+      default_light: Default.base_light,
+      alt_light: Alternative.base_light,
+      alt_dark: Alternative.base_light,
+      nuetral_light: Neutral.base_light,
+      nuetral_dark: Neutral.base_light,
+    },
+  },
 
-      // we're adding some example sub-themes for you to show how they are done, "success" "warning", "error":
+  accent: {
+    palette: {
+      dark: Default.accent_dark,
+      light: Default.accent_light,
+      default_dark: Default.accent_dark,
+      default_light: Default.accent_light,
+      alt_light: Alternative.accent_light,
+      alt_dark: Alternative.accent_light,
+      nuetral_light: Neutral.accent_light,
+      nuetral_dark: Neutral.accent_light,
+    },
+  },
 
-      const builtThemes = createThemes({
+  ghost: {
+    palette: {
+      dark: Default.ghost_dark,
+      light: Default.ghost_light,
+      default_dark: Default.ghost_dark,
+      default_light: Default.ghost_light,
+      alt_light: Alternative.ghost_light,
+      alt_dark: Alternative.ghost_light,
+      nuetral_light: Neutral.ghost_light,
+      nuetral_dark: Neutral.ghost_light,
+    },
+  },
 
-        // Component design tokens, outside of components -> defaults to base template
-          // background: string;
-          // backgroundFocus: string;
-          // backgroundHover: string;
-          // backgroundPress: string;
-          // borderColor: string;
-          // borderColorFocus: string;
-          // borderColorHover: string;
-          // borderColorPress: string;
-          // color: string;
-          // colorFocus: string;
-          // colorHover: string;
-          // colorPress: string;
-          // colorTransparent: string;
-          // placeholderColor: string;
-          // shadowColor: string;
-          // shadowColorFocus: string;
-          // shadowColorHover: string;
-          // shadowColorPress: string;
-        componentThemes: defaultComponentThemes,
+  muted: {
+    palette: {
+      dark: Default.muted_dark,
+      light: Default.muted_light,
+      default_dark: Default.muted_dark,
+      default_light: Default.muted_light,
+      alt_light: Alternative.muted_light,
+      alt_dark: Alternative.muted_light,
+      nuetral_light: Neutral.muted_light,
+      nuetral_dark: Neutral.muted_light,
+    },
+  },
 
-        base: {
-          palette: {
-            dark: Dark.base,
-            light: Light.base,
-          },
+  childrenThemes: {
+    warning: {
+      palette: {
+        dark: Object.values(Dark.modals.yellow),
+        light: Object.values(Light.modals.yellow),
+        default_dark: Object.values(Dark.modals.yellow),
+        default_light: Object.values(Light.modals.yellow),
+        alt_light: Object.values(Light.modals.yellow),
+        alt_dark: Object.values(Dark.modals.yellow),
+        nuetral_light: Object.values(Light.modals.yellow),
+        nuetral_dark: Object.values(Dark.modals.yellow),
+      },
+    },
 
-          extra: {
-            light: {
-              ...Light.keyed,
-              ...lightShadows,
-              shadowColor: lightShadows.shadow1,
-            },
-            dark: {
-              ...Dark.keyed,
-              ...darkShadows,
-              shadowColor: darkShadows.shadow1,
-            },
-          },
-        },
+    error: {
+      palette: {
+        dark: Object.values(Dark.modals.red),
+        light: Object.values(Light.modals.red),
+        default_dark: Object.values(Dark.modals.red),
+        default_light: Object.values(Light.modals.red),
+        alt_light: Object.values(Light.modals.red),
+        alt_dark: Object.values(Dark.modals.red),
+        nuetral_light: Object.values(Light.modals.red),
+        nuetral_dark: Object.values(Dark.modals.red),
+      },
+    },
 
-        accent: {
-          palette: {
-            dark: Dark.accent,
-            light: Light.accent,
-          },
-        },
+    danger: {
+      palette: {
+        dark: Object.values(Dark.modals.red),
+        light: Object.values(Light.modals.red),
+        default_dark: Object.values(Dark.modals.red),
+        default_light: Object.values(Light.modals.red),
+        alt_light: Object.values(Light.modals.red),
+        alt_dark: Object.values(Dark.modals.red),
+        nuetral_light: Object.values(Light.modals.red),
+        nuetral_dark: Object.values(Dark.modals.red),
+      },
+    },
 
-        childrenThemes: {
-          warning: {
-            palette: {
-              dark: Object.values(Dark.modals.yellow),
-              light: Object.values(Light.modals.yellow),
-            },
-          },
+    success: {
+      palette: {
+        dark: Object.values(Dark.modals.green),
+        light: Object.values(Light.modals.green),
+        default_dark: Object.values(Dark.modals.green),
+        default_light: Object.values(Light.modals.green),
+        alt_light: Object.values(Light.modals.green),
+        alt_dark: Object.values(Dark.modals.green),
+        nuetral_light: Object.values(Light.modals.green),
+        nuetral_dark: Object.values(Dark.modals.green),
+      },
+    },
+  },
+});
 
-          error: {
-            palette: {
-              dark: Object.values(Dark.modals.red),
-              light: Object.values(Light.modals.red),
-            },
-          },
+export type Themes = typeof builtThemes;
 
-          success: {
-            palette: {
-              dark: Object.values(Dark.modals.green),
-              light: Object.values(Light.modals.green),
-            },
-          },
-        },
+// this is optional, but saves client-side JS bundle size by leaving out themes on client.
+// tamagui automatically hydrates themes from css back into JS for you and the tamagui
+// bundler plugins automate setting TAMAGUI_ENVIRONMENT.
 
-      });
-
-      export type Themes = typeof builtThemes;
-
-      // this is optional, but saves client-side JS bundle size by leaving out themes on client.
-      // tamagui automatically hydrates themes from css back into JS for you and the tamagui
-      // bundler plugins automate setting TAMAGUI_ENVIRONMENT.
-
-      export const themes: Themes =
-        process.env.TAMAGUI_ENVIRONMENT === 'client' && process.env.NODE_ENV === 'production'
-          ? ({} as any)
-          : (builtThemes as any);
-  
+export const themes: Themes =
+  process.env.TAMAGUI_ENVIRONMENT === 'client' && process.env.NODE_ENV === 'production'
+    ? ({} as any)
+    : (builtThemes as any);

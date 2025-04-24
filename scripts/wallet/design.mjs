@@ -6,8 +6,8 @@ import {
 } from 'style-dictionary/enums';
 
 const PREFIX = 'WDS';
-const modes = ['Globals', 'Dark', 'Light', 'Desktop', 'Tablet', 'Mobile'];
-const typography_modes = ['Desktop', 'Tablet', 'Mobile'];
+const modes = ['Globals', 'Dark', 'Light', 'Desktop'];
+const typography_modes = ['Desktop'];
 const platforms = ['web', 'ios', 'android'];
 
 const path = 'styles/wds';
