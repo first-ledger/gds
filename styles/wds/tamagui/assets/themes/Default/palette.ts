@@ -2,6 +2,7 @@ import * as dark from '../../Dark/palette';
 import * as light from '../../Light/palette';
 
 export const base_dark = [
+  dark.base[0],
   dark.base[1],
   dark.base[2],
   dark.base[3],
@@ -15,7 +16,6 @@ export const base_dark = [
   dark.base[11],
   dark.base[12],
   dark.base[13],
-  dark.base[14],
   '#ffffff',
   '#ffffff',
   '#ffffff',
@@ -25,6 +25,7 @@ export const base_dark = [
 ];
 
 export const accent_dark = [
+  dark.accent[0],
   dark.accent[1],
   dark.accent[2],
   dark.accent[3],
@@ -36,7 +37,6 @@ export const accent_dark = [
   dark.accent[9],
   dark.accent[10],
   dark.accent[11],
-  dark.accent[12],
   '#ffffff',
   '#ffffff',
   '#ffffff',
@@ -48,6 +48,7 @@ export const accent_dark = [
 ];
 
 export const ghost_dark = [
+  dark.ghost[0],
   dark.ghost[1],
   dark.ghost[2],
   dark.ghost[3],
@@ -59,7 +60,6 @@ export const ghost_dark = [
   dark.ghost[9],
   dark.ghost[10],
   dark.ghost[11],
-  dark.ghost[12],
   '#ffffff',
   '#ffffff',
   '#ffffff',
@@ -71,6 +71,7 @@ export const ghost_dark = [
 ];
 
 export const muted_dark = [
+  dark.muted[0],
   dark.muted[1],
   dark.muted[2],
   dark.muted[3],
@@ -82,7 +83,6 @@ export const muted_dark = [
   dark.muted[9],
   dark.muted[10],
   dark.muted[11],
-  dark.muted[12],
   '#ffffff',
   '#ffffff',
   '#ffffff',
@@ -117,6 +117,7 @@ export const shadow_dark = [
 ];
 
 export const base_light = [
+  light.base[0],
   light.base[1],
   light.base[2],
   light.base[3],
@@ -130,7 +131,6 @@ export const base_light = [
   light.base[11],
   light.base[12],
   light.base[13],
-  light.base[14],
   '#ffffff',
   '#ffffff',
   '#ffffff',
@@ -140,6 +140,7 @@ export const base_light = [
 ];
 
 export const accent_light = [
+  light.accent[0],
   light.accent[1],
   light.accent[2],
   light.accent[3],
@@ -151,7 +152,6 @@ export const accent_light = [
   light.accent[9],
   light.accent[10],
   light.accent[11],
-  light.accent[12],
   '#ffffff',
   '#ffffff',
   '#ffffff',
@@ -163,6 +163,7 @@ export const accent_light = [
 ];
 
 export const ghost_light = [
+  light.ghost[0],
   light.ghost[1],
   light.ghost[2],
   light.ghost[3],
@@ -174,7 +175,6 @@ export const ghost_light = [
   light.ghost[9],
   light.ghost[10],
   light.ghost[11],
-  light.ghost[12],
   '#ffffff',
   '#ffffff',
   '#ffffff',
@@ -186,6 +186,7 @@ export const ghost_light = [
 ];
 
 export const muted_light = [
+  light.muted[0],
   light.muted[1],
   light.muted[2],
   light.muted[3],
@@ -197,7 +198,6 @@ export const muted_light = [
   light.muted[9],
   light.muted[10],
   light.muted[11],
-  light.muted[12],
   '#ffffff',
   '#ffffff',
   '#ffffff',

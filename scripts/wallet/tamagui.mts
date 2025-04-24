@@ -261,7 +261,9 @@ handler.registerFormat({
 
         let color = variableArray[len - 3].replace('_', '').toLowerCase();
         let isPalette = palettes.includes(color);
-        let id = !isPalette ? variableArray[len - 2] : variableArray[len - 2].replace('color', '');
+        let id = !isPalette
+          ? variableArray[len - 2]
+          : parseInt(variableArray[len - 2].replace('color', '')) - 1;
         let variable = !isPalette ? `${theme}.modals.${color}.${id}` : `${theme}.${color}[${id}]`;
         // .replace('.$value', '')
         // .replace('Colors._', '');
