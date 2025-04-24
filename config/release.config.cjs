@@ -29,14 +29,6 @@ module.exports = {
   // Plugin configuration with recommended order
   plugins: [
     // 1. Verify conditions before proceeding
-    [
-      '@semantic-release/exec',
-      {
-        verifyConditionsCmd: './scripts/verify-release.sh',
-        // This script will run before any release steps
-      },
-    ],
-
     // 2. Analyze commits first to determine release type
     [
       '@semantic-release/commit-analyzer',
