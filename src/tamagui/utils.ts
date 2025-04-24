@@ -91,6 +91,12 @@ export const getConfigTemplate = (
     const tokens = createTokens({
       light: { ...Light.keyed },
       dark: { ...Dark.keyed },
+      default_dark:  { ...Dark.keyed },
+      default_light: { ...Light.keyed },
+      alt_dark:  { ...Dark.keyed },
+      alt_light: { ...Light.keyed },
+      neutral_light:{ ...Light.keyed },
+      neutral_dark:  { ...Dark.keyed },
 
       globals: { ...Globals },
 
@@ -182,8 +188,8 @@ export const getThemeTemplate = (
             default_light: Default.base_light,
             alt_light: Alternative.base_light,
             alt_dark: Alternative.base_light,
-            nuetral_light: Neutral.base_light,
-            nuetral_dark: Neutral.base_light,
+            neutral_light: Neutral.base_light,
+            neutral_dark: Neutral.base_light,
           },
         },
 
@@ -195,8 +201,8 @@ export const getThemeTemplate = (
             default_light: Default.accent_light,
             alt_light: Alternative.accent_light,
             alt_dark: Alternative.accent_light,
-            nuetral_light: Neutral.accent_light,
-            nuetral_dark: Neutral.accent_light,
+            neutral_light: Neutral.accent_light,
+            neutral_dark: Neutral.accent_light,
           },
         },
 
@@ -208,8 +214,8 @@ export const getThemeTemplate = (
             default_light: Default.ghost_light,
             alt_light: Alternative.ghost_light,
             alt_dark: Alternative.ghost_light,
-            nuetral_light: Neutral.ghost_light,
-            nuetral_dark: Neutral.ghost_light,
+            neutral_light: Neutral.ghost_light,
+            neutral_dark: Neutral.ghost_light,
           },
         },
 
@@ -221,8 +227,8 @@ export const getThemeTemplate = (
             default_light: Default.muted_light,
             alt_light: Alternative.muted_light,
             alt_dark: Alternative.muted_light,
-            nuetral_light: Neutral.muted_light,
-            nuetral_dark: Neutral.muted_light,
+            neutral_light: Neutral.muted_light,
+            neutral_dark: Neutral.muted_light,
           },
         },
 
@@ -235,8 +241,8 @@ export const getThemeTemplate = (
               default_light:  Object.values(Light.modals.yellow),
               alt_light: Object.values(Light.modals.yellow),
               alt_dark: Object.values(Dark.modals.yellow),
-              nuetral_light: Object.values(Light.modals.yellow),
-              nuetral_dark: Object.values(Dark.modals.yellow),
+              neutral_light: Object.values(Light.modals.yellow),
+              neutral_dark: Object.values(Dark.modals.yellow),
             },
           },
 
@@ -248,21 +254,8 @@ export const getThemeTemplate = (
               default_light:  Object.values(Light.modals.red),
               alt_light: Object.values(Light.modals.red),
               alt_dark: Object.values(Dark.modals.red),
-              nuetral_light: Object.values(Light.modals.red),
-              nuetral_dark: Object.values(Dark.modals.red),
-            },
-          },
-
-          danger: {
-            palette: {
-              dark: Object.values(Dark.modals.red),
-              light: Object.values(Light.modals.red),
-              default_dark: Object.values(Dark.modals.red),
-              default_light:  Object.values(Light.modals.red),
-              alt_light: Object.values(Light.modals.red),
-              alt_dark: Object.values(Dark.modals.red),
-              nuetral_light: Object.values(Light.modals.red),
-              nuetral_dark: Object.values(Dark.modals.red),
+              neutral_light: Object.values(Light.modals.red),
+              neutral_dark: Object.values(Dark.modals.red),
             },
           },
 
@@ -274,8 +267,21 @@ export const getThemeTemplate = (
               default_light:  Object.values(Light.modals.green),
               alt_light: Object.values(Light.modals.green),
               alt_dark: Object.values(Dark.modals.green),
-              nuetral_light: Object.values(Light.modals.green),
-              nuetral_dark: Object.values(Dark.modals.green),
+              neutral_light: Object.values(Light.modals.green),
+              neutral_dark: Object.values(Dark.modals.green),
+            },
+          },
+
+          neutral: {
+            palette: {
+              dark: Object.values(Dark.modals.gray),
+              light: Object.values(Light.modals.gray),
+              default_dark: Object.values(Dark.modals.gray),
+              default_light:  Object.values(Light.modals.gray),
+              alt_light: Object.values(Light.modals.gray),
+              alt_dark: Object.values(Dark.modals.gray),
+              neutral_light: Object.values(Light.modals.gray),
+              neutral_dark: Object.values(Dark.modals.gray),
             },
           },
         },

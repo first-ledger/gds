@@ -22,6 +22,12 @@ import * as Fonts from './assets/Desktop/fonts';
 const tokens = createTokens({
   light: { ...Light.keyed },
   dark: { ...Dark.keyed },
+  default_dark: { ...Dark.keyed },
+  default_light: { ...Light.keyed },
+  alt_dark: { ...Dark.keyed },
+  alt_light: { ...Light.keyed },
+  neutral_light: { ...Light.keyed },
+  neutral_dark: { ...Dark.keyed },
 
   globals: { ...Globals },
 
