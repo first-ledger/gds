@@ -1,0 +1,44 @@
+name: CI/CD, create release
+
+on:
+  workflow_dispatch:
+    # push:
+    #   branches: ['main', 'alpha', 'beta', 'pre/rc']
+
+    secrets:
+      GHA_TOKEN:
+        required: true
+      NPM_TOKEN:
+        required: true
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          repository: first-ledger/nu-client
+          ref: ${{ github.ref_name }}
+          token: ${{ secrets.GHA_TOKEN }}
+
+      - name: Setups environment with pnpm
+        uses: ./.github/actions/setup
+        with:
+          node_version: '21.6.1'
+          pkg_manager: 'pnpm'
+          env_file: 'skip'
+
+      - name: Install Deps using pnpm
+        uses: ./.github/actions/install-deps
+        with:
+          node_version: '21.6.1'
+          pkg_manager: 'pnpm'
+
+      - name: Release package
+        run: |
+          export NPM_TOKEN=${{ secrets.NPM_TOKEN }}
+          export GH_TOKEN=${{ secrets.GHA_TOKEN }}
+          pnpm release
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
