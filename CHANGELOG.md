@@ -1,5 +1,12 @@
 # GDS Changelog
 
+# [1.0.0-b.3](https://github.com/first-ledger/gds/compare/gds@1.0.0-b.2...gds@1.0.0-b.3) (2025-04-24)
+
+
+### Bug Fixes
+
+* export built themes ([b8337b3](https://github.com/first-ledger/gds/commit/b8337b3f376c07f2f0d5fdb7f23145119f68c595))
+
 # [1.0.0-b.2](https://github.com/first-ledger/gds/compare/gds@1.0.0-b.1...gds@1.0.0-b.2) (2025-04-24)
 
 
