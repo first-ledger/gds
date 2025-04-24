@@ -6885,26 +6885,24 @@
               }
             }
           }
-        }
-      },
-      "Red": {
+        },
         "tomato6": {
           "$type": "color",
-          "$value": "#652016",
+          "$value": "#541c15",
           "$description": "",
           "scopes": [
             "ALL_SCOPES"
           ],
           "$extensions": {
             "mode": {
-              "Dark": "#652016",
+              "Dark": "#541c15",
               "Light": "#fac7be"
             },
             "figma": {
               "codeSyntax": {
-                "WEB": "var(--WDS-Tomato-tomato6)"
+                "WEB": "var(--WDS-Tomato-tomato5)"
               },
-              "variableId": "VariableID:3724:16383",
+              "variableId": "VariableID:5398:6214",
               "collection": {
                 "id": "VariableCollectionId:3724:16324",
                 "name": "Colors",
@@ -6912,7 +6910,9 @@
               }
             }
           }
-        },
+        }
+      },
+      "Red": {
         "red4": {
           "$type": "color",
           "$value": "#481a1d",
@@ -16349,7 +16349,7 @@
           }
         }
       },
-      "transparent1": {
+      "color13": {
         "$type": "color",
         "$value": "#18182700",
         "$description": "Background",
@@ -16374,7 +16374,7 @@
           }
         }
       },
-      "transparent2": {
+      "color14": {
         "$type": "color",
         "$value": "#1f1f2e00",
         "$description": "Subtle Background",
@@ -16401,7 +16401,7 @@
       }
     },
     "_Shadow": {
-      "color12": {
+      "color13": {
         "$type": "color",
         "$value": "{Colors.Defaults.Overlay.White.white12.$value}",
         "$description": "",
@@ -16424,7 +16424,7 @@
           }
         }
       },
-      "color11": {
+      "color12": {
         "$type": "color",
         "$value": "{Colors.Defaults.Overlay.White.white11.$value}",
         "$description": "",
@@ -16447,7 +16447,7 @@
           }
         }
       },
-      "color9": {
+      "color10": {
         "$type": "color",
         "$value": "{Colors.Defaults.Overlay.White.white9.$value}",
         "$description": "",
@@ -16470,7 +16470,7 @@
           }
         }
       },
-      "color8": {
+      "color9": {
         "$type": "color",
         "$value": "{Colors.Defaults.Overlay.White.white8.$value}",
         "$description": "",
@@ -16493,7 +16493,7 @@
           }
         }
       },
-      "color6": {
+      "color7": {
         "$type": "color",
         "$value": "{Colors.Defaults.Overlay.White.white6.$value}",
         "$description": "",
@@ -16516,7 +16516,7 @@
           }
         }
       },
-      "color4": {
+      "color5": {
         "$type": "color",
         "$value": "{Colors.Defaults.Overlay.White.white4.$value}",
         "$description": "",
@@ -16539,7 +16539,7 @@
           }
         }
       },
-      "color3": {
+      "color4": {
         "$type": "color",
         "$value": "{Colors.Defaults.Overlay.White.white3.$value}",
         "$description": "",
@@ -16562,7 +16562,7 @@
           }
         }
       },
-      "color0": {
+      "color1": {
         "$type": "color",
         "$value": "{Colors.Defaults.Overlay.White.white0.$value}",
         "$description": "",
@@ -16585,7 +16585,7 @@
           }
         }
       },
-      "color2": {
+      "color3": {
         "$type": "color",
         "$value": "{Colors.Defaults.Overlay.White.white2.$value}",
         "$description": "",
@@ -16608,7 +16608,7 @@
           }
         }
       },
-      "color7": {
+      "color8": {
         "$type": "color",
         "$value": "{Colors.Defaults.Overlay.White.white7.$value}",
         "$description": "",
@@ -16631,7 +16631,7 @@
           }
         }
       },
-      "color1": {
+      "color2": {
         "$type": "color",
         "$value": "{Colors.Defaults.Overlay.White.white1.$value}",
         "$description": "",
@@ -16654,7 +16654,7 @@
           }
         }
       },
-      "color5": {
+      "color6": {
         "$type": "color",
         "$value": "{Colors.Defaults.Overlay.White.white5.$value}",
         "$description": "",
@@ -16677,7 +16677,7 @@
           }
         }
       },
-      "color10": {
+      "color11": {
         "$type": "color",
         "$value": "{Colors.Defaults.Overlay.White.white10.$value}",
         "$description": "",
@@ -17304,7 +17304,7 @@
           }
         }
       },
-      "transparent1": {
+      "color13": {
         "$type": "color",
         "$value": "#f4681000",
         "$description": "Text",
@@ -18201,17 +18201,17 @@
           }
         }
       },
-      "transparent1": {
+      "color13": {
         "$type": "color",
-        "$value": "{Colors._Base.transparent1.$value}",
+        "$value": "{Colors._Base.color13.$value}",
         "$description": "",
         "scopes": [
           "ALL_SCOPES"
         ],
         "$extensions": {
           "mode": {
-            "Default": "{Colors._Base.transparent1.$value}",
-            "Alternative": "{Colors._Accent.transparent1.$value}",
+            "Default": "{Colors._Base.color13.$value}",
+            "Alternative": "{Colors._Accent.color13.$value}",
             "Neutral": "{Colors.Defaults.Slate.transparent1.$value}"
           },
           "figma": {
@@ -18225,17 +18225,17 @@
           }
         }
       },
-      "transparent2": {
+      "color14": {
         "$type": "color",
-        "$value": "{Colors._Base.transparent2.$value}",
+        "$value": "{Colors._Base.color14.$value}",
         "$description": "",
         "scopes": [
           "ALL_SCOPES"
         ],
         "$extensions": {
           "mode": {
-            "Default": "{Colors._Base.transparent2.$value}",
-            "Alternative": "{Colors._Accent.transparent1.$value}",
+            "Default": "{Colors._Base.color14.$value}",
+            "Alternative": "{Colors._Accent.color13.$value}",
             "Neutral": "{Colors.Defaults.Slate.transparent1.$value}"
           },
           "figma": {
@@ -19133,7 +19133,7 @@
         "Modes",
         "Themes"
       ],
-      "createdAt": "2025-04-23T23:48:57.135Z"
+      "createdAt": "2025-04-24T05:59:53.223Z"
     }
   }
 }
