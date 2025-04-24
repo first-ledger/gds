@@ -17621,8 +17621,8 @@
         "mode": {
           "Success": "{Colors.Defaults.Green.green1.$value}",
           "Warning": "{Colors.Defaults.Yellow.yellow1.$value}",
-          "Danger": "{Colors.Defaults.Red.red1.$value}",
-          "Nuetral": "{Colors.Defaults.Gray.gray1.$value}"
+          "Error": "{Colors.Defaults.Red.red1.$value}",
+          "Neutral": "{Colors.Defaults.Gray.gray1.$value}"
         },
         "figma": {
           "codeSyntax": {},
@@ -17646,8 +17646,8 @@
         "mode": {
           "Success": "{Colors.Defaults.Green.green2.$value}",
           "Warning": "{Colors.Defaults.Yellow.yellow2.$value}",
-          "Danger": "{Colors.Defaults.Red.red2.$value}",
-          "Nuetral": "{Colors.Defaults.Gray.gray2.$value}"
+          "Error": "{Colors.Defaults.Red.red2.$value}",
+          "Neutral": "{Colors.Defaults.Gray.gray2.$value}"
         },
         "figma": {
           "codeSyntax": {},
@@ -17671,8 +17671,8 @@
         "mode": {
           "Success": "{Colors.Defaults.Green.green3.$value}",
           "Warning": "{Colors.Defaults.Yellow.yellow3.$value}",
-          "Danger": "{Colors.Defaults.Red.red3.$value}",
-          "Nuetral": "{Colors.Defaults.Gray.gray3.$value}"
+          "Error": "{Colors.Defaults.Red.red3.$value}",
+          "Neutral": "{Colors.Defaults.Gray.gray3.$value}"
         },
         "figma": {
           "codeSyntax": {},
@@ -17696,8 +17696,8 @@
         "mode": {
           "Success": "{Colors.Defaults.Green.green4.$value}",
           "Warning": "{Colors.Defaults.Yellow.yellow4.$value}",
-          "Danger": "{Colors.Defaults.Red.red4.$value}",
-          "Nuetral": "{Colors.Defaults.Gray.gray4.$value}"
+          "Error": "{Colors.Defaults.Red.red4.$value}",
+          "Neutral": "{Colors.Defaults.Gray.gray4.$value}"
         },
         "figma": {
           "codeSyntax": {},
@@ -17721,8 +17721,8 @@
         "mode": {
           "Success": "{Colors.Defaults.Green.green5.$value}",
           "Warning": "{Colors.Defaults.Yellow.yellow5.$value}",
-          "Danger": "{Colors.Defaults.Red.red5.$value}",
-          "Nuetral": "{Colors.Defaults.Gray.gray5.$value}"
+          "Error": "{Colors.Defaults.Red.red5.$value}",
+          "Neutral": "{Colors.Defaults.Gray.gray5.$value}"
         },
         "figma": {
           "codeSyntax": {},
@@ -17746,8 +17746,8 @@
         "mode": {
           "Success": "{Colors.Defaults.Green.green6.$value}",
           "Warning": "{Colors.Defaults.Yellow.yellow6.$value}",
-          "Danger": "{Colors.Defaults.Red.red6.$value}",
-          "Nuetral": "{Colors.Defaults.Gray.gray6.$value}"
+          "Error": "{Colors.Defaults.Red.red6.$value}",
+          "Neutral": "{Colors.Defaults.Gray.gray6.$value}"
         },
         "figma": {
           "codeSyntax": {},
@@ -17771,8 +17771,8 @@
         "mode": {
           "Success": "{Colors.Defaults.Green.green7.$value}",
           "Warning": "{Colors.Defaults.Yellow.yellow7.$value}",
-          "Danger": "{Colors.Defaults.Red.red7.$value}",
-          "Nuetral": "{Colors.Defaults.Gray.gray7.$value}"
+          "Error": "{Colors.Defaults.Red.red7.$value}",
+          "Neutral": "{Colors.Defaults.Gray.gray7.$value}"
         },
         "figma": {
           "codeSyntax": {},
@@ -17796,8 +17796,8 @@
         "mode": {
           "Success": "{Colors.Defaults.Green.green8.$value}",
           "Warning": "{Colors.Defaults.Yellow.yellow8.$value}",
-          "Danger": "{Colors.Defaults.Red.red8.$value}",
-          "Nuetral": "{Colors.Defaults.Gray.gray8.$value}"
+          "Error": "{Colors.Defaults.Red.red8.$value}",
+          "Neutral": "{Colors.Defaults.Gray.gray8.$value}"
         },
         "figma": {
           "codeSyntax": {},
@@ -17821,8 +17821,8 @@
         "mode": {
           "Success": "{Colors.Defaults.Green.green9.$value}",
           "Warning": "{Colors.Defaults.Yellow.yellow9.$value}",
-          "Danger": "{Colors.Defaults.Red.red9.$value}",
-          "Nuetral": "{Colors.Defaults.Gray.gray9.$value}"
+          "Error": "{Colors.Defaults.Red.red9.$value}",
+          "Neutral": "{Colors.Defaults.Gray.gray9.$value}"
         },
         "figma": {
           "codeSyntax": {},
@@ -17846,8 +17846,8 @@
         "mode": {
           "Success": "{Colors.Defaults.Green.green10.$value}",
           "Warning": "{Colors.Defaults.Yellow.yellow10.$value}",
-          "Danger": "{Colors.Defaults.Red.red10.$value}",
-          "Nuetral": "{Colors.Defaults.Gray.gray10.$value}"
+          "Error": "{Colors.Defaults.Red.red10.$value}",
+          "Neutral": "{Colors.Defaults.Gray.gray10.$value}"
         },
         "figma": {
           "codeSyntax": {},
@@ -17871,8 +17871,8 @@
         "mode": {
           "Success": "{Colors.Defaults.Green.green11.$value}",
           "Warning": "{Colors.Defaults.Yellow.yellow11.$value}",
-          "Danger": "{Colors.Defaults.Red.red11.$value}",
-          "Nuetral": "{Colors.Defaults.Gray.gray11.$value}"
+          "Error": "{Colors.Defaults.Red.red11.$value}",
+          "Neutral": "{Colors.Defaults.Gray.gray11.$value}"
         },
         "figma": {
           "codeSyntax": {},
@@ -17896,8 +17896,8 @@
         "mode": {
           "Success": "{Colors.Defaults.Green.green12.$value}",
           "Warning": "{Colors.Defaults.Yellow.yellow12.$value}",
-          "Danger": "{Colors.Defaults.Red.red12.$value}",
-          "Nuetral": "{Colors.Defaults.Gray.gray12.$value}"
+          "Error": "{Colors.Defaults.Red.red12.$value}",
+          "Neutral": "{Colors.Defaults.Gray.gray12.$value}"
         },
         "figma": {
           "codeSyntax": {},
@@ -19133,7 +19133,7 @@
         "Modes",
         "Themes"
       ],
-      "createdAt": "2025-04-24T05:59:53.223Z"
+      "createdAt": "2025-04-24T07:05:14.305Z"
     }
   }
 }
