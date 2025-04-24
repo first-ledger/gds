@@ -9,9 +9,11 @@ import {
 } from 'style-dictionary/enums';
 
 const PREFIX = 'WDS';
-const modes = ['Globals', 'Dark', 'Light', 'Desktop', 'Tablet', 'Mobile'];
-const typography_modes = ['Desktop', 'Tablet', 'Mobile'];
-const theme_modes = ['Dark', 'Light'];
+const keyed_modes = ['Default', 'Alternative', 'Neutral'];
+const general_modes = ['Globals', 'Dark', 'Light', 'Desktop'];
+const modes = [...general_modes, ...keyed_modes];
+const typography_modes = ['Desktop'];
+const theme_modes = ['Dark', 'Light', ...keyed_modes];
 const size_modes = ['Globals', ...typography_modes];
 const platforms = ['web'];
 
@@ -76,6 +78,34 @@ const createConfig = (mode, platform) => {
   };
 };
 
+const createThemeConfig = (mode, platform) => {
+  return {
+    source: [file],
+    preprocessors: [`preprocess/${mode}`],
+    log: {
+      warnings: logWarningLevels.disabled, // 'warn' | 'error' | 'disabled'
+      verbosity: logVerbosityLevels.verbose, // 'default' | 'silent' | 'verbose'
+      errors: {
+        brokenReferences: logBrokenReferenceLevels.console, // 'throw' | 'console'
+      },
+    },
+    platforms: {
+      'web/js': {
+        transformGroup: 'tokens-js',
+        buildPath: `${path}/tamagui/assets/themes/${mode}/`,
+        prefix: PREFIX,
+        files: [
+          {
+            destination: 'palette.ts',
+            format: 'ts/palette',
+            filter: `filter/${mode}/theme`,
+          },
+        ],
+      },
+    },
+  };
+};
+
 const handler = new generator();
 
 function toNormalCase(str) {
@@ -122,33 +152,53 @@ handler.registerTransformGroup({
   transforms: ['name/constant', 'size/px', 'color/hex', 'transform/keys'],
 });
 
+// ts/color
 handler.registerFormat({
   name: 'ts/color',
   format: function (dictionary) {
     let keyed = {};
     let combined = {};
     let modals = {};
-    let base = new Array(12);
-    let accent = new Array(12);
+    let base = new Array(20).fill('#ffffff');
+    let accent = new Array(20).fill('#ffffff');
+    let ghost = new Array(20).fill('#ffffff');
+    let muted = new Array(20).fill('#ffffff');
+    let shadow = new Array(20).fill('#ffffff');
+
     dictionary.dictionary.allTokens.forEach((prop) => {
       if (prop.$type !== 'color') return;
       let name = formatTokenName(prop.name);
 
-      if (name.includes('THEME') && name.includes('ACCENT')) {
+      if (name.includes('COLOR') && name.includes('ACCENT')) {
         let colorName = [...name.split('_')].pop();
         let index = Number(colorName.replace('COLOR', '')) ?? 0;
         accent[index - 1] = prop.$value;
       }
-      if (name.includes('THEME') && name.includes('BASE')) {
+      if (name.includes('COLOR') && name.includes('BASE')) {
         let colorName = [...name.split('_')].pop();
         let index = Number(colorName.replace('COLOR', '')) ?? 0;
         base[index - 1] = prop.$value;
       }
+      if (name.includes('COLOR') && name.includes('GHOST')) {
+        let colorName = [...name.split('_')].pop();
+        let index = Number(colorName.replace('COLOR', '')) ?? 0;
+        ghost[index - 1] = prop.$value;
+      }
+      if (name.includes('COLOR') && name.includes('MUTED')) {
+        let colorName = [...name.split('_')].pop();
+        let index = Number(colorName.replace('COLOR', '')) ?? 0;
+        muted[index - 1] = prop.$value;
+      }
+      if (name.includes('COLOR') && name.includes('SHADOW')) {
+        let colorName = [...name.split('_')].pop();
+        let index = Number(colorName.replace('COLOR', '')) ?? 0;
+        shadow[index - 1] = prop.$value;
+      }
 
-      if (name.includes('MODALS')) {
-        let colorGroup = name.split('_')[2];
-        let colorName = name.split('_')[3];
-        let index = Number(name.split('_')[3].replace(colorName, '')) ?? 0;
+      if (name.includes('COLORS') && name.includes('DEFAULTS')) {
+        let colorGroup = name.split('_')[3];
+        let colorName = name.split('_')[4];
+        let index = Number(name.split('_')[4].replace(colorName, '')) ?? 0;
         if (!modals[colorGroup.toLowerCase()]) modals[colorGroup.toLowerCase()] = {};
         modals[colorGroup.toLowerCase()][colorName.toLowerCase()] = prop.$value;
         combined[colorName.toLowerCase()] = prop.$value;
@@ -162,6 +212,12 @@ handler.registerFormat({
 
     export const accent = ${JSON.stringify(accent, null, 2)}
 
+    export const ghost = ${JSON.stringify(ghost, null, 2)}
+
+    export const muted = ${JSON.stringify(muted, null, 2)}
+
+    export const shadow = ${JSON.stringify(shadow, null, 2)}
+
     export const modals = ${JSON.stringify(modals, null, 2)}
 
     export const aggregator = ${JSON.stringify(combined, null, 2)}
@@ -171,6 +227,111 @@ handler.registerFormat({
   },
 });
 
+// ts/palette
+handler.registerFormat({
+  name: 'ts/palette',
+  format: function (dictionary) {
+    const holders = {
+      dark: {
+        base: new Array(20),
+        accent: new Array(20),
+        ghost: new Array(20),
+        muted: new Array(20),
+        shadow: new Array(20),
+      },
+      light: {
+        base: new Array(20),
+        accent: new Array(20),
+        ghost: new Array(20),
+        muted: new Array(20),
+        shadow: new Array(20),
+      },
+    };
+
+    dictionary.dictionary.allTokens.forEach((prop) => {
+      ['dark', 'light'].map((theme) => {
+        if (prop.$type !== 'color') return;
+        let name = formatTokenName(prop.name);
+
+        let v = prop.original.$value.replace('{', '').replace('}', '');
+        let variableArray = v.split('.');
+        let len = variableArray.length;
+
+        const palettes = ['base', 'accent', 'ghost', 'muted', 'shadow'];
+
+        let color = variableArray[len - 3].replace('_', '').toLowerCase();
+        let isPalette = palettes.includes(color);
+        let id = !isPalette ? variableArray[len - 2] : variableArray[len - 2].replace('color', '');
+        let variable = !isPalette ? `${theme}.modals.${color}.${id}` : `${theme}.${color}[${id}]`;
+        // .replace('.$value', '')
+        // .replace('Colors._', '');
+
+        if (name.includes('COLOR') && name.includes('ACCENT')) {
+          let colorName = [...name.split('_')].pop();
+          let index = Number(colorName.replace('COLOR', '')) ?? 0;
+          holders[theme].accent[index - 1] = variable;
+        }
+        if (name.includes('COLOR') && name.includes('BASE')) {
+          let colorName = [...name.split('_')].pop();
+          let index = Number(colorName.replace('COLOR', '')) ?? 0;
+          holders[theme].base[index - 1] = variable;
+        }
+        if (name.includes('COLOR') && name.includes('GHOST')) {
+          let colorName = [...name.split('_')].pop();
+          let index = Number(colorName.replace('COLOR', '')) ?? 0;
+          holders[theme].ghost[index - 1] = variable;
+        }
+        if (name.includes('COLOR') && name.includes('MUTED')) {
+          let colorName = [...name.split('_')].pop();
+          let index = Number(colorName.replace('COLOR', '')) ?? 0;
+          holders[theme].muted[index - 1] = variable;
+        }
+        if (name.includes('COLOR') && name.includes('SHADOW')) {
+          let colorName = [...name.split('_')].pop();
+          let index = Number(colorName.replace('COLOR', '')) ?? 0;
+          holders[theme].shadow[index - 1] = variable;
+        }
+      });
+    });
+
+    const format = (s: string) => s.replaceAll(`"`, '').replaceAll('null', `'#ffffff'`);
+
+    //@ts-ignore
+    return `
+      import * as dark from '../../Dark/palette'
+      import * as light from '../../Light/palette'
+
+      export const base_dark = ${format(JSON.stringify(holders.dark.base, null, 2))}
+
+      export const accent_dark = ${format(JSON.stringify(holders.dark.accent, null, 2))}
+
+      export const ghost_dark =${format(JSON.stringify(holders.dark.ghost, null, 2))}
+
+      export const muted_dark = ${format(JSON.stringify(holders.dark.muted, null, 2))}
+
+      export const shadow_dark= ${format(JSON.stringify(holders.dark.shadow, null, 2))}
+
+      export const base_light = ${format(JSON.stringify(holders.light.base, null, 2))}
+
+      export const accent_light = ${format(JSON.stringify(holders.light.accent, null, 2))}
+
+      export const ghost_light = ${format(JSON.stringify(holders.light.ghost, null, 2))}
+
+      export const muted_light = ${format(JSON.stringify(holders.light.muted, null, 2))}
+
+      export const shadow_light = ${format(JSON.stringify(holders.light.shadow, null, 2))}
+    `;
+
+    // export const modals = ${JSON.stringify(modals, null, 2)}
+
+    // export const aggregator = ${JSON.stringify(combined, null, 2)}
+
+    // export const keyed = ${JSON.stringify(keyed, null, 2)}
+    // `;
+  },
+});
+
+// ts/size
 handler.registerFormat({
   name: 'ts/size',
   format: function (dictionary) {
@@ -220,6 +381,7 @@ handler.registerFormat({
   },
 });
 
+// ts/font
 handler.registerFormat({
   name: 'ts/font',
   format: function (dictionary) {
@@ -429,9 +591,18 @@ modes.map(async (mode) => {
   });
 });
 
+// General Builder for modes
 platforms.map((platform) =>
-  modes.map(async (mode) => {
+  general_modes.map(async (mode) => {
     let builder = await handler.extend(createConfig(mode, platform));
+    builder.buildPlatform('web/js');
+  })
+);
+
+// Builder for keyed themes
+platforms.map((platform) =>
+  keyed_modes.map(async (mode) => {
+    let builder = await handler.extend(createThemeConfig(mode, platform));
     builder.buildPlatform('web/js');
   })
 );

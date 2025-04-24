@@ -78,18 +78,14 @@ export const getConfigTemplate = (
     import * as Globals from './assets/Globals/tokens';
 
     // Import Tokens
-    import * as Desktop from './assets/Desktop/tokens';
-    import * as Mobile from './assets/Mobile/tokens';
-    import * as Tablet from './assets/Tablet/tokens';
+    import * as Tokens from './assets/Desktop/tokens';
 
     // Import Sizes
     import * as GlobalSizes from './assets/Globals/sizes';
-    import * as MobileSizes from './assets/Mobile/sizes';
+    import * as Sizes from './assets/Desktop/sizes';
 
     // Import Fonts
-    import * as DesktopFonts from './assets/Desktop/fonts';
-    import * as MobileFonts from './assets/Mobile/fonts';
-    import * as TabletFonts from './assets/Tablet/fonts';
+    import * as Fonts from './assets/Desktop/fonts';
 
 
     const tokens = createTokens({
@@ -97,35 +93,32 @@ export const getConfigTemplate = (
       dark: { ...Dark.keyed },
 
       globals: { ...Globals },
-      desktop: { ...Desktop },
-      tablet: { ...Tablet },
-      mobile: { ...Mobile },
 
       ...GlobalSizes.aggregator,
-      ...MobileSizes.aggregator,
-      ...MobileFonts.fonts,
+      ...Sizes.aggregator,
+      ...Fonts.fonts,
 
       // Start of overrides
       // Overrides the default tamagui size tokens
       radius: {
         ...defaultConfig.tokens.radius,
         ...GlobalSizes.radius,
-        ...MobileSizes.radius,
+        ...Sizes.radius,
       },
       space: {
         ...defaultConfig.tokens.space,
         ...GlobalSizes.space,
-        ...MobileSizes.space,
+        ...Sizes.space,
       },
       size: {
         ...defaultConfig.tokens.size,
         ...GlobalSizes.size,
-        ...MobileSizes.size,
+        ...Sizes.size,
       },
       zIndex: {
         ...defaultConfig.tokens.zIndex,
         ...GlobalSizes.zIndex,
-        ...MobileSizes.zIndex,
+        ...Sizes.zIndex,
       },
       // End of overrides
     });
@@ -134,7 +127,7 @@ export const getConfigTemplate = (
     const config = createTamagui({
       ...defaultConfig,
       themes,
-      fonts: MobileFonts.aggregation,
+      fonts: Fonts.aggregation,
       tokens: {
         ...defaultConfig.tokens,
         ...tokens,
@@ -167,77 +160,69 @@ export const getThemeTemplate = (
   const template = `
       import { createThemes, defaultComponentThemes } from '@tamagui/theme-builder';
 
-      // Import WDS Colors
-      import * as Light from './assets/Light/palette';
+      // Import Themed Palettes
       import * as Dark from './assets/Dark/palette';
+      import * as Light from './assets/Light/palette';
 
-      const lightShadows = {
-        shadow1: 'rgba(0,0,0,0.04)',
-        shadow2: 'rgba(0,0,0,0.08)',
-        shadow3: 'rgba(0,0,0,0.16)',
-        shadow4: 'rgba(0,0,0,0.24)',
-        shadow5: 'rgba(0,0,0,0.32)',
-        shadow6: 'rgba(0,0,0,0.4)',
-      };
-
-      const darkShadows = {
-        shadow1: 'rgba(0,0,0,0.2)',
-        shadow2: 'rgba(0,0,0,0.3)',
-        shadow3: 'rgba(0,0,0,0.4)',
-        shadow4: 'rgba(0,0,0,0.5)',
-        shadow5: 'rgba(0,0,0,0.6)',
-        shadow6: 'rgba(0,0,0,0.7)',
-      };
-
-      // we're adding some example sub-themes for you to show how they are done, "success" "warning", "error":
+      // Import Themed Palettes
+      import * as Default from './assets/themes/Default/palette';
+      import * as Alternative from './assets/themes/Alternative/palette';
+      import * as Neutral from './assets/themes/Neutral/palette';
 
       const builtThemes = createThemes({
 
-        // Component design tokens, outside of components -> defaults to base template
-          // background: string;
-          // backgroundFocus: string;
-          // backgroundHover: string;
-          // backgroundPress: string;
-          // borderColor: string;
-          // borderColorFocus: string;
-          // borderColorHover: string;
-          // borderColorPress: string;
-          // color: string;
-          // colorFocus: string;
-          // colorHover: string;
-          // colorPress: string;
-          // colorTransparent: string;
-          // placeholderColor: string;
-          // shadowColor: string;
-          // shadowColorFocus: string;
-          // shadowColorHover: string;
-          // shadowColorPress: string;
         componentThemes: defaultComponentThemes,
 
         base: {
           palette: {
-            dark: Dark.base,
-            light: Light.base,
-          },
-
-          extra: {
-            light: {
-              ...Light.keyed,
-              ...lightShadows,
-              shadowColor: lightShadows.shadow1,
-            },
-            dark: {
-              ...Dark.keyed,
-              ...darkShadows,
-              shadowColor: darkShadows.shadow1,
-            },
+            dark: Default.base_dark,
+            light: Default.base_light,
+            // @ts-ignore
+            default_dark: Default.base_dark,
+            default_light: Default.base_light,
+            alt_light: Alternative.base_light,
+            alt_dark: Alternative.base_light,
+            nuetral_light: Neutral.base_light,
+            nuetral_dark: Neutral.base_light,
           },
         },
 
         accent: {
           palette: {
-            dark: Dark.accent,
-            light: Light.accent,
+            dark: Default.accent_dark,
+            light: Default.accent_light,
+            default_dark: Default.accent_dark,
+            default_light: Default.accent_light,
+            alt_light: Alternative.accent_light,
+            alt_dark: Alternative.accent_light,
+            nuetral_light: Neutral.accent_light,
+            nuetral_dark: Neutral.accent_light,
+          },
+        },
+
+        ghost: {
+          palette: {
+            dark: Default.ghost_dark,
+            light: Default.ghost_light,
+            default_dark: Default.ghost_dark,
+            default_light: Default.ghost_light,
+            alt_light: Alternative.ghost_light,
+            alt_dark: Alternative.ghost_light,
+            nuetral_light: Neutral.ghost_light,
+            nuetral_dark: Neutral.ghost_light,
+          },
+        },
+
+        muted: {
+          palette: {
+            dark: Default.muted_dark,
+            light: Default.muted_light,
+            default_dark: Default.muted_dark,
+            default_light: Default.muted_light,
+            alt_light: Alternative.muted_light,
+            alt_dark: Alternative.muted_light,
+            nuetral_light: Neutral.muted_light,
+            nuetral_dark: Neutral.muted_light,
           },
         },
 
@@ -246,6 +231,12 @@ export const getThemeTemplate = (
             palette: {
               dark: Object.values(Dark.modals.yellow),
               light: Object.values(Light.modals.yellow),
+              default_dark: Object.values(Dark.modals.yellow),
+              default_light:  Object.values(Light.modals.yellow),
+              alt_light: Object.values(Light.modals.yellow),
+              alt_dark: Object.values(Dark.modals.yellow),
+              nuetral_light: Object.values(Light.modals.yellow),
+              nuetral_dark: Object.values(Dark.modals.yellow),
             },
           },
 
@@ -253,6 +244,25 @@ export const getThemeTemplate = (
             palette: {
               dark: Object.values(Dark.modals.red),
               light: Object.values(Light.modals.red),
+              default_dark: Object.values(Dark.modals.red),
+              default_light:  Object.values(Light.modals.red),
+              alt_light: Object.values(Light.modals.red),
+              alt_dark: Object.values(Dark.modals.red),
+              nuetral_light: Object.values(Light.modals.red),
+              nuetral_dark: Object.values(Dark.modals.red),
+            },
+          },
+
+          danger: {
+            palette: {
+              dark: Object.values(Dark.modals.red),
+              light: Object.values(Light.modals.red),
+              default_dark: Object.values(Dark.modals.red),
+              default_light:  Object.values(Light.modals.red),
+              alt_light: Object.values(Light.modals.red),
+              alt_dark: Object.values(Dark.modals.red),
+              nuetral_light: Object.values(Light.modals.red),
+              nuetral_dark: Object.values(Dark.modals.red),
             },
           },
 
@@ -260,6 +270,12 @@ export const getThemeTemplate = (
             palette: {
               dark: Object.values(Dark.modals.green),
               light: Object.values(Light.modals.green),
+              default_dark: Object.values(Dark.modals.green),
+              default_light:  Object.values(Light.modals.green),
+              alt_light: Object.values(Light.modals.green),
+              alt_dark: Object.values(Dark.modals.green),
+              nuetral_light: Object.values(Light.modals.green),
+              nuetral_dark: Object.values(Dark.modals.green),
             },
           },
         },
