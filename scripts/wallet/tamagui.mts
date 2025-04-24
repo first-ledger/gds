@@ -305,11 +305,11 @@ handler.registerFormat({
 
       export const accent_dark = ${format(JSON.stringify(holders.dark.accent, null, 2))}
 
-      export const ghost_dark =${format(JSON.stringify(holders.dark.ghost, null, 2))}
+      export const ghost_dark = ${format(JSON.stringify(holders.dark.ghost, null, 2))}
 
       export const muted_dark = ${format(JSON.stringify(holders.dark.muted, null, 2))}
 
-      export const shadow_dark= ${format(JSON.stringify(holders.dark.shadow, null, 2))}
+      export const shadow_dark = ${format(JSON.stringify(holders.dark.shadow, null, 2))}
 
       export const base_light = ${format(JSON.stringify(holders.light.base, null, 2))}
 

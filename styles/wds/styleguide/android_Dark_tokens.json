@@ -628,19 +628,19 @@
   },
   {
     "$type": "color",
-    "$value": "#652016",
+    "$value": "#541c15",
     "$description": "",
     "scopes": ["ALL_SCOPES"],
     "$extensions": {
       "mode": {
-        "Dark": "#652016",
+        "Dark": "#541c15",
         "Light": "#fac7be"
       },
       "figma": {
         "codeSyntax": {
-          "WEB": "var(--WDS-Tomato-tomato6)"
+          "WEB": "var(--WDS-Tomato-tomato5)"
         },
-        "variableId": "VariableID:3724:16383",
+        "variableId": "VariableID:5398:6214",
         "collection": {
           "id": "VariableCollectionId:3724:16324",
           "name": "Colors",
@@ -652,19 +652,19 @@
     "isSource": true,
     "original": {
       "$type": "color",
-      "$value": "#652016",
+      "$value": "#541c15",
       "$description": "",
       "scopes": ["ALL_SCOPES"],
       "$extensions": {
         "mode": {
-          "Dark": "#652016",
+          "Dark": "#541c15",
           "Light": "#fac7be"
         },
         "figma": {
           "codeSyntax": {
-            "WEB": "var(--WDS-Tomato-tomato6)"
+            "WEB": "var(--WDS-Tomato-tomato5)"
           },
-          "variableId": "VariableID:3724:16383",
+          "variableId": "VariableID:5398:6214",
           "collection": {
             "id": "VariableCollectionId:3724:16324",
             "name": "Colors",
@@ -673,15 +673,15 @@
         }
       }
     },
-    "name": "wds-colors-defaults-red-tomato6",
+    "name": "wds-colors-defaults-tomato-tomato6",
     "attributes": {
       "category": "Colors",
       "type": "Defaults",
-      "item": "Red",
+      "item": "Tomato",
       "subitem": "tomato6"
     },
-    "path": ["Colors", "Defaults", "Red", "tomato6"],
-    "key": "{Colors.Defaults.Red.tomato6}"
+    "path": ["Colors", "Defaults", "Tomato", "tomato6"],
+    "key": "{Colors.Defaults.Tomato.tomato6}"
   },
   {
     "$type": "color",
@@ -22119,14 +22119,14 @@
         }
       }
     },
-    "name": "wds-colors-base-transparent1",
+    "name": "wds-colors-base-color13",
     "attributes": {
       "category": "Colors",
       "type": "_Base",
-      "item": "transparent1"
+      "item": "color13"
     },
-    "path": ["Colors", "_Base", "transparent1"],
-    "key": "{Colors._Base.transparent1}"
+    "path": ["Colors", "_Base", "color13"],
+    "key": "{Colors._Base.color13}"
   },
   {
     "$type": "color",
@@ -22175,14 +22175,14 @@
         }
       }
     },
-    "name": "wds-colors-base-transparent2",
+    "name": "wds-colors-base-color14",
     "attributes": {
       "category": "Colors",
       "type": "_Base",
-      "item": "transparent2"
+      "item": "color14"
     },
-    "path": ["Colors", "_Base", "transparent2"],
-    "key": "{Colors._Base.transparent2}"
+    "path": ["Colors", "_Base", "color14"],
+    "key": "{Colors._Base.color14}"
   },
   {
     "$type": "color",
@@ -22227,14 +22227,14 @@
         }
       }
     },
-    "name": "wds-colors-shadow-color12",
+    "name": "wds-colors-shadow-color13",
     "attributes": {
       "category": "Colors",
       "type": "_Shadow",
-      "item": "color12"
+      "item": "color13"
     },
-    "path": ["Colors", "_Shadow", "color12"],
-    "key": "{Colors._Shadow.color12}"
+    "path": ["Colors", "_Shadow", "color13"],
+    "key": "{Colors._Shadow.color13}"
   },
   {
     "$type": "color",
@@ -22279,14 +22279,14 @@
         }
       }
     },
-    "name": "wds-colors-shadow-color11",
+    "name": "wds-colors-shadow-color12",
     "attributes": {
       "category": "Colors",
       "type": "_Shadow",
-      "item": "color11"
+      "item": "color12"
     },
-    "path": ["Colors", "_Shadow", "color11"],
-    "key": "{Colors._Shadow.color11}"
+    "path": ["Colors", "_Shadow", "color12"],
+    "key": "{Colors._Shadow.color12}"
   },
   {
     "$type": "color",
@@ -22331,14 +22331,14 @@
         }
       }
     },
-    "name": "wds-colors-shadow-color9",
+    "name": "wds-colors-shadow-color10",
     "attributes": {
       "category": "Colors",
       "type": "_Shadow",
-      "item": "color9"
+      "item": "color10"
     },
-    "path": ["Colors", "_Shadow", "color9"],
-    "key": "{Colors._Shadow.color9}"
+    "path": ["Colors", "_Shadow", "color10"],
+    "key": "{Colors._Shadow.color10}"
   },
   {
     "$type": "color",
@@ -22383,14 +22383,14 @@
         }
       }
     },
-    "name": "wds-colors-shadow-color8",
+    "name": "wds-colors-shadow-color9",
     "attributes": {
       "category": "Colors",
       "type": "_Shadow",
-      "item": "color8"
+      "item": "color9"
     },
-    "path": ["Colors", "_Shadow", "color8"],
-    "key": "{Colors._Shadow.color8}"
+    "path": ["Colors", "_Shadow", "color9"],
+    "key": "{Colors._Shadow.color9}"
   },
   {
     "$type": "color",
@@ -22435,14 +22435,14 @@
         }
       }
     },
-    "name": "wds-colors-shadow-color6",
+    "name": "wds-colors-shadow-color7",
     "attributes": {
       "category": "Colors",
       "type": "_Shadow",
-      "item": "color6"
+      "item": "color7"
     },
-    "path": ["Colors", "_Shadow", "color6"],
-    "key": "{Colors._Shadow.color6}"
+    "path": ["Colors", "_Shadow", "color7"],
+    "key": "{Colors._Shadow.color7}"
   },
   {
     "$type": "color",
@@ -22487,14 +22487,14 @@
         }
       }
     },
-    "name": "wds-colors-shadow-color4",
+    "name": "wds-colors-shadow-color5",
     "attributes": {
       "category": "Colors",
       "type": "_Shadow",
-      "item": "color4"
+      "item": "color5"
     },
-    "path": ["Colors", "_Shadow", "color4"],
-    "key": "{Colors._Shadow.color4}"
+    "path": ["Colors", "_Shadow", "color5"],
+    "key": "{Colors._Shadow.color5}"
   },
   {
     "$type": "color",
@@ -22539,14 +22539,14 @@
         }
       }
     },
-    "name": "wds-colors-shadow-color3",
+    "name": "wds-colors-shadow-color4",
     "attributes": {
       "category": "Colors",
       "type": "_Shadow",
-      "item": "color3"
+      "item": "color4"
     },
-    "path": ["Colors", "_Shadow", "color3"],
-    "key": "{Colors._Shadow.color3}"
+    "path": ["Colors", "_Shadow", "color4"],
+    "key": "{Colors._Shadow.color4}"
   },
   {
     "$type": "color",
@@ -22591,14 +22591,14 @@
         }
       }
     },
-    "name": "wds-colors-shadow-color0",
+    "name": "wds-colors-shadow-color1",
     "attributes": {
       "category": "Colors",
       "type": "_Shadow",
-      "item": "color0"
+      "item": "color1"
     },
-    "path": ["Colors", "_Shadow", "color0"],
-    "key": "{Colors._Shadow.color0}"
+    "path": ["Colors", "_Shadow", "color1"],
+    "key": "{Colors._Shadow.color1}"
   },
   {
     "$type": "color",
@@ -22643,14 +22643,14 @@
         }
       }
     },
-    "name": "wds-colors-shadow-color2",
+    "name": "wds-colors-shadow-color3",
     "attributes": {
       "category": "Colors",
       "type": "_Shadow",
-      "item": "color2"
+      "item": "color3"
     },
-    "path": ["Colors", "_Shadow", "color2"],
-    "key": "{Colors._Shadow.color2}"
+    "path": ["Colors", "_Shadow", "color3"],
+    "key": "{Colors._Shadow.color3}"
   },
   {
     "$type": "color",
@@ -22695,14 +22695,14 @@
         }
       }
     },
-    "name": "wds-colors-shadow-color7",
+    "name": "wds-colors-shadow-color8",
     "attributes": {
       "category": "Colors",
       "type": "_Shadow",
-      "item": "color7"
+      "item": "color8"
     },
-    "path": ["Colors", "_Shadow", "color7"],
-    "key": "{Colors._Shadow.color7}"
+    "path": ["Colors", "_Shadow", "color8"],
+    "key": "{Colors._Shadow.color8}"
   },
   {
     "$type": "color",
@@ -22747,14 +22747,14 @@
         }
       }
     },
-    "name": "wds-colors-shadow-color1",
+    "name": "wds-colors-shadow-color2",
     "attributes": {
       "category": "Colors",
       "type": "_Shadow",
-      "item": "color1"
+      "item": "color2"
     },
-    "path": ["Colors", "_Shadow", "color1"],
-    "key": "{Colors._Shadow.color1}"
+    "path": ["Colors", "_Shadow", "color2"],
+    "key": "{Colors._Shadow.color2}"
   },
   {
     "$type": "color",
@@ -22799,14 +22799,14 @@
         }
       }
     },
-    "name": "wds-colors-shadow-color5",
+    "name": "wds-colors-shadow-color6",
     "attributes": {
       "category": "Colors",
       "type": "_Shadow",
-      "item": "color5"
+      "item": "color6"
     },
-    "path": ["Colors", "_Shadow", "color5"],
-    "key": "{Colors._Shadow.color5}"
+    "path": ["Colors", "_Shadow", "color6"],
+    "key": "{Colors._Shadow.color6}"
   },
   {
     "$type": "color",
@@ -22851,14 +22851,14 @@
         }
       }
     },
-    "name": "wds-colors-shadow-color10",
+    "name": "wds-colors-shadow-color11",
     "attributes": {
       "category": "Colors",
       "type": "_Shadow",
-      "item": "color10"
+      "item": "color11"
     },
-    "path": ["Colors", "_Shadow", "color10"],
-    "key": "{Colors._Shadow.color10}"
+    "path": ["Colors", "_Shadow", "color11"],
+    "key": "{Colors._Shadow.color11}"
   },
   {
     "$type": "color",
@@ -24251,14 +24251,14 @@
         }
       }
     },
-    "name": "wds-colors-accent-transparent1",
+    "name": "wds-colors-accent-color13",
     "attributes": {
       "category": "Colors",
       "type": "_Accent",
-      "item": "transparent1"
+      "item": "color13"
     },
-    "path": ["Colors", "_Accent", "transparent1"],
-    "key": "{Colors._Accent.transparent1}"
+    "path": ["Colors", "_Accent", "color13"],
+    "key": "{Colors._Accent.color13}"
   },
   {
     "$type": "color",
