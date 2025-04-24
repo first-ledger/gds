@@ -1,5 +1,12 @@
 # GDS Changelog
 
+# [1.0.0-b.5](https://github.com/first-ledger/gds/compare/gds@1.0.0-b.4...gds@1.0.0-b.5) (2025-04-24)
+
+
+### Bug Fixes
+
+* reorder themed key items, fix incorrect assignment ([6c3e10e](https://github.com/first-ledger/gds/commit/6c3e10e5675cc1f6ee1f5047298a6dd3e9004a82))
+
 # [1.0.0-b.4](https://github.com/first-ledger/gds/compare/gds@1.0.0-b.3...gds@1.0.0-b.4) (2025-04-24)
 
 
