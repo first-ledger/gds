@@ -1,5 +1,12 @@
 # GDS Changelog
 
+# [1.0.0-b.6](https://github.com/first-ledger/gds/compare/gds@1.0.0-b.5...gds@1.0.0-b.6) (2025-04-24)
+
+
+### Bug Fixes
+
+* update color array palette assigments to start at 0 ([a2c7984](https://github.com/first-ledger/gds/commit/a2c7984c650b693f4cf09bfc4fc671f1616c6dfa))
+
 # [1.0.0-b.5](https://github.com/first-ledger/gds/compare/gds@1.0.0-b.4...gds@1.0.0-b.5) (2025-04-24)
 
 
