@@ -175,7 +175,7 @@ export const getThemeTemplate = (
       import * as Alternative from './assets/themes/Alternative/palette';
       import * as Neutral from './assets/themes/Neutral/palette';
 
-      const builtThemes = createThemes({
+      export const builtThemes = createThemes({
 
         componentThemes: defaultComponentThemes,
 

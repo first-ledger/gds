@@ -9,7 +9,7 @@ import * as Default from './assets/themes/Default/palette';
 import * as Alternative from './assets/themes/Alternative/palette';
 import * as Neutral from './assets/themes/Neutral/palette';
 
-export const builtThemes = createThemes({
+const builtThemes = createThemes({
   componentThemes: defaultComponentThemes,
 
   base: {
