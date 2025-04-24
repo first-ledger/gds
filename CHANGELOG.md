@@ -1,5 +1,12 @@
 # GDS Changelog
 
+# [1.0.0-b.4](https://github.com/first-ledger/gds/compare/gds@1.0.0-b.3...gds@1.0.0-b.4) (2025-04-24)
+
+
+### Bug Fixes
+
+* add export the generator script ([2a0fab1](https://github.com/first-ledger/gds/commit/2a0fab1b0b67c2dc020835388efa29745e8ad2ec))
+
 # [1.0.0-b.3](https://github.com/first-ledger/gds/compare/gds@1.0.0-b.2...gds@1.0.0-b.3) (2025-04-24)
 
 
