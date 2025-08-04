@@ -1,0 +1,3010 @@
+@import 'tailwindcss';
+
+@import './Light/tokens.css';
+@import './Dark/tokens.css';
+@import './Globals/tokens.css';
+
+@theme inline {
+  --color-50: var(--FLDS-color-primitives-brand-muted-50);
+  --color-100: var(--FLDS-color-primitives-brand-muted-100);
+  --color-200: var(--FLDS-color-primitives-brand-muted-200);
+  --color-300: var(--FLDS-color-primitives-brand-muted-300);
+  --color-400: var(--FLDS-color-primitives-brand-muted-400);
+  --color-500: var(--FLDS-color-primitives-brand-muted-500);
+  --color-600: var(--FLDS-color-primitives-brand-muted-600);
+  --color-700: var(--FLDS-color-primitives-brand-muted-700);
+  --color-800: var(--FLDS-color-primitives-brand-muted-800);
+  --color-900: var(--FLDS-color-primitives-brand-muted-900);
+  --color-1000: var(--FLDS-color-primitives-brand-muted-1000);
+  --color-primary: var(--FLDS-color-border-default-primary);
+  --color-secondary: var(--FLDS-color-border-neutral-secondary);
+  --color-tertiary: var(--FLDS-color-border-neutral-tertiary);
+  --color-primary-hover: var(--FLDS-color-background-default-primary-hover);
+  --color-secondary-hover: var(--FLDS-color-background-invert-secondary-hover);
+  --color-tertiary-hover: var(--FLDS-color-background-invert-tertiary-hover);
+  --color-default: var(--FLDS-theme-alias-surface-default);
+  --color-hover: var(--FLDS-color-background-accent-hover);
+  --color-scrim: var(--FLDS-color-background-utilities-scrim);
+  --color-overlay: var(--FLDS-color-background-utilities-overlay);
+  --color-blanket: var(--FLDS-color-background-utilities-blanket);
+  --color-measurement: var(--FLDS-color-border-utilities-measurement);
+  --color-highlight: var(--FLDS-color-background-utilities-highlight);
+  --color-highlight-2: var(--FLDS-color-background-utilities-highlight-2);
+  --color-highlight-brand: var(--FLDS-color-background-utilities-highlight-brand);
+  --color-highlight-brand-2: var(--FLDS-color-background-utilities-highlight-brand-2);
+  --color-highlight-brand-3: var(--FLDS-color-background-utilities-highlight-brand-3);
+  --color-highlight-brand-4: var(--FLDS-color-background-utilities-highlight-brand-4);
+  --color-secondary-2: var(--FLDS-color-background-neutral-secondary-2);
+  --color-default-hover: var(--FLDS-color-background-invert-default-hover);
+  --color-transparent: var(--FLDS-color-background-bold-transparent);
+  --color-on-brand: var(--FLDS-color-icon-brand-on-brand);
+  --color-on-brand-secondary: var(--FLDS-color-icon-brand-on-brand-secondary);
+  --color-on-brand-tertiary: var(--FLDS-color-icon-brand-on-brand-tertiary);
+  --color-on-positive: var(--FLDS-color-icon-positive-on-positive);
+  --color-on-positive-secondary: var(--FLDS-color-icon-positive-on-positive-secondary);
+  --color-on-positive-tertiary: var(--FLDS-color-icon-positive-on-positive-tertiary);
+  --color-on-warning: var(--FLDS-color-icon-warning-on-warning);
+  --color-on-warning-secondary: var(--FLDS-color-icon-warning-on-warning-secondary);
+  --color-on-warning-tertiary: var(--FLDS-color-icon-warning-on-warning-tertiary);
+  --color-on-danger: var(--FLDS-color-icon-danger-on-danger);
+  --color-on-danger-secondary: var(--FLDS-color-icon-danger-on-danger-secondary);
+  --color-on-danger-tertiary: var(--FLDS-color-icon-danger-on-danger-tertiary);
+  --color-on-disabled: var(--FLDS-color-icon-disabled-on-disabled);
+  --color-text-on-overlay: var(--FLDS-color-text-utilities-text-on-overlay);
+  --color-text-on-measurement: var(--FLDS-color-text-utilities-text-on-measurement);
+  --color-on-neutral: var(--FLDS-color-icon-neutral-on-neutral);
+  --color-on-neutral-secondary: var(--FLDS-color-icon-neutral-on-neutral-secondary);
+  --color-on-neutral-tertiary: var(--FLDS-color-icon-neutral-on-neutral-tertiary);
+  --color-icon-on-measurement: var(--FLDS-color-icon-utilities-icon-on-measurement);
+  --color-icon: var(--FLDS-color-icon-utilities-icon);
+  --color-swatch: var(--FLDS-color-border-utilities-swatch);
+  --color-white4: var(--FLDS-modals-overlay-white-white4);
+  --typography-primitives-scale-scale-10: var(--FLDS-typography-primitives-scale-scale-10);
+  --typography-primitives-scale-scale-09: var(--FLDS-typography-primitives-scale-scale-09);
+  --typography-primitives-scale-scale-08: var(--FLDS-typography-primitives-scale-scale-08);
+  --typography-primitives-scale-scale-07: var(--FLDS-typography-primitives-scale-scale-07);
+  --typography-primitives-scale-scale-06: var(--FLDS-typography-primitives-scale-scale-06);
+  --typography-primitives-scale-scale-05: var(--FLDS-typography-primitives-scale-scale-05);
+  --typography-primitives-scale-scale-04: var(--FLDS-typography-primitives-scale-scale-04);
+  --typography-primitives-scale-scale-03: var(--FLDS-typography-primitives-scale-scale-03);
+  --typography-primitives-scale-scale-02: var(--FLDS-typography-primitives-scale-scale-02);
+  --typography-primitives-scale-scale-01: var(--FLDS-typography-primitives-scale-scale-01);
+  --font-weight-e-x-t-r-a-b-o-l-d: var(--FLDS-typography-primitives-weight-extrabold);
+  --font-weight-m-e-d-i-u-m: var(--FLDS-typography-primitives-weight-medium);
+  --font-weight-r-e-g-u-l-a-r: var(--FLDS-typography-primitives-weight-regular);
+  --font-weight-b-l-a-c-k: var(--FLDS-typography-primitives-weight-black);
+  --font-weight-b-o-l-d: var(--FLDS-typography-primitives-weight-bold);
+  --font-weight-s-e-m-i-b-o-l-d: var(--FLDS-typography-primitives-weight-semibold);
+  --font-weight-l-i-g-h-t: var(--FLDS-typography-primitives-weight-light);
+  --font-weight-e-x-t-r-a-l-i-g-h-t: var(--FLDS-typography-primitives-weight-extralight);
+  --font-weight-t-h-i-n: var(--FLDS-typography-primitives-weight-thin);
+  --font-size-1-0: var(--FLDS-typography-primitives-size-10);
+  --font-size-1-1: var(--FLDS-typography-primitives-size-11);
+  --font-size-1-2: var(--FLDS-typography-primitives-size-12);
+  --font-size-1-3: var(--FLDS-typography-primitives-size-13);
+  --font-size-1-4: var(--FLDS-typography-primitives-size-14);
+  --font-size-1-5: var(--FLDS-typography-primitives-size-15);
+  --font-size-1-6: var(--FLDS-typography-primitives-size-16);
+  --typography-primitives-size-17: var(--FLDS-typography-primitives-size-17);
+  --font-size-0-7: var(--FLDS-typography-primitives-size-07);
+  --font-size-0-4: var(--FLDS-typography-primitives-size-04);
+  --font-size-0-6: var(--FLDS-typography-primitives-size-06);
+  --font-size-0-3: var(--FLDS-typography-primitives-size-03);
+  --font-size-0-2: var(--FLDS-typography-primitives-size-02);
+  --font-size-0-5: var(--FLDS-typography-primitives-size-05);
+  --font-size-0-9: var(--FLDS-typography-primitives-size-09);
+  --font-size-0-8: var(--FLDS-typography-primitives-size-08);
+  --font-size-0-1: var(--FLDS-typography-primitives-size-01);
+  --font-family-i-n-t-e-r: var(--FLDS-typography-primitives-family-inter);
+  --font-family-m-o-n-o: var(--FLDS-typography-primitives-family-mono);
+  --font-family-s-e-r-i-f: var(--FLDS-typography-primitives-family-serif);
+  --typography-primitives-italic-black: var(--FLDS-typography-primitives-italic-black);
+  --typography-primitives-italic-extrabold: var(--FLDS-typography-primitives-italic-extrabold);
+  --typography-primitives-italic-bold: var(--FLDS-typography-primitives-italic-bold);
+  --typography-primitives-italic-semibold: var(--FLDS-typography-primitives-italic-semibold);
+  --typography-primitives-italic-medium: var(--FLDS-typography-primitives-italic-medium);
+  --typography-primitives-italic-thin: var(--FLDS-typography-primitives-italic-thin);
+  --typography-primitives-italic-regular: var(--FLDS-typography-primitives-italic-regular);
+  --typography-primitives-italic-light: var(--FLDS-typography-primitives-italic-light);
+  --typography-primitives-italic-extralight: var(--FLDS-typography-primitives-italic-extralight);
+  --typography-primitives-percentage-100: var(--FLDS-typography-primitives-percentage-100);
+  --typography-primitives-percentage-105: var(--FLDS-typography-primitives-percentage-105);
+  --typography-primitives-percentage-110: var(--FLDS-typography-primitives-percentage-110);
+  --typography-primitives-percentage-115: var(--FLDS-typography-primitives-percentage-115);
+  --typography-primitives-percentage-120: var(--FLDS-typography-primitives-percentage-120);
+  --typography-primitives-percentage-125: var(--FLDS-typography-primitives-percentage-125);
+  --typography-primitives-percentage-150: var(--FLDS-typography-primitives-percentage-150);
+  --typography-primitives-percentage-175: var(--FLDS-typography-primitives-percentage-175);
+  --typography-primitives-percentage-200: var(--FLDS-typography-primitives-percentage-200);
+  --typography-primitives-percentage-050: var(--FLDS-typography-primitives-percentage-050);
+  --typography-primitives-percentage-090: var(--FLDS-typography-primitives-percentage-090);
+  --size-space-0: var(--FLDS-size-space-0);
+  --size-space-100: var(--FLDS-size-space-100);
+  --size-space-150: var(--FLDS-size-space-150);
+  --size-space-200: var(--FLDS-size-space-200);
+  --size-space-300: var(--FLDS-size-space-300);
+  --size-space-400: var(--FLDS-size-space-400);
+  --size-space-600: var(--FLDS-size-space-600);
+  --size-space-800: var(--FLDS-size-space-800);
+  --size-space-1200: var(--FLDS-size-space-1200);
+  --size-space-1600: var(--FLDS-size-space-1600);
+  --size-space-2400: var(--FLDS-size-space-2400);
+  --size-space-3000: var(--FLDS-size-space-3000);
+  --size-space-4000: var(--FLDS-size-space-4000);
+  --size-space-negative-100: var(--FLDS-size-space-negative-100);
+  --size-space-negative-200: var(--FLDS-size-space-negative-200);
+  --size-space-negative-300: var(--FLDS-size-space-negative-300);
+  --size-space-negative-400: var(--FLDS-size-space-negative-400);
+  --size-space-negative-600: var(--FLDS-size-space-negative-600);
+  --size-space-050: var(--FLDS-size-space-050);
+  --size-radius-100: var(--FLDS-size-radius-100);
+  --size-radius-200: var(--FLDS-size-radius-200);
+  --size-radius-300: var(--FLDS-size-radius-300);
+  --size-radius-400: var(--FLDS-size-radius-400);
+  --size-radius-480: var(--FLDS-size-radius-480);
+  --size-radius-500: var(--FLDS-size-radius-500);
+  --size-radius-600: var(--FLDS-size-radius-600);
+  --size-radius-full: var(--FLDS-size-radius-full);
+  --size-depth-0: var(--FLDS-size-depth-0);
+  --size-depth-100: var(--FLDS-size-depth-100);
+  --size-depth-200: var(--FLDS-size-depth-200);
+  --size-depth-400: var(--FLDS-size-depth-400);
+  --size-depth-800: var(--FLDS-size-depth-800);
+  --size-depth-1200: var(--FLDS-size-depth-1200);
+  --size-depth-025: var(--FLDS-size-depth-025);
+  --size-depth-negative-025: var(--FLDS-size-depth-negative-025);
+  --size-depth-negative-100: var(--FLDS-size-depth-negative-100);
+  --size-depth-negative-200: var(--FLDS-size-depth-negative-200);
+  --size-depth-negative-400: var(--FLDS-size-depth-negative-400);
+  --size-depth-negative-800: var(--FLDS-size-depth-negative-800);
+  --size-depth-negative-1200: var(--FLDS-size-depth-negative-1200);
+  --size-border-100: var(--FLDS-size-border-100);
+  --size-border-200: var(--FLDS-size-border-200);
+  --size-border-250: var(--FLDS-size-border-250);
+  --size-border-300: var(--FLDS-size-border-300);
+  --size-border-400: var(--FLDS-size-border-400);
+  --size-border-500: var(--FLDS-size-border-500);
+  --size-ring-100: var(--FLDS-size-ring-100);
+  --size-ring-200: var(--FLDS-size-ring-200);
+  --size-ring-300: var(--FLDS-size-ring-300);
+  --size-ring-400: var(--FLDS-size-ring-400);
+  --size-ring-500: var(--FLDS-size-ring-500);
+  --size-blur-100: var(--FLDS-size-blur-100);
+  --size-icon-small: var(--FLDS-size-icon-small);
+  --size-icon-medium: var(--FLDS-size-icon-medium);
+  --size-icon-large: var(--FLDS-size-icon-large);
+  --size-icon-2x-large: var(--FLDS-size-icon-2-x-large);
+  --size-icon-x-large: var(--FLDS-size-icon-x-large);
+  --size-icon-3x-large: var(--FLDS-size-icon-3-x-large);
+  --size-padding-desktop: var(--FLDS-size-padding-desktop);
+  --typography-font-family-primary: var(--FLDS-typography-font-family-primary);
+  --typography-font-family-secondary: var(--FLDS-typography-font-family-secondary);
+  --typography-font-family-tertiary: var(--FLDS-typography-font-family-tertiary);
+  --typography-font-line-0: var(--FLDS-typography-font-line-0);
+  --typography-font-line-1: var(--FLDS-typography-font-line-1);
+  --typography-font-line-2: var(--FLDS-typography-font-line-2);
+  --typography-font-line-3: var(--FLDS-typography-font-line-3);
+  --typography-font-line-4: var(--FLDS-typography-font-line-4);
+  --typography-font-line-5: var(--FLDS-typography-font-line-5);
+  --typography-font-line-negative-1: var(--FLDS-typography-font-line-negative-1);
+  --typography-font-spread-0: var(--FLDS-typography-font-spread-0);
+  --typography-font-spread-1: var(--FLDS-typography-font-spread-1);
+  --typography-font-spread-2: var(--FLDS-typography-font-spread-2);
+  --typography-font-spread-3: var(--FLDS-typography-font-spread-3);
+  --typography-font-spread-4: var(--FLDS-typography-font-spread-4);
+  --typography-font-spread-5: var(--FLDS-typography-font-spread-5);
+  --typography-font-spread-negative-1: var(--FLDS-typography-font-spread-negative-1);
+  --font-size-2-x-l: var(--FLDS-typography-font-size-2xl);
+  --font-size-x-s: var(--FLDS-typography-font-size-xs);
+  --font-size-b-a-s-e: var(--FLDS-typography-font-size-base);
+  --font-size-8-x-l: var(--FLDS-typography-font-size-8xl);
+  --font-size-1-0-x-l: var(--FLDS-typography-font-size-10xl);
+  --font-size-5-x-l: var(--FLDS-typography-font-size-5xl);
+  --typography-font-size-11xl: var(--FLDS-typography-font-size-11xl);
+  --font-size-7-x-l: var(--FLDS-typography-font-size-7xl);
+  --font-size-s-m: var(--FLDS-typography-font-size-sm);
+  --font-size-9-x-l: var(--FLDS-typography-font-size-9xl);
+  --font-size-3-x-l: var(--FLDS-typography-font-size-3xl);
+  --font-size-x-l: var(--FLDS-typography-font-size-xl);
+  --font-size-6-x-l: var(--FLDS-typography-font-size-6xl);
+  --font-size-m-d: var(--FLDS-typography-font-size-md);
+  --font-size-l-g: var(--FLDS-typography-font-size-lg);
+  --typography-font-size-4xl: var(--FLDS-typography-font-size-4xl);
+  --font-family-display-large-light: var(
+    --FLDS-typography-typography-display-large-light-font-family
+  );
+  --font-weight-display-large-light: var(
+    --FLDS-typography-typography-display-large-light-font-weight
+  );
+  --font-size-display-large-light: var(--FLDS-typography-typography-display-large-light-font-size);
+  --line-height-display-large-light: var(
+    --FLDS-typography-typography-display-large-light-line-height
+  );
+  --letter-spacing-display-large-light: var(
+    --FLDS-typography-typography-display-large-light-letter-spacing
+  );
+  --paragraph-spacing-display-large-light: var(
+    --FLDS-typography-typography-display-large-light-paragraph-spacing
+  );
+  --paragraph-indent-display-large-light: var(
+    --FLDS-typography-typography-display-large-light-paragraph-indent
+  );
+  --text-decoration-display-large-light: var(
+    --FLDS-typography-typography-display-large-light-text-decoration
+  );
+  --text-case-display-large-light: var(--FLDS-typography-typography-display-large-light-text-case);
+  --font-family-display-large-reguler: var(
+    --FLDS-typography-typography-display-large-reguler-font-family
+  );
+  --font-weight-display-large-reguler: var(
+    --FLDS-typography-typography-display-large-reguler-font-weight
+  );
+  --font-size-display-large-reguler: var(
+    --FLDS-typography-typography-display-large-reguler-font-size
+  );
+  --line-height-display-large-reguler: var(
+    --FLDS-typography-typography-display-large-reguler-line-height
+  );
+  --letter-spacing-display-large-reguler: var(
+    --FLDS-typography-typography-display-large-reguler-letter-spacing
+  );
+  --paragraph-spacing-display-large-reguler: var(
+    --FLDS-typography-typography-display-large-reguler-paragraph-spacing
+  );
+  --paragraph-indent-display-large-reguler: var(
+    --FLDS-typography-typography-display-large-reguler-paragraph-indent
+  );
+  --text-decoration-display-large-reguler: var(
+    --FLDS-typography-typography-display-large-reguler-text-decoration
+  );
+  --text-case-display-large-reguler: var(
+    --FLDS-typography-typography-display-large-reguler-text-case
+  );
+  --font-family-display-large-medium: var(
+    --FLDS-typography-typography-display-large-medium-font-family
+  );
+  --font-weight-display-large-medium: var(
+    --FLDS-typography-typography-display-large-medium-font-weight
+  );
+  --font-size-display-large-medium: var(
+    --FLDS-typography-typography-display-large-medium-font-size
+  );
+  --line-height-display-large-medium: var(
+    --FLDS-typography-typography-display-large-medium-line-height
+  );
+  --letter-spacing-display-large-medium: var(
+    --FLDS-typography-typography-display-large-medium-letter-spacing
+  );
+  --paragraph-spacing-display-large-medium: var(
+    --FLDS-typography-typography-display-large-medium-paragraph-spacing
+  );
+  --paragraph-indent-display-large-medium: var(
+    --FLDS-typography-typography-display-large-medium-paragraph-indent
+  );
+  --text-decoration-display-large-medium: var(
+    --FLDS-typography-typography-display-large-medium-text-decoration
+  );
+  --text-case-display-large-medium: var(
+    --FLDS-typography-typography-display-large-medium-text-case
+  );
+  --font-family-display-large-semibold: var(
+    --FLDS-typography-typography-display-large-semibold-font-family
+  );
+  --font-weight-display-large-semibold: var(
+    --FLDS-typography-typography-display-large-semibold-font-weight
+  );
+  --font-size-display-large-semibold: var(
+    --FLDS-typography-typography-display-large-semibold-font-size
+  );
+  --line-height-display-large-semibold: var(
+    --FLDS-typography-typography-display-large-semibold-line-height
+  );
+  --letter-spacing-display-large-semibold: var(
+    --FLDS-typography-typography-display-large-semibold-letter-spacing
+  );
+  --paragraph-spacing-display-large-semibold: var(
+    --FLDS-typography-typography-display-large-semibold-paragraph-spacing
+  );
+  --paragraph-indent-display-large-semibold: var(
+    --FLDS-typography-typography-display-large-semibold-paragraph-indent
+  );
+  --text-decoration-display-large-semibold: var(
+    --FLDS-typography-typography-display-large-semibold-text-decoration
+  );
+  --text-case-display-large-semibold: var(
+    --FLDS-typography-typography-display-large-semibold-text-case
+  );
+  --font-family-display-large-bold: var(
+    --FLDS-typography-typography-display-large-bold-font-family
+  );
+  --font-weight-display-large-bold: var(
+    --FLDS-typography-typography-display-large-bold-font-weight
+  );
+  --font-size-display-large-bold: var(--FLDS-typography-typography-display-large-bold-font-size);
+  --line-height-display-large-bold: var(
+    --FLDS-typography-typography-display-large-bold-line-height
+  );
+  --letter-spacing-display-large-bold: var(
+    --FLDS-typography-typography-display-large-bold-letter-spacing
+  );
+  --paragraph-spacing-display-large-bold: var(
+    --FLDS-typography-typography-display-large-bold-paragraph-spacing
+  );
+  --paragraph-indent-display-large-bold: var(
+    --FLDS-typography-typography-display-large-bold-paragraph-indent
+  );
+  --text-decoration-display-large-bold: var(
+    --FLDS-typography-typography-display-large-bold-text-decoration
+  );
+  --text-case-display-large-bold: var(--FLDS-typography-typography-display-large-bold-text-case);
+  --font-family-display-large-extrabold: var(
+    --FLDS-typography-typography-display-large-extrabold-font-family
+  );
+  --font-weight-display-large-extrabold: var(
+    --FLDS-typography-typography-display-large-extrabold-font-weight
+  );
+  --font-size-display-large-extrabold: var(
+    --FLDS-typography-typography-display-large-extrabold-font-size
+  );
+  --line-height-display-large-extrabold: var(
+    --FLDS-typography-typography-display-large-extrabold-line-height
+  );
+  --letter-spacing-display-large-extrabold: var(
+    --FLDS-typography-typography-display-large-extrabold-letter-spacing
+  );
+  --paragraph-spacing-display-large-extrabold: var(
+    --FLDS-typography-typography-display-large-extrabold-paragraph-spacing
+  );
+  --paragraph-indent-display-large-extrabold: var(
+    --FLDS-typography-typography-display-large-extrabold-paragraph-indent
+  );
+  --text-decoration-display-large-extrabold: var(
+    --FLDS-typography-typography-display-large-extrabold-text-decoration
+  );
+  --text-case-display-large-extrabold: var(
+    --FLDS-typography-typography-display-large-extrabold-text-case
+  );
+  --font-family-display-large-strong: var(
+    --FLDS-typography-typography-display-large-strong-font-family
+  );
+  --font-weight-display-large-strong: var(
+    --FLDS-typography-typography-display-large-strong-font-weight
+  );
+  --font-size-display-large-strong: var(
+    --FLDS-typography-typography-display-large-strong-font-size
+  );
+  --line-height-display-large-strong: var(
+    --FLDS-typography-typography-display-large-strong-line-height
+  );
+  --letter-spacing-display-large-strong: var(
+    --FLDS-typography-typography-display-large-strong-letter-spacing
+  );
+  --paragraph-spacing-display-large-strong: var(
+    --FLDS-typography-typography-display-large-strong-paragraph-spacing
+  );
+  --paragraph-indent-display-large-strong: var(
+    --FLDS-typography-typography-display-large-strong-paragraph-indent
+  );
+  --text-decoration-display-large-strong: var(
+    --FLDS-typography-typography-display-large-strong-text-decoration
+  );
+  --text-case-display-large-strong: var(
+    --FLDS-typography-typography-display-large-strong-text-case
+  );
+  --font-family-display-small-light: var(
+    --FLDS-typography-typography-display-small-light-font-family
+  );
+  --font-weight-display-small-light: var(
+    --FLDS-typography-typography-display-small-light-font-weight
+  );
+  --font-size-display-small-light: var(--FLDS-typography-typography-display-small-light-font-size);
+  --line-height-display-small-light: var(
+    --FLDS-typography-typography-display-small-light-line-height
+  );
+  --letter-spacing-display-small-light: var(
+    --FLDS-typography-typography-display-small-light-letter-spacing
+  );
+  --paragraph-spacing-display-small-light: var(
+    --FLDS-typography-typography-display-small-light-paragraph-spacing
+  );
+  --paragraph-indent-display-small-light: var(
+    --FLDS-typography-typography-display-small-light-paragraph-indent
+  );
+  --text-decoration-display-small-light: var(
+    --FLDS-typography-typography-display-small-light-text-decoration
+  );
+  --text-case-display-small-light: var(--FLDS-typography-typography-display-small-light-text-case);
+  --font-family-display-small-regular: var(
+    --FLDS-typography-typography-display-small-regular-font-family
+  );
+  --font-weight-display-small-regular: var(
+    --FLDS-typography-typography-display-small-regular-font-weight
+  );
+  --font-size-display-small-regular: var(
+    --FLDS-typography-typography-display-small-regular-font-size
+  );
+  --line-height-display-small-regular: var(
+    --FLDS-typography-typography-display-small-regular-line-height
+  );
+  --letter-spacing-display-small-regular: var(
+    --FLDS-typography-typography-display-small-regular-letter-spacing
+  );
+  --paragraph-spacing-display-small-regular: var(
+    --FLDS-typography-typography-display-small-regular-paragraph-spacing
+  );
+  --paragraph-indent-display-small-regular: var(
+    --FLDS-typography-typography-display-small-regular-paragraph-indent
+  );
+  --text-decoration-display-small-regular: var(
+    --FLDS-typography-typography-display-small-regular-text-decoration
+  );
+  --text-case-display-small-regular: var(
+    --FLDS-typography-typography-display-small-regular-text-case
+  );
+  --font-family-display-small-medium: var(
+    --FLDS-typography-typography-display-small-medium-font-family
+  );
+  --font-weight-display-small-medium: var(
+    --FLDS-typography-typography-display-small-medium-font-weight
+  );
+  --font-size-display-small-medium: var(
+    --FLDS-typography-typography-display-small-medium-font-size
+  );
+  --line-height-display-small-medium: var(
+    --FLDS-typography-typography-display-small-medium-line-height
+  );
+  --letter-spacing-display-small-medium: var(
+    --FLDS-typography-typography-display-small-medium-letter-spacing
+  );
+  --paragraph-spacing-display-small-medium: var(
+    --FLDS-typography-typography-display-small-medium-paragraph-spacing
+  );
+  --paragraph-indent-display-small-medium: var(
+    --FLDS-typography-typography-display-small-medium-paragraph-indent
+  );
+  --text-decoration-display-small-medium: var(
+    --FLDS-typography-typography-display-small-medium-text-decoration
+  );
+  --text-case-display-small-medium: var(
+    --FLDS-typography-typography-display-small-medium-text-case
+  );
+  --font-family-display-small-semibold: var(
+    --FLDS-typography-typography-display-small-semibold-font-family
+  );
+  --font-weight-display-small-semibold: var(
+    --FLDS-typography-typography-display-small-semibold-font-weight
+  );
+  --font-size-display-small-semibold: var(
+    --FLDS-typography-typography-display-small-semibold-font-size
+  );
+  --line-height-display-small-semibold: var(
+    --FLDS-typography-typography-display-small-semibold-line-height
+  );
+  --letter-spacing-display-small-semibold: var(
+    --FLDS-typography-typography-display-small-semibold-letter-spacing
+  );
+  --paragraph-spacing-display-small-semibold: var(
+    --FLDS-typography-typography-display-small-semibold-paragraph-spacing
+  );
+  --paragraph-indent-display-small-semibold: var(
+    --FLDS-typography-typography-display-small-semibold-paragraph-indent
+  );
+  --text-decoration-display-small-semibold: var(
+    --FLDS-typography-typography-display-small-semibold-text-decoration
+  );
+  --text-case-display-small-semibold: var(
+    --FLDS-typography-typography-display-small-semibold-text-case
+  );
+  --font-family-display-small-bold: var(
+    --FLDS-typography-typography-display-small-bold-font-family
+  );
+  --font-weight-display-small-bold: var(
+    --FLDS-typography-typography-display-small-bold-font-weight
+  );
+  --font-size-display-small-bold: var(--FLDS-typography-typography-display-small-bold-font-size);
+  --line-height-display-small-bold: var(
+    --FLDS-typography-typography-display-small-bold-line-height
+  );
+  --letter-spacing-display-small-bold: var(
+    --FLDS-typography-typography-display-small-bold-letter-spacing
+  );
+  --paragraph-spacing-display-small-bold: var(
+    --FLDS-typography-typography-display-small-bold-paragraph-spacing
+  );
+  --paragraph-indent-display-small-bold: var(
+    --FLDS-typography-typography-display-small-bold-paragraph-indent
+  );
+  --text-decoration-display-small-bold: var(
+    --FLDS-typography-typography-display-small-bold-text-decoration
+  );
+  --text-case-display-small-bold: var(--FLDS-typography-typography-display-small-bold-text-case);
+  --font-family-display-small-extrabold: var(
+    --FLDS-typography-typography-display-small-extrabold-font-family
+  );
+  --font-weight-display-small-extrabold: var(
+    --FLDS-typography-typography-display-small-extrabold-font-weight
+  );
+  --font-size-display-small-extrabold: var(
+    --FLDS-typography-typography-display-small-extrabold-font-size
+  );
+  --line-height-display-small-extrabold: var(
+    --FLDS-typography-typography-display-small-extrabold-line-height
+  );
+  --letter-spacing-display-small-extrabold: var(
+    --FLDS-typography-typography-display-small-extrabold-letter-spacing
+  );
+  --paragraph-spacing-display-small-extrabold: var(
+    --FLDS-typography-typography-display-small-extrabold-paragraph-spacing
+  );
+  --paragraph-indent-display-small-extrabold: var(
+    --FLDS-typography-typography-display-small-extrabold-paragraph-indent
+  );
+  --text-decoration-display-small-extrabold: var(
+    --FLDS-typography-typography-display-small-extrabold-text-decoration
+  );
+  --text-case-display-small-extrabold: var(
+    --FLDS-typography-typography-display-small-extrabold-text-case
+  );
+  --font-family-display-small-strong: var(
+    --FLDS-typography-typography-display-small-strong-font-family
+  );
+  --font-weight-display-small-strong: var(
+    --FLDS-typography-typography-display-small-strong-font-weight
+  );
+  --font-size-display-small-strong: var(
+    --FLDS-typography-typography-display-small-strong-font-size
+  );
+  --line-height-display-small-strong: var(
+    --FLDS-typography-typography-display-small-strong-line-height
+  );
+  --letter-spacing-display-small-strong: var(
+    --FLDS-typography-typography-display-small-strong-letter-spacing
+  );
+  --paragraph-spacing-display-small-strong: var(
+    --FLDS-typography-typography-display-small-strong-paragraph-spacing
+  );
+  --paragraph-indent-display-small-strong: var(
+    --FLDS-typography-typography-display-small-strong-paragraph-indent
+  );
+  --text-decoration-display-small-strong: var(
+    --FLDS-typography-typography-display-small-strong-text-decoration
+  );
+  --text-case-display-small-strong: var(
+    --FLDS-typography-typography-display-small-strong-text-case
+  );
+  --font-family-heading-h1-light: var(--FLDS-typography-typography-heading-h1-light-font-family);
+  --font-weight-heading-h1-light: var(--FLDS-typography-typography-heading-h1-light-font-weight);
+  --font-size-heading-h1-light: var(--FLDS-typography-typography-heading-h1-light-font-size);
+  --line-height-heading-h1-light: var(--FLDS-typography-typography-heading-h1-light-line-height);
+  --letter-spacing-heading-h1-light: var(
+    --FLDS-typography-typography-heading-h1-light-letter-spacing
+  );
+  --paragraph-spacing-heading-h1-light: var(
+    --FLDS-typography-typography-heading-h1-light-paragraph-spacing
+  );
+  --paragraph-indent-heading-h1-light: var(
+    --FLDS-typography-typography-heading-h1-light-paragraph-indent
+  );
+  --text-decoration-heading-h1-light: var(
+    --FLDS-typography-typography-heading-h1-light-text-decoration
+  );
+  --text-case-heading-h1-light: var(--FLDS-typography-typography-heading-h1-light-text-case);
+  --font-family-heading-h1-medium: var(--FLDS-typography-typography-heading-h1-medium-font-family);
+  --font-weight-heading-h1-medium: var(--FLDS-typography-typography-heading-h1-medium-font-weight);
+  --font-size-heading-h1-medium: var(--FLDS-typography-typography-heading-h1-medium-font-size);
+  --line-height-heading-h1-medium: var(--FLDS-typography-typography-heading-h1-medium-line-height);
+  --letter-spacing-heading-h1-medium: var(
+    --FLDS-typography-typography-heading-h1-medium-letter-spacing
+  );
+  --paragraph-spacing-heading-h1-medium: var(
+    --FLDS-typography-typography-heading-h1-medium-paragraph-spacing
+  );
+  --paragraph-indent-heading-h1-medium: var(
+    --FLDS-typography-typography-heading-h1-medium-paragraph-indent
+  );
+  --text-decoration-heading-h1-medium: var(
+    --FLDS-typography-typography-heading-h1-medium-text-decoration
+  );
+  --text-case-heading-h1-medium: var(--FLDS-typography-typography-heading-h1-medium-text-case);
+  --font-family-heading-h1-semibold: var(
+    --FLDS-typography-typography-heading-h1-semibold-font-family
+  );
+  --font-weight-heading-h1-semibold: var(
+    --FLDS-typography-typography-heading-h1-semibold-font-weight
+  );
+  --font-size-heading-h1-semibold: var(--FLDS-typography-typography-heading-h1-semibold-font-size);
+  --line-height-heading-h1-semibold: var(
+    --FLDS-typography-typography-heading-h1-semibold-line-height
+  );
+  --letter-spacing-heading-h1-semibold: var(
+    --FLDS-typography-typography-heading-h1-semibold-letter-spacing
+  );
+  --paragraph-spacing-heading-h1-semibold: var(
+    --FLDS-typography-typography-heading-h1-semibold-paragraph-spacing
+  );
+  --paragraph-indent-heading-h1-semibold: var(
+    --FLDS-typography-typography-heading-h1-semibold-paragraph-indent
+  );
+  --text-decoration-heading-h1-semibold: var(
+    --FLDS-typography-typography-heading-h1-semibold-text-decoration
+  );
+  --text-case-heading-h1-semibold: var(--FLDS-typography-typography-heading-h1-semibold-text-case);
+  --font-family-heading-h1-bold: var(--FLDS-typography-typography-heading-h1-bold-font-family);
+  --font-weight-heading-h1-bold: var(--FLDS-typography-typography-heading-h1-bold-font-weight);
+  --font-size-heading-h1-bold: var(--FLDS-typography-typography-heading-h1-bold-font-size);
+  --line-height-heading-h1-bold: var(--FLDS-typography-typography-heading-h1-bold-line-height);
+  --letter-spacing-heading-h1-bold: var(
+    --FLDS-typography-typography-heading-h1-bold-letter-spacing
+  );
+  --paragraph-spacing-heading-h1-bold: var(
+    --FLDS-typography-typography-heading-h1-bold-paragraph-spacing
+  );
+  --paragraph-indent-heading-h1-bold: var(
+    --FLDS-typography-typography-heading-h1-bold-paragraph-indent
+  );
+  --text-decoration-heading-h1-bold: var(
+    --FLDS-typography-typography-heading-h1-bold-text-decoration
+  );
+  --text-case-heading-h1-bold: var(--FLDS-typography-typography-heading-h1-bold-text-case);
+  --font-family-heading-h1-extrabold: var(
+    --FLDS-typography-typography-heading-h1-extrabold-font-family
+  );
+  --font-weight-heading-h1-extrabold: var(
+    --FLDS-typography-typography-heading-h1-extrabold-font-weight
+  );
+  --font-size-heading-h1-extrabold: var(
+    --FLDS-typography-typography-heading-h1-extrabold-font-size
+  );
+  --line-height-heading-h1-extrabold: var(
+    --FLDS-typography-typography-heading-h1-extrabold-line-height
+  );
+  --letter-spacing-heading-h1-extrabold: var(
+    --FLDS-typography-typography-heading-h1-extrabold-letter-spacing
+  );
+  --paragraph-spacing-heading-h1-extrabold: var(
+    --FLDS-typography-typography-heading-h1-extrabold-paragraph-spacing
+  );
+  --paragraph-indent-heading-h1-extrabold: var(
+    --FLDS-typography-typography-heading-h1-extrabold-paragraph-indent
+  );
+  --text-decoration-heading-h1-extrabold: var(
+    --FLDS-typography-typography-heading-h1-extrabold-text-decoration
+  );
+  --text-case-heading-h1-extrabold: var(
+    --FLDS-typography-typography-heading-h1-extrabold-text-case
+  );
+  --font-family-heading-h1-strong: var(--FLDS-typography-typography-heading-h1-strong-font-family);
+  --font-weight-heading-h1-strong: var(--FLDS-typography-typography-heading-h1-strong-font-weight);
+  --font-size-heading-h1-strong: var(--FLDS-typography-typography-heading-h1-strong-font-size);
+  --line-height-heading-h1-strong: var(--FLDS-typography-typography-heading-h1-strong-line-height);
+  --letter-spacing-heading-h1-strong: var(
+    --FLDS-typography-typography-heading-h1-strong-letter-spacing
+  );
+  --paragraph-spacing-heading-h1-strong: var(
+    --FLDS-typography-typography-heading-h1-strong-paragraph-spacing
+  );
+  --paragraph-indent-heading-h1-strong: var(
+    --FLDS-typography-typography-heading-h1-strong-paragraph-indent
+  );
+  --text-decoration-heading-h1-strong: var(
+    --FLDS-typography-typography-heading-h1-strong-text-decoration
+  );
+  --text-case-heading-h1-strong: var(--FLDS-typography-typography-heading-h1-strong-text-case);
+  --font-family-heading-h2-light: var(--FLDS-typography-typography-heading-h2-light-font-family);
+  --font-weight-heading-h2-light: var(--FLDS-typography-typography-heading-h2-light-font-weight);
+  --font-size-heading-h2-light: var(--FLDS-typography-typography-heading-h2-light-font-size);
+  --line-height-heading-h2-light: var(--FLDS-typography-typography-heading-h2-light-line-height);
+  --letter-spacing-heading-h2-light: var(
+    --FLDS-typography-typography-heading-h2-light-letter-spacing
+  );
+  --paragraph-spacing-heading-h2-light: var(
+    --FLDS-typography-typography-heading-h2-light-paragraph-spacing
+  );
+  --paragraph-indent-heading-h2-light: var(
+    --FLDS-typography-typography-heading-h2-light-paragraph-indent
+  );
+  --text-decoration-heading-h2-light: var(
+    --FLDS-typography-typography-heading-h2-light-text-decoration
+  );
+  --text-case-heading-h2-light: var(--FLDS-typography-typography-heading-h2-light-text-case);
+  --font-family-heading-h2-medium: var(--FLDS-typography-typography-heading-h2-medium-font-family);
+  --font-weight-heading-h2-medium: var(--FLDS-typography-typography-heading-h2-medium-font-weight);
+  --font-size-heading-h2-medium: var(--FLDS-typography-typography-heading-h2-medium-font-size);
+  --line-height-heading-h2-medium: var(--FLDS-typography-typography-heading-h2-medium-line-height);
+  --letter-spacing-heading-h2-medium: var(
+    --FLDS-typography-typography-heading-h2-medium-letter-spacing
+  );
+  --paragraph-spacing-heading-h2-medium: var(
+    --FLDS-typography-typography-heading-h2-medium-paragraph-spacing
+  );
+  --paragraph-indent-heading-h2-medium: var(
+    --FLDS-typography-typography-heading-h2-medium-paragraph-indent
+  );
+  --text-decoration-heading-h2-medium: var(
+    --FLDS-typography-typography-heading-h2-medium-text-decoration
+  );
+  --text-case-heading-h2-medium: var(--FLDS-typography-typography-heading-h2-medium-text-case);
+  --font-family-heading-h2-bold: var(--FLDS-typography-typography-heading-h2-bold-font-family);
+  --font-weight-heading-h2-bold: var(--FLDS-typography-typography-heading-h2-bold-font-weight);
+  --font-size-heading-h2-bold: var(--FLDS-typography-typography-heading-h2-bold-font-size);
+  --line-height-heading-h2-bold: var(--FLDS-typography-typography-heading-h2-bold-line-height);
+  --letter-spacing-heading-h2-bold: var(
+    --FLDS-typography-typography-heading-h2-bold-letter-spacing
+  );
+  --paragraph-spacing-heading-h2-bold: var(
+    --FLDS-typography-typography-heading-h2-bold-paragraph-spacing
+  );
+  --paragraph-indent-heading-h2-bold: var(
+    --FLDS-typography-typography-heading-h2-bold-paragraph-indent
+  );
+  --text-decoration-heading-h2-bold: var(
+    --FLDS-typography-typography-heading-h2-bold-text-decoration
+  );
+  --text-case-heading-h2-bold: var(--FLDS-typography-typography-heading-h2-bold-text-case);
+  --font-family-heading-h2-semibold: var(
+    --FLDS-typography-typography-heading-h2-semibold-font-family
+  );
+  --font-weight-heading-h2-semibold: var(
+    --FLDS-typography-typography-heading-h2-semibold-font-weight
+  );
+  --font-size-heading-h2-semibold: var(--FLDS-typography-typography-heading-h2-semibold-font-size);
+  --line-height-heading-h2-semibold: var(
+    --FLDS-typography-typography-heading-h2-semibold-line-height
+  );
+  --letter-spacing-heading-h2-semibold: var(
+    --FLDS-typography-typography-heading-h2-semibold-letter-spacing
+  );
+  --paragraph-spacing-heading-h2-semibold: var(
+    --FLDS-typography-typography-heading-h2-semibold-paragraph-spacing
+  );
+  --paragraph-indent-heading-h2-semibold: var(
+    --FLDS-typography-typography-heading-h2-semibold-paragraph-indent
+  );
+  --text-decoration-heading-h2-semibold: var(
+    --FLDS-typography-typography-heading-h2-semibold-text-decoration
+  );
+  --text-case-heading-h2-semibold: var(--FLDS-typography-typography-heading-h2-semibold-text-case);
+  --font-family-heading-h2-extrabold: var(
+    --FLDS-typography-typography-heading-h2-extrabold-font-family
+  );
+  --font-weight-heading-h2-extrabold: var(
+    --FLDS-typography-typography-heading-h2-extrabold-font-weight
+  );
+  --font-size-heading-h2-extrabold: var(
+    --FLDS-typography-typography-heading-h2-extrabold-font-size
+  );
+  --line-height-heading-h2-extrabold: var(
+    --FLDS-typography-typography-heading-h2-extrabold-line-height
+  );
+  --letter-spacing-heading-h2-extrabold: var(
+    --FLDS-typography-typography-heading-h2-extrabold-letter-spacing
+  );
+  --paragraph-spacing-heading-h2-extrabold: var(
+    --FLDS-typography-typography-heading-h2-extrabold-paragraph-spacing
+  );
+  --paragraph-indent-heading-h2-extrabold: var(
+    --FLDS-typography-typography-heading-h2-extrabold-paragraph-indent
+  );
+  --text-decoration-heading-h2-extrabold: var(
+    --FLDS-typography-typography-heading-h2-extrabold-text-decoration
+  );
+  --text-case-heading-h2-extrabold: var(
+    --FLDS-typography-typography-heading-h2-extrabold-text-case
+  );
+  --font-family-heading-h2-strong: var(--FLDS-typography-typography-heading-h2-strong-font-family);
+  --font-weight-heading-h2-strong: var(--FLDS-typography-typography-heading-h2-strong-font-weight);
+  --font-size-heading-h2-strong: var(--FLDS-typography-typography-heading-h2-strong-font-size);
+  --line-height-heading-h2-strong: var(--FLDS-typography-typography-heading-h2-strong-line-height);
+  --letter-spacing-heading-h2-strong: var(
+    --FLDS-typography-typography-heading-h2-strong-letter-spacing
+  );
+  --paragraph-spacing-heading-h2-strong: var(
+    --FLDS-typography-typography-heading-h2-strong-paragraph-spacing
+  );
+  --paragraph-indent-heading-h2-strong: var(
+    --FLDS-typography-typography-heading-h2-strong-paragraph-indent
+  );
+  --text-decoration-heading-h2-strong: var(
+    --FLDS-typography-typography-heading-h2-strong-text-decoration
+  );
+  --text-case-heading-h2-strong: var(--FLDS-typography-typography-heading-h2-strong-text-case);
+  --font-family-heading-h3-light: var(--FLDS-typography-typography-heading-h3-light-font-family);
+  --font-weight-heading-h3-light: var(--FLDS-typography-typography-heading-h3-light-font-weight);
+  --font-size-heading-h3-light: var(--FLDS-typography-typography-heading-h3-light-font-size);
+  --line-height-heading-h3-light: var(--FLDS-typography-typography-heading-h3-light-line-height);
+  --letter-spacing-heading-h3-light: var(
+    --FLDS-typography-typography-heading-h3-light-letter-spacing
+  );
+  --paragraph-spacing-heading-h3-light: var(
+    --FLDS-typography-typography-heading-h3-light-paragraph-spacing
+  );
+  --paragraph-indent-heading-h3-light: var(
+    --FLDS-typography-typography-heading-h3-light-paragraph-indent
+  );
+  --text-decoration-heading-h3-light: var(
+    --FLDS-typography-typography-heading-h3-light-text-decoration
+  );
+  --text-case-heading-h3-light: var(--FLDS-typography-typography-heading-h3-light-text-case);
+  --font-family-heading-h3-regular: var(
+    --FLDS-typography-typography-heading-h3-regular-font-family
+  );
+  --font-weight-heading-h3-regular: var(
+    --FLDS-typography-typography-heading-h3-regular-font-weight
+  );
+  --font-size-heading-h3-regular: var(--FLDS-typography-typography-heading-h3-regular-font-size);
+  --line-height-heading-h3-regular: var(
+    --FLDS-typography-typography-heading-h3-regular-line-height
+  );
+  --letter-spacing-heading-h3-regular: var(
+    --FLDS-typography-typography-heading-h3-regular-letter-spacing
+  );
+  --paragraph-spacing-heading-h3-regular: var(
+    --FLDS-typography-typography-heading-h3-regular-paragraph-spacing
+  );
+  --paragraph-indent-heading-h3-regular: var(
+    --FLDS-typography-typography-heading-h3-regular-paragraph-indent
+  );
+  --text-decoration-heading-h3-regular: var(
+    --FLDS-typography-typography-heading-h3-regular-text-decoration
+  );
+  --text-case-heading-h3-regular: var(--FLDS-typography-typography-heading-h3-regular-text-case);
+  --font-family-heading-h3-medium: var(--FLDS-typography-typography-heading-h3-medium-font-family);
+  --font-weight-heading-h3-medium: var(--FLDS-typography-typography-heading-h3-medium-font-weight);
+  --font-size-heading-h3-medium: var(--FLDS-typography-typography-heading-h3-medium-font-size);
+  --line-height-heading-h3-medium: var(--FLDS-typography-typography-heading-h3-medium-line-height);
+  --letter-spacing-heading-h3-medium: var(
+    --FLDS-typography-typography-heading-h3-medium-letter-spacing
+  );
+  --paragraph-spacing-heading-h3-medium: var(
+    --FLDS-typography-typography-heading-h3-medium-paragraph-spacing
+  );
+  --paragraph-indent-heading-h3-medium: var(
+    --FLDS-typography-typography-heading-h3-medium-paragraph-indent
+  );
+  --text-decoration-heading-h3-medium: var(
+    --FLDS-typography-typography-heading-h3-medium-text-decoration
+  );
+  --text-case-heading-h3-medium: var(--FLDS-typography-typography-heading-h3-medium-text-case);
+  --font-family-heading-h3-semilbold: var(
+    --FLDS-typography-typography-heading-h3-semilbold-font-family
+  );
+  --font-weight-heading-h3-semilbold: var(
+    --FLDS-typography-typography-heading-h3-semilbold-font-weight
+  );
+  --font-size-heading-h3-semilbold: var(
+    --FLDS-typography-typography-heading-h3-semilbold-font-size
+  );
+  --line-height-heading-h3-semilbold: var(
+    --FLDS-typography-typography-heading-h3-semilbold-line-height
+  );
+  --letter-spacing-heading-h3-semilbold: var(
+    --FLDS-typography-typography-heading-h3-semilbold-letter-spacing
+  );
+  --paragraph-spacing-heading-h3-semilbold: var(
+    --FLDS-typography-typography-heading-h3-semilbold-paragraph-spacing
+  );
+  --paragraph-indent-heading-h3-semilbold: var(
+    --FLDS-typography-typography-heading-h3-semilbold-paragraph-indent
+  );
+  --text-decoration-heading-h3-semilbold: var(
+    --FLDS-typography-typography-heading-h3-semilbold-text-decoration
+  );
+  --text-case-heading-h3-semilbold: var(
+    --FLDS-typography-typography-heading-h3-semilbold-text-case
+  );
+  --font-family-heading-h3-bold: var(--FLDS-typography-typography-heading-h3-bold-font-family);
+  --font-weight-heading-h3-bold: var(--FLDS-typography-typography-heading-h3-bold-font-weight);
+  --font-size-heading-h3-bold: var(--FLDS-typography-typography-heading-h3-bold-font-size);
+  --line-height-heading-h3-bold: var(--FLDS-typography-typography-heading-h3-bold-line-height);
+  --letter-spacing-heading-h3-bold: var(
+    --FLDS-typography-typography-heading-h3-bold-letter-spacing
+  );
+  --paragraph-spacing-heading-h3-bold: var(
+    --FLDS-typography-typography-heading-h3-bold-paragraph-spacing
+  );
+  --paragraph-indent-heading-h3-bold: var(
+    --FLDS-typography-typography-heading-h3-bold-paragraph-indent
+  );
+  --text-decoration-heading-h3-bold: var(
+    --FLDS-typography-typography-heading-h3-bold-text-decoration
+  );
+  --text-case-heading-h3-bold: var(--FLDS-typography-typography-heading-h3-bold-text-case);
+  --font-family-heading-h3-strong: var(--FLDS-typography-typography-heading-h3-strong-font-family);
+  --font-weight-heading-h3-strong: var(--FLDS-typography-typography-heading-h3-strong-font-weight);
+  --font-size-heading-h3-strong: var(--FLDS-typography-typography-heading-h3-strong-font-size);
+  --line-height-heading-h3-strong: var(--FLDS-typography-typography-heading-h3-strong-line-height);
+  --letter-spacing-heading-h3-strong: var(
+    --FLDS-typography-typography-heading-h3-strong-letter-spacing
+  );
+  --paragraph-spacing-heading-h3-strong: var(
+    --FLDS-typography-typography-heading-h3-strong-paragraph-spacing
+  );
+  --paragraph-indent-heading-h3-strong: var(
+    --FLDS-typography-typography-heading-h3-strong-paragraph-indent
+  );
+  --text-decoration-heading-h3-strong: var(
+    --FLDS-typography-typography-heading-h3-strong-text-decoration
+  );
+  --text-case-heading-h3-strong: var(--FLDS-typography-typography-heading-h3-strong-text-case);
+  --font-family-heading-h4-light: var(--FLDS-typography-typography-heading-h4-light-font-family);
+  --font-weight-heading-h4-light: var(--FLDS-typography-typography-heading-h4-light-font-weight);
+  --font-size-heading-h4-light: var(--FLDS-typography-typography-heading-h4-light-font-size);
+  --line-height-heading-h4-light: var(--FLDS-typography-typography-heading-h4-light-line-height);
+  --letter-spacing-heading-h4-light: var(
+    --FLDS-typography-typography-heading-h4-light-letter-spacing
+  );
+  --paragraph-spacing-heading-h4-light: var(
+    --FLDS-typography-typography-heading-h4-light-paragraph-spacing
+  );
+  --paragraph-indent-heading-h4-light: var(
+    --FLDS-typography-typography-heading-h4-light-paragraph-indent
+  );
+  --text-decoration-heading-h4-light: var(
+    --FLDS-typography-typography-heading-h4-light-text-decoration
+  );
+  --text-case-heading-h4-light: var(--FLDS-typography-typography-heading-h4-light-text-case);
+  --font-family-heading-h4-regular: var(
+    --FLDS-typography-typography-heading-h4-regular-font-family
+  );
+  --font-weight-heading-h4-regular: var(
+    --FLDS-typography-typography-heading-h4-regular-font-weight
+  );
+  --font-size-heading-h4-regular: var(--FLDS-typography-typography-heading-h4-regular-font-size);
+  --line-height-heading-h4-regular: var(
+    --FLDS-typography-typography-heading-h4-regular-line-height
+  );
+  --letter-spacing-heading-h4-regular: var(
+    --FLDS-typography-typography-heading-h4-regular-letter-spacing
+  );
+  --paragraph-spacing-heading-h4-regular: var(
+    --FLDS-typography-typography-heading-h4-regular-paragraph-spacing
+  );
+  --paragraph-indent-heading-h4-regular: var(
+    --FLDS-typography-typography-heading-h4-regular-paragraph-indent
+  );
+  --text-decoration-heading-h4-regular: var(
+    --FLDS-typography-typography-heading-h4-regular-text-decoration
+  );
+  --text-case-heading-h4-regular: var(--FLDS-typography-typography-heading-h4-regular-text-case);
+  --font-family-heading-h4-medium: var(--FLDS-typography-typography-heading-h4-medium-font-family);
+  --font-weight-heading-h4-medium: var(--FLDS-typography-typography-heading-h4-medium-font-weight);
+  --font-size-heading-h4-medium: var(--FLDS-typography-typography-heading-h4-medium-font-size);
+  --line-height-heading-h4-medium: var(--FLDS-typography-typography-heading-h4-medium-line-height);
+  --letter-spacing-heading-h4-medium: var(
+    --FLDS-typography-typography-heading-h4-medium-letter-spacing
+  );
+  --paragraph-spacing-heading-h4-medium: var(
+    --FLDS-typography-typography-heading-h4-medium-paragraph-spacing
+  );
+  --paragraph-indent-heading-h4-medium: var(
+    --FLDS-typography-typography-heading-h4-medium-paragraph-indent
+  );
+  --text-decoration-heading-h4-medium: var(
+    --FLDS-typography-typography-heading-h4-medium-text-decoration
+  );
+  --text-case-heading-h4-medium: var(--FLDS-typography-typography-heading-h4-medium-text-case);
+  --font-family-heading-h4-semibold: var(
+    --FLDS-typography-typography-heading-h4-semibold-font-family
+  );
+  --font-weight-heading-h4-semibold: var(
+    --FLDS-typography-typography-heading-h4-semibold-font-weight
+  );
+  --font-size-heading-h4-semibold: var(--FLDS-typography-typography-heading-h4-semibold-font-size);
+  --line-height-heading-h4-semibold: var(
+    --FLDS-typography-typography-heading-h4-semibold-line-height
+  );
+  --letter-spacing-heading-h4-semibold: var(
+    --FLDS-typography-typography-heading-h4-semibold-letter-spacing
+  );
+  --paragraph-spacing-heading-h4-semibold: var(
+    --FLDS-typography-typography-heading-h4-semibold-paragraph-spacing
+  );
+  --paragraph-indent-heading-h4-semibold: var(
+    --FLDS-typography-typography-heading-h4-semibold-paragraph-indent
+  );
+  --text-decoration-heading-h4-semibold: var(
+    --FLDS-typography-typography-heading-h4-semibold-text-decoration
+  );
+  --text-case-heading-h4-semibold: var(--FLDS-typography-typography-heading-h4-semibold-text-case);
+  --font-family-heading-h4-bold: var(--FLDS-typography-typography-heading-h4-bold-font-family);
+  --font-weight-heading-h4-bold: var(--FLDS-typography-typography-heading-h4-bold-font-weight);
+  --font-size-heading-h4-bold: var(--FLDS-typography-typography-heading-h4-bold-font-size);
+  --line-height-heading-h4-bold: var(--FLDS-typography-typography-heading-h4-bold-line-height);
+  --letter-spacing-heading-h4-bold: var(
+    --FLDS-typography-typography-heading-h4-bold-letter-spacing
+  );
+  --paragraph-spacing-heading-h4-bold: var(
+    --FLDS-typography-typography-heading-h4-bold-paragraph-spacing
+  );
+  --paragraph-indent-heading-h4-bold: var(
+    --FLDS-typography-typography-heading-h4-bold-paragraph-indent
+  );
+  --text-decoration-heading-h4-bold: var(
+    --FLDS-typography-typography-heading-h4-bold-text-decoration
+  );
+  --text-case-heading-h4-bold: var(--FLDS-typography-typography-heading-h4-bold-text-case);
+  --font-family-heading-h4-strong: var(--FLDS-typography-typography-heading-h4-strong-font-family);
+  --font-weight-heading-h4-strong: var(--FLDS-typography-typography-heading-h4-strong-font-weight);
+  --font-size-heading-h4-strong: var(--FLDS-typography-typography-heading-h4-strong-font-size);
+  --line-height-heading-h4-strong: var(--FLDS-typography-typography-heading-h4-strong-line-height);
+  --letter-spacing-heading-h4-strong: var(
+    --FLDS-typography-typography-heading-h4-strong-letter-spacing
+  );
+  --paragraph-spacing-heading-h4-strong: var(
+    --FLDS-typography-typography-heading-h4-strong-paragraph-spacing
+  );
+  --paragraph-indent-heading-h4-strong: var(
+    --FLDS-typography-typography-heading-h4-strong-paragraph-indent
+  );
+  --text-decoration-heading-h4-strong: var(
+    --FLDS-typography-typography-heading-h4-strong-text-decoration
+  );
+  --text-case-heading-h4-strong: var(--FLDS-typography-typography-heading-h4-strong-text-case);
+  --font-family-heading-h5-light: var(--FLDS-typography-typography-heading-h5-light-font-family);
+  --font-weight-heading-h5-light: var(--FLDS-typography-typography-heading-h5-light-font-weight);
+  --font-size-heading-h5-light: var(--FLDS-typography-typography-heading-h5-light-font-size);
+  --line-height-heading-h5-light: var(--FLDS-typography-typography-heading-h5-light-line-height);
+  --letter-spacing-heading-h5-light: var(
+    --FLDS-typography-typography-heading-h5-light-letter-spacing
+  );
+  --paragraph-spacing-heading-h5-light: var(
+    --FLDS-typography-typography-heading-h5-light-paragraph-spacing
+  );
+  --paragraph-indent-heading-h5-light: var(
+    --FLDS-typography-typography-heading-h5-light-paragraph-indent
+  );
+  --text-decoration-heading-h5-light: var(
+    --FLDS-typography-typography-heading-h5-light-text-decoration
+  );
+  --text-case-heading-h5-light: var(--FLDS-typography-typography-heading-h5-light-text-case);
+  --font-family-heading-h5-regular: var(
+    --FLDS-typography-typography-heading-h5-regular-font-family
+  );
+  --font-weight-heading-h5-regular: var(
+    --FLDS-typography-typography-heading-h5-regular-font-weight
+  );
+  --font-size-heading-h5-regular: var(--FLDS-typography-typography-heading-h5-regular-font-size);
+  --line-height-heading-h5-regular: var(
+    --FLDS-typography-typography-heading-h5-regular-line-height
+  );
+  --letter-spacing-heading-h5-regular: var(
+    --FLDS-typography-typography-heading-h5-regular-letter-spacing
+  );
+  --paragraph-spacing-heading-h5-regular: var(
+    --FLDS-typography-typography-heading-h5-regular-paragraph-spacing
+  );
+  --paragraph-indent-heading-h5-regular: var(
+    --FLDS-typography-typography-heading-h5-regular-paragraph-indent
+  );
+  --text-decoration-heading-h5-regular: var(
+    --FLDS-typography-typography-heading-h5-regular-text-decoration
+  );
+  --text-case-heading-h5-regular: var(--FLDS-typography-typography-heading-h5-regular-text-case);
+  --font-family-heading-h5-medium: var(--FLDS-typography-typography-heading-h5-medium-font-family);
+  --font-weight-heading-h5-medium: var(--FLDS-typography-typography-heading-h5-medium-font-weight);
+  --font-size-heading-h5-medium: var(--FLDS-typography-typography-heading-h5-medium-font-size);
+  --line-height-heading-h5-medium: var(--FLDS-typography-typography-heading-h5-medium-line-height);
+  --letter-spacing-heading-h5-medium: var(
+    --FLDS-typography-typography-heading-h5-medium-letter-spacing
+  );
+  --paragraph-spacing-heading-h5-medium: var(
+    --FLDS-typography-typography-heading-h5-medium-paragraph-spacing
+  );
+  --paragraph-indent-heading-h5-medium: var(
+    --FLDS-typography-typography-heading-h5-medium-paragraph-indent
+  );
+  --text-decoration-heading-h5-medium: var(
+    --FLDS-typography-typography-heading-h5-medium-text-decoration
+  );
+  --text-case-heading-h5-medium: var(--FLDS-typography-typography-heading-h5-medium-text-case);
+  --font-family-heading-h5-semibold: var(
+    --FLDS-typography-typography-heading-h5-semibold-font-family
+  );
+  --font-weight-heading-h5-semibold: var(
+    --FLDS-typography-typography-heading-h5-semibold-font-weight
+  );
+  --font-size-heading-h5-semibold: var(--FLDS-typography-typography-heading-h5-semibold-font-size);
+  --line-height-heading-h5-semibold: var(
+    --FLDS-typography-typography-heading-h5-semibold-line-height
+  );
+  --letter-spacing-heading-h5-semibold: var(
+    --FLDS-typography-typography-heading-h5-semibold-letter-spacing
+  );
+  --paragraph-spacing-heading-h5-semibold: var(
+    --FLDS-typography-typography-heading-h5-semibold-paragraph-spacing
+  );
+  --paragraph-indent-heading-h5-semibold: var(
+    --FLDS-typography-typography-heading-h5-semibold-paragraph-indent
+  );
+  --text-decoration-heading-h5-semibold: var(
+    --FLDS-typography-typography-heading-h5-semibold-text-decoration
+  );
+  --text-case-heading-h5-semibold: var(--FLDS-typography-typography-heading-h5-semibold-text-case);
+  --font-family-heading-h5-bold: var(--FLDS-typography-typography-heading-h5-bold-font-family);
+  --font-weight-heading-h5-bold: var(--FLDS-typography-typography-heading-h5-bold-font-weight);
+  --font-size-heading-h5-bold: var(--FLDS-typography-typography-heading-h5-bold-font-size);
+  --line-height-heading-h5-bold: var(--FLDS-typography-typography-heading-h5-bold-line-height);
+  --letter-spacing-heading-h5-bold: var(
+    --FLDS-typography-typography-heading-h5-bold-letter-spacing
+  );
+  --paragraph-spacing-heading-h5-bold: var(
+    --FLDS-typography-typography-heading-h5-bold-paragraph-spacing
+  );
+  --paragraph-indent-heading-h5-bold: var(
+    --FLDS-typography-typography-heading-h5-bold-paragraph-indent
+  );
+  --text-decoration-heading-h5-bold: var(
+    --FLDS-typography-typography-heading-h5-bold-text-decoration
+  );
+  --text-case-heading-h5-bold: var(--FLDS-typography-typography-heading-h5-bold-text-case);
+  --font-family-heading-h5-strong: var(--FLDS-typography-typography-heading-h5-strong-font-family);
+  --font-weight-heading-h5-strong: var(--FLDS-typography-typography-heading-h5-strong-font-weight);
+  --font-size-heading-h5-strong: var(--FLDS-typography-typography-heading-h5-strong-font-size);
+  --line-height-heading-h5-strong: var(--FLDS-typography-typography-heading-h5-strong-line-height);
+  --letter-spacing-heading-h5-strong: var(
+    --FLDS-typography-typography-heading-h5-strong-letter-spacing
+  );
+  --paragraph-spacing-heading-h5-strong: var(
+    --FLDS-typography-typography-heading-h5-strong-paragraph-spacing
+  );
+  --paragraph-indent-heading-h5-strong: var(
+    --FLDS-typography-typography-heading-h5-strong-paragraph-indent
+  );
+  --text-decoration-heading-h5-strong: var(
+    --FLDS-typography-typography-heading-h5-strong-text-decoration
+  );
+  --text-case-heading-h5-strong: var(--FLDS-typography-typography-heading-h5-strong-text-case);
+  --font-family-heading-h6-light: var(--FLDS-typography-typography-heading-h6-light-font-family);
+  --font-weight-heading-h6-light: var(--FLDS-typography-typography-heading-h6-light-font-weight);
+  --font-size-heading-h6-light: var(--FLDS-typography-typography-heading-h6-light-font-size);
+  --line-height-heading-h6-light: var(--FLDS-typography-typography-heading-h6-light-line-height);
+  --letter-spacing-heading-h6-light: var(
+    --FLDS-typography-typography-heading-h6-light-letter-spacing
+  );
+  --paragraph-spacing-heading-h6-light: var(
+    --FLDS-typography-typography-heading-h6-light-paragraph-spacing
+  );
+  --paragraph-indent-heading-h6-light: var(
+    --FLDS-typography-typography-heading-h6-light-paragraph-indent
+  );
+  --text-decoration-heading-h6-light: var(
+    --FLDS-typography-typography-heading-h6-light-text-decoration
+  );
+  --text-case-heading-h6-light: var(--FLDS-typography-typography-heading-h6-light-text-case);
+  --font-family-heading-h6-regular: var(
+    --FLDS-typography-typography-heading-h6-regular-font-family
+  );
+  --font-weight-heading-h6-regular: var(
+    --FLDS-typography-typography-heading-h6-regular-font-weight
+  );
+  --font-size-heading-h6-regular: var(--FLDS-typography-typography-heading-h6-regular-font-size);
+  --line-height-heading-h6-regular: var(
+    --FLDS-typography-typography-heading-h6-regular-line-height
+  );
+  --letter-spacing-heading-h6-regular: var(
+    --FLDS-typography-typography-heading-h6-regular-letter-spacing
+  );
+  --paragraph-spacing-heading-h6-regular: var(
+    --FLDS-typography-typography-heading-h6-regular-paragraph-spacing
+  );
+  --paragraph-indent-heading-h6-regular: var(
+    --FLDS-typography-typography-heading-h6-regular-paragraph-indent
+  );
+  --text-decoration-heading-h6-regular: var(
+    --FLDS-typography-typography-heading-h6-regular-text-decoration
+  );
+  --text-case-heading-h6-regular: var(--FLDS-typography-typography-heading-h6-regular-text-case);
+  --font-family-heading-h6-medium: var(--FLDS-typography-typography-heading-h6-medium-font-family);
+  --font-weight-heading-h6-medium: var(--FLDS-typography-typography-heading-h6-medium-font-weight);
+  --font-size-heading-h6-medium: var(--FLDS-typography-typography-heading-h6-medium-font-size);
+  --line-height-heading-h6-medium: var(--FLDS-typography-typography-heading-h6-medium-line-height);
+  --letter-spacing-heading-h6-medium: var(
+    --FLDS-typography-typography-heading-h6-medium-letter-spacing
+  );
+  --paragraph-spacing-heading-h6-medium: var(
+    --FLDS-typography-typography-heading-h6-medium-paragraph-spacing
+  );
+  --paragraph-indent-heading-h6-medium: var(
+    --FLDS-typography-typography-heading-h6-medium-paragraph-indent
+  );
+  --text-decoration-heading-h6-medium: var(
+    --FLDS-typography-typography-heading-h6-medium-text-decoration
+  );
+  --text-case-heading-h6-medium: var(--FLDS-typography-typography-heading-h6-medium-text-case);
+  --font-family-heading-h6-semibold: var(
+    --FLDS-typography-typography-heading-h6-semibold-font-family
+  );
+  --font-weight-heading-h6-semibold: var(
+    --FLDS-typography-typography-heading-h6-semibold-font-weight
+  );
+  --font-size-heading-h6-semibold: var(--FLDS-typography-typography-heading-h6-semibold-font-size);
+  --line-height-heading-h6-semibold: var(
+    --FLDS-typography-typography-heading-h6-semibold-line-height
+  );
+  --letter-spacing-heading-h6-semibold: var(
+    --FLDS-typography-typography-heading-h6-semibold-letter-spacing
+  );
+  --paragraph-spacing-heading-h6-semibold: var(
+    --FLDS-typography-typography-heading-h6-semibold-paragraph-spacing
+  );
+  --paragraph-indent-heading-h6-semibold: var(
+    --FLDS-typography-typography-heading-h6-semibold-paragraph-indent
+  );
+  --text-decoration-heading-h6-semibold: var(
+    --FLDS-typography-typography-heading-h6-semibold-text-decoration
+  );
+  --text-case-heading-h6-semibold: var(--FLDS-typography-typography-heading-h6-semibold-text-case);
+  --font-family-heading-h6-bold: var(--FLDS-typography-typography-heading-h6-bold-font-family);
+  --font-weight-heading-h6-bold: var(--FLDS-typography-typography-heading-h6-bold-font-weight);
+  --font-size-heading-h6-bold: var(--FLDS-typography-typography-heading-h6-bold-font-size);
+  --line-height-heading-h6-bold: var(--FLDS-typography-typography-heading-h6-bold-line-height);
+  --letter-spacing-heading-h6-bold: var(
+    --FLDS-typography-typography-heading-h6-bold-letter-spacing
+  );
+  --paragraph-spacing-heading-h6-bold: var(
+    --FLDS-typography-typography-heading-h6-bold-paragraph-spacing
+  );
+  --paragraph-indent-heading-h6-bold: var(
+    --FLDS-typography-typography-heading-h6-bold-paragraph-indent
+  );
+  --text-decoration-heading-h6-bold: var(
+    --FLDS-typography-typography-heading-h6-bold-text-decoration
+  );
+  --text-case-heading-h6-bold: var(--FLDS-typography-typography-heading-h6-bold-text-case);
+  --font-family-heading-h6-strong: var(--FLDS-typography-typography-heading-h6-strong-font-family);
+  --font-weight-heading-h6-strong: var(--FLDS-typography-typography-heading-h6-strong-font-weight);
+  --font-size-heading-h6-strong: var(--FLDS-typography-typography-heading-h6-strong-font-size);
+  --line-height-heading-h6-strong: var(--FLDS-typography-typography-heading-h6-strong-line-height);
+  --letter-spacing-heading-h6-strong: var(
+    --FLDS-typography-typography-heading-h6-strong-letter-spacing
+  );
+  --paragraph-spacing-heading-h6-strong: var(
+    --FLDS-typography-typography-heading-h6-strong-paragraph-spacing
+  );
+  --paragraph-indent-heading-h6-strong: var(
+    --FLDS-typography-typography-heading-h6-strong-paragraph-indent
+  );
+  --text-decoration-heading-h6-strong: var(
+    --FLDS-typography-typography-heading-h6-strong-text-decoration
+  );
+  --text-case-heading-h6-strong: var(--FLDS-typography-typography-heading-h6-strong-text-case);
+  --font-family-heading-title-page: var(
+    --FLDS-typography-typography-heading-title-page-strong-font-family
+  );
+  --font-weight-heading-title-page: var(
+    --FLDS-typography-typography-heading-title-page-strong-font-weight
+  );
+  --font-size-heading-title-page: var(
+    --FLDS-typography-typography-heading-title-page-strong-font-size
+  );
+  --line-height-heading-title-page: var(
+    --FLDS-typography-typography-heading-title-page-strong-line-height
+  );
+  --letter-spacing-heading-title-page: var(
+    --FLDS-typography-typography-heading-title-page-strong-letter-spacing
+  );
+  --paragraph-spacing-heading-title-page: var(
+    --FLDS-typography-typography-heading-title-page-strong-paragraph-spacing
+  );
+  --paragraph-indent-heading-title-page: var(
+    --FLDS-typography-typography-heading-title-page-strong-paragraph-indent
+  );
+  --text-decoration-heading-title-page: var(
+    --FLDS-typography-typography-heading-title-page-strong-text-decoration
+  );
+  --text-case-heading-title-page: var(
+    --FLDS-typography-typography-heading-title-page-strong-text-case
+  );
+  --font-family-heading-title-hero: var(
+    --FLDS-typography-typography-heading-title-hero-strong-font-family
+  );
+  --font-weight-heading-title-hero: var(
+    --FLDS-typography-typography-heading-title-hero-strong-font-weight
+  );
+  --font-size-heading-title-hero: var(
+    --FLDS-typography-typography-heading-title-hero-strong-font-size
+  );
+  --line-height-heading-title-hero: var(
+    --FLDS-typography-typography-heading-title-hero-strong-line-height
+  );
+  --letter-spacing-heading-title-hero: var(
+    --FLDS-typography-typography-heading-title-hero-strong-letter-spacing
+  );
+  --paragraph-spacing-heading-title-hero: var(
+    --FLDS-typography-typography-heading-title-hero-strong-paragraph-spacing
+  );
+  --paragraph-indent-heading-title-hero: var(
+    --FLDS-typography-typography-heading-title-hero-strong-paragraph-indent
+  );
+  --text-decoration-heading-title-hero: var(
+    --FLDS-typography-typography-heading-title-hero-strong-text-decoration
+  );
+  --text-case-heading-title-hero: var(
+    --FLDS-typography-typography-heading-title-hero-strong-text-case
+  );
+  --font-family-heading-subtitle-light: var(
+    --FLDS-typography-typography-heading-subtitle-light-font-family
+  );
+  --font-weight-heading-subtitle-light: var(
+    --FLDS-typography-typography-heading-subtitle-light-font-weight
+  );
+  --font-size-heading-subtitle-light: var(
+    --FLDS-typography-typography-heading-subtitle-light-font-size
+  );
+  --line-height-heading-subtitle-light: var(
+    --FLDS-typography-typography-heading-subtitle-light-line-height
+  );
+  --letter-spacing-heading-subtitle-light: var(
+    --FLDS-typography-typography-heading-subtitle-light-letter-spacing
+  );
+  --paragraph-spacing-heading-subtitle-light: var(
+    --FLDS-typography-typography-heading-subtitle-light-paragraph-spacing
+  );
+  --paragraph-indent-heading-subtitle-light: var(
+    --FLDS-typography-typography-heading-subtitle-light-paragraph-indent
+  );
+  --text-decoration-heading-subtitle-light: var(
+    --FLDS-typography-typography-heading-subtitle-light-text-decoration
+  );
+  --text-case-heading-subtitle-light: var(
+    --FLDS-typography-typography-heading-subtitle-light-text-case
+  );
+  --font-family-heading-subtitle-regular: var(
+    --FLDS-typography-typography-heading-subtitle-regular-font-family
+  );
+  --font-weight-heading-subtitle-regular: var(
+    --FLDS-typography-typography-heading-subtitle-regular-font-weight
+  );
+  --font-size-heading-subtitle-regular: var(
+    --FLDS-typography-typography-heading-subtitle-regular-font-size
+  );
+  --line-height-heading-subtitle-regular: var(
+    --FLDS-typography-typography-heading-subtitle-regular-line-height
+  );
+  --letter-spacing-heading-subtitle-regular: var(
+    --FLDS-typography-typography-heading-subtitle-regular-letter-spacing
+  );
+  --paragraph-spacing-heading-subtitle-regular: var(
+    --FLDS-typography-typography-heading-subtitle-regular-paragraph-spacing
+  );
+  --paragraph-indent-heading-subtitle-regular: var(
+    --FLDS-typography-typography-heading-subtitle-regular-paragraph-indent
+  );
+  --text-decoration-heading-subtitle-regular: var(
+    --FLDS-typography-typography-heading-subtitle-regular-text-decoration
+  );
+  --text-case-heading-subtitle-regular: var(
+    --FLDS-typography-typography-heading-subtitle-regular-text-case
+  );
+  --font-family-heading-subtitle-medium: var(
+    --FLDS-typography-typography-heading-subtitle-medium-font-family
+  );
+  --font-weight-heading-subtitle-medium: var(
+    --FLDS-typography-typography-heading-subtitle-medium-font-weight
+  );
+  --font-size-heading-subtitle-medium: var(
+    --FLDS-typography-typography-heading-subtitle-medium-font-size
+  );
+  --line-height-heading-subtitle-medium: var(
+    --FLDS-typography-typography-heading-subtitle-medium-line-height
+  );
+  --letter-spacing-heading-subtitle-medium: var(
+    --FLDS-typography-typography-heading-subtitle-medium-letter-spacing
+  );
+  --paragraph-spacing-heading-subtitle-medium: var(
+    --FLDS-typography-typography-heading-subtitle-medium-paragraph-spacing
+  );
+  --paragraph-indent-heading-subtitle-medium: var(
+    --FLDS-typography-typography-heading-subtitle-medium-paragraph-indent
+  );
+  --text-decoration-heading-subtitle-medium: var(
+    --FLDS-typography-typography-heading-subtitle-medium-text-decoration
+  );
+  --text-case-heading-subtitle-medium: var(
+    --FLDS-typography-typography-heading-subtitle-medium-text-case
+  );
+  --font-family-heading-subtitle-semibold: var(
+    --FLDS-typography-typography-heading-subtitle-semibold-font-family
+  );
+  --font-weight-heading-subtitle-semibold: var(
+    --FLDS-typography-typography-heading-subtitle-semibold-font-weight
+  );
+  --font-size-heading-subtitle-semibold: var(
+    --FLDS-typography-typography-heading-subtitle-semibold-font-size
+  );
+  --line-height-heading-subtitle-semibold: var(
+    --FLDS-typography-typography-heading-subtitle-semibold-line-height
+  );
+  --letter-spacing-heading-subtitle-semibold: var(
+    --FLDS-typography-typography-heading-subtitle-semibold-letter-spacing
+  );
+  --paragraph-spacing-heading-subtitle-semibold: var(
+    --FLDS-typography-typography-heading-subtitle-semibold-paragraph-spacing
+  );
+  --paragraph-indent-heading-subtitle-semibold: var(
+    --FLDS-typography-typography-heading-subtitle-semibold-paragraph-indent
+  );
+  --text-decoration-heading-subtitle-semibold: var(
+    --FLDS-typography-typography-heading-subtitle-semibold-text-decoration
+  );
+  --text-case-heading-subtitle-semibold: var(
+    --FLDS-typography-typography-heading-subtitle-semibold-text-case
+  );
+  --font-family-heading-subtitle-bold: var(
+    --FLDS-typography-typography-heading-subtitle-bold-font-family
+  );
+  --font-weight-heading-subtitle-bold: var(
+    --FLDS-typography-typography-heading-subtitle-bold-font-weight
+  );
+  --font-size-heading-subtitle-bold: var(
+    --FLDS-typography-typography-heading-subtitle-bold-font-size
+  );
+  --line-height-heading-subtitle-bold: var(
+    --FLDS-typography-typography-heading-subtitle-bold-line-height
+  );
+  --letter-spacing-heading-subtitle-bold: var(
+    --FLDS-typography-typography-heading-subtitle-bold-letter-spacing
+  );
+  --paragraph-spacing-heading-subtitle-bold: var(
+    --FLDS-typography-typography-heading-subtitle-bold-paragraph-spacing
+  );
+  --paragraph-indent-heading-subtitle-bold: var(
+    --FLDS-typography-typography-heading-subtitle-bold-paragraph-indent
+  );
+  --text-decoration-heading-subtitle-bold: var(
+    --FLDS-typography-typography-heading-subtitle-bold-text-decoration
+  );
+  --text-case-heading-subtitle-bold: var(
+    --FLDS-typography-typography-heading-subtitle-bold-text-case
+  );
+  --font-family-heading-subtitle-extrabold: var(
+    --FLDS-typography-typography-heading-subtitle-extrabold-font-family
+  );
+  --font-weight-heading-subtitle-extrabold: var(
+    --FLDS-typography-typography-heading-subtitle-extrabold-font-weight
+  );
+  --font-size-heading-subtitle-extrabold: var(
+    --FLDS-typography-typography-heading-subtitle-extrabold-font-size
+  );
+  --line-height-heading-subtitle-extrabold: var(
+    --FLDS-typography-typography-heading-subtitle-extrabold-line-height
+  );
+  --letter-spacing-heading-subtitle-extrabold: var(
+    --FLDS-typography-typography-heading-subtitle-extrabold-letter-spacing
+  );
+  --paragraph-spacing-heading-subtitle-extrabold: var(
+    --FLDS-typography-typography-heading-subtitle-extrabold-paragraph-spacing
+  );
+  --paragraph-indent-heading-subtitle-extrabold: var(
+    --FLDS-typography-typography-heading-subtitle-extrabold-paragraph-indent
+  );
+  --text-decoration-heading-subtitle-extrabold: var(
+    --FLDS-typography-typography-heading-subtitle-extrabold-text-decoration
+  );
+  --text-case-heading-subtitle-extrabold: var(
+    --FLDS-typography-typography-heading-subtitle-extrabold-text-case
+  );
+  --font-family-heading-subtitle-strong: var(
+    --FLDS-typography-typography-heading-subtitle-strong-font-family
+  );
+  --font-weight-heading-subtitle-strong: var(
+    --FLDS-typography-typography-heading-subtitle-strong-font-weight
+  );
+  --font-size-heading-subtitle-strong: var(
+    --FLDS-typography-typography-heading-subtitle-strong-font-size
+  );
+  --line-height-heading-subtitle-strong: var(
+    --FLDS-typography-typography-heading-subtitle-strong-line-height
+  );
+  --letter-spacing-heading-subtitle-strong: var(
+    --FLDS-typography-typography-heading-subtitle-strong-letter-spacing
+  );
+  --paragraph-spacing-heading-subtitle-strong: var(
+    --FLDS-typography-typography-heading-subtitle-strong-paragraph-spacing
+  );
+  --paragraph-indent-heading-subtitle-strong: var(
+    --FLDS-typography-typography-heading-subtitle-strong-paragraph-indent
+  );
+  --text-decoration-heading-subtitle-strong: var(
+    --FLDS-typography-typography-heading-subtitle-strong-text-decoration
+  );
+  --text-case-heading-subtitle-strong: var(
+    --FLDS-typography-typography-heading-subtitle-strong-text-case
+  );
+  --font-family-paragraph-body-small: var(
+    --FLDS-typography-typography-paragraph-body-small-strong-font-family
+  );
+  --font-weight-paragraph-body-small: var(
+    --FLDS-typography-typography-paragraph-body-small-strong-font-weight
+  );
+  --font-size-paragraph-body-small: var(
+    --FLDS-typography-typography-paragraph-body-small-strong-font-size
+  );
+  --line-height-paragraph-body-small: var(
+    --FLDS-typography-typography-paragraph-body-small-strong-line-height
+  );
+  --letter-spacing-paragraph-body-small: var(
+    --FLDS-typography-typography-paragraph-body-small-strong-letter-spacing
+  );
+  --paragraph-spacing-paragraph-body-small: var(
+    --FLDS-typography-typography-paragraph-body-small-strong-paragraph-spacing
+  );
+  --paragraph-indent-paragraph-body-small: var(
+    --FLDS-typography-typography-paragraph-body-small-strong-paragraph-indent
+  );
+  --text-decoration-paragraph-body-small: var(
+    --FLDS-typography-typography-paragraph-body-small-strong-text-decoration
+  );
+  --text-case-paragraph-body-small: var(
+    --FLDS-typography-typography-paragraph-body-small-strong-text-case
+  );
+  --font-family-paragraph-body-large: var(
+    --FLDS-typography-typography-paragraph-body-large-italic-font-family
+  );
+  --font-weight-paragraph-body-large: var(
+    --FLDS-typography-typography-paragraph-body-large-italic-font-weight
+  );
+  --font-size-paragraph-body-large: var(
+    --FLDS-typography-typography-paragraph-body-large-italic-font-size
+  );
+  --line-height-paragraph-body-large: var(
+    --FLDS-typography-typography-paragraph-body-large-italic-line-height
+  );
+  --letter-spacing-paragraph-body-large: var(
+    --FLDS-typography-typography-paragraph-body-large-italic-letter-spacing
+  );
+  --paragraph-spacing-paragraph-body-large: var(
+    --FLDS-typography-typography-paragraph-body-large-italic-paragraph-spacing
+  );
+  --paragraph-indent-paragraph-body-large: var(
+    --FLDS-typography-typography-paragraph-body-large-italic-paragraph-indent
+  );
+  --text-decoration-paragraph-body-large: var(
+    --FLDS-typography-typography-paragraph-body-large-italic-text-decoration
+  );
+  --text-case-paragraph-body-large: var(
+    --FLDS-typography-typography-paragraph-body-large-italic-text-case
+  );
+  --font-family-paragraph-code-light: var(
+    --FLDS-typography-typography-paragraph-code-light-font-family
+  );
+  --font-weight-paragraph-code-light: var(
+    --FLDS-typography-typography-paragraph-code-light-font-weight
+  );
+  --font-size-paragraph-code-light: var(
+    --FLDS-typography-typography-paragraph-code-light-font-size
+  );
+  --line-height-paragraph-code-light: var(
+    --FLDS-typography-typography-paragraph-code-light-line-height
+  );
+  --letter-spacing-paragraph-code-light: var(
+    --FLDS-typography-typography-paragraph-code-light-letter-spacing
+  );
+  --paragraph-spacing-paragraph-code-light: var(
+    --FLDS-typography-typography-paragraph-code-light-paragraph-spacing
+  );
+  --paragraph-indent-paragraph-code-light: var(
+    --FLDS-typography-typography-paragraph-code-light-paragraph-indent
+  );
+  --text-decoration-paragraph-code-light: var(
+    --FLDS-typography-typography-paragraph-code-light-text-decoration
+  );
+  --text-case-paragraph-code-light: var(
+    --FLDS-typography-typography-paragraph-code-light-text-case
+  );
+  --font-family-paragraph-code-regular: var(
+    --FLDS-typography-typography-paragraph-code-regular-font-family
+  );
+  --font-weight-paragraph-code-regular: var(
+    --FLDS-typography-typography-paragraph-code-regular-font-weight
+  );
+  --font-size-paragraph-code-regular: var(
+    --FLDS-typography-typography-paragraph-code-regular-font-size
+  );
+  --line-height-paragraph-code-regular: var(
+    --FLDS-typography-typography-paragraph-code-regular-line-height
+  );
+  --letter-spacing-paragraph-code-regular: var(
+    --FLDS-typography-typography-paragraph-code-regular-letter-spacing
+  );
+  --paragraph-spacing-paragraph-code-regular: var(
+    --FLDS-typography-typography-paragraph-code-regular-paragraph-spacing
+  );
+  --paragraph-indent-paragraph-code-regular: var(
+    --FLDS-typography-typography-paragraph-code-regular-paragraph-indent
+  );
+  --text-decoration-paragraph-code-regular: var(
+    --FLDS-typography-typography-paragraph-code-regular-text-decoration
+  );
+  --text-case-paragraph-code-regular: var(
+    --FLDS-typography-typography-paragraph-code-regular-text-case
+  );
+  --font-family-paragraph-code-bold: var(
+    --FLDS-typography-typography-paragraph-code-bold-font-family
+  );
+  --font-weight-paragraph-code-bold: var(
+    --FLDS-typography-typography-paragraph-code-bold-font-weight
+  );
+  --font-size-paragraph-code-bold: var(--FLDS-typography-typography-paragraph-code-bold-font-size);
+  --line-height-paragraph-code-bold: var(
+    --FLDS-typography-typography-paragraph-code-bold-line-height
+  );
+  --letter-spacing-paragraph-code-bold: var(
+    --FLDS-typography-typography-paragraph-code-bold-letter-spacing
+  );
+  --paragraph-spacing-paragraph-code-bold: var(
+    --FLDS-typography-typography-paragraph-code-bold-paragraph-spacing
+  );
+  --paragraph-indent-paragraph-code-bold: var(
+    --FLDS-typography-typography-paragraph-code-bold-paragraph-indent
+  );
+  --text-decoration-paragraph-code-bold: var(
+    --FLDS-typography-typography-paragraph-code-bold-text-decoration
+  );
+  --text-case-paragraph-code-bold: var(--FLDS-typography-typography-paragraph-code-bold-text-case);
+  --font-family-paragraph-link-light: var(
+    --FLDS-typography-typography-paragraph-link-light-font-family
+  );
+  --font-weight-paragraph-link-light: var(
+    --FLDS-typography-typography-paragraph-link-light-font-weight
+  );
+  --font-size-paragraph-link-light: var(
+    --FLDS-typography-typography-paragraph-link-light-font-size
+  );
+  --line-height-paragraph-link-light: var(
+    --FLDS-typography-typography-paragraph-link-light-line-height
+  );
+  --letter-spacing-paragraph-link-light: var(
+    --FLDS-typography-typography-paragraph-link-light-letter-spacing
+  );
+  --paragraph-spacing-paragraph-link-light: var(
+    --FLDS-typography-typography-paragraph-link-light-paragraph-spacing
+  );
+  --paragraph-indent-paragraph-link-light: var(
+    --FLDS-typography-typography-paragraph-link-light-paragraph-indent
+  );
+  --text-decoration-paragraph-link-light: var(
+    --FLDS-typography-typography-paragraph-link-light-text-decoration
+  );
+  --text-case-paragraph-link-light: var(
+    --FLDS-typography-typography-paragraph-link-light-text-case
+  );
+  --font-family-paragraph-link-regular: var(
+    --FLDS-typography-typography-paragraph-link-regular-font-family
+  );
+  --font-weight-paragraph-link-regular: var(
+    --FLDS-typography-typography-paragraph-link-regular-font-weight
+  );
+  --font-size-paragraph-link-regular: var(
+    --FLDS-typography-typography-paragraph-link-regular-font-size
+  );
+  --line-height-paragraph-link-regular: var(
+    --FLDS-typography-typography-paragraph-link-regular-line-height
+  );
+  --letter-spacing-paragraph-link-regular: var(
+    --FLDS-typography-typography-paragraph-link-regular-letter-spacing
+  );
+  --paragraph-spacing-paragraph-link-regular: var(
+    --FLDS-typography-typography-paragraph-link-regular-paragraph-spacing
+  );
+  --paragraph-indent-paragraph-link-regular: var(
+    --FLDS-typography-typography-paragraph-link-regular-paragraph-indent
+  );
+  --text-decoration-paragraph-link-regular: var(
+    --FLDS-typography-typography-paragraph-link-regular-text-decoration
+  );
+  --text-case-paragraph-link-regular: var(
+    --FLDS-typography-typography-paragraph-link-regular-text-case
+  );
+  --font-family-paragraph-link-bold: var(
+    --FLDS-typography-typography-paragraph-link-bold-font-family
+  );
+  --font-weight-paragraph-link-bold: var(
+    --FLDS-typography-typography-paragraph-link-bold-font-weight
+  );
+  --font-size-paragraph-link-bold: var(--FLDS-typography-typography-paragraph-link-bold-font-size);
+  --line-height-paragraph-link-bold: var(
+    --FLDS-typography-typography-paragraph-link-bold-line-height
+  );
+  --letter-spacing-paragraph-link-bold: var(
+    --FLDS-typography-typography-paragraph-link-bold-letter-spacing
+  );
+  --paragraph-spacing-paragraph-link-bold: var(
+    --FLDS-typography-typography-paragraph-link-bold-paragraph-spacing
+  );
+  --paragraph-indent-paragraph-link-bold: var(
+    --FLDS-typography-typography-paragraph-link-bold-paragraph-indent
+  );
+  --text-decoration-paragraph-link-bold: var(
+    --FLDS-typography-typography-paragraph-link-bold-text-decoration
+  );
+  --text-case-paragraph-link-bold: var(--FLDS-typography-typography-paragraph-link-bold-text-case);
+  --font-family-text-regular-2xs: var(--FLDS-typography-typography-text-regular-2xs-font-family);
+  --font-weight-text-regular-2xs: var(--FLDS-typography-typography-text-regular-2xs-font-weight);
+  --font-size-text-regular-2xs: var(--FLDS-typography-typography-text-regular-2xs-font-size);
+  --line-height-text-regular-2xs: var(--FLDS-typography-typography-text-regular-2xs-line-height);
+  --letter-spacing-text-regular-2xs: var(
+    --FLDS-typography-typography-text-regular-2xs-letter-spacing
+  );
+  --paragraph-spacing-text-regular-2xs: var(
+    --FLDS-typography-typography-text-regular-2xs-paragraph-spacing
+  );
+  --paragraph-indent-text-regular-2xs: var(
+    --FLDS-typography-typography-text-regular-2xs-paragraph-indent
+  );
+  --text-decoration-text-regular-2xs: var(
+    --FLDS-typography-typography-text-regular-2xs-text-decoration
+  );
+  --text-case-text-regular-2xs: var(--FLDS-typography-typography-text-regular-2xs-text-case);
+  --font-family-text-regular-xs: var(--FLDS-typography-typography-text-regular-xs-font-family);
+  --font-weight-text-regular-xs: var(--FLDS-typography-typography-text-regular-xs-font-weight);
+  --font-size-text-regular-xs: var(--FLDS-typography-typography-text-regular-xs-font-size);
+  --line-height-text-regular-xs: var(--FLDS-typography-typography-text-regular-xs-line-height);
+  --letter-spacing-text-regular-xs: var(
+    --FLDS-typography-typography-text-regular-xs-letter-spacing
+  );
+  --paragraph-spacing-text-regular-xs: var(
+    --FLDS-typography-typography-text-regular-xs-paragraph-spacing
+  );
+  --paragraph-indent-text-regular-xs: var(
+    --FLDS-typography-typography-text-regular-xs-paragraph-indent
+  );
+  --text-decoration-text-regular-xs: var(
+    --FLDS-typography-typography-text-regular-xs-text-decoration
+  );
+  --text-case-text-regular-xs: var(--FLDS-typography-typography-text-regular-xs-text-case);
+  --font-family-text-regular-sm: var(--FLDS-typography-typography-text-regular-sm-font-family);
+  --font-weight-text-regular-sm: var(--FLDS-typography-typography-text-regular-sm-font-weight);
+  --font-size-text-regular-sm: var(--FLDS-typography-typography-text-regular-sm-font-size);
+  --line-height-text-regular-sm: var(--FLDS-typography-typography-text-regular-sm-line-height);
+  --letter-spacing-text-regular-sm: var(
+    --FLDS-typography-typography-text-regular-sm-letter-spacing
+  );
+  --paragraph-spacing-text-regular-sm: var(
+    --FLDS-typography-typography-text-regular-sm-paragraph-spacing
+  );
+  --paragraph-indent-text-regular-sm: var(
+    --FLDS-typography-typography-text-regular-sm-paragraph-indent
+  );
+  --text-decoration-text-regular-sm: var(
+    --FLDS-typography-typography-text-regular-sm-text-decoration
+  );
+  --text-case-text-regular-sm: var(--FLDS-typography-typography-text-regular-sm-text-case);
+  --font-family-text-regular-md: var(--FLDS-typography-typography-text-regular-md-font-family);
+  --font-weight-text-regular-md: var(--FLDS-typography-typography-text-regular-md-font-weight);
+  --font-size-text-regular-md: var(--FLDS-typography-typography-text-regular-md-font-size);
+  --line-height-text-regular-md: var(--FLDS-typography-typography-text-regular-md-line-height);
+  --letter-spacing-text-regular-md: var(
+    --FLDS-typography-typography-text-regular-md-letter-spacing
+  );
+  --paragraph-spacing-text-regular-md: var(
+    --FLDS-typography-typography-text-regular-md-paragraph-spacing
+  );
+  --paragraph-indent-text-regular-md: var(
+    --FLDS-typography-typography-text-regular-md-paragraph-indent
+  );
+  --text-decoration-text-regular-md: var(
+    --FLDS-typography-typography-text-regular-md-text-decoration
+  );
+  --text-case-text-regular-md: var(--FLDS-typography-typography-text-regular-md-text-case);
+  --font-family-text-regular-lg: var(--FLDS-typography-typography-text-regular-lg-font-family);
+  --font-weight-text-regular-lg: var(--FLDS-typography-typography-text-regular-lg-font-weight);
+  --font-size-text-regular-lg: var(--FLDS-typography-typography-text-regular-lg-font-size);
+  --line-height-text-regular-lg: var(--FLDS-typography-typography-text-regular-lg-line-height);
+  --letter-spacing-text-regular-lg: var(
+    --FLDS-typography-typography-text-regular-lg-letter-spacing
+  );
+  --paragraph-spacing-text-regular-lg: var(
+    --FLDS-typography-typography-text-regular-lg-paragraph-spacing
+  );
+  --paragraph-indent-text-regular-lg: var(
+    --FLDS-typography-typography-text-regular-lg-paragraph-indent
+  );
+  --text-decoration-text-regular-lg: var(
+    --FLDS-typography-typography-text-regular-lg-text-decoration
+  );
+  --text-case-text-regular-lg: var(--FLDS-typography-typography-text-regular-lg-text-case);
+  --font-family-text-regular-xl: var(--FLDS-typography-typography-text-regular-xl-font-family);
+  --font-weight-text-regular-xl: var(--FLDS-typography-typography-text-regular-xl-font-weight);
+  --font-size-text-regular-xl: var(--FLDS-typography-typography-text-regular-xl-font-size);
+  --line-height-text-regular-xl: var(--FLDS-typography-typography-text-regular-xl-line-height);
+  --letter-spacing-text-regular-xl: var(
+    --FLDS-typography-typography-text-regular-xl-letter-spacing
+  );
+  --paragraph-spacing-text-regular-xl: var(
+    --FLDS-typography-typography-text-regular-xl-paragraph-spacing
+  );
+  --paragraph-indent-text-regular-xl: var(
+    --FLDS-typography-typography-text-regular-xl-paragraph-indent
+  );
+  --text-decoration-text-regular-xl: var(
+    --FLDS-typography-typography-text-regular-xl-text-decoration
+  );
+  --text-case-text-regular-xl: var(--FLDS-typography-typography-text-regular-xl-text-case);
+  --font-family-text-regular-2xl: var(--FLDS-typography-typography-text-regular-2xl-font-family);
+  --font-weight-text-regular-2xl: var(--FLDS-typography-typography-text-regular-2xl-font-weight);
+  --font-size-text-regular-2xl: var(--FLDS-typography-typography-text-regular-2xl-font-size);
+  --line-height-text-regular-2xl: var(--FLDS-typography-typography-text-regular-2xl-line-height);
+  --letter-spacing-text-regular-2xl: var(
+    --FLDS-typography-typography-text-regular-2xl-letter-spacing
+  );
+  --paragraph-spacing-text-regular-2xl: var(
+    --FLDS-typography-typography-text-regular-2xl-paragraph-spacing
+  );
+  --paragraph-indent-text-regular-2xl: var(
+    --FLDS-typography-typography-text-regular-2xl-paragraph-indent
+  );
+  --text-decoration-text-regular-2xl: var(
+    --FLDS-typography-typography-text-regular-2xl-text-decoration
+  );
+  --text-case-text-regular-2xl: var(--FLDS-typography-typography-text-regular-2xl-text-case);
+  --font-family-text-regular-3xl: var(--FLDS-typography-typography-text-regular-3xl-font-family);
+  --font-weight-text-regular-3xl: var(--FLDS-typography-typography-text-regular-3xl-font-weight);
+  --font-size-text-regular-3xl: var(--FLDS-typography-typography-text-regular-3xl-font-size);
+  --line-height-text-regular-3xl: var(--FLDS-typography-typography-text-regular-3xl-line-height);
+  --letter-spacing-text-regular-3xl: var(
+    --FLDS-typography-typography-text-regular-3xl-letter-spacing
+  );
+  --paragraph-spacing-text-regular-3xl: var(
+    --FLDS-typography-typography-text-regular-3xl-paragraph-spacing
+  );
+  --paragraph-indent-text-regular-3xl: var(
+    --FLDS-typography-typography-text-regular-3xl-paragraph-indent
+  );
+  --text-decoration-text-regular-3xl: var(
+    --FLDS-typography-typography-text-regular-3xl-text-decoration
+  );
+  --text-case-text-regular-3xl: var(--FLDS-typography-typography-text-regular-3xl-text-case);
+  --font-family-text-regular-4xl: var(--FLDS-typography-typography-text-regular-4xl-font-family);
+  --font-weight-text-regular-4xl: var(--FLDS-typography-typography-text-regular-4xl-font-weight);
+  --font-size-text-regular-4xl: var(--FLDS-typography-typography-text-regular-4xl-font-size);
+  --line-height-text-regular-4xl: var(--FLDS-typography-typography-text-regular-4xl-line-height);
+  --letter-spacing-text-regular-4xl: var(
+    --FLDS-typography-typography-text-regular-4xl-letter-spacing
+  );
+  --paragraph-spacing-text-regular-4xl: var(
+    --FLDS-typography-typography-text-regular-4xl-paragraph-spacing
+  );
+  --paragraph-indent-text-regular-4xl: var(
+    --FLDS-typography-typography-text-regular-4xl-paragraph-indent
+  );
+  --text-decoration-text-regular-4xl: var(
+    --FLDS-typography-typography-text-regular-4xl-text-decoration
+  );
+  --text-case-text-regular-4xl: var(--FLDS-typography-typography-text-regular-4xl-text-case);
+  --font-family-text-regular-5xl: var(--FLDS-typography-typography-text-regular-5xl-font-family);
+  --font-weight-text-regular-5xl: var(--FLDS-typography-typography-text-regular-5xl-font-weight);
+  --font-size-text-regular-5xl: var(--FLDS-typography-typography-text-regular-5xl-font-size);
+  --line-height-text-regular-5xl: var(--FLDS-typography-typography-text-regular-5xl-line-height);
+  --letter-spacing-text-regular-5xl: var(
+    --FLDS-typography-typography-text-regular-5xl-letter-spacing
+  );
+  --paragraph-spacing-text-regular-5xl: var(
+    --FLDS-typography-typography-text-regular-5xl-paragraph-spacing
+  );
+  --paragraph-indent-text-regular-5xl: var(
+    --FLDS-typography-typography-text-regular-5xl-paragraph-indent
+  );
+  --text-decoration-text-regular-5xl: var(
+    --FLDS-typography-typography-text-regular-5xl-text-decoration
+  );
+  --text-case-text-regular-5xl: var(--FLDS-typography-typography-text-regular-5xl-text-case);
+  --font-family-text-regular-6xl: var(--FLDS-typography-typography-text-regular-6xl-font-family);
+  --font-weight-text-regular-6xl: var(--FLDS-typography-typography-text-regular-6xl-font-weight);
+  --font-size-text-regular-6xl: var(--FLDS-typography-typography-text-regular-6xl-font-size);
+  --line-height-text-regular-6xl: var(--FLDS-typography-typography-text-regular-6xl-line-height);
+  --letter-spacing-text-regular-6xl: var(
+    --FLDS-typography-typography-text-regular-6xl-letter-spacing
+  );
+  --paragraph-spacing-text-regular-6xl: var(
+    --FLDS-typography-typography-text-regular-6xl-paragraph-spacing
+  );
+  --paragraph-indent-text-regular-6xl: var(
+    --FLDS-typography-typography-text-regular-6xl-paragraph-indent
+  );
+  --text-decoration-text-regular-6xl: var(
+    --FLDS-typography-typography-text-regular-6xl-text-decoration
+  );
+  --text-case-text-regular-6xl: var(--FLDS-typography-typography-text-regular-6xl-text-case);
+  --font-family-text-regular-7xl: var(--FLDS-typography-typography-text-regular-7xl-font-family);
+  --font-weight-text-regular-7xl: var(--FLDS-typography-typography-text-regular-7xl-font-weight);
+  --font-size-text-regular-7xl: var(--FLDS-typography-typography-text-regular-7xl-font-size);
+  --line-height-text-regular-7xl: var(--FLDS-typography-typography-text-regular-7xl-line-height);
+  --letter-spacing-text-regular-7xl: var(
+    --FLDS-typography-typography-text-regular-7xl-letter-spacing
+  );
+  --paragraph-spacing-text-regular-7xl: var(
+    --FLDS-typography-typography-text-regular-7xl-paragraph-spacing
+  );
+  --paragraph-indent-text-regular-7xl: var(
+    --FLDS-typography-typography-text-regular-7xl-paragraph-indent
+  );
+  --text-decoration-text-regular-7xl: var(
+    --FLDS-typography-typography-text-regular-7xl-text-decoration
+  );
+  --text-case-text-regular-7xl: var(--FLDS-typography-typography-text-regular-7xl-text-case);
+  --font-family-text-regular-8xl: var(--FLDS-typography-typography-text-regular-8xl-font-family);
+  --font-weight-text-regular-8xl: var(--FLDS-typography-typography-text-regular-8xl-font-weight);
+  --font-size-text-regular-8xl: var(--FLDS-typography-typography-text-regular-8xl-font-size);
+  --line-height-text-regular-8xl: var(--FLDS-typography-typography-text-regular-8xl-line-height);
+  --letter-spacing-text-regular-8xl: var(
+    --FLDS-typography-typography-text-regular-8xl-letter-spacing
+  );
+  --paragraph-spacing-text-regular-8xl: var(
+    --FLDS-typography-typography-text-regular-8xl-paragraph-spacing
+  );
+  --paragraph-indent-text-regular-8xl: var(
+    --FLDS-typography-typography-text-regular-8xl-paragraph-indent
+  );
+  --text-decoration-text-regular-8xl: var(
+    --FLDS-typography-typography-text-regular-8xl-text-decoration
+  );
+  --text-case-text-regular-8xl: var(--FLDS-typography-typography-text-regular-8xl-text-case);
+  --font-family-text-bold-2xs: var(--FLDS-typography-typography-text-bold-2xs-font-family);
+  --font-weight-text-bold-2xs: var(--FLDS-typography-typography-text-bold-2xs-font-weight);
+  --font-size-text-bold-2xs: var(--FLDS-typography-typography-text-bold-2xs-font-size);
+  --line-height-text-bold-2xs: var(--FLDS-typography-typography-text-bold-2xs-line-height);
+  --letter-spacing-text-bold-2xs: var(--FLDS-typography-typography-text-bold-2xs-letter-spacing);
+  --paragraph-spacing-text-bold-2xs: var(
+    --FLDS-typography-typography-text-bold-2xs-paragraph-spacing
+  );
+  --paragraph-indent-text-bold-2xs: var(
+    --FLDS-typography-typography-text-bold-2xs-paragraph-indent
+  );
+  --text-decoration-text-bold-2xs: var(--FLDS-typography-typography-text-bold-2xs-text-decoration);
+  --text-case-text-bold-2xs: var(--FLDS-typography-typography-text-bold-2xs-text-case);
+  --font-family-text-bold-xs: var(--FLDS-typography-typography-text-bold-xs-font-family);
+  --font-weight-text-bold-xs: var(--FLDS-typography-typography-text-bold-xs-font-weight);
+  --font-size-text-bold-xs: var(--FLDS-typography-typography-text-bold-xs-font-size);
+  --line-height-text-bold-xs: var(--FLDS-typography-typography-text-bold-xs-line-height);
+  --letter-spacing-text-bold-xs: var(--FLDS-typography-typography-text-bold-xs-letter-spacing);
+  --paragraph-spacing-text-bold-xs: var(
+    --FLDS-typography-typography-text-bold-xs-paragraph-spacing
+  );
+  --paragraph-indent-text-bold-xs: var(--FLDS-typography-typography-text-bold-xs-paragraph-indent);
+  --text-decoration-text-bold-xs: var(--FLDS-typography-typography-text-bold-xs-text-decoration);
+  --text-case-text-bold-xs: var(--FLDS-typography-typography-text-bold-xs-text-case);
+  --font-family-text-bold-sm: var(--FLDS-typography-typography-text-bold-sm-font-family);
+  --font-weight-text-bold-sm: var(--FLDS-typography-typography-text-bold-sm-font-weight);
+  --font-size-text-bold-sm: var(--FLDS-typography-typography-text-bold-sm-font-size);
+  --line-height-text-bold-sm: var(--FLDS-typography-typography-text-bold-sm-line-height);
+  --letter-spacing-text-bold-sm: var(--FLDS-typography-typography-text-bold-sm-letter-spacing);
+  --paragraph-spacing-text-bold-sm: var(
+    --FLDS-typography-typography-text-bold-sm-paragraph-spacing
+  );
+  --paragraph-indent-text-bold-sm: var(--FLDS-typography-typography-text-bold-sm-paragraph-indent);
+  --text-decoration-text-bold-sm: var(--FLDS-typography-typography-text-bold-sm-text-decoration);
+  --text-case-text-bold-sm: var(--FLDS-typography-typography-text-bold-sm-text-case);
+  --font-family-text-bold-md: var(--FLDS-typography-typography-text-bold-md-font-family);
+  --font-weight-text-bold-md: var(--FLDS-typography-typography-text-bold-md-font-weight);
+  --font-size-text-bold-md: var(--FLDS-typography-typography-text-bold-md-font-size);
+  --line-height-text-bold-md: var(--FLDS-typography-typography-text-bold-md-line-height);
+  --letter-spacing-text-bold-md: var(--FLDS-typography-typography-text-bold-md-letter-spacing);
+  --paragraph-spacing-text-bold-md: var(
+    --FLDS-typography-typography-text-bold-md-paragraph-spacing
+  );
+  --paragraph-indent-text-bold-md: var(--FLDS-typography-typography-text-bold-md-paragraph-indent);
+  --text-decoration-text-bold-md: var(--FLDS-typography-typography-text-bold-md-text-decoration);
+  --text-case-text-bold-md: var(--FLDS-typography-typography-text-bold-md-text-case);
+  --font-family-text-bold-lg: var(--FLDS-typography-typography-text-bold-lg-font-family);
+  --font-weight-text-bold-lg: var(--FLDS-typography-typography-text-bold-lg-font-weight);
+  --font-size-text-bold-lg: var(--FLDS-typography-typography-text-bold-lg-font-size);
+  --line-height-text-bold-lg: var(--FLDS-typography-typography-text-bold-lg-line-height);
+  --letter-spacing-text-bold-lg: var(--FLDS-typography-typography-text-bold-lg-letter-spacing);
+  --paragraph-spacing-text-bold-lg: var(
+    --FLDS-typography-typography-text-bold-lg-paragraph-spacing
+  );
+  --paragraph-indent-text-bold-lg: var(--FLDS-typography-typography-text-bold-lg-paragraph-indent);
+  --text-decoration-text-bold-lg: var(--FLDS-typography-typography-text-bold-lg-text-decoration);
+  --text-case-text-bold-lg: var(--FLDS-typography-typography-text-bold-lg-text-case);
+  --font-family-text-bold-xl: var(--FLDS-typography-typography-text-bold-xl-font-family);
+  --font-weight-text-bold-xl: var(--FLDS-typography-typography-text-bold-xl-font-weight);
+  --font-size-text-bold-xl: var(--FLDS-typography-typography-text-bold-xl-font-size);
+  --line-height-text-bold-xl: var(--FLDS-typography-typography-text-bold-xl-line-height);
+  --letter-spacing-text-bold-xl: var(--FLDS-typography-typography-text-bold-xl-letter-spacing);
+  --paragraph-spacing-text-bold-xl: var(
+    --FLDS-typography-typography-text-bold-xl-paragraph-spacing
+  );
+  --paragraph-indent-text-bold-xl: var(--FLDS-typography-typography-text-bold-xl-paragraph-indent);
+  --text-decoration-text-bold-xl: var(--FLDS-typography-typography-text-bold-xl-text-decoration);
+  --text-case-text-bold-xl: var(--FLDS-typography-typography-text-bold-xl-text-case);
+  --font-family-text-bold-2xl: var(--FLDS-typography-typography-text-bold-2xl-font-family);
+  --font-weight-text-bold-2xl: var(--FLDS-typography-typography-text-bold-2xl-font-weight);
+  --font-size-text-bold-2xl: var(--FLDS-typography-typography-text-bold-2xl-font-size);
+  --line-height-text-bold-2xl: var(--FLDS-typography-typography-text-bold-2xl-line-height);
+  --letter-spacing-text-bold-2xl: var(--FLDS-typography-typography-text-bold-2xl-letter-spacing);
+  --paragraph-spacing-text-bold-2xl: var(
+    --FLDS-typography-typography-text-bold-2xl-paragraph-spacing
+  );
+  --paragraph-indent-text-bold-2xl: var(
+    --FLDS-typography-typography-text-bold-2xl-paragraph-indent
+  );
+  --text-decoration-text-bold-2xl: var(--FLDS-typography-typography-text-bold-2xl-text-decoration);
+  --text-case-text-bold-2xl: var(--FLDS-typography-typography-text-bold-2xl-text-case);
+  --font-family-text-bold-3xl: var(--FLDS-typography-typography-text-bold-3xl-font-family);
+  --font-weight-text-bold-3xl: var(--FLDS-typography-typography-text-bold-3xl-font-weight);
+  --font-size-text-bold-3xl: var(--FLDS-typography-typography-text-bold-3xl-font-size);
+  --line-height-text-bold-3xl: var(--FLDS-typography-typography-text-bold-3xl-line-height);
+  --letter-spacing-text-bold-3xl: var(--FLDS-typography-typography-text-bold-3xl-letter-spacing);
+  --paragraph-spacing-text-bold-3xl: var(
+    --FLDS-typography-typography-text-bold-3xl-paragraph-spacing
+  );
+  --paragraph-indent-text-bold-3xl: var(
+    --FLDS-typography-typography-text-bold-3xl-paragraph-indent
+  );
+  --text-decoration-text-bold-3xl: var(--FLDS-typography-typography-text-bold-3xl-text-decoration);
+  --text-case-text-bold-3xl: var(--FLDS-typography-typography-text-bold-3xl-text-case);
+  --font-family-text-bold-4xl: var(--FLDS-typography-typography-text-bold-4xl-font-family);
+  --font-weight-text-bold-4xl: var(--FLDS-typography-typography-text-bold-4xl-font-weight);
+  --font-size-text-bold-4xl: var(--FLDS-typography-typography-text-bold-4xl-font-size);
+  --line-height-text-bold-4xl: var(--FLDS-typography-typography-text-bold-4xl-line-height);
+  --letter-spacing-text-bold-4xl: var(--FLDS-typography-typography-text-bold-4xl-letter-spacing);
+  --paragraph-spacing-text-bold-4xl: var(
+    --FLDS-typography-typography-text-bold-4xl-paragraph-spacing
+  );
+  --paragraph-indent-text-bold-4xl: var(
+    --FLDS-typography-typography-text-bold-4xl-paragraph-indent
+  );
+  --text-decoration-text-bold-4xl: var(--FLDS-typography-typography-text-bold-4xl-text-decoration);
+  --text-case-text-bold-4xl: var(--FLDS-typography-typography-text-bold-4xl-text-case);
+  --font-family-text-bold-5xl: var(--FLDS-typography-typography-text-bold-5xl-font-family);
+  --font-weight-text-bold-5xl: var(--FLDS-typography-typography-text-bold-5xl-font-weight);
+  --font-size-text-bold-5xl: var(--FLDS-typography-typography-text-bold-5xl-font-size);
+  --line-height-text-bold-5xl: var(--FLDS-typography-typography-text-bold-5xl-line-height);
+  --letter-spacing-text-bold-5xl: var(--FLDS-typography-typography-text-bold-5xl-letter-spacing);
+  --paragraph-spacing-text-bold-5xl: var(
+    --FLDS-typography-typography-text-bold-5xl-paragraph-spacing
+  );
+  --paragraph-indent-text-bold-5xl: var(
+    --FLDS-typography-typography-text-bold-5xl-paragraph-indent
+  );
+  --text-decoration-text-bold-5xl: var(--FLDS-typography-typography-text-bold-5xl-text-decoration);
+  --text-case-text-bold-5xl: var(--FLDS-typography-typography-text-bold-5xl-text-case);
+  --font-family-text-bold-6xl: var(--FLDS-typography-typography-text-bold-6xl-font-family);
+  --font-weight-text-bold-6xl: var(--FLDS-typography-typography-text-bold-6xl-font-weight);
+  --font-size-text-bold-6xl: var(--FLDS-typography-typography-text-bold-6xl-font-size);
+  --line-height-text-bold-6xl: var(--FLDS-typography-typography-text-bold-6xl-line-height);
+  --letter-spacing-text-bold-6xl: var(--FLDS-typography-typography-text-bold-6xl-letter-spacing);
+  --paragraph-spacing-text-bold-6xl: var(
+    --FLDS-typography-typography-text-bold-6xl-paragraph-spacing
+  );
+  --paragraph-indent-text-bold-6xl: var(
+    --FLDS-typography-typography-text-bold-6xl-paragraph-indent
+  );
+  --text-decoration-text-bold-6xl: var(--FLDS-typography-typography-text-bold-6xl-text-decoration);
+  --text-case-text-bold-6xl: var(--FLDS-typography-typography-text-bold-6xl-text-case);
+  --font-family-text-bold-7xl: var(--FLDS-typography-typography-text-bold-7xl-font-family);
+  --font-weight-text-bold-7xl: var(--FLDS-typography-typography-text-bold-7xl-font-weight);
+  --font-size-text-bold-7xl: var(--FLDS-typography-typography-text-bold-7xl-font-size);
+  --line-height-text-bold-7xl: var(--FLDS-typography-typography-text-bold-7xl-line-height);
+  --letter-spacing-text-bold-7xl: var(--FLDS-typography-typography-text-bold-7xl-letter-spacing);
+  --paragraph-spacing-text-bold-7xl: var(
+    --FLDS-typography-typography-text-bold-7xl-paragraph-spacing
+  );
+  --paragraph-indent-text-bold-7xl: var(
+    --FLDS-typography-typography-text-bold-7xl-paragraph-indent
+  );
+  --text-decoration-text-bold-7xl: var(--FLDS-typography-typography-text-bold-7xl-text-decoration);
+  --text-case-text-bold-7xl: var(--FLDS-typography-typography-text-bold-7xl-text-case);
+  --font-family-text-bold-8xl: var(--FLDS-typography-typography-text-bold-8xl-font-family);
+  --font-weight-text-bold-8xl: var(--FLDS-typography-typography-text-bold-8xl-font-weight);
+  --font-size-text-bold-8xl: var(--FLDS-typography-typography-text-bold-8xl-font-size);
+  --line-height-text-bold-8xl: var(--FLDS-typography-typography-text-bold-8xl-line-height);
+  --letter-spacing-text-bold-8xl: var(--FLDS-typography-typography-text-bold-8xl-letter-spacing);
+  --paragraph-spacing-text-bold-8xl: var(
+    --FLDS-typography-typography-text-bold-8xl-paragraph-spacing
+  );
+  --paragraph-indent-text-bold-8xl: var(
+    --FLDS-typography-typography-text-bold-8xl-paragraph-indent
+  );
+  --text-decoration-text-bold-8xl: var(--FLDS-typography-typography-text-bold-8xl-text-decoration);
+  --text-case-text-bold-8xl: var(--FLDS-typography-typography-text-bold-8xl-text-case);
+  --font-family-label-small-light: var(--FLDS-typography-typography-label-small-light-font-family);
+  --font-weight-label-small-light: var(--FLDS-typography-typography-label-small-light-font-weight);
+  --font-size-label-small-light: var(--FLDS-typography-typography-label-small-light-font-size);
+  --line-height-label-small-light: var(--FLDS-typography-typography-label-small-light-line-height);
+  --letter-spacing-label-small-light: var(
+    --FLDS-typography-typography-label-small-light-letter-spacing
+  );
+  --paragraph-spacing-label-small-light: var(
+    --FLDS-typography-typography-label-small-light-paragraph-spacing
+  );
+  --paragraph-indent-label-small-light: var(
+    --FLDS-typography-typography-label-small-light-paragraph-indent
+  );
+  --text-decoration-label-small-light: var(
+    --FLDS-typography-typography-label-small-light-text-decoration
+  );
+  --text-case-label-small-light: var(--FLDS-typography-typography-label-small-light-text-case);
+  --font-family-label-small-regular: var(
+    --FLDS-typography-typography-label-small-regular-font-family
+  );
+  --font-weight-label-small-regular: var(
+    --FLDS-typography-typography-label-small-regular-font-weight
+  );
+  --font-size-label-small-regular: var(--FLDS-typography-typography-label-small-regular-font-size);
+  --line-height-label-small-regular: var(
+    --FLDS-typography-typography-label-small-regular-line-height
+  );
+  --letter-spacing-label-small-regular: var(
+    --FLDS-typography-typography-label-small-regular-letter-spacing
+  );
+  --paragraph-spacing-label-small-regular: var(
+    --FLDS-typography-typography-label-small-regular-paragraph-spacing
+  );
+  --paragraph-indent-label-small-regular: var(
+    --FLDS-typography-typography-label-small-regular-paragraph-indent
+  );
+  --text-decoration-label-small-regular: var(
+    --FLDS-typography-typography-label-small-regular-text-decoration
+  );
+  --text-case-label-small-regular: var(--FLDS-typography-typography-label-small-regular-text-case);
+  --font-family-label-small-medium: var(
+    --FLDS-typography-typography-label-small-medium-font-family
+  );
+  --font-weight-label-small-medium: var(
+    --FLDS-typography-typography-label-small-medium-font-weight
+  );
+  --font-size-label-small-medium: var(--FLDS-typography-typography-label-small-medium-font-size);
+  --line-height-label-small-medium: var(
+    --FLDS-typography-typography-label-small-medium-line-height
+  );
+  --letter-spacing-label-small-medium: var(
+    --FLDS-typography-typography-label-small-medium-letter-spacing
+  );
+  --paragraph-spacing-label-small-medium: var(
+    --FLDS-typography-typography-label-small-medium-paragraph-spacing
+  );
+  --paragraph-indent-label-small-medium: var(
+    --FLDS-typography-typography-label-small-medium-paragraph-indent
+  );
+  --text-decoration-label-small-medium: var(
+    --FLDS-typography-typography-label-small-medium-text-decoration
+  );
+  --text-case-label-small-medium: var(--FLDS-typography-typography-label-small-medium-text-case);
+  --font-family-label-small-semibold: var(
+    --FLDS-typography-typography-label-small-semibold-font-family
+  );
+  --font-weight-label-small-semibold: var(
+    --FLDS-typography-typography-label-small-semibold-font-weight
+  );
+  --font-size-label-small-semibold: var(
+    --FLDS-typography-typography-label-small-semibold-font-size
+  );
+  --line-height-label-small-semibold: var(
+    --FLDS-typography-typography-label-small-semibold-line-height
+  );
+  --letter-spacing-label-small-semibold: var(
+    --FLDS-typography-typography-label-small-semibold-letter-spacing
+  );
+  --paragraph-spacing-label-small-semibold: var(
+    --FLDS-typography-typography-label-small-semibold-paragraph-spacing
+  );
+  --paragraph-indent-label-small-semibold: var(
+    --FLDS-typography-typography-label-small-semibold-paragraph-indent
+  );
+  --text-decoration-label-small-semibold: var(
+    --FLDS-typography-typography-label-small-semibold-text-decoration
+  );
+  --text-case-label-small-semibold: var(
+    --FLDS-typography-typography-label-small-semibold-text-case
+  );
+  --font-family-label-small-bold: var(--FLDS-typography-typography-label-small-bold-font-family);
+  --font-weight-label-small-bold: var(--FLDS-typography-typography-label-small-bold-font-weight);
+  --font-size-label-small-bold: var(--FLDS-typography-typography-label-small-bold-font-size);
+  --line-height-label-small-bold: var(--FLDS-typography-typography-label-small-bold-line-height);
+  --letter-spacing-label-small-bold: var(
+    --FLDS-typography-typography-label-small-bold-letter-spacing
+  );
+  --paragraph-spacing-label-small-bold: var(
+    --FLDS-typography-typography-label-small-bold-paragraph-spacing
+  );
+  --paragraph-indent-label-small-bold: var(
+    --FLDS-typography-typography-label-small-bold-paragraph-indent
+  );
+  --text-decoration-label-small-bold: var(
+    --FLDS-typography-typography-label-small-bold-text-decoration
+  );
+  --text-case-label-small-bold: var(--FLDS-typography-typography-label-small-bold-text-case);
+  --font-family-label-small-extrabold: var(
+    --FLDS-typography-typography-label-small-extrabold-font-family
+  );
+  --font-weight-label-small-extrabold: var(
+    --FLDS-typography-typography-label-small-extrabold-font-weight
+  );
+  --font-size-label-small-extrabold: var(
+    --FLDS-typography-typography-label-small-extrabold-font-size
+  );
+  --line-height-label-small-extrabold: var(
+    --FLDS-typography-typography-label-small-extrabold-line-height
+  );
+  --letter-spacing-label-small-extrabold: var(
+    --FLDS-typography-typography-label-small-extrabold-letter-spacing
+  );
+  --paragraph-spacing-label-small-extrabold: var(
+    --FLDS-typography-typography-label-small-extrabold-paragraph-spacing
+  );
+  --paragraph-indent-label-small-extrabold: var(
+    --FLDS-typography-typography-label-small-extrabold-paragraph-indent
+  );
+  --text-decoration-label-small-extrabold: var(
+    --FLDS-typography-typography-label-small-extrabold-text-decoration
+  );
+  --text-case-label-small-extrabold: var(
+    --FLDS-typography-typography-label-small-extrabold-text-case
+  );
+  --font-family-label-small-strong: var(
+    --FLDS-typography-typography-label-small-strong-font-family
+  );
+  --font-weight-label-small-strong: var(
+    --FLDS-typography-typography-label-small-strong-font-weight
+  );
+  --font-size-label-small-strong: var(--FLDS-typography-typography-label-small-strong-font-size);
+  --line-height-label-small-strong: var(
+    --FLDS-typography-typography-label-small-strong-line-height
+  );
+  --letter-spacing-label-small-strong: var(
+    --FLDS-typography-typography-label-small-strong-letter-spacing
+  );
+  --paragraph-spacing-label-small-strong: var(
+    --FLDS-typography-typography-label-small-strong-paragraph-spacing
+  );
+  --paragraph-indent-label-small-strong: var(
+    --FLDS-typography-typography-label-small-strong-paragraph-indent
+  );
+  --text-decoration-label-small-strong: var(
+    --FLDS-typography-typography-label-small-strong-text-decoration
+  );
+  --text-case-label-small-strong: var(--FLDS-typography-typography-label-small-strong-text-case);
+  --font-family-label-medium-light: var(
+    --FLDS-typography-typography-label-medium-light-font-family
+  );
+  --font-weight-label-medium-light: var(
+    --FLDS-typography-typography-label-medium-light-font-weight
+  );
+  --font-size-label-medium-light: var(--FLDS-typography-typography-label-medium-light-font-size);
+  --line-height-label-medium-light: var(
+    --FLDS-typography-typography-label-medium-light-line-height
+  );
+  --letter-spacing-label-medium-light: var(
+    --FLDS-typography-typography-label-medium-light-letter-spacing
+  );
+  --paragraph-spacing-label-medium-light: var(
+    --FLDS-typography-typography-label-medium-light-paragraph-spacing
+  );
+  --paragraph-indent-label-medium-light: var(
+    --FLDS-typography-typography-label-medium-light-paragraph-indent
+  );
+  --text-decoration-label-medium-light: var(
+    --FLDS-typography-typography-label-medium-light-text-decoration
+  );
+  --text-case-label-medium-light: var(--FLDS-typography-typography-label-medium-light-text-case);
+  --font-family-label-medium-regular: var(
+    --FLDS-typography-typography-label-medium-regular-font-family
+  );
+  --font-weight-label-medium-regular: var(
+    --FLDS-typography-typography-label-medium-regular-font-weight
+  );
+  --font-size-label-medium-regular: var(
+    --FLDS-typography-typography-label-medium-regular-font-size
+  );
+  --line-height-label-medium-regular: var(
+    --FLDS-typography-typography-label-medium-regular-line-height
+  );
+  --letter-spacing-label-medium-regular: var(
+    --FLDS-typography-typography-label-medium-regular-letter-spacing
+  );
+  --paragraph-spacing-label-medium-regular: var(
+    --FLDS-typography-typography-label-medium-regular-paragraph-spacing
+  );
+  --paragraph-indent-label-medium-regular: var(
+    --FLDS-typography-typography-label-medium-regular-paragraph-indent
+  );
+  --text-decoration-label-medium-regular: var(
+    --FLDS-typography-typography-label-medium-regular-text-decoration
+  );
+  --text-case-label-medium-regular: var(
+    --FLDS-typography-typography-label-medium-regular-text-case
+  );
+  --font-family-label-medium-medium: var(
+    --FLDS-typography-typography-label-medium-medium-font-family
+  );
+  --font-weight-label-medium-medium: var(
+    --FLDS-typography-typography-label-medium-medium-font-weight
+  );
+  --font-size-label-medium-medium: var(--FLDS-typography-typography-label-medium-medium-font-size);
+  --line-height-label-medium-medium: var(
+    --FLDS-typography-typography-label-medium-medium-line-height
+  );
+  --letter-spacing-label-medium-medium: var(
+    --FLDS-typography-typography-label-medium-medium-letter-spacing
+  );
+  --paragraph-spacing-label-medium-medium: var(
+    --FLDS-typography-typography-label-medium-medium-paragraph-spacing
+  );
+  --paragraph-indent-label-medium-medium: var(
+    --FLDS-typography-typography-label-medium-medium-paragraph-indent
+  );
+  --text-decoration-label-medium-medium: var(
+    --FLDS-typography-typography-label-medium-medium-text-decoration
+  );
+  --text-case-label-medium-medium: var(--FLDS-typography-typography-label-medium-medium-text-case);
+  --font-family-label-medium-semibold: var(
+    --FLDS-typography-typography-label-medium-semibold-font-family
+  );
+  --font-weight-label-medium-semibold: var(
+    --FLDS-typography-typography-label-medium-semibold-font-weight
+  );
+  --font-size-label-medium-semibold: var(
+    --FLDS-typography-typography-label-medium-semibold-font-size
+  );
+  --line-height-label-medium-semibold: var(
+    --FLDS-typography-typography-label-medium-semibold-line-height
+  );
+  --letter-spacing-label-medium-semibold: var(
+    --FLDS-typography-typography-label-medium-semibold-letter-spacing
+  );
+  --paragraph-spacing-label-medium-semibold: var(
+    --FLDS-typography-typography-label-medium-semibold-paragraph-spacing
+  );
+  --paragraph-indent-label-medium-semibold: var(
+    --FLDS-typography-typography-label-medium-semibold-paragraph-indent
+  );
+  --text-decoration-label-medium-semibold: var(
+    --FLDS-typography-typography-label-medium-semibold-text-decoration
+  );
+  --text-case-label-medium-semibold: var(
+    --FLDS-typography-typography-label-medium-semibold-text-case
+  );
+  --font-family-label-medium-bold: var(--FLDS-typography-typography-label-medium-bold-font-family);
+  --font-weight-label-medium-bold: var(--FLDS-typography-typography-label-medium-bold-font-weight);
+  --font-size-label-medium-bold: var(--FLDS-typography-typography-label-medium-bold-font-size);
+  --line-height-label-medium-bold: var(--FLDS-typography-typography-label-medium-bold-line-height);
+  --letter-spacing-label-medium-bold: var(
+    --FLDS-typography-typography-label-medium-bold-letter-spacing
+  );
+  --paragraph-spacing-label-medium-bold: var(
+    --FLDS-typography-typography-label-medium-bold-paragraph-spacing
+  );
+  --paragraph-indent-label-medium-bold: var(
+    --FLDS-typography-typography-label-medium-bold-paragraph-indent
+  );
+  --text-decoration-label-medium-bold: var(
+    --FLDS-typography-typography-label-medium-bold-text-decoration
+  );
+  --text-case-label-medium-bold: var(--FLDS-typography-typography-label-medium-bold-text-case);
+  --font-family-label-medium-extrabold: var(
+    --FLDS-typography-typography-label-medium-extrabold-font-family
+  );
+  --font-weight-label-medium-extrabold: var(
+    --FLDS-typography-typography-label-medium-extrabold-font-weight
+  );
+  --font-size-label-medium-extrabold: var(
+    --FLDS-typography-typography-label-medium-extrabold-font-size
+  );
+  --line-height-label-medium-extrabold: var(
+    --FLDS-typography-typography-label-medium-extrabold-line-height
+  );
+  --letter-spacing-label-medium-extrabold: var(
+    --FLDS-typography-typography-label-medium-extrabold-letter-spacing
+  );
+  --paragraph-spacing-label-medium-extrabold: var(
+    --FLDS-typography-typography-label-medium-extrabold-paragraph-spacing
+  );
+  --paragraph-indent-label-medium-extrabold: var(
+    --FLDS-typography-typography-label-medium-extrabold-paragraph-indent
+  );
+  --text-decoration-label-medium-extrabold: var(
+    --FLDS-typography-typography-label-medium-extrabold-text-decoration
+  );
+  --text-case-label-medium-extrabold: var(
+    --FLDS-typography-typography-label-medium-extrabold-text-case
+  );
+  --font-family-label-medium-strong: var(
+    --FLDS-typography-typography-label-medium-strong-font-family
+  );
+  --font-weight-label-medium-strong: var(
+    --FLDS-typography-typography-label-medium-strong-font-weight
+  );
+  --font-size-label-medium-strong: var(--FLDS-typography-typography-label-medium-strong-font-size);
+  --line-height-label-medium-strong: var(
+    --FLDS-typography-typography-label-medium-strong-line-height
+  );
+  --letter-spacing-label-medium-strong: var(
+    --FLDS-typography-typography-label-medium-strong-letter-spacing
+  );
+  --paragraph-spacing-label-medium-strong: var(
+    --FLDS-typography-typography-label-medium-strong-paragraph-spacing
+  );
+  --paragraph-indent-label-medium-strong: var(
+    --FLDS-typography-typography-label-medium-strong-paragraph-indent
+  );
+  --text-decoration-label-medium-strong: var(
+    --FLDS-typography-typography-label-medium-strong-text-decoration
+  );
+  --text-case-label-medium-strong: var(--FLDS-typography-typography-label-medium-strong-text-case);
+  --font-family-label-large-light: var(--FLDS-typography-typography-label-large-light-font-family);
+  --font-weight-label-large-light: var(--FLDS-typography-typography-label-large-light-font-weight);
+  --font-size-label-large-light: var(--FLDS-typography-typography-label-large-light-font-size);
+  --line-height-label-large-light: var(--FLDS-typography-typography-label-large-light-line-height);
+  --letter-spacing-label-large-light: var(
+    --FLDS-typography-typography-label-large-light-letter-spacing
+  );
+  --paragraph-spacing-label-large-light: var(
+    --FLDS-typography-typography-label-large-light-paragraph-spacing
+  );
+  --paragraph-indent-label-large-light: var(
+    --FLDS-typography-typography-label-large-light-paragraph-indent
+  );
+  --text-decoration-label-large-light: var(
+    --FLDS-typography-typography-label-large-light-text-decoration
+  );
+  --text-case-label-large-light: var(--FLDS-typography-typography-label-large-light-text-case);
+  --font-family-label-large-regular: var(
+    --FLDS-typography-typography-label-large-regular-font-family
+  );
+  --font-weight-label-large-regular: var(
+    --FLDS-typography-typography-label-large-regular-font-weight
+  );
+  --font-size-label-large-regular: var(--FLDS-typography-typography-label-large-regular-font-size);
+  --line-height-label-large-regular: var(
+    --FLDS-typography-typography-label-large-regular-line-height
+  );
+  --letter-spacing-label-large-regular: var(
+    --FLDS-typography-typography-label-large-regular-letter-spacing
+  );
+  --paragraph-spacing-label-large-regular: var(
+    --FLDS-typography-typography-label-large-regular-paragraph-spacing
+  );
+  --paragraph-indent-label-large-regular: var(
+    --FLDS-typography-typography-label-large-regular-paragraph-indent
+  );
+  --text-decoration-label-large-regular: var(
+    --FLDS-typography-typography-label-large-regular-text-decoration
+  );
+  --text-case-label-large-regular: var(--FLDS-typography-typography-label-large-regular-text-case);
+  --font-family-label-large-medium: var(
+    --FLDS-typography-typography-label-large-medium-font-family
+  );
+  --font-weight-label-large-medium: var(
+    --FLDS-typography-typography-label-large-medium-font-weight
+  );
+  --font-size-label-large-medium: var(--FLDS-typography-typography-label-large-medium-font-size);
+  --line-height-label-large-medium: var(
+    --FLDS-typography-typography-label-large-medium-line-height
+  );
+  --letter-spacing-label-large-medium: var(
+    --FLDS-typography-typography-label-large-medium-letter-spacing
+  );
+  --paragraph-spacing-label-large-medium: var(
+    --FLDS-typography-typography-label-large-medium-paragraph-spacing
+  );
+  --paragraph-indent-label-large-medium: var(
+    --FLDS-typography-typography-label-large-medium-paragraph-indent
+  );
+  --text-decoration-label-large-medium: var(
+    --FLDS-typography-typography-label-large-medium-text-decoration
+  );
+  --text-case-label-large-medium: var(--FLDS-typography-typography-label-large-medium-text-case);
+  --font-family-label-large-semibold: var(
+    --FLDS-typography-typography-label-large-semibold-font-family
+  );
+  --font-weight-label-large-semibold: var(
+    --FLDS-typography-typography-label-large-semibold-font-weight
+  );
+  --font-size-label-large-semibold: var(
+    --FLDS-typography-typography-label-large-semibold-font-size
+  );
+  --line-height-label-large-semibold: var(
+    --FLDS-typography-typography-label-large-semibold-line-height
+  );
+  --letter-spacing-label-large-semibold: var(
+    --FLDS-typography-typography-label-large-semibold-letter-spacing
+  );
+  --paragraph-spacing-label-large-semibold: var(
+    --FLDS-typography-typography-label-large-semibold-paragraph-spacing
+  );
+  --paragraph-indent-label-large-semibold: var(
+    --FLDS-typography-typography-label-large-semibold-paragraph-indent
+  );
+  --text-decoration-label-large-semibold: var(
+    --FLDS-typography-typography-label-large-semibold-text-decoration
+  );
+  --text-case-label-large-semibold: var(
+    --FLDS-typography-typography-label-large-semibold-text-case
+  );
+  --font-family-label-large-bold: var(--FLDS-typography-typography-label-large-bold-font-family);
+  --font-weight-label-large-bold: var(--FLDS-typography-typography-label-large-bold-font-weight);
+  --font-size-label-large-bold: var(--FLDS-typography-typography-label-large-bold-font-size);
+  --line-height-label-large-bold: var(--FLDS-typography-typography-label-large-bold-line-height);
+  --letter-spacing-label-large-bold: var(
+    --FLDS-typography-typography-label-large-bold-letter-spacing
+  );
+  --paragraph-spacing-label-large-bold: var(
+    --FLDS-typography-typography-label-large-bold-paragraph-spacing
+  );
+  --paragraph-indent-label-large-bold: var(
+    --FLDS-typography-typography-label-large-bold-paragraph-indent
+  );
+  --text-decoration-label-large-bold: var(
+    --FLDS-typography-typography-label-large-bold-text-decoration
+  );
+  --text-case-label-large-bold: var(--FLDS-typography-typography-label-large-bold-text-case);
+  --font-family-label-large-extrabold: var(
+    --FLDS-typography-typography-label-large-extrabold-font-family
+  );
+  --font-weight-label-large-extrabold: var(
+    --FLDS-typography-typography-label-large-extrabold-font-weight
+  );
+  --font-size-label-large-extrabold: var(
+    --FLDS-typography-typography-label-large-extrabold-font-size
+  );
+  --line-height-label-large-extrabold: var(
+    --FLDS-typography-typography-label-large-extrabold-line-height
+  );
+  --letter-spacing-label-large-extrabold: var(
+    --FLDS-typography-typography-label-large-extrabold-letter-spacing
+  );
+  --paragraph-spacing-label-large-extrabold: var(
+    --FLDS-typography-typography-label-large-extrabold-paragraph-spacing
+  );
+  --paragraph-indent-label-large-extrabold: var(
+    --FLDS-typography-typography-label-large-extrabold-paragraph-indent
+  );
+  --text-decoration-label-large-extrabold: var(
+    --FLDS-typography-typography-label-large-extrabold-text-decoration
+  );
+  --text-case-label-large-extrabold: var(
+    --FLDS-typography-typography-label-large-extrabold-text-case
+  );
+  --font-family-label-large-strong: var(
+    --FLDS-typography-typography-label-large-strong-font-family
+  );
+  --font-weight-label-large-strong: var(
+    --FLDS-typography-typography-label-large-strong-font-weight
+  );
+  --font-size-label-large-strong: var(--FLDS-typography-typography-label-large-strong-font-size);
+  --line-height-label-large-strong: var(
+    --FLDS-typography-typography-label-large-strong-line-height
+  );
+  --letter-spacing-label-large-strong: var(
+    --FLDS-typography-typography-label-large-strong-letter-spacing
+  );
+  --paragraph-spacing-label-large-strong: var(
+    --FLDS-typography-typography-label-large-strong-paragraph-spacing
+  );
+  --paragraph-indent-label-large-strong: var(
+    --FLDS-typography-typography-label-large-strong-paragraph-indent
+  );
+  --text-decoration-label-large-strong: var(
+    --FLDS-typography-typography-label-large-strong-text-decoration
+  );
+  --text-case-label-large-strong: var(--FLDS-typography-typography-label-large-strong-text-case);
+  --font-family-.utilities-component-notes-regular: var(
+    --FLDS-typography-typography-utilities-component-notes-regular-font-family
+  );
+  --font-weight-.utilities-component-notes-regular: var(
+    --FLDS-typography-typography-utilities-component-notes-regular-font-weight
+  );
+  --font-size-.utilities-component-notes-regular: var(
+    --FLDS-typography-typography-utilities-component-notes-regular-font-size
+  );
+  --line-height-.utilities-component-notes-regular: var(
+    --FLDS-typography-typography-utilities-component-notes-regular-line-height
+  );
+  --letter-spacing-.utilities-component-notes-regular: var(
+    --FLDS-typography-typography-utilities-component-notes-regular-letter-spacing
+  );
+  --paragraph-spacing-.utilities-component-notes-regular: var(
+    --FLDS-typography-typography-utilities-component-notes-regular-paragraph-spacing
+  );
+  --paragraph-indent-.utilities-component-notes-regular: var(
+    --FLDS-typography-typography-utilities-component-notes-regular-paragraph-indent
+  );
+  --text-decoration-.utilities-component-notes-regular: var(
+    --FLDS-typography-typography-utilities-component-notes-regular-text-decoration
+  );
+  --text-case-.utilities-component-notes-regular: var(
+    --FLDS-typography-typography-utilities-component-notes-regular-text-case
+  );
+  --font-family-.utilities-component-notes-bold: var(
+    --FLDS-typography-typography-utilities-component-notes-bold-font-family
+  );
+  --font-weight-.utilities-component-notes-bold: var(
+    --FLDS-typography-typography-utilities-component-notes-bold-font-weight
+  );
+  --font-size-.utilities-component-notes-bold: var(
+    --FLDS-typography-typography-utilities-component-notes-bold-font-size
+  );
+  --line-height-.utilities-component-notes-bold: var(
+    --FLDS-typography-typography-utilities-component-notes-bold-line-height
+  );
+  --letter-spacing-.utilities-component-notes-bold: var(
+    --FLDS-typography-typography-utilities-component-notes-bold-letter-spacing
+  );
+  --paragraph-spacing-.utilities-component-notes-bold: var(
+    --FLDS-typography-typography-utilities-component-notes-bold-paragraph-spacing
+  );
+  --paragraph-indent-.utilities-component-notes-bold: var(
+    --FLDS-typography-typography-utilities-component-notes-bold-paragraph-indent
+  );
+  --text-decoration-.utilities-component-notes-bold: var(
+    --FLDS-typography-typography-utilities-component-notes-bold-text-decoration
+  );
+  --text-case-.utilities-component-notes-bold: var(
+    --FLDS-typography-typography-utilities-component-notes-bold-text-case
+  );
+  --color-tomato10: var(--FLDS-modals-tomato-tomato10);
+  --color-tomato7: var(--FLDS-modals-tomato-tomato7);
+  --color-tomato6: var(--FLDS-modals-tomato-tomato6);
+  --color-tomato5: var(--FLDS-modals-tomato-tomato5);
+  --color-tomato12: var(--FLDS-modals-tomato-tomato12);
+  --color-tomato11: var(--FLDS-modals-tomato-tomato11);
+  --color-tomato9: var(--FLDS-modals-tomato-tomato9);
+  --color-tomato3: var(--FLDS-modals-tomato-tomato3);
+  --color-tomato8: var(--FLDS-modals-tomato-tomato8);
+  --color-tomato2: var(--FLDS-modals-tomato-tomato2);
+  --color-tomato4: var(--FLDS-modals-tomato-tomato4);
+  --color-tomato1: var(--FLDS-modals-tomato-tomato1);
+  --color-red4: var(--FLDS-modals-red-red4);
+  --color-red5: var(--FLDS-modals-red-red5);
+  --color-red9: var(--FLDS-modals-red-red9);
+  --color-red8: var(--FLDS-modals-red-red8);
+  --color-red12: var(--FLDS-modals-red-red12);
+  --color-red6: var(--FLDS-modals-red-red6);
+  --color-red3: var(--FLDS-modals-red-red3);
+  --color-red1: var(--FLDS-modals-red-red1);
+  --color-red2: var(--FLDS-modals-red-red2);
+  --color-red7: var(--FLDS-modals-red-red7);
+  --color-red10: var(--FLDS-modals-red-red10);
+  --color-red11: var(--FLDS-modals-red-red11);
+  --color-violet10: var(--FLDS-modals-violet-violet10);
+  --color-violet12: var(--FLDS-modals-violet-violet12);
+  --color-violet9: var(--FLDS-modals-violet-violet9);
+  --color-violet3: var(--FLDS-modals-violet-violet3);
+  --color-violet4: var(--FLDS-modals-violet-violet4);
+  --color-violet8: var(--FLDS-modals-violet-violet8);
+  --color-violet1: var(--FLDS-modals-violet-violet1);
+  --color-violet7: var(--FLDS-modals-violet-violet7);
+  --color-violet6: var(--FLDS-modals-violet-violet6);
+  --color-violet5: var(--FLDS-modals-violet-violet5);
+  --color-violet11: var(--FLDS-modals-violet-violet11);
+  --color-violet2: var(--FLDS-modals-violet-violet2);
+  --color-indigo10: var(--FLDS-modals-indigo-indigo10);
+  --color-indigo8: var(--FLDS-modals-indigo-indigo8);
+  --color-indigo7: var(--FLDS-modals-indigo-indigo7);
+  --color-indigo2: var(--FLDS-modals-indigo-indigo2);
+  --color-indigo9: var(--FLDS-modals-indigo-indigo9);
+  --color-indigo3: var(--FLDS-modals-indigo-indigo3);
+  --color-indigo6: var(--FLDS-modals-indigo-indigo6);
+  --color-indigo5: var(--FLDS-modals-indigo-indigo5);
+  --color-indigo12: var(--FLDS-modals-indigo-indigo12);
+  --color-indigo4: var(--FLDS-modals-indigo-indigo4);
+  --color-indigo11: var(--FLDS-modals-indigo-indigo11);
+  --color-indigo1: var(--FLDS-modals-indigo-indigo1);
+  --color-blue7: var(--FLDS-modals-blue-blue7);
+  --color-blue9: var(--FLDS-modals-blue-blue9);
+  --color-blue6: var(--FLDS-modals-blue-blue6);
+  --color-blue5: var(--FLDS-modals-blue-blue5);
+  --color-blue4: var(--FLDS-modals-blue-blue4);
+  --color-blue10: var(--FLDS-modals-blue-blue10);
+  --color-blue8: var(--FLDS-modals-blue-blue8);
+  --color-blue2: var(--FLDS-modals-blue-blue2);
+  --color-blue3: var(--FLDS-modals-blue-blue3);
+  --color-blue11: var(--FLDS-modals-blue-blue11);
+  --color-blue12: var(--FLDS-modals-blue-blue12);
+  --color-blue1: var(--FLDS-modals-blue-blue1);
+  --color-cyan10: var(--FLDS-modals-cyan-cyan10);
+  --color-cyan8: var(--FLDS-modals-cyan-cyan8);
+  --color-cyan7: var(--FLDS-modals-cyan-cyan7);
+  --color-cyan2: var(--FLDS-modals-cyan-cyan2);
+  --color-cyan4: var(--FLDS-modals-cyan-cyan4);
+  --color-cyan5: var(--FLDS-modals-cyan-cyan5);
+  --color-cyan12: var(--FLDS-modals-cyan-cyan12);
+  --color-cyan9: var(--FLDS-modals-cyan-cyan9);
+  --color-cyan3: var(--FLDS-modals-cyan-cyan3);
+  --color-cyan6: var(--FLDS-modals-cyan-cyan6);
+  --color-cyan11: var(--FLDS-modals-cyan-cyan11);
+  --color-cyan1: var(--FLDS-modals-cyan-cyan1);
+  --color-teal9: var(--FLDS-modals-teal-teal9);
+  --color-teal7: var(--FLDS-modals-teal-teal7);
+  --color-teal5: var(--FLDS-modals-teal-teal5);
+  --color-teal4: var(--FLDS-modals-teal-teal4);
+  --color-teal10: var(--FLDS-modals-teal-teal10);
+  --color-teal3: var(--FLDS-modals-teal-teal3);
+  --color-teal8: var(--FLDS-modals-teal-teal8);
+  --color-teal6: var(--FLDS-modals-teal-teal6);
+  --color-teal1: var(--FLDS-modals-teal-teal1);
+  --color-teal12: var(--FLDS-modals-teal-teal12);
+  --color-teal11: var(--FLDS-modals-teal-teal11);
+  --color-teal2: var(--FLDS-modals-teal-teal2);
+  --color-green9: var(--FLDS-modals-green-green9);
+  --color-green10: var(--FLDS-modals-green-green10);
+  --color-green7: var(--FLDS-modals-green-green7);
+  --color-green12: var(--FLDS-modals-green-green12);
+  --color-green6: var(--FLDS-modals-green-green6);
+  --color-green5: var(--FLDS-modals-green-green5);
+  --color-green11: var(--FLDS-modals-green-green11);
+  --color-green4: var(--FLDS-modals-green-green4);
+  --color-green3: var(--FLDS-modals-green-green3);
+  --color-green8: var(--FLDS-modals-green-green8);
+  --color-green2: var(--FLDS-modals-green-green2);
+  --color-green1: var(--FLDS-modals-green-green1);
+  --color-grass10: var(--FLDS-modals-grass-grass10);
+  --color-grass6: var(--FLDS-modals-grass-grass6);
+  --color-grass9: var(--FLDS-modals-grass-grass9);
+  --color-grass8: var(--FLDS-modals-grass-grass8);
+  --color-grass12: var(--FLDS-modals-grass-grass12);
+  --color-grass5: var(--FLDS-modals-grass-grass5);
+  --color-grass7: var(--FLDS-modals-grass-grass7);
+  --color-grass4: var(--FLDS-modals-grass-grass4);
+  --color-grass3: var(--FLDS-modals-grass-grass3);
+  --color-grass2: var(--FLDS-modals-grass-grass2);
+  --color-grass1: var(--FLDS-modals-grass-grass1);
+  --color-grass11: var(--FLDS-modals-grass-grass11);
+  --color-orange10: var(--FLDS-modals-orange-orange10);
+  --color-orange9: var(--FLDS-modals-orange-orange9);
+  --color-orange11: var(--FLDS-modals-orange-orange11);
+  --color-orange8: var(--FLDS-modals-orange-orange8);
+  --color-orange2: var(--FLDS-modals-orange-orange2);
+  --color-orange7: var(--FLDS-modals-orange-orange7);
+  --color-orange4: var(--FLDS-modals-orange-orange4);
+  --color-orange12: var(--FLDS-modals-orange-orange12);
+  --color-orange5: var(--FLDS-modals-orange-orange5);
+  --color-orange3: var(--FLDS-modals-orange-orange3);
+  --color-orange6: var(--FLDS-modals-orange-orange6);
+  --color-orange1: var(--FLDS-modals-orange-orange1);
+  --color-brown10: var(--FLDS-modals-brown-brown10);
+  --color-brown9: var(--FLDS-modals-brown-brown9);
+  --color-brown7: var(--FLDS-modals-brown-brown7);
+  --color-brown6: var(--FLDS-modals-brown-brown6);
+  --color-brown5: var(--FLDS-modals-brown-brown5);
+  --color-brown1: var(--FLDS-modals-brown-brown1);
+  --color-brown12: var(--FLDS-modals-brown-brown12);
+  --color-brown2: var(--FLDS-modals-brown-brown2);
+  --color-brown3: var(--FLDS-modals-brown-brown3);
+  --color-brown8: var(--FLDS-modals-brown-brown8);
+  --color-brown4: var(--FLDS-modals-brown-brown4);
+  --color-brown11: var(--FLDS-modals-brown-brown11);
+  --color-sky10: var(--FLDS-modals-sky-sky10);
+  --color-sky8: var(--FLDS-modals-sky-sky8);
+  --color-sky12: var(--FLDS-modals-sky-sky12);
+  --color-sky7: var(--FLDS-modals-sky-sky7);
+  --color-sky6: var(--FLDS-modals-sky-sky6);
+  --color-sky11: var(--FLDS-modals-sky-sky11);
+  --color-sky5: var(--FLDS-modals-sky-sky5);
+  --color-sky3: var(--FLDS-modals-sky-sky3);
+  --color-sky9: var(--FLDS-modals-sky-sky9);
+  --color-sky1: var(--FLDS-modals-sky-sky1);
+  --color-sky2: var(--FLDS-modals-sky-sky2);
+  --color-sky4: var(--FLDS-modals-sky-sky4);
+  --color-mint10: var(--FLDS-modals-mint-mint10);
+  --color-mint12: var(--FLDS-modals-mint-mint12);
+  --color-mint3: var(--FLDS-modals-mint-mint3);
+  --color-mint8: var(--FLDS-modals-mint-mint8);
+  --color-mint7: var(--FLDS-modals-mint-mint7);
+  --color-mint6: var(--FLDS-modals-mint-mint6);
+  --color-mint4: var(--FLDS-modals-mint-mint4);
+  --color-mint11: var(--FLDS-modals-mint-mint11);
+  --color-mint9: var(--FLDS-modals-mint-mint9);
+  --color-mint5: var(--FLDS-modals-mint-mint5);
+  --color-mint2: var(--FLDS-modals-mint-mint2);
+  --color-mint1: var(--FLDS-modals-mint-mint1);
+  --color-lime9: var(--FLDS-modals-lime-lime9);
+  --color-lime4: var(--FLDS-modals-lime-lime4);
+  --color-lime8: var(--FLDS-modals-lime-lime8);
+  --color-lime10: var(--FLDS-modals-lime-lime10);
+  --color-lime11: var(--FLDS-modals-lime-lime11);
+  --color-lime7: var(--FLDS-modals-lime-lime7);
+  --color-lime6: var(--FLDS-modals-lime-lime6);
+  --color-lime5: var(--FLDS-modals-lime-lime5);
+  --color-lime12: var(--FLDS-modals-lime-lime12);
+  --color-lime2: var(--FLDS-modals-lime-lime2);
+  --color-lime3: var(--FLDS-modals-lime-lime3);
+  --color-lime1: var(--FLDS-modals-lime-lime1);
+  --color-yellow10: var(--FLDS-modals-yellow-yellow10);
+  --color-yellow4: var(--FLDS-modals-yellow-yellow4);
+  --color-yellow9: var(--FLDS-modals-yellow-yellow9);
+  --color-yellow2: var(--FLDS-modals-yellow-yellow2);
+  --color-yellow8: var(--FLDS-modals-yellow-yellow8);
+  --color-yellow7: var(--FLDS-modals-yellow-yellow7);
+  --color-yellow5: var(--FLDS-modals-yellow-yellow5);
+  --color-yellow1: var(--FLDS-modals-yellow-yellow1);
+  --color-yellow3: var(--FLDS-modals-yellow-yellow3);
+  --color-yellow12: var(--FLDS-modals-yellow-yellow12);
+  --color-yellow6: var(--FLDS-modals-yellow-yellow6);
+  --color-yellow11: var(--FLDS-modals-yellow-yellow11);
+  --color-amber10: var(--FLDS-modals-amber-amber10);
+  --color-amber9: var(--FLDS-modals-amber-amber9);
+  --color-amber6: var(--FLDS-modals-amber-amber6);
+  --color-amber11: var(--FLDS-modals-amber-amber11);
+  --color-amber7: var(--FLDS-modals-amber-amber7);
+  --color-amber4: var(--FLDS-modals-amber-amber4);
+  --color-amber5: var(--FLDS-modals-amber-amber5);
+  --color-amber1: var(--FLDS-modals-amber-amber1);
+  --color-amber12: var(--FLDS-modals-amber-amber12);
+  --color-amber8: var(--FLDS-modals-amber-amber8);
+  --color-amber2: var(--FLDS-modals-amber-amber2);
+  --color-amber3: var(--FLDS-modals-amber-amber3);
+  --color-gray10: var(--FLDS-modals-gray-gray10);
+  --color-gray9: var(--FLDS-modals-gray-gray9);
+  --color-gray8: var(--FLDS-modals-gray-gray8);
+  --color-gray7: var(--FLDS-modals-gray-gray7);
+  --color-gray5: var(--FLDS-modals-gray-gray5);
+  --color-gray3: var(--FLDS-modals-gray-gray3);
+  --color-gray1: var(--FLDS-modals-gray-gray1);
+  --color-gray12: var(--FLDS-modals-gray-gray12);
+  --color-gray11: var(--FLDS-modals-gray-gray11);
+  --color-gray6: var(--FLDS-modals-gray-gray6);
+  --color-gray4: var(--FLDS-modals-gray-gray4);
+  --color-gray2: var(--FLDS-modals-gray-gray2);
+  --color-mauve10: var(--FLDS-modals-mauve-mauve10);
+  --color-mauve7: var(--FLDS-modals-mauve-mauve7);
+  --color-mauve5: var(--FLDS-modals-mauve-mauve5);
+  --color-mauve8: var(--FLDS-modals-mauve-mauve8);
+  --color-mauve6: var(--FLDS-modals-mauve-mauve6);
+  --color-mauve4: var(--FLDS-modals-mauve-mauve4);
+  --color-mauve1: var(--FLDS-modals-mauve-mauve1);
+  --color-mauve12: var(--FLDS-modals-mauve-mauve12);
+  --color-mauve11: var(--FLDS-modals-mauve-mauve11);
+  --color-mauve2: var(--FLDS-modals-mauve-mauve2);
+  --color-mauve9: var(--FLDS-modals-mauve-mauve9);
+  --color-mauve3: var(--FLDS-modals-mauve-mauve3);
+  --color-slate6: var(--FLDS-modals-slate-slate6);
+  --color-slate9: var(--FLDS-modals-slate-slate9);
+  --color-slate4: var(--FLDS-modals-slate-slate4);
+  --color-slate7: var(--FLDS-modals-slate-slate7);
+  --color-slate8: var(--FLDS-modals-slate-slate8);
+  --color-slate5: var(--FLDS-modals-slate-slate5);
+  --color-slate10: var(--FLDS-modals-slate-slate10);
+  --color-slate1: var(--FLDS-modals-slate-slate1);
+  --color-slate11: var(--FLDS-modals-slate-slate11);
+  --color-slate2: var(--FLDS-modals-slate-slate2);
+  --color-slate3: var(--FLDS-modals-slate-slate3);
+  --color-slate12: var(--FLDS-modals-slate-slate12);
+  --color-sage7: var(--FLDS-modals-sage-sage7);
+  --color-sage6: var(--FLDS-modals-sage-sage6);
+  --color-sage3: var(--FLDS-modals-sage-sage3);
+  --color-sage11: var(--FLDS-modals-sage-sage11);
+  --color-sage9: var(--FLDS-modals-sage-sage9);
+  --color-sage5: var(--FLDS-modals-sage-sage5);
+  --color-sage10: var(--FLDS-modals-sage-sage10);
+  --color-sage4: var(--FLDS-modals-sage-sage4);
+  --color-sage1: var(--FLDS-modals-sage-sage1);
+  --color-sage12: var(--FLDS-modals-sage-sage12);
+  --color-sage8: var(--FLDS-modals-sage-sage8);
+  --color-sage2: var(--FLDS-modals-sage-sage2);
+  --color-olive10: var(--FLDS-modals-olive-olive10);
+  --color-olive8: var(--FLDS-modals-olive-olive8);
+  --color-olive6: var(--FLDS-modals-olive-olive6);
+  --color-olive1: var(--FLDS-modals-olive-olive1);
+  --color-olive9: var(--FLDS-modals-olive-olive9);
+  --color-olive5: var(--FLDS-modals-olive-olive5);
+  --color-olive4: var(--FLDS-modals-olive-olive4);
+  --color-olive3: var(--FLDS-modals-olive-olive3);
+  --color-olive12: var(--FLDS-modals-olive-olive12);
+  --color-olive11: var(--FLDS-modals-olive-olive11);
+  --color-olive7: var(--FLDS-modals-olive-olive7);
+  --color-olive2: var(--FLDS-modals-olive-olive2);
+  --color-sand10: var(--FLDS-modals-sand-sand10);
+  --color-sand6: var(--FLDS-modals-sand-sand6);
+  --color-sand4: var(--FLDS-modals-sand-sand4);
+  --color-sand9: var(--FLDS-modals-sand-sand9);
+  --color-sand7: var(--FLDS-modals-sand-sand7);
+  --color-sand5: var(--FLDS-modals-sand-sand5);
+  --color-sand12: var(--FLDS-modals-sand-sand12);
+  --color-sand2: var(--FLDS-modals-sand-sand2);
+  --color-sand11: var(--FLDS-modals-sand-sand11);
+  --color-sand3: var(--FLDS-modals-sand-sand3);
+  --color-sand8: var(--FLDS-modals-sand-sand8);
+  --color-sand1: var(--FLDS-modals-sand-sand1);
+  --color-gold7: var(--FLDS-modals-gold-gold7);
+  --color-gold8: var(--FLDS-modals-gold-gold8);
+  --color-gold6: var(--FLDS-modals-gold-gold6);
+  --color-gold5: var(--FLDS-modals-gold-gold5);
+  --color-gold4: var(--FLDS-modals-gold-gold4);
+  --color-gold10: var(--FLDS-modals-gold-gold10);
+  --color-gold1: var(--FLDS-modals-gold-gold1);
+  --color-gold9: var(--FLDS-modals-gold-gold9);
+  --color-gold3: var(--FLDS-modals-gold-gold3);
+  --color-gold12: var(--FLDS-modals-gold-gold12);
+  --color-gold11: var(--FLDS-modals-gold-gold11);
+  --color-gold2: var(--FLDS-modals-gold-gold2);
+  --color-bronze10: var(--FLDS-modals-bronze-bronze10);
+  --color-bronze1: var(--FLDS-modals-bronze-bronze1);
+  --color-bronze9: var(--FLDS-modals-bronze-bronze9);
+  --color-bronze8: var(--FLDS-modals-bronze-bronze8);
+  --color-bronze11: var(--FLDS-modals-bronze-bronze11);
+  --color-bronze5: var(--FLDS-modals-bronze-bronze5);
+  --color-bronze4: var(--FLDS-modals-bronze-bronze4);
+  --color-bronze2: var(--FLDS-modals-bronze-bronze2);
+  --color-bronze3: var(--FLDS-modals-bronze-bronze3);
+  --color-bronze12: var(--FLDS-modals-bronze-bronze12);
+  --color-bronze7: var(--FLDS-modals-bronze-bronze7);
+  --color-bronze6: var(--FLDS-modals-bronze-bronze6);
+  --color-crimson10: var(--FLDS-modals-crimson-crimson10);
+  --color-crimson6: var(--FLDS-modals-crimson-crimson6);
+  --color-crimson9: var(--FLDS-modals-crimson-crimson9);
+  --color-crimson4: var(--FLDS-modals-crimson-crimson4);
+  --color-crimson7: var(--FLDS-modals-crimson-crimson7);
+  --color-crimson5: var(--FLDS-modals-crimson-crimson5);
+  --color-crimson11: var(--FLDS-modals-crimson-crimson11);
+  --color-crimson12: var(--FLDS-modals-crimson-crimson12);
+  --color-crimson2: var(--FLDS-modals-crimson-crimson2);
+  --color-crimson3: var(--FLDS-modals-crimson-crimson3);
+  --color-crimson8: var(--FLDS-modals-crimson-crimson8);
+  --color-crimson1: var(--FLDS-modals-crimson-crimson1);
+  --color-pink10: var(--FLDS-modals-pink-pink10);
+  --color-pink9: var(--FLDS-modals-pink-pink9);
+  --color-pink7: var(--FLDS-modals-pink-pink7);
+  --color-pink1: var(--FLDS-modals-pink-pink1);
+  --color-pink11: var(--FLDS-modals-pink-pink11);
+  --color-pink6: var(--FLDS-modals-pink-pink6);
+  --color-pink8: var(--FLDS-modals-pink-pink8);
+  --color-pink5: var(--FLDS-modals-pink-pink5);
+  --color-pink4: var(--FLDS-modals-pink-pink4);
+  --color-pink3: var(--FLDS-modals-pink-pink3);
+  --color-pink12: var(--FLDS-modals-pink-pink12);
+  --color-pink2: var(--FLDS-modals-pink-pink2);
+  --color-plum10: var(--FLDS-modals-plum-plum10);
+  --color-plum9: var(--FLDS-modals-plum-plum9);
+  --color-plum12: var(--FLDS-modals-plum-plum12);
+  --color-plum8: var(--FLDS-modals-plum-plum8);
+  --color-plum6: var(--FLDS-modals-plum-plum6);
+  --color-plum2: var(--FLDS-modals-plum-plum2);
+  --color-plum5: var(--FLDS-modals-plum-plum5);
+  --color-plum11: var(--FLDS-modals-plum-plum11);
+  --color-plum4: var(--FLDS-modals-plum-plum4);
+  --color-plum7: var(--FLDS-modals-plum-plum7);
+  --color-plum3: var(--FLDS-modals-plum-plum3);
+  --color-plum1: var(--FLDS-modals-plum-plum1);
+  --color-purple10: var(--FLDS-modals-purple-purple10);
+  --color-purple3: var(--FLDS-modals-purple-purple3);
+  --color-purple8: var(--FLDS-modals-purple-purple8);
+  --color-purple7: var(--FLDS-modals-purple-purple7);
+  --color-purple4: var(--FLDS-modals-purple-purple4);
+  --color-purple1: var(--FLDS-modals-purple-purple1);
+  --color-purple6: var(--FLDS-modals-purple-purple6);
+  --color-purple2: var(--FLDS-modals-purple-purple2);
+  --color-purple12: var(--FLDS-modals-purple-purple12);
+  --color-purple11: var(--FLDS-modals-purple-purple11);
+  --color-purple9: var(--FLDS-modals-purple-purple9);
+  --color-purple5: var(--FLDS-modals-purple-purple5);
+  --color-white10: var(--FLDS-modals-overlay-white-white10);
+  --color-white8: var(--FLDS-modals-overlay-white-white8);
+  --color-white7: var(--FLDS-modals-overlay-white-white7);
+  --color-white5: var(--FLDS-modals-overlay-white-white5);
+  --color-white2: var(--FLDS-modals-overlay-white-white2);
+  --color-white3: var(--FLDS-modals-overlay-white-white3);
+  --color-white12: var(--FLDS-modals-overlay-white-white12);
+  --color-white9: var(--FLDS-modals-overlay-white-white9);
+  --color-white11: var(--FLDS-modals-overlay-white-white11);
+  --color-white6: var(--FLDS-modals-overlay-white-white6);
+  --color-white1: var(--FLDS-modals-overlay-white-white1);
+  --color-black9: var(--FLDS-modals-overlay-black-black9);
+  --color-black8: var(--FLDS-modals-overlay-black-black8);
+  --color-black6: var(--FLDS-modals-overlay-black-black6);
+  --color-black5: var(--FLDS-modals-overlay-black-black5);
+  --color-black4: var(--FLDS-modals-overlay-black-black4);
+  --color-black3: var(--FLDS-modals-overlay-black-black3);
+  --color-black7: var(--FLDS-modals-overlay-black-black7);
+  --color-black12: var(--FLDS-modals-overlay-black-black12);
+  --color-black11: var(--FLDS-modals-overlay-black-black11);
+  --color-black10: var(--FLDS-modals-overlay-black-black10);
+  --color-black2: var(--FLDS-modals-overlay-black-black2);
+  --color-black1: var(--FLDS-modals-overlay-black-black1);
+  --color-color1: var(--FLDS-theme-ghost-color1);
+  --color-color2: var(--FLDS-theme-ghost-color2);
+  --color-color3: var(--FLDS-theme-ghost-color3);
+  --color-color4: var(--FLDS-theme-alias-color4);
+  --color-color5: var(--FLDS-theme-alias-color5);
+  --color-color6: var(--FLDS-theme-alias-color6);
+  --color-color7: var(--FLDS-theme-alias-color7);
+  --color-color8: var(--FLDS-theme-alias-color8);
+  --color-color9: var(--FLDS-theme-alias-color9);
+  --color-color10: var(--FLDS-theme-alias-color10);
+  --color-color11: var(--FLDS-theme-alias-color11);
+  --color-color12: var(--FLDS-theme-alias-color12);
+  --color-subtle: var(--FLDS-theme-alias-surface-subtle);
+  --color-ui: var(--FLDS-theme-alias-surface-ui);
+}

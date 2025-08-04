@@ -11,7 +11,7 @@ const submodes = ['Default', 'Accent', 'Red', 'Green'];
 const typography_modes = [];
 const platforms = ['web', 'ios', 'android'];
 
-const path = 'styles/wds';
+const path = 'styles/wds/tailwind';
 const file = 'static/wallet.json';
 
 const createConfig = (mode, platform) => {
@@ -60,28 +60,9 @@ const createConfig = (mode, platform) => {
           },
         ],
       },
-      'web/scss': {
-        transformGroup: `tokens-scss`,
-        buildPath: `${path}/web/${mode}/`,
-        prefix: PREFIX,
-        files: [
-          {
-            selector: `${mode}`, // defaults to :root; set to false to disable
-            destination: 'tokens.scss',
-            format: 'scss/selector',
-            filter: `filter/${mode}`,
-          },
-          {
-            selector: `${mode}`, // defaults to :root; set to false to disable
-            destination: 'typography.scss',
-            format: 'scss/selector',
-            filter: `filter/${mode}/typography`,
-          },
-        ],
-      },
       'web/css': {
         transformGroup: `tokens-css`,
-        buildPath: `${path}/web/${mode}/`,
+        buildPath: `${path}/${mode}/`,
         prefix: PREFIX,
         files: [
           {
@@ -95,52 +76,6 @@ const createConfig = (mode, platform) => {
             destination: 'typography.css',
             format: 'css/selector',
             filter: `filter/${mode}/typography`,
-          },
-        ],
-      },
-      styleguide: {
-        transformGroup: 'styleguide',
-        buildPath: `${path}/styleguide/`,
-        prefix: PREFIX,
-        files: [
-          {
-            destination: `${platform}_${mode}_tokens.json`,
-            format: 'json/flat',
-            filter: `filter/${mode}`,
-          },
-        ],
-      },
-      ios: {
-        transformGroup: 'ios',
-        buildPath: `${path}/ios/${mode}/`,
-        prefix: PREFIX,
-        files: [
-          {
-            destination: 'tokens-all.plist',
-            format: 'ios/plist',
-          },
-          {
-            destination: 'tokens-colors.plist',
-            format: 'ios/plist',
-            filter: (token) => token.$type === 'color',
-          },
-        ],
-      },
-      android: {
-        transformGroup: 'android',
-        buildPath: `${path}/android/${mode}/`,
-        prefix: PREFIX,
-        files: [
-          {
-            destination: 'tokens-all.xml',
-            format: 'android/resources',
-            // template: 'android/xml',
-          },
-          {
-            destination: 'tokens-colors.xml',
-            format: 'android/colors',
-            // template: 'android/xml',
-            filter: (token) => token.$type === 'color',
           },
         ],
       },
@@ -272,7 +207,9 @@ handler.registerFormat({
           return undefined;
         }
 
-        return `$${formatTokenName(prop.name)}: ${prop.$value}; \n`;
+        const isNeg = prop.key.includes('(-)');
+
+        return `$${formatTokenName(prop.name)}${isNeg ? '-neg' : ''} : ${prop.$value}; \n`;
       })
       .join(' ');
 
@@ -280,7 +217,8 @@ handler.registerFormat({
 
     //@ts-ignore
     return `
-        .${this.selector} {
+      @layer base {
+        [data-theme='${this.selector}'] {
           ${tokens.replaceAll('$', '--')}
 
           ${t}
@@ -289,12 +227,13 @@ handler.registerFormat({
             .map(([subtheme, values]) => {
               if (values)
                 return `
-                  .${subtheme} {
+                  [data-variant='${subtheme}'] {
                     ${values.replaceAll('$', '--')}
                   }
                 `;
             })
             .join('')}
+        }
       }`;
   },
 });
@@ -446,17 +385,6 @@ platforms.map((platform) =>
   modes.map(async (mode) => {
     const config = createConfig(mode, platform);
     const builder = await handler.extend(config);
-
-    if (platform === 'web') {
-      builder.buildPlatform('web/js');
-      builder.buildPlatform('web/json');
-      builder.buildPlatform('web/scss');
-      builder.buildPlatform('web/css');
-    } else if (platform === 'ios') {
-      builder.buildPlatform('ios');
-    } else if (platform === 'android') {
-      builder.buildPlatform('android');
-    }
-    builder.buildPlatform('styleguide');
+    builder.buildPlatform('web/css');
   })
 );

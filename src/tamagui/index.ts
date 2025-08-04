@@ -1,13 +1,8 @@
-import { Dictionary } from 'style-dictionary/types/DesignToken';
-import type { Config } from 'style-dictionary/types/Config';
+import { Dictionary } from 'style-dictionary/types';
+import type { Config } from 'style-dictionary/types';
+
 import utils from './utils.js';
-import {
-  TamaguiFormatType,
-  SdTamaguiConfigType,
-  TamaguiFormatObjType,
-  TamaguiFormatObj,
-} from './types.js';
-import fs from 'fs-extra';
+import { SdTamaguiConfigType, TamaguiFormatObjType, TamaguiFormatObj } from './types.js';
 
 const formatTokenValue = (str: string) => {
   return str.toUpperCase().replaceAll('--', '').replaceAll('-', '_');

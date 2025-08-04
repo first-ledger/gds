@@ -1,11 +1,8 @@
-import { Dictionary } from 'style-dictionary/types/DesignToken';
-import type { Config } from 'style-dictionary/types/Config';
+import { Dictionary } from 'style-dictionary/types';
+import type { Config } from 'style-dictionary/types';
 import type { SdTailwindConfigType, TailwindFormatObjType } from './types.js';
 import utils from './utils.js';
-
-const toNormalCase = (str: string) => {
-  return str.toLowerCase().replace(/\b\w/g, (match) => match.toUpperCase());
-};
+export { build as buildThemes } from './theme.js';
 
 const handleTokenAttribute = (
   type: SdTailwindConfigType['type'],
@@ -20,12 +17,20 @@ const handleTokenAttribute = (
      * Make sure screens values are not using CSS variables as
      * CSS @media queries do not support CSS variables
      */
+    const isNeg = arr.join('-').includes('(-)');
+
+    let key = `--${arr.join('-').replaceAll(' ', '-').toLowerCase()}`;
+    let name = cur.name;
+
+    if (isNeg) {
+      key = `${key.replace('-(-)-', '')}-neg`;
+      name = `${cur.name.toLowerCase()}-neg`;
+    }
+
     if (isVariables && cur.attributes.category !== 'screens') {
-      acc[arr.join('.')] = prefix
-        ? `var(--${utils.addHyphen(prefix) + toNormalCase(cur.name)})`
-        : `var(--${toNormalCase(cur.name)})`;
+      acc[key] = prefix ? `var(--${utils.addHyphen(prefix) + name})` : `var(--${name})`;
     } else {
-      acc[arr.join('.')] = cur['$value'] || cur['value'];
+      acc[key] = cur['$value'] || cur['value'];
     }
   }
 };
@@ -47,7 +52,19 @@ const formatTokens = (
         temp.name = `${cur.name}-${String(key).replace(/[A-Z]/g, (m) => '-' + m.toLowerCase())}`;
         //@ts-ignore
         temp.$value = String(value).replace(/[A-Z]/g, (m) => '-' + m.toLowerCase());
-        let attributes = [key, Object.values(cur.attributes).join('-')];
+        let k = key;
+        if (key === 'fontFamily') k = 'font-family';
+        if (key === 'fontWeight') k = 'font-weight';
+        if (key === 'fontStyle') k = 'font-style';
+        if (key === 'fontSize') k = 'font-size';
+        if (key === 'lineHeight') k = 'line-height';
+        if (key === 'letterSpacing') k = 'letter-spacing';
+        if (key === 'paragraphSpacing') k = 'paragraph-spacing';
+        if (key === 'paragraphIndent') k = 'paragraph-indent';
+        if (key === 'textDecoration') k = 'text-decoration';
+        if (key === 'textCase') k = 'text-case';
+
+        let attributes = [k, Object.values(cur.attributes).splice(2).join('-')];
         handleTokenAttribute(type, isVariables, prefix, temp, acc, attributes);
       });
     } else if (typeof cur.$value === 'object' && cur.$type === 'shadow') {
@@ -68,18 +85,17 @@ const formatTokens = (
       handleTokenAttribute(type, isVariables, prefix, temp, acc, attributes);
     } else if (cur.$type == 'color') {
       // Force colors attribute on color token types
-      cur.path = ['colors', ...cur.path];
+      cur.path = ['color', cur.path[cur.path.length - 1]];
       handleTokenAttribute(type, isVariables, prefix, cur, acc, cur.path);
     } else {
       if (cur.scopes && cur.scopes.length > 0) {
         cur.scopes.map((scope: any) => {
           let path = [Object.values(cur.path).join('-')];
-          if (scope === 'LINE_HEIGHT') path = ['lineHeight', Object.values(cur.path).join('-')];
-          if (scope === 'FONT_SIZE') path = ['fontSize', Object.values(cur.path).join('-')];
-          if (scope === 'FONT_FAMILY') path = ['fontFamily', Object.values(cur.path).join('-')];
-          if (scope === 'FONT_WEIGHT') path = ['fontWeight', Object.values(cur.path).join('-')];
-          if (scope === 'LETTER_SPACING')
-            path = ['letterSpacing', Object.values(cur.path).join('-')];
+          if (scope === 'LINE_HEIGHT') path = ['line-height', ...cur.path[cur.path.length - 1]];
+          if (scope === 'FONT_SIZE') path = ['font-size', ...cur.path[cur.path.length - 1]];
+          if (scope === 'FONT_FAMILY') path = ['font-family', ...cur.path[cur.path.length - 1]];
+          if (scope === 'FONT_WEIGHT') path = ['font-weight', ...cur.path[cur.path.length - 1]];
+          if (scope === 'LETTER_SPACING') path = ['letter-spacing', ...path];
           handleTokenAttribute(type, isVariables, prefix, cur, acc, path);
         });
       } else {
@@ -91,12 +107,16 @@ const formatTokens = (
   }, {});
 
   const result = {};
+
   Object.keys(allTokenObj).forEach((key) => {
     const keys = key.split('.').filter((k) => k !== type);
     utils.makeSdObject(result, keys, allTokenObj[key]);
   });
 
-  return JSON.stringify(result, null, 2);
+  //return JSON.stringify(result, null, 2);
+  return Object.entries(allTokenObj)
+    .map(([key, value]) => `${key}: ${value}`)
+    .join('; \n');
 };
 
 export const getTailwindFormat = ({
@@ -161,9 +181,7 @@ export const makeSdTailwindConfig = ({
     throw new Error('formatType must be "js" or "cjs"');
   }
 
-  const destination =
-    type !== 'all' ? `${type}.tailwind.${formatType}` : `tailwind.config.${formatType}`;
-
+  const destination = 'theme.css';
   return {
     preprocessors,
     source: utils.getConfigValue(source, ['tokens/**/*.json']),

@@ -1,5 +1,5 @@
-import { Dictionary } from 'style-dictionary/types/DesignToken';
-import type { Config, PlatformConfig } from 'style-dictionary/types/Config';
+import { Dictionary } from 'style-dictionary/types';
+import type { Config, PlatformConfig } from 'style-dictionary/types';
 
 export type SdObjType<T extends Record<string, any>> = {
   [P in keyof T]: Record<P, SdObjType<T>> | T[P];

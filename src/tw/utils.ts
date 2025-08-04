@@ -12,7 +12,7 @@ export const makeSdObject = <T extends readonly string[]>(
 ): void => {
   const lastIndex = keys.length - 1;
   for (let i = 0; i < lastIndex; ++i) {
-    const key = camelCase(keys[i]);
+    const key = keys[i];
     if (!(key in obj)) {
       obj[key] = {};
     }
@@ -23,7 +23,7 @@ export const makeSdObject = <T extends readonly string[]>(
   if (keys[lastIndex] === 'DEFAULT') {
     obj[keys[lastIndex]] = value;
   } else {
-    obj[camelCase(keys[lastIndex])] = value;
+    obj[keys[lastIndex]] = value;
   }
 };
 
@@ -68,31 +68,27 @@ export const getTemplateConfigByType = (
   extend: SdTailwindConfigType['extend'],
   plugins: string[]
 ) => {
-  const extendTheme = extend
-    ? `theme: {
-    extend: ${unquoteFromKeys(content, type, 4)},
-  },`
-    : `theme: ${unquoteFromKeys(content, type, 2)},`;
+  const extendTheme = `@theme inline {
+     ${unquoteFromKeys(content, type, 2)}
+     `;
 
   const getTemplateConfig = () => {
-    let config = `{
-  mode: "jit",
-  content: [${tailwindContent}],
-  darkMode: "${darkMode}",
-  ${extendTheme}`;
+    let config = `
+        @import "tailwindcss";
 
-    if (plugins.length > 0) {
-      config += `\n  plugins: [${plugins}]`;
-    }
+        @import "./Light/tokens.css";
+        @import "./Dark/tokens.css";
+        @import "./Globals/tokens.css";
+
+        ${extendTheme}
+      `;
 
     config += '\n}';
 
     return config;
   };
 
-  const configs = `/** @type {import('tailwindcss').Config} */\nmodule.exports = ${getTemplateConfig()}`;
-
-  return configs;
+  return getTemplateConfig();
 };
 
 export default {

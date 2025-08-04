@@ -6,977 +6,211 @@
 -->
 <plist version="1.0">
   <dict>
-    <key>WdsTypographyPrimitivesScaleScale10</key>
-<integer>1152.00f</integer>
-  <key>WdsTypographyPrimitivesScaleScale09</key>
-<integer>1024.00f</integer>
-  <key>WdsTypographyPrimitivesScaleScale08</key>
-<integer>768.00f</integer>
-  <key>WdsTypographyPrimitivesScaleScale07</key>
-<integer>640.00f</integer>
-  <key>WdsTypographyPrimitivesScaleScale06</key>
-<integer>512.00f</integer>
-  <key>WdsTypographyPrimitivesScaleScale05</key>
-<integer>384.00f</integer>
-  <key>WdsTypographyPrimitivesScaleScale04</key>
+    <key>WdsSize0</key>
+<integer>0.00f</integer>
+  <key>WdsSize1</key>
 <integer>320.00f</integer>
-  <key>WdsTypographyPrimitivesScaleScale03</key>
-<integer>256.00f</integer>
-  <key>WdsTypographyPrimitivesScaleScale02</key>
-<integer>224.00f</integer>
-  <key>WdsTypographyPrimitivesScaleScale01</key>
-<integer>192.00f</integer>
-  <key>WdsTypographyPrimitivesWeightExtrabold</key>
-<string>800</string>
-  <key>WdsTypographyPrimitivesWeightMedium</key>
-<string>500</string>
-  <key>WdsTypographyPrimitivesWeightRegular</key>
-<string>400</string>
-  <key>WdsTypographyPrimitivesWeightBlack</key>
-<string>900</string>
-  <key>WdsTypographyPrimitivesWeightBold</key>
-<string>700</string>
-  <key>WdsTypographyPrimitivesWeightSemibold</key>
-<string>600</string>
-  <key>WdsTypographyPrimitivesWeightLight</key>
-<string>300</string>
-  <key>WdsTypographyPrimitivesWeightExtralight</key>
-<string>200</string>
-  <key>WdsTypographyPrimitivesWeightThin</key>
-<string>100</string>
-  <key>WdsTypographyPrimitivesSize10</key>
-<integer>512.00f</integer>
-  <key>WdsTypographyPrimitivesSize11</key>
-<integer>576.00f</integer>
-  <key>WdsTypographyPrimitivesSize12</key>
-<integer>640.00f</integer>
-  <key>WdsTypographyPrimitivesSize13</key>
-<integer>704.00f</integer>
-  <key>WdsTypographyPrimitivesSize14</key>
-<integer>768.00f</integer>
-  <key>WdsTypographyPrimitivesSize15</key>
-<integer>832.00f</integer>
-  <key>WdsTypographyPrimitivesSize16</key>
-<integer>1024.00f</integer>
-  <key>WdsTypographyPrimitivesSize17</key>
-<integer>1152.00f</integer>
-  <key>WdsTypographyPrimitivesSize07</key>
-<integer>320.00f</integer>
-  <key>WdsTypographyPrimitivesSize04</key>
-<integer>224.00f</integer>
-  <key>WdsTypographyPrimitivesSize06</key>
-<integer>288.00f</integer>
-  <key>WdsTypographyPrimitivesSize03</key>
-<integer>192.00f</integer>
-  <key>WdsTypographyPrimitivesSize02</key>
-<integer>160.00f</integer>
-  <key>WdsTypographyPrimitivesSize05</key>
-<integer>256.00f</integer>
-  <key>WdsTypographyPrimitivesSize09</key>
+  <key>WdsSize2</key>
 <integer>448.00f</integer>
-  <key>WdsTypographyPrimitivesSize08</key>
-<integer>384.00f</integer>
-  <key>WdsTypographyPrimitivesSize01</key>
-<integer>128.00f</integer>
-  <key>WdsTypographyPrimitivesFamilyInter</key>
-<string>Inter</string>
-  <key>WdsTypographyPrimitivesFamilyMono</key>
-<string>Roboto Mono</string>
-  <key>WdsTypographyPrimitivesFamilySerif</key>
-<string>Noto Serif</string>
-  <key>WdsTypographyPrimitivesItalicBlack</key>
-<string>Black Italic</string>
-  <key>WdsTypographyPrimitivesItalicExtrabold</key>
-<string>Extra Bold Italic</string>
-  <key>WdsTypographyPrimitivesItalicBold</key>
-<string>Bold Italic</string>
-  <key>WdsTypographyPrimitivesItalicSemibold</key>
-<string>Semi Bold Italic</string>
-  <key>WdsTypographyPrimitivesItalicMedium</key>
-<string>Medium Italic</string>
-  <key>WdsTypographyPrimitivesItalicThin</key>
-<string>Thin Italic</string>
-  <key>WdsTypographyPrimitivesItalicRegular</key>
-<string>Italic</string>
-  <key>WdsTypographyPrimitivesItalicLight</key>
-<string>Light Italic</string>
-  <key>WdsTypographyPrimitivesItalicExtralight</key>
-<string>Extra Light Italic</string>
-  <key>WdsTypographyPrimitivesPercentage100</key>
-<string>100%</string>
-  <key>WdsTypographyPrimitivesPercentage105</key>
-<string>105%</string>
-  <key>WdsTypographyPrimitivesPercentage110</key>
-<string>110%</string>
-  <key>WdsTypographyPrimitivesPercentage115</key>
-<string>115%</string>
-  <key>WdsTypographyPrimitivesPercentage120</key>
-<string>120%</string>
-  <key>WdsTypographyPrimitivesPercentage125</key>
-<string>125%</string>
-  <key>WdsTypographyPrimitivesPercentage150</key>
-<string>150%</string>
-  <key>WdsTypographyPrimitivesPercentage175</key>
-<string>175%</string>
-  <key>WdsTypographyPrimitivesPercentage200</key>
-<string>200%</string>
-  <key>WdsTypographyPrimitivesPercentage050</key>
-<string>50%</string>
-  <key>WdsTypographyPrimitivesPercentage090</key>
-<string>90%</string>
-  <key>WdsSizeSpace0</key>
-<integer>0.00f</integer>
-  <key>WdsSizeSpace100</key>
-<integer>64.00f</integer>
-  <key>WdsSizeSpace150</key>
-<integer>96.00f</integer>
-  <key>WdsSizeSpace200</key>
-<integer>128.00f</integer>
-  <key>WdsSizeSpace300</key>
-<integer>192.00f</integer>
-  <key>WdsSizeSpace400</key>
-<integer>256.00f</integer>
-  <key>WdsSizeSpace500</key>
-<integer>320.00f</integer>
-  <key>WdsSizeSpace600</key>
-<integer>384.00f</integer>
-  <key>WdsSizeSpace800</key>
-<integer>512.00f</integer>
-  <key>WdsSizeSpace900</key>
+  <key>WdsSize3</key>
 <integer>576.00f</integer>
-  <key>WdsSizeSpace1000</key>
-<integer>672.00f</integer>
-  <key>WdsSizeSpace1200</key>
-<integer>768.00f</integer>
-  <key>WdsSizeSpace1600</key>
+  <key>WdsSize4</key>
+<integer>704.00f</integer>
+  <key>WdsSize5</key>
+<integer>832.00f</integer>
+  <key>WdsSize6</key>
 <integer>1024.00f</integer>
-  <key>WdsSizeSpace2400</key>
-<integer>1536.00f</integer>
-  <key>WdsSizeSpace3000</key>
-<integer>2048.00f</integer>
-  <key>WdsSizeSpace4000</key>
-<integer>2560.00f</integer>
-  <key>WdsSizeSpaceNegative100</key>
-<integer>-64.00f</integer>
-  <key>WdsSizeSpaceNegative200</key>
-<integer>-128.00f</integer>
-  <key>WdsSizeSpaceNegative300</key>
-<integer>-192.00f</integer>
-  <key>WdsSizeSpaceNegative400</key>
-<integer>-256.00f</integer>
-  <key>WdsSizeSpaceNegative600</key>
-<integer>-384.00f</integer>
-  <key>WdsSizeSpace050</key>
+  <key>WdsSize7</key>
+<integer>1184.00f</integer>
+  <key>WdsSize8</key>
+<integer>1344.00f</integer>
+  <key>WdsSize9</key>
+<integer>1504.00f</integer>
+  <key>WdsSize10</key>
+<integer>1664.00f</integer>
+  <key>WdsSize11</key>
+<integer>1984.00f</integer>
+  <key>WdsSize12</key>
+<integer>2304.00f</integer>
+  <key>WdsSize13</key>
+<integer>2624.00f</integer>
+  <key>WdsSize14</key>
+<integer>2944.00f</integer>
+  <key>WdsSize15</key>
+<integer>3264.00f</integer>
+  <key>WdsSize16</key>
+<integer>3584.00f</integer>
+  <key>WdsSize17</key>
+<integer>3744.00f</integer>
+  <key>WdsSize18</key>
+<integer>3904.00f</integer>
+  <key>WdsSize19</key>
+<integer>4224.00f</integer>
+  <key>WdsSize20</key>
+<integer>4544.00f</integer>
+  <key>WdsSize025</key>
 <integer>32.00f</integer>
-  <key>WdsSizeRadius100</key>
+  <key>WdsSize05</key>
 <integer>64.00f</integer>
-  <key>WdsSizeRadius200</key>
-<integer>160.00f</integer>
-  <key>WdsSizeRadius300</key>
-<integer>256.00f</integer>
-  <key>WdsSizeRadius400</key>
-<integer>320.00f</integer>
-  <key>WdsSizeRadius480</key>
-<integer>768.00f</integer>
-  <key>WdsSizeRadius500</key>
-<integer>800.00f</integer>
-  <key>WdsSizeRadius600</key>
-<integer>960.00f</integer>
-  <key>WdsSizeRadiusFull</key>
-<integer>159984.00f</integer>
-  <key>WdsSizeDepth0</key>
-<integer>0.00f</integer>
-  <key>WdsSizeDepth100</key>
-<integer>64.00f</integer>
-  <key>WdsSizeDepth200</key>
+  <key>WdsSize075</key>
 <integer>128.00f</integer>
-  <key>WdsSizeDepth400</key>
-<integer>256.00f</integer>
-  <key>WdsSizeDepth800</key>
-<integer>512.00f</integer>
-  <key>WdsSizeDepth1200</key>
+  <key>WdsSize15</key>
+<integer>384.00f</integer>
+  <key>WdsSize45</key>
 <integer>768.00f</integer>
-  <key>WdsSizeDepth025</key>
+  <key>WdsSize35</key>
+<integer>640.00f</integer>
+  <key>WdsSize25</key>
+<integer>512.00f</integer>
+  <key>WdsSize10</key>
+<integer>160.00f</integer>
+  <key>WdsSize12</key>
+<integer>192.00f</integer>
+  <key>WdsSize14</key>
+<integer>224.00f</integer>
+  <key>WdsSize18</key>
+<integer>288.00f</integer>
+  <key>WdsSize16</key>
+<integer>256.00f</integer>
+  <key>WdsSpace0</key>
+<integer>0.00f</integer>
+  <key>WdsSpace1</key>
+<integer>32.00f</integer>
+  <key>WdsSpace2</key>
+<integer>112.00f</integer>
+  <key>WdsSpace3</key>
+<integer>208.00f</integer>
+  <key>WdsSpace4</key>
+<integer>288.00f</integer>
+  <key>WdsSpace5</key>
+<integer>384.00f</integer>
+  <key>WdsSpace6</key>
+<integer>512.00f</integer>
+  <key>WdsSpace7</key>
+<integer>624.00f</integer>
+  <key>WdsSpace8</key>
+<integer>736.00f</integer>
+  <key>WdsSpace9</key>
+<integer>848.00f</integer>
+  <key>WdsSpace10</key>
+<integer>960.00f</integer>
+  <key>WdsSpace11</key>
+<integer>1184.00f</integer>
+  <key>WdsSpace12</key>
+<integer>1408.00f</integer>
+  <key>WdsSpace13</key>
+<integer>1632.00f</integer>
+  <key>WdsSpace14</key>
+<integer>1856.00f</integer>
+  <key>WdsSpace15</key>
+<integer>2080.00f</integer>
+  <key>WdsSpace16</key>
+<integer>2304.00f</integer>
+  <key>WdsSpace17</key>
+<integer>2304.00f</integer>
+  <key>WdsSpace18</key>
+<integer>2528.00f</integer>
+  <key>WdsSpace19</key>
+<integer>2752.00f</integer>
+  <key>WdsSpace20</key>
+<integer>2976.00f</integer>
+  <key>WdsSpace025</key>
+<integer>8.00f</integer>
+  <key>WdsSpace05</key>
 <integer>16.00f</integer>
-  <key>WdsSizeDepthNegative025</key>
+  <key>WdsSpace075</key>
+<integer>24.00f</integer>
+  <key>WdsSpace15</key>
+<integer>64.00f</integer>
+  <key>WdsSpace25</key>
+<integer>160.00f</integer>
+  <key>WdsSpace35</key>
+<integer>256.00f</integer>
+  <key>WdsSpace45</key>
+<integer>336.00f</integer>
+  <key>WdsSpace1</key>
+<integer>-32.00f</integer>
+  <key>WdsSpace2</key>
+<integer>-112.00f</integer>
+  <key>WdsSpace3</key>
+<integer>-208.00f</integer>
+  <key>WdsSpace025</key>
+<integer>-8.00f</integer>
+  <key>WdsSpace05</key>
 <integer>-16.00f</integer>
-  <key>WdsSizeDepthNegative100</key>
+  <key>WdsSpace075</key>
+<integer>-24.00f</integer>
+  <key>WdsSpace15</key>
 <integer>-64.00f</integer>
-  <key>WdsSizeDepthNegative200</key>
-<integer>-128.00f</integer>
-  <key>WdsSizeDepthNegative400</key>
+  <key>WdsSpace25</key>
+<integer>-160.00f</integer>
+  <key>WdsSpace35</key>
 <integer>-256.00f</integer>
-  <key>WdsSizeDepthNegative800</key>
+  <key>WdsSpace4</key>
+<integer>-288.00f</integer>
+  <key>WdsSpace45</key>
+<integer>-336.00f</integer>
+  <key>WdsSpace5</key>
+<integer>-384.00f</integer>
+  <key>WdsSpace6</key>
 <integer>-512.00f</integer>
-  <key>WdsSizeDepthNegative1200</key>
-<integer>-768.00f</integer>
-  <key>WdsSizeBorder100</key>
-<integer>16.00f</integer>
-  <key>WdsSizeBorder200</key>
-<integer>32.00f</integer>
-  <key>WdsSizeBorder250</key>
-<integer>40.00f</integer>
-  <key>WdsSizeBorder300</key>
+  <key>WdsSpace7</key>
+<integer>-624.00f</integer>
+  <key>WdsSpace8</key>
+<integer>-736.00f</integer>
+  <key>WdsSpace9</key>
+<integer>-848.00f</integer>
+  <key>WdsSpace10</key>
+<integer>-960.00f</integer>
+  <key>WdsSpace11</key>
+<integer>-1184.00f</integer>
+  <key>WdsSpace12</key>
+<integer>-1408.00f</integer>
+  <key>WdsSpace13</key>
+<integer>-1632.00f</integer>
+  <key>WdsSpace14</key>
+<integer>-1856.00f</integer>
+  <key>WdsSpace15</key>
+<integer>-2080.00f</integer>
+  <key>WdsSpace16</key>
+<integer>-2304.00f</integer>
+  <key>WdsSpace17</key>
+<integer>-2304.00f</integer>
+  <key>WdsSpace18</key>
+<integer>-2528.00f</integer>
+  <key>WdsSpace19</key>
+<integer>-2752.00f</integer>
+  <key>WdsSpace20</key>
+<integer>-2976.00f</integer>
+  <key>WdsRadius0</key>
+<integer>0.00f</integer>
+  <key>WdsRadius1</key>
 <integer>48.00f</integer>
-  <key>WdsSizeBorder400</key>
-<integer>64.00f</integer>
-  <key>WdsSizeBorder500</key>
+  <key>WdsRadius2</key>
 <integer>80.00f</integer>
-  <key>WdsSizeRing100</key>
-<integer>16.00f</integer>
-  <key>WdsSizeRing200</key>
-<integer>32.00f</integer>
-  <key>WdsSizeRing300</key>
-<integer>64.00f</integer>
-  <key>WdsSizeRing400</key>
-<integer>96.00f</integer>
-  <key>WdsSizeRing500</key>
-<integer>128.00f</integer>
-  <key>WdsSizeBlur100</key>
-<integer>64.00f</integer>
-  <key>WdsSizeIconSmall</key>
-<integer>384.00f</integer>
-  <key>WdsSizeIconMedium</key>
-<integer>512.00f</integer>
-  <key>WdsSizeIconLarge</key>
-<integer>640.00f</integer>
-  <key>WdsSizeIcon2XLarge</key>
-<integer>1280.00f</integer>
-  <key>WdsSizeIconXLarge</key>
-<integer>960.00f</integer>
-  <key>WdsSizeIcon3XLarge</key>
-<integer>1600.00f</integer>
-  <key>WdsSizeIconXSmall</key>
-<integer>288.00f</integer>
-  <key>WdsSizeIcon2XSmall</key>
-<integer>224.00f</integer>
-  <key>WdsSizeIconXSmallV</key>
-<integer>256.00f</integer>
-  <key>WdsSizePaddingDesktop</key>
-<integer>768.00f</integer>
-  <key>WdsTypographyFontFamilyPrimary</key>
-<string>Inter</string>
-  <key>WdsTypographyFontFamilySecondary</key>
-<string>Noto Serif</string>
-  <key>WdsTypographyFontFamilyTertiary</key>
-<string>Roboto Mono</string>
-  <key>WdsTypographyFontLine0</key>
-<string>100%</string>
-  <key>WdsTypographyFontLine1</key>
-<string>105%</string>
-  <key>WdsTypographyFontLine2</key>
-<string>110%</string>
-  <key>WdsTypographyFontLine3</key>
-<string>125%</string>
-  <key>WdsTypographyFontLine4</key>
-<string>150%</string>
-  <key>WdsTypographyFontLine5</key>
-<string>200%</string>
-  <key>WdsTypographyFontLineNegative1</key>
-<string>90%</string>
-  <key>WdsTypographyFontSpread0</key>
-<string>100%</string>
-  <key>WdsTypographyFontSpread1</key>
-<string>105%</string>
-  <key>WdsTypographyFontSpread2</key>
-<string>110%</string>
-  <key>WdsTypographyFontSpread3</key>
-<string>125%</string>
-  <key>WdsTypographyFontSpread4</key>
-<string>150%</string>
-  <key>WdsTypographyFontSpread5</key>
-<string>200%</string>
-  <key>WdsTypographyFontSpreadNegative1</key>
-<string>90%</string>
-  <key>WdsTypographyFontSize2xl</key>
-<integer>384.00f</integer>
-  <key>WdsTypographyFontSizeXs</key>
+  <key>WdsRadius3</key>
+<integer>112.00f</integer>
+  <key>WdsRadius4</key>
+<integer>144.00f</integer>
+  <key>WdsRadius5</key>
 <integer>160.00f</integer>
-  <key>WdsTypographyFontSizeBase</key>
-<integer>224.00f</integer>
-  <key>WdsTypographyFontSize8xl</key>
-<integer>768.00f</integer>
-  <key>WdsTypographyFontSize10xl</key>
-<integer>1024.00f</integer>
-  <key>WdsTypographyFontSize5xl</key>
-<integer>576.00f</integer>
-  <key>WdsTypographyFontSize11xl</key>
-<integer>1152.00f</integer>
-  <key>WdsTypographyFontSize7xl</key>
-<integer>704.00f</integer>
-  <key>WdsTypographyFontSizeSm</key>
-<integer>192.00f</integer>
-  <key>WdsTypographyFontSize9xl</key>
-<integer>832.00f</integer>
-  <key>WdsTypographyFontSize3xl</key>
-<integer>448.00f</integer>
-  <key>WdsTypographyFontSizeXl</key>
-<integer>320.00f</integer>
-  <key>WdsTypographyFontSize6xl</key>
-<integer>640.00f</integer>
-  <key>WdsTypographyFontSizeMd</key>
+  <key>WdsRadius6</key>
 <integer>256.00f</integer>
-  <key>WdsTypographyFontSizeLg</key>
-<integer>288.00f</integer>
-  <key>WdsTypographyFontSize4xl</key>
-<integer>512.00f</integer>
-  <key>WdsTypographyTypographyDisplayLargeLight</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyDisplayLargeReguler</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyDisplayLargeMedium</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyDisplayLargeSemibold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyDisplayLargeBold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyDisplayLargeExtrabold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyDisplayLargeStrong</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyDisplaySmallLight</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyDisplaySmallRegular</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyDisplaySmallMedium</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyDisplaySmallSemibold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyDisplaySmallBold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyDisplaySmallExtrabold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyDisplaySmallStrong</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH1Light</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH1Medium</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH1Semibold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH1Bold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH1Extrabold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH1Strong</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH2Light</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH2Medium</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH2Bold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH2Semibold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH2Extrabold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH2Strong</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH3Light</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH3Regular</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH3Medium</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH3Semilbold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH3Bold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH3Strong</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH4Light</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH4Regular</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH4Medium</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH4Semibold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH4Bold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH4Strong</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH5Light</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH5Regular</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH5Medium</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH5Semibold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH5Bold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH5Strong</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH6Light</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH6Regular</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH6Medium</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH6Semibold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH6Bold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingH6Strong</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingTitlePageLight</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingTitlePageRegular</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingTitlePageMedium</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingTitlePageSemibold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingTitlePageBold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingTitlePageExtraBold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingTitlePageStrong</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingTitleHeroLight</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingTitleHeroRegular</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingTitleHeroMedium</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingTitleHeroSemibold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingTitleHeroBold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingTitleHeroExtrabold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingTitleHeroStrong</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingSubtitleLight</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingSubtitleRegular</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingSubtitleMedium</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingSubtitleSemibold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingSubtitleBold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingSubtitleExtrabold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyHeadingSubtitleStrong</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphBodySmallRegular</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphBodySmallLight</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphBodySmallMedium</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphBodySmallSemibold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphBodySmallBold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphBodySmallExtrabold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphBodySmallStrong</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphBodyLargeLight</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphBodyLargeMedium</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphBodyLargeRegular</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphBodyLargeSemibold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphBodyLargeBold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphBodyLargeExtrabold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphBodyLargeStrong</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphBodyLargeItalic</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphCodeLight</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphCodeRegular</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphCodeBold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphLinkLight</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphLinkRegular</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyParagraphLinkBold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextRegular2xs</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextRegularXs</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextRegularSm</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextRegularMd</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextRegularLg</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextRegularXl</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextRegular2xl</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextRegular3xl</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextRegular4xl</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextRegular5xl</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextRegular6xl</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextRegular7xl</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextRegular8xl</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextBold2xs</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextBoldXs</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextBoldSm</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextBoldMd</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextBoldLg</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextBoldXl</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextBold2xl</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextBold3xl</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextBold4xl</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextBold5xl</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextBold6xl</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextBold7xl</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyTextBold8xl</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelSmallLight</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelSmallRegular</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelSmallMedium</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelSmallSemibold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelSmallBold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelSmallExtrabold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelSmallStrong</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelMediumLight</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelMediumRegular</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelMediumMedium</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelMediumSemibold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelMediumBold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelMediumExtrabold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelMediumStrong</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelLargeLight</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelLargeRegular</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelLargeMedium</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelLargeSemibold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelLargeBold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelLargeExtrabold</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyLabelLargeStrong</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyUtilitiesComponentNotesRegular</key>
-<string>[object Object]</string>
-  <key>WdsTypographyTypographyUtilitiesComponentNotesBold</key>
-<string>[object Object]</string>
-  <key>WdsColorsDefaultsTomatoTomato10</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsTomatoTomato7</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsTomatoTomato5</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsTomatoTomato12</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsTomatoTomato11</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsTomatoTomato9</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsTomatoTomato3</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsTomatoTomato8</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsTomatoTomato2</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsTomatoTomato4</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsTomatoTomato1</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsTomatoTomato6</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsRedRed4</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsRedRed5</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsRedRed9</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsRedRed8</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsRedRed12</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsRedRed6</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsRedRed3</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsRedRed1</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsRedRed2</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsRedRed7</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsRedRed10</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsRedRed11</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsVioletViolet10</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsVioletViolet12</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsVioletViolet9</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsVioletViolet3</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsVioletViolet4</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsVioletViolet8</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsVioletViolet1</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsVioletViolet7</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsVioletViolet6</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsVioletViolet5</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsColorsDefaultsVioletViolet11</key>
+  <key>WdsRadius7</key>
+<integer>304.00f</integer>
+  <key>WdsRadius8</key>
+<integer>352.00f</integer>
+  <key>WdsRadius9</key>
+<integer>416.00f</integer>
+  <key>WdsRadius10</key>
+<integer>544.00f</integer>
+  <key>WdsRadius11</key>
+<integer>672.00f</integer>
+  <key>WdsRadius12</key>
+<integer>800.00f</integer>
+  <key>WdsRadiusRound</key>
+<integer>15984.00f</integer>
+  <key>WdsThemeRedRed1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -987,7 +221,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsVioletViolet2</key>
+  <key>WdsThemeRedRed2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -998,7 +232,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsIndigoIndigo10</key>
+  <key>WdsThemeRedRed3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1009,7 +243,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsIndigoIndigo8</key>
+  <key>WdsThemeRedRed4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1020,7 +254,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsIndigoIndigo7</key>
+  <key>WdsThemeRedRed5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1031,7 +265,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsIndigoIndigo2</key>
+  <key>WdsThemeRedRed6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1042,7 +276,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsIndigoIndigo9</key>
+  <key>WdsThemeRedRed7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1053,7 +287,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsIndigoIndigo3</key>
+  <key>WdsThemeRedRed8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1064,7 +298,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsIndigoIndigo6</key>
+  <key>WdsThemeRedRed9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1075,7 +309,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsIndigoIndigo5</key>
+  <key>WdsThemeRedRed10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1086,7 +320,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsIndigoIndigo12</key>
+  <key>WdsThemeRedRed11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1097,7 +331,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsIndigoIndigo4</key>
+  <key>WdsThemeRedRed12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1108,7 +342,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsIndigoIndigo11</key>
+  <key>WdsThemeGrayGray1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1119,7 +353,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsIndigoIndigo1</key>
+  <key>WdsThemeGrayGray2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1130,7 +364,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBlueBlue7</key>
+  <key>WdsThemeGrayGray3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1141,7 +375,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBlueBlue9</key>
+  <key>WdsThemeGrayGray4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1152,7 +386,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBlueBlue6</key>
+  <key>WdsThemeGrayGray5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1163,7 +397,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBlueBlue5</key>
+  <key>WdsThemeGrayGray6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1174,7 +408,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBlueBlue4</key>
+  <key>WdsThemeGrayGray7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1185,7 +419,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBlueBlue10</key>
+  <key>WdsThemeGrayGray8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1196,7 +430,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBlueBlue8</key>
+  <key>WdsThemeGrayGray9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1207,7 +441,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBlueBlue2</key>
+  <key>WdsThemeGrayGray10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1218,7 +452,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBlueBlue3</key>
+  <key>WdsThemeGrayGray11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1229,7 +463,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBlueBlue11</key>
+  <key>WdsThemeGrayGray12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1240,7 +474,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBlueBlue12</key>
+  <key>WdsThemeBlueBlue1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1251,7 +485,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBlueBlue1</key>
+  <key>WdsThemeBlueBlue2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1262,7 +496,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCyanCyan10</key>
+  <key>WdsThemeBlueBlue3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1273,7 +507,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCyanCyan8</key>
+  <key>WdsThemeBlueBlue4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1284,7 +518,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCyanCyan7</key>
+  <key>WdsThemeBlueBlue5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1295,7 +529,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCyanCyan2</key>
+  <key>WdsThemeBlueBlue6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1306,7 +540,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCyanCyan4</key>
+  <key>WdsThemeBlueBlue7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1317,7 +551,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCyanCyan5</key>
+  <key>WdsThemeBlueBlue8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1328,7 +562,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCyanCyan12</key>
+  <key>WdsThemeBlueBlue9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1339,7 +573,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCyanCyan9</key>
+  <key>WdsThemeBlueBlue10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1350,7 +584,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCyanCyan3</key>
+  <key>WdsThemeBlueBlue11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1361,7 +595,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCyanCyan6</key>
+  <key>WdsThemeBlueBlue12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1372,7 +606,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCyanCyan11</key>
+  <key>WdsThemeGreenGreen1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1383,7 +617,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCyanCyan1</key>
+  <key>WdsThemeGreenGreen2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1394,7 +628,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsTealTeal9</key>
+  <key>WdsThemeGreenGreen3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1405,7 +639,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsTealTeal7</key>
+  <key>WdsThemeGreenGreen4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1416,7 +650,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsTealTeal5</key>
+  <key>WdsThemeGreenGreen5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1427,7 +661,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsTealTeal4</key>
+  <key>WdsThemeGreenGreen6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1438,7 +672,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsTealTeal10</key>
+  <key>WdsThemeGreenGreen7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1449,7 +683,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsTealTeal3</key>
+  <key>WdsThemeGreenGreen8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1460,7 +694,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsTealTeal8</key>
+  <key>WdsThemeGreenGreen9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1471,7 +705,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsTealTeal6</key>
+  <key>WdsThemeGreenGreen10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1482,7 +716,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsTealTeal1</key>
+  <key>WdsThemeGreenGreen11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1493,7 +727,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsTealTeal12</key>
+  <key>WdsThemeGreenGreen12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1504,7 +738,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsTealTeal11</key>
+  <key>WdsThemeBackgroundBackground</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1515,7 +749,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsTealTeal2</key>
+  <key>WdsThemeTomatoTomato1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1526,7 +760,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGreenGreen9</key>
+  <key>WdsThemeTomatoTomato2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1537,7 +771,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGreenGreen10</key>
+  <key>WdsThemeTomatoTomato3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1548,7 +782,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGreenGreen7</key>
+  <key>WdsThemeTomatoTomato4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1559,7 +793,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGreenGreen12</key>
+  <key>WdsThemeTomatoTomato5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1570,7 +804,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGreenGreen6</key>
+  <key>WdsThemeTomatoTomato6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1581,7 +815,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGreenGreen5</key>
+  <key>WdsThemeTomatoTomato7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1592,7 +826,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGreenGreen11</key>
+  <key>WdsThemeTomatoTomato8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1603,7 +837,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGreenGreen4</key>
+  <key>WdsThemeTomatoTomato9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1614,7 +848,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGreenGreen3</key>
+  <key>WdsThemeTomatoTomato10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1625,7 +859,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGreenGreen8</key>
+  <key>WdsThemeTomatoTomato11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1636,7 +870,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGreenGreen2</key>
+  <key>WdsThemeTomatoTomato12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1647,7 +881,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGreenGreen1</key>
+  <key>WdsThemeCrimsonCrimson1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1658,7 +892,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrassGrass10</key>
+  <key>WdsThemeCrimsonCrimson2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1669,7 +903,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrassGrass6</key>
+  <key>WdsThemeCrimsonCrimson3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1680,7 +914,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrassGrass9</key>
+  <key>WdsThemeCrimsonCrimson4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1691,7 +925,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrassGrass8</key>
+  <key>WdsThemeCrimsonCrimson5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1702,7 +936,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrassGrass12</key>
+  <key>WdsThemeCrimsonCrimson6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1713,7 +947,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrassGrass5</key>
+  <key>WdsThemeCrimsonCrimson7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1724,7 +958,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrassGrass7</key>
+  <key>WdsThemeCrimsonCrimson8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1735,7 +969,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrassGrass4</key>
+  <key>WdsThemeCrimsonCrimson9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1746,7 +980,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrassGrass3</key>
+  <key>WdsThemeCrimsonCrimson10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1757,7 +991,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrassGrass2</key>
+  <key>WdsThemeCrimsonCrimson11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1768,7 +1002,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrassGrass1</key>
+  <key>WdsThemeCrimsonCrimson12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1779,7 +1013,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrassGrass11</key>
+  <key>WdsThemePinkPink1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1790,7 +1024,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOrangeOrange10</key>
+  <key>WdsThemePinkPink2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1801,7 +1035,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOrangeOrange9</key>
+  <key>WdsThemePinkPink3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1812,7 +1046,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOrangeOrange11</key>
+  <key>WdsThemePinkPink4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1823,7 +1057,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOrangeOrange8</key>
+  <key>WdsThemePinkPink5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1834,7 +1068,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOrangeOrange2</key>
+  <key>WdsThemePinkPink6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1845,7 +1079,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOrangeOrange7</key>
+  <key>WdsThemePinkPink7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1856,7 +1090,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOrangeOrange4</key>
+  <key>WdsThemePinkPink8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1867,7 +1101,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOrangeOrange12</key>
+  <key>WdsThemePinkPink9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1878,7 +1112,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOrangeOrange5</key>
+  <key>WdsThemePinkPink10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1889,7 +1123,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOrangeOrange3</key>
+  <key>WdsThemePinkPink11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1900,7 +1134,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOrangeOrange6</key>
+  <key>WdsThemePinkPink12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1911,7 +1145,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOrangeOrange1</key>
+  <key>WdsThemeMintMint1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1922,7 +1156,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBrownBrown10</key>
+  <key>WdsThemeMintMint2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1933,7 +1167,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBrownBrown9</key>
+  <key>WdsThemeMintMint3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1944,7 +1178,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBrownBrown7</key>
+  <key>WdsThemeMintMint4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1955,7 +1189,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBrownBrown6</key>
+  <key>WdsThemeMintMint5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1966,7 +1200,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBrownBrown5</key>
+  <key>WdsThemeMintMint6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1977,7 +1211,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBrownBrown1</key>
+  <key>WdsThemeMintMint7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1988,7 +1222,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBrownBrown12</key>
+  <key>WdsThemeMintMint8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -1999,7 +1233,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBrownBrown2</key>
+  <key>WdsThemeMintMint9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2010,7 +1244,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBrownBrown3</key>
+  <key>WdsThemeMintMint10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2021,7 +1255,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBrownBrown8</key>
+  <key>WdsThemeMintMint11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2032,7 +1266,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBrownBrown4</key>
+  <key>WdsThemeMintMint12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2043,7 +1277,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBrownBrown11</key>
+  <key>WdsThemePlumPlum1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2054,7 +1288,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSkySky10</key>
+  <key>WdsThemePlumPlum2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2065,7 +1299,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSkySky8</key>
+  <key>WdsThemePlumPlum3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2076,7 +1310,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSkySky12</key>
+  <key>WdsThemePlumPlum4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2087,7 +1321,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSkySky7</key>
+  <key>WdsThemePlumPlum5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2098,7 +1332,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSkySky6</key>
+  <key>WdsThemePlumPlum6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2109,7 +1343,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSkySky11</key>
+  <key>WdsThemePlumPlum7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2120,7 +1354,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSkySky5</key>
+  <key>WdsThemePlumPlum8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2131,7 +1365,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSkySky3</key>
+  <key>WdsThemePlumPlum9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2142,7 +1376,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSkySky9</key>
+  <key>WdsThemePlumPlum10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2153,7 +1387,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSkySky1</key>
+  <key>WdsThemePlumPlum11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2164,7 +1398,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSkySky2</key>
+  <key>WdsThemePlumPlum12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2175,7 +1409,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSkySky4</key>
+  <key>WdsThemeSkySky1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2186,7 +1420,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMintMint10</key>
+  <key>WdsThemeSkySky2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2197,7 +1431,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMintMint12</key>
+  <key>WdsThemeSkySky3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2208,7 +1442,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMintMint3</key>
+  <key>WdsThemeSkySky4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2219,7 +1453,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMintMint8</key>
+  <key>WdsThemeSkySky5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2230,7 +1464,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMintMint7</key>
+  <key>WdsThemeSkySky6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2241,7 +1475,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMintMint6</key>
+  <key>WdsThemeSkySky7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2252,7 +1486,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMintMint4</key>
+  <key>WdsThemeSkySky8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2263,7 +1497,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMintMint11</key>
+  <key>WdsThemeSkySky9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2274,7 +1508,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMintMint9</key>
+  <key>WdsThemeSkySky10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2285,7 +1519,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMintMint5</key>
+  <key>WdsThemeSkySky11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2296,7 +1530,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMintMint2</key>
+  <key>WdsThemeSkySky12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2307,7 +1541,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMintMint1</key>
+  <key>WdsThemeBrownBrown1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2318,7 +1552,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsLimeLime9</key>
+  <key>WdsThemeBrownBrown2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2329,7 +1563,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsLimeLime4</key>
+  <key>WdsThemeBrownBrown3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2340,7 +1574,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsLimeLime8</key>
+  <key>WdsThemeBrownBrown4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2351,7 +1585,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsLimeLime10</key>
+  <key>WdsThemeBrownBrown5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2362,7 +1596,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsLimeLime11</key>
+  <key>WdsThemeBrownBrown6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2373,7 +1607,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsLimeLime7</key>
+  <key>WdsThemeBrownBrown7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2384,7 +1618,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsLimeLime6</key>
+  <key>WdsThemeBrownBrown8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2395,7 +1629,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsLimeLime5</key>
+  <key>WdsThemeBrownBrown9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2406,7 +1640,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsLimeLime12</key>
+  <key>WdsThemeBrownBrown10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2417,7 +1651,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsLimeLime2</key>
+  <key>WdsThemeBrownBrown11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2428,7 +1662,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsLimeLime3</key>
+  <key>WdsThemeBrownBrown12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2439,7 +1673,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsLimeLime1</key>
+  <key>WdsThemeOrangeOrange1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2450,7 +1684,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsYellowYellow10</key>
+  <key>WdsThemeOrangeOrange2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2461,7 +1695,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsYellowYellow4</key>
+  <key>WdsThemeOrangeOrange3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2472,7 +1706,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsYellowYellow9</key>
+  <key>WdsThemeOrangeOrange4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2483,7 +1717,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsYellowYellow2</key>
+  <key>WdsThemeOrangeOrange5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2494,7 +1728,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsYellowYellow8</key>
+  <key>WdsThemeOrangeOrange6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2505,7 +1739,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsYellowYellow7</key>
+  <key>WdsThemeOrangeOrange7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2516,7 +1750,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsYellowYellow5</key>
+  <key>WdsThemeOrangeOrange8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2527,7 +1761,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsYellowYellow1</key>
+  <key>WdsThemeOrangeOrange9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2538,7 +1772,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsYellowYellow3</key>
+  <key>WdsThemeOrangeOrange10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2549,7 +1783,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsYellowYellow12</key>
+  <key>WdsThemeOrangeOrange11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2560,7 +1794,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsYellowYellow6</key>
+  <key>WdsThemeOrangeOrange12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2571,7 +1805,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsYellowYellow11</key>
+  <key>WdsThemeGrassGrass1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2582,7 +1816,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsAmberAmber10</key>
+  <key>WdsThemeGrassGrass2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2593,7 +1827,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsAmberAmber9</key>
+  <key>WdsThemeGrassGrass3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2604,7 +1838,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsAmberAmber6</key>
+  <key>WdsThemeGrassGrass4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2615,7 +1849,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsAmberAmber11</key>
+  <key>WdsThemeGrassGrass5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2626,7 +1860,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsAmberAmber7</key>
+  <key>WdsThemeGrassGrass6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2637,7 +1871,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsAmberAmber4</key>
+  <key>WdsThemeGrassGrass7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2648,7 +1882,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsAmberAmber5</key>
+  <key>WdsThemeGrassGrass8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2659,7 +1893,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsAmberAmber1</key>
+  <key>WdsThemeGrassGrass9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2670,7 +1904,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsAmberAmber12</key>
+  <key>WdsThemeGrassGrass10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2681,7 +1915,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsAmberAmber8</key>
+  <key>WdsThemeGrassGrass11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2692,7 +1926,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsAmberAmber2</key>
+  <key>WdsThemeGrassGrass12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2703,7 +1937,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsAmberAmber3</key>
+  <key>WdsThemeTeal12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2714,7 +1948,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrayGray10</key>
+  <key>WdsThemeTealTeal1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2725,7 +1959,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrayGray9</key>
+  <key>WdsThemeTealTeal2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2736,7 +1970,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrayGray8</key>
+  <key>WdsThemeTealTeal3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2747,7 +1981,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrayGray7</key>
+  <key>WdsThemeTealTeal4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2758,7 +1992,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrayGray5</key>
+  <key>WdsThemeTealTeal5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2769,7 +2003,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrayGray3</key>
+  <key>WdsThemeTealTeal6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2780,7 +2014,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrayGray1</key>
+  <key>WdsThemeTealTeal7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2791,7 +2025,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrayGray12</key>
+  <key>WdsThemeTealTeal8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2802,7 +2036,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrayGray11</key>
+  <key>WdsThemeTealTeal9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2813,7 +2047,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrayGray6</key>
+  <key>WdsThemeTealTeal10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2824,7 +2058,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrayGray4</key>
+  <key>WdsThemeTealTeal11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2835,7 +2069,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGrayGray2</key>
+  <key>WdsThemeCyanCyan1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2846,7 +2080,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMauveMauve10</key>
+  <key>WdsThemeCyanCyan2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2857,7 +2091,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMauveMauve7</key>
+  <key>WdsThemeCyanCyan3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2868,7 +2102,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMauveMauve5</key>
+  <key>WdsThemeCyanCyan4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2879,7 +2113,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMauveMauve8</key>
+  <key>WdsThemeCyanCyan5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2890,7 +2124,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMauveMauve6</key>
+  <key>WdsThemeCyanCyan6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2901,7 +2135,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMauveMauve4</key>
+  <key>WdsThemeCyanCyan7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2912,7 +2146,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMauveMauve1</key>
+  <key>WdsThemeCyanCyan8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2923,7 +2157,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMauveMauve12</key>
+  <key>WdsThemeCyanCyan9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2934,7 +2168,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMauveMauve11</key>
+  <key>WdsThemeCyanCyan10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2945,7 +2179,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMauveMauve2</key>
+  <key>WdsThemeCyanCyan11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2956,7 +2190,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMauveMauve9</key>
+  <key>WdsThemeCyanCyan12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2967,7 +2201,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsMauveMauve3</key>
+  <key>WdsThemeIndigoIndigo1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2978,7 +2212,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateSlate6</key>
+  <key>WdsThemeIndigoIndigo2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -2989,7 +2223,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateSlate9</key>
+  <key>WdsThemeIndigoIndigo3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3000,7 +2234,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateSlate4</key>
+  <key>WdsThemeIndigoIndigo4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3011,7 +2245,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateSlate7</key>
+  <key>WdsThemeIndigoIndigo5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3022,7 +2256,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateSlate8</key>
+  <key>WdsThemeIndigoIndigo6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3033,7 +2267,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateSlate5</key>
+  <key>WdsThemeIndigoIndigo7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3044,7 +2278,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateSlate10</key>
+  <key>WdsThemeIndigoIndigo8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3055,7 +2289,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateSlate1</key>
+  <key>WdsThemeIndigoIndigo9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3066,7 +2300,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateSlate11</key>
+  <key>WdsThemeIndigoIndigo10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3077,7 +2311,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateSlate2</key>
+  <key>WdsThemeIndigoIndigo11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3088,7 +2322,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateSlate3</key>
+  <key>WdsThemeIndigoIndigo12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3099,7 +2333,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateSlate12</key>
+  <key>WdsThemeVioletViolet1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3110,7 +2344,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateTransparent1</key>
+  <key>WdsThemeVioletViolet2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3121,7 +2355,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateMuted10</key>
+  <key>WdsThemeVioletViolet3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3132,7 +2366,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateMuted7</key>
+  <key>WdsThemeVioletViolet4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3143,7 +2377,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateMuted8</key>
+  <key>WdsThemeVioletViolet5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3154,7 +2388,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateMuted3</key>
+  <key>WdsThemeVioletViolet6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3165,7 +2399,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateMuted5</key>
+  <key>WdsThemeVioletViolet7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3176,7 +2410,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateMuted4</key>
+  <key>WdsThemeVioletViolet8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3187,7 +2421,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateMuted12</key>
+  <key>WdsThemeVioletViolet9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3198,7 +2432,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateMuted6</key>
+  <key>WdsThemeVioletViolet10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3209,7 +2443,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateMuted11</key>
+  <key>WdsThemeVioletViolet11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3220,7 +2454,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateMuted9</key>
+  <key>WdsThemeVioletViolet12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3231,7 +2465,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateMuted2</key>
+  <key>WdsThemePurplePurple1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3242,7 +2476,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSlateMuted1</key>
+  <key>WdsThemePurplePurple2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3253,7 +2487,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSageSage7</key>
+  <key>WdsThemePurplePurple3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3264,7 +2498,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSageSage6</key>
+  <key>WdsThemePurplePurple4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3275,7 +2509,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSageSage3</key>
+  <key>WdsThemePurplePurple5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3286,7 +2520,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSageSage11</key>
+  <key>WdsThemePurplePurple6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3297,7 +2531,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSageSage9</key>
+  <key>WdsThemePurplePurple7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3308,7 +2542,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSageSage5</key>
+  <key>WdsThemePurplePurple8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3319,7 +2553,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSageSage10</key>
+  <key>WdsThemePurplePurple9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3330,7 +2564,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSageSage4</key>
+  <key>WdsThemePurplePurple10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3341,7 +2575,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSageSage1</key>
+  <key>WdsThemePurplePurple11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3352,7 +2586,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSageSage12</key>
+  <key>WdsThemePurplePurple12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3363,7 +2597,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSageSage8</key>
+  <key>WdsThemeLimeLime1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3374,7 +2608,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSageSage2</key>
+  <key>WdsThemeLimeLime2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3385,7 +2619,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOliveOlive10</key>
+  <key>WdsThemeLimeLime3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3396,7 +2630,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOliveOlive8</key>
+  <key>WdsThemeLimeLime4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3407,7 +2641,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOliveOlive6</key>
+  <key>WdsThemeLimeLime5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3418,7 +2652,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOliveOlive1</key>
+  <key>WdsThemeLimeLime6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3429,7 +2663,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOliveOlive9</key>
+  <key>WdsThemeLimeLime7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3440,7 +2674,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOliveOlive5</key>
+  <key>WdsThemeLimeLime8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3451,7 +2685,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOliveOlive4</key>
+  <key>WdsThemeLimeLime9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3462,7 +2696,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOliveOlive3</key>
+  <key>WdsThemeLimeLime10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3473,7 +2707,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOliveOlive12</key>
+  <key>WdsThemeLimeLime11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3484,7 +2718,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOliveOlive11</key>
+  <key>WdsThemeLimeLime12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3495,7 +2729,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOliveOlive7</key>
+  <key>WdsThemeYellowYellow1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3506,7 +2740,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOliveOlive2</key>
+  <key>WdsThemeYellowYellow2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3517,7 +2751,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSandSand10</key>
+  <key>WdsThemeYellowYellow3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3528,7 +2762,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSandSand6</key>
+  <key>WdsThemeYellowYellow4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3539,7 +2773,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSandSand4</key>
+  <key>WdsThemeYellowYellow5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3550,7 +2784,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSandSand9</key>
+  <key>WdsThemeYellowYellow6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3561,7 +2795,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSandSand7</key>
+  <key>WdsThemeYellowYellow7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3572,7 +2806,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSandSand5</key>
+  <key>WdsThemeYellowYellow8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3583,7 +2817,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSandSand12</key>
+  <key>WdsThemeYellowYellow9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3594,7 +2828,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSandSand2</key>
+  <key>WdsThemeYellowYellow10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3605,7 +2839,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSandSand11</key>
+  <key>WdsThemeYellowYellow11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3616,7 +2850,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSandSand3</key>
+  <key>WdsThemeYellowYellow12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3627,7 +2861,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSandSand8</key>
+  <key>WdsThemeAmberAmber1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3638,7 +2872,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsSandSand1</key>
+  <key>WdsThemeAmberAmber2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3649,7 +2883,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGoldGold7</key>
+  <key>WdsThemeAmberAmber3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3660,7 +2894,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGoldGold8</key>
+  <key>WdsThemeAmberAmber4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3671,7 +2905,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGoldGold6</key>
+  <key>WdsThemeAmberAmber5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3682,7 +2916,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGoldGold5</key>
+  <key>WdsThemeAmberAmber6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3693,7 +2927,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGoldGold4</key>
+  <key>WdsThemeAmberAmber7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3704,7 +2938,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGoldGold10</key>
+  <key>WdsThemeAmberAmber8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3715,7 +2949,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGoldGold1</key>
+  <key>WdsThemeAmberAmber9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3726,7 +2960,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGoldGold9</key>
+  <key>WdsThemeAmberAmber10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3737,7 +2971,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGoldGold3</key>
+  <key>WdsThemeAmberAmber11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3748,7 +2982,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGoldGold12</key>
+  <key>WdsThemeAmberAmber12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3759,7 +2993,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGoldGold11</key>
+  <key>WdsThemeSlateSlate1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3770,7 +3004,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsGoldGold2</key>
+  <key>WdsThemeSlateSlate2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3781,7 +3015,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBronzeBronze10</key>
+  <key>WdsThemeSlateSlate3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3792,7 +3026,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBronzeBronze1</key>
+  <key>WdsThemeSlateSlate4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3803,7 +3037,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBronzeBronze9</key>
+  <key>WdsThemeSlateSlate5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3814,7 +3048,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBronzeBronze8</key>
+  <key>WdsThemeSlateSlate6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3825,7 +3059,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBronzeBronze11</key>
+  <key>WdsThemeSlateSlate7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3836,7 +3070,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBronzeBronze5</key>
+  <key>WdsThemeSlateSlate8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3847,7 +3081,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBronzeBronze4</key>
+  <key>WdsThemeSlateSlate9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3858,7 +3092,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBronzeBronze2</key>
+  <key>WdsThemeSlateSlate10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3869,7 +3103,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBronzeBronze3</key>
+  <key>WdsThemeSlateSlate11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3880,7 +3114,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBronzeBronze12</key>
+  <key>WdsThemeSlateSlate12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3891,7 +3125,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBronzeBronze7</key>
+  <key>WdsThemeSageSage1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3902,7 +3136,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsBronzeBronze6</key>
+  <key>WdsThemeSageSage2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3913,7 +3147,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCrimsonCrimson10</key>
+  <key>WdsThemeSageSage3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3924,7 +3158,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCrimsonCrimson6</key>
+  <key>WdsThemeSageSage4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3935,7 +3169,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCrimsonCrimson9</key>
+  <key>WdsThemeSageSage5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3946,7 +3180,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCrimsonCrimson4</key>
+  <key>WdsThemeSageSage6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3957,7 +3191,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCrimsonCrimson7</key>
+  <key>WdsThemeSageSage7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3968,7 +3202,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCrimsonCrimson5</key>
+  <key>WdsThemeSageSage8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3979,7 +3213,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCrimsonCrimson11</key>
+  <key>WdsThemeSageSage9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -3990,7 +3224,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCrimsonCrimson12</key>
+  <key>WdsThemeSageSage10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4001,7 +3235,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCrimsonCrimson2</key>
+  <key>WdsThemeSageSage11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4012,7 +3246,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCrimsonCrimson3</key>
+  <key>WdsThemeSageSage12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4023,7 +3257,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCrimsonCrimson8</key>
+  <key>WdsThemeOliveOlive1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4034,7 +3268,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsCrimsonCrimson1</key>
+  <key>WdsThemeOliveOlive2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4045,7 +3279,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPinkPink10</key>
+  <key>WdsThemeOliveOlive3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4056,7 +3290,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPinkPink9</key>
+  <key>WdsThemeOliveOlive4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4067,7 +3301,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPinkPink7</key>
+  <key>WdsThemeOliveOlive5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4078,7 +3312,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPinkPink1</key>
+  <key>WdsThemeOliveOlive6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4089,7 +3323,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPinkPink11</key>
+  <key>WdsThemeOliveOlive7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4100,7 +3334,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPinkPink6</key>
+  <key>WdsThemeOliveOlive8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4111,7 +3345,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPinkPink8</key>
+  <key>WdsThemeOliveOlive9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4122,7 +3356,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPinkPink5</key>
+  <key>WdsThemeOliveOlive10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4133,7 +3367,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPinkPink4</key>
+  <key>WdsThemeOliveOlive11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4144,7 +3378,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPinkPink3</key>
+  <key>WdsThemeOliveOlive12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4155,7 +3389,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPinkPink12</key>
+  <key>WdsThemeSandSand1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4166,7 +3400,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPinkPink2</key>
+  <key>WdsThemeSandSand2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4177,7 +3411,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPlumPlum10</key>
+  <key>WdsThemeSandSand3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4188,7 +3422,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPlumPlum9</key>
+  <key>WdsThemeSandSand4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4199,7 +3433,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPlumPlum12</key>
+  <key>WdsThemeSandSand5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4210,7 +3444,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPlumPlum8</key>
+  <key>WdsThemeSandSand6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4221,7 +3455,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPlumPlum6</key>
+  <key>WdsThemeSandSand7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4232,7 +3466,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPlumPlum2</key>
+  <key>WdsThemeSandSand8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4243,7 +3477,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPlumPlum5</key>
+  <key>WdsThemeSandSand9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4254,7 +3488,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPlumPlum11</key>
+  <key>WdsThemeSandSand10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4265,7 +3499,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPlumPlum4</key>
+  <key>WdsThemeSandSand11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4276,7 +3510,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPlumPlum7</key>
+  <key>WdsThemeSandSand12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4287,7 +3521,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPlumPlum3</key>
+  <key>WdsThemeGoldGold1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4298,7 +3532,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPlumPlum1</key>
+  <key>WdsThemeGoldGold2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4309,7 +3543,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPurplePurple10</key>
+  <key>WdsThemeGoldGold3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4320,7 +3554,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPurplePurple3</key>
+  <key>WdsThemeGoldGold4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4331,7 +3565,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPurplePurple8</key>
+  <key>WdsThemeGoldGold5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4342,7 +3576,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPurplePurple7</key>
+  <key>WdsThemeGoldGold6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4353,7 +3587,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPurplePurple4</key>
+  <key>WdsThemeGoldGold7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4364,7 +3598,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPurplePurple1</key>
+  <key>WdsThemeGoldGold8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4375,7 +3609,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPurplePurple6</key>
+  <key>WdsThemeGoldGold9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4386,7 +3620,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPurplePurple2</key>
+  <key>WdsThemeGoldGold10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4397,7 +3631,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPurplePurple12</key>
+  <key>WdsThemeGoldGold11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4408,7 +3642,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPurplePurple11</key>
+  <key>WdsThemeGoldGold12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4419,7 +3653,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPurplePurple9</key>
+  <key>WdsThemeBronzeBronze1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4430,7 +3664,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsPurplePurple5</key>
+  <key>WdsThemeBronzeBronze2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4441,7 +3675,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayWhiteWhite10</key>
+  <key>WdsThemeBronzeBronze3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4452,7 +3686,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayWhiteWhite8</key>
+  <key>WdsThemeBronzeBronze4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4463,7 +3697,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayWhiteWhite7</key>
+  <key>WdsThemeBronzeBronze5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4474,7 +3708,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayWhiteWhite5</key>
+  <key>WdsThemeBronzeBronze6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4485,7 +3719,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayWhiteWhite4</key>
+  <key>WdsThemeBronzeBronze7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4496,7 +3730,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayWhiteWhite2</key>
+  <key>WdsThemeBronzeBronze8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4507,7 +3741,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayWhiteWhite3</key>
+  <key>WdsThemeBronzeBronze9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4518,7 +3752,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayWhiteWhite12</key>
+  <key>WdsThemeBronzeBronze10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4529,7 +3763,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayWhiteWhite9</key>
+  <key>WdsThemeBronzeBronze11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4540,7 +3774,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayWhiteWhite11</key>
+  <key>WdsThemeBronzeBronze12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4551,7 +3785,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayWhiteWhite6</key>
+  <key>WdsThemeMauveMauve1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4562,7 +3796,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayWhiteWhite0</key>
+  <key>WdsThemeMauveMauve2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4573,7 +3807,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayWhiteWhite1</key>
+  <key>WdsThemeMauveMauve3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4584,7 +3818,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayBlackBlack9</key>
+  <key>WdsThemeMauveMauve4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4595,7 +3829,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayBlackBlack8</key>
+  <key>WdsThemeMauveMauve5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4606,7 +3840,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayBlackBlack6</key>
+  <key>WdsThemeMauveMauve6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4617,7 +3851,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayBlackBlack5</key>
+  <key>WdsThemeMauveMauve7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4628,7 +3862,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayBlackBlack4</key>
+  <key>WdsThemeMauveMauve8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4639,7 +3873,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayBlackBlack3</key>
+  <key>WdsThemeMauveMauve9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4650,7 +3884,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayBlackBlack7</key>
+  <key>WdsThemeMauveMauve10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4661,7 +3895,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayBlackBlack12</key>
+  <key>WdsThemeMauveMauve11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4672,7 +3906,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayBlackBlack11</key>
+  <key>WdsThemeMauveMauve12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4683,7 +3917,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayBlackBlack10</key>
+  <key>WdsThemeMauveMauve0</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4694,7 +3928,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayBlackBlack2</key>
+  <key>WdsThemeMauveMauve05</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4705,7 +3939,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayBlackBlack1</key>
+  <key>WdsThemeOverlayWhiteWhite1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4716,7 +3950,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsDefaultsOverlayBlackBlack0</key>
+  <key>WdsThemeOverlayWhiteWhite2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4727,7 +3961,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsBaseColor9</key>
+  <key>WdsThemeOverlayWhiteWhite3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4738,7 +3972,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsBaseColor8</key>
+  <key>WdsThemeOverlayWhiteWhite4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4749,7 +3983,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsBaseColor3</key>
+  <key>WdsThemeOverlayWhiteWhite5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4760,7 +3994,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsBaseColor5</key>
+  <key>WdsThemeOverlayWhiteWhite6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4771,7 +4005,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsBaseColor7</key>
+  <key>WdsThemeOverlayWhiteWhite7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4782,7 +4016,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsBaseColor4</key>
+  <key>WdsThemeOverlayWhiteWhite8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4793,7 +4027,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsBaseColor1</key>
+  <key>WdsThemeOverlayWhiteWhite9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4804,7 +4038,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsBaseColor11</key>
+  <key>WdsThemeOverlayWhiteWhite10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4815,7 +4049,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsBaseColor12</key>
+  <key>WdsThemeOverlayWhiteWhite11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4826,7 +4060,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsBaseColor6</key>
+  <key>WdsThemeOverlayWhiteWhite12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4837,7 +4071,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsBaseColor2</key>
+  <key>WdsThemeOverlayBlackBlack1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4848,7 +4082,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsBaseColor10</key>
+  <key>WdsThemeOverlayBlackBlack2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4859,7 +4093,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsBaseColor13</key>
+  <key>WdsThemeOverlayBlackBlack3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4870,7 +4104,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsBaseColor14</key>
+  <key>WdsThemeOverlayBlackBlack4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4881,7 +4115,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsShadowColor13</key>
+  <key>WdsThemeOverlayBlackBlack5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4892,7 +4126,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsShadowColor12</key>
+  <key>WdsThemeOverlayBlackBlack6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4903,7 +4137,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsShadowColor10</key>
+  <key>WdsThemeOverlayBlackBlack7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4914,7 +4148,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsShadowColor9</key>
+  <key>WdsThemeOverlayBlackBlack8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4925,7 +4159,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsShadowColor7</key>
+  <key>WdsThemeOverlayBlackBlack9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4936,7 +4170,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsShadowColor5</key>
+  <key>WdsThemeOverlayBlackBlack10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4947,7 +4181,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsShadowColor4</key>
+  <key>WdsThemeOverlayBlackBlack11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4958,7 +4192,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsShadowColor1</key>
+  <key>WdsThemeOverlayBlackBlack12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4969,7 +4203,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsShadowColor3</key>
+  <key>WdsThemeOverlayHighlightHighlight1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4980,7 +4214,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsShadowColor8</key>
+  <key>WdsThemeOverlayHighlightHighlight2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -4991,7 +4225,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsShadowColor2</key>
+  <key>WdsThemeOverlayHighlightHighlight3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5002,7 +4236,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsShadowColor6</key>
+  <key>WdsThemeOverlayHighlightHighlight4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5013,7 +4247,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsShadowColor11</key>
+  <key>WdsThemeOverlayHighlightHighlight5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5024,7 +4258,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsGhostColor6</key>
+  <key>WdsThemeOverlayHighlightHighlight6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5035,7 +4269,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsGhostColor5</key>
+  <key>WdsThemeOverlayHighlightHighlight7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5046,7 +4280,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsGhostColor3</key>
+  <key>WdsThemeOverlayHighlightHighlight8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5057,7 +4291,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsGhostColor12</key>
+  <key>WdsThemeOverlayHighlightHighlight9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5068,7 +4302,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsGhostColor11</key>
+  <key>WdsThemeOverlayHighlightHighlight10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5079,7 +4313,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsGhostColor10</key>
+  <key>WdsThemeOverlayHighlightHighlight11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5090,7 +4324,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsGhostColor9</key>
+  <key>WdsThemeOverlayHighlightHighlight12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5101,7 +4335,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsGhostColor7</key>
+  <key>WdsThemeOverlayHighlightHighlight1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5112,7 +4346,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsGhostColor1</key>
+  <key>WdsThemeOverlayHighlightHighlight2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5123,7 +4357,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsGhostColor8</key>
+  <key>WdsThemeOverlayHighlightHighlight3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5134,7 +4368,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsGhostColor4</key>
+  <key>WdsThemeOverlayHighlightHighlight4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5145,7 +4379,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsGhostColor2</key>
+  <key>WdsThemeOverlayHighlightHighlight5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5156,7 +4390,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsAccentColor9</key>
+  <key>WdsThemeOverlayHighlightHighlight6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5167,7 +4401,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsAccentColor2</key>
+  <key>WdsThemeOverlayHighlightHighlight7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5178,7 +4412,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsAccentColor7</key>
+  <key>WdsThemeOverlayHighlightHighlight8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5189,7 +4423,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsAccentColor3</key>
+  <key>WdsThemeOverlayHighlightHighlight9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5200,7 +4434,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsAccentColor4</key>
+  <key>WdsThemeOverlayHighlightHighlight10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5211,7 +4445,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsAccentColor12</key>
+  <key>WdsThemeOverlayHighlightHighlight11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5222,7 +4456,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsAccentColor11</key>
+  <key>WdsThemeOverlayHighlightHighlight12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5233,7 +4467,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsAccentColor10</key>
+  <key>WdsColorDefaultColor1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5244,7 +4478,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsAccentColor6</key>
+  <key>WdsColorAccentColor1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5255,7 +4489,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsAccentColor5</key>
+  <key>WdsColorRedColor1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5266,7 +4500,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsAccentColor8</key>
+  <key>WdsColorGreenColor1</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5277,7 +4511,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsAccentColor1</key>
+  <key>WdsColorDefaultColor2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5288,7 +4522,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsAccentColor13</key>
+  <key>WdsColorAccentColor2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5299,7 +4533,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsMutedColor1</key>
+  <key>WdsColorRedColor2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5310,7 +4544,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsMutedColor2</key>
+  <key>WdsColorGreenColor2</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5321,7 +4555,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsMutedColor3</key>
+  <key>WdsColorDefaultColor3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5332,7 +4566,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsMutedColor4</key>
+  <key>WdsColorAccentColor3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5343,7 +4577,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsMutedColor5</key>
+  <key>WdsColorRedColor3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5354,7 +4588,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsMutedColor9</key>
+  <key>WdsColorGreenColor3</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5365,7 +4599,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsMutedColor6</key>
+  <key>WdsColorDefaultColor4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5376,7 +4610,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsMutedColor10</key>
+  <key>WdsColorAccentColor4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5387,7 +4621,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsMutedColor7</key>
+  <key>WdsColorRedColor4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5398,7 +4632,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsMutedColor11</key>
+  <key>WdsColorGreenColor4</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5409,7 +4643,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsMutedColor8</key>
+  <key>WdsColorDefaultColor5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5420,7 +4654,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsColorsMutedColor12</key>
+  <key>WdsColorAccentColor5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5431,7 +4665,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsModesColor1</key>
+  <key>WdsColorRedColor5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5442,7 +4676,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsModesColor2</key>
+  <key>WdsColorGreenColor5</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5453,7 +4687,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsModesColor3</key>
+  <key>WdsColorDefaultColor6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5464,7 +4698,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsModesColor4</key>
+  <key>WdsColorAccentColor6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5475,7 +4709,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsModesColor5</key>
+  <key>WdsColorRedColor6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5486,7 +4720,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsModesColor6</key>
+  <key>WdsColorGreenColor6</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5497,7 +4731,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsModesColor7</key>
+  <key>WdsColorDefaultColor7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5508,7 +4742,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsModesColor8</key>
+  <key>WdsColorAccentColor7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5519,7 +4753,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsModesColor9</key>
+  <key>WdsColorRedColor7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5530,7 +4764,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsModesColor10</key>
+  <key>WdsColorGreenColor7</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5541,7 +4775,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsModesColor11</key>
+  <key>WdsColorDefaultColor8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5552,7 +4786,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsModesColor12</key>
+  <key>WdsColorAccentColor8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5563,7 +4797,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesBaseColor1</key>
+  <key>WdsColorRedColor8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5574,7 +4808,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesBaseColor2</key>
+  <key>WdsColorGreenColor8</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5585,7 +4819,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesBaseColor3</key>
+  <key>WdsColorDefaultColor9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5596,7 +4830,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesBaseColor4</key>
+  <key>WdsColorAccentColor9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5607,7 +4841,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesBaseColor5</key>
+  <key>WdsColorRedColor9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5618,7 +4852,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesBaseColor12</key>
+  <key>WdsColorGreenColor9</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5629,7 +4863,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesBaseColor7</key>
+  <key>WdsColorDefaultColor10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5640,7 +4874,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesBaseColor6</key>
+  <key>WdsColorAccentColor10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5651,7 +4885,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesBaseColor8</key>
+  <key>WdsColorRedColor10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5662,7 +4896,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesBaseColor9</key>
+  <key>WdsColorGreenColor10</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5673,7 +4907,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesBaseColor10</key>
+  <key>WdsColorDefaultColor11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5684,7 +4918,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesBaseColor11</key>
+  <key>WdsColorAccentColor11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5695,7 +4929,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesBaseColor13</key>
+  <key>WdsColorRedColor11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5706,7 +4940,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesBaseColor14</key>
+  <key>WdsColorGreenColor11</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5717,7 +4951,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesAccentColor1</key>
+  <key>WdsColorDefaultColor12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5728,7 +4962,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesAccentColor2</key>
+  <key>WdsColorAccentColor12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5739,7 +4973,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesAccentColor3</key>
+  <key>WdsColorRedColor12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5750,7 +4984,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesAccentColor4</key>
+  <key>WdsColorGreenColor12</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5761,7 +4995,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesAccentColor5</key>
+  <key>WdsColorDefaultColor0</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5772,7 +5006,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesAccentColor10</key>
+  <key>WdsColorAccentColor0</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5783,7 +5017,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesAccentColor9</key>
+  <key>WdsColorRedColor0</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5794,7 +5028,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesAccentColor8</key>
+  <key>WdsColorGreenColor0</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5805,7 +5039,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesAccentColor6</key>
+  <key>WdsColorDefaultColor05</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5816,7 +5050,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesAccentColor7</key>
+  <key>WdsColorAccentColor05</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5827,7 +5061,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesAccentColor11</key>
+  <key>WdsColorRedColor05</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5838,7 +5072,7 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesAccentColor12</key>
+  <key>WdsColorGreenColor05</key>
     <dict>
       <key>r</key>
       <real>NaN</real>
@@ -5849,269 +5083,39 @@
       <key>a</key>
       <real>1</real>
     </dict>
-  <key>WdsThemesGhostColor1</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesGhostColor2</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesGhostColor3</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesGhostColor4</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesGhostColor5</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesGhostColor6</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesGhostColor7</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesGhostColor8</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesGhostColor9</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesGhostColor10</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesGhostColor11</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesGhostColor12</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesMutedColor1</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesMutedColor2</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesMutedColor3</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesMutedColor4</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesMutedColor5</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesMutedColor6</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesMutedColor7</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesMutedColor8</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesMutedColor9</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesMutedColor10</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesMutedColor11</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
-  <key>WdsThemesMutedColor12</key>
-    <dict>
-      <key>r</key>
-      <real>NaN</real>
-      <key>g</key>
-      <real>NaN</real>
-      <key>b</key>
-      <real>NaN</real>
-      <key>a</key>
-      <real>1</real>
-    </dict>
+  <key>WdsTypographyStylesHeadingDisplayXl</key>
+<string>[object Object]</string>
+  <key>WdsTypographyStylesHeadingDisplayL</key>
+<string>[object Object]</string>
+  <key>WdsTypographyStylesHeadingHeadingL</key>
+<string>[object Object]</string>
+  <key>WdsTypographyStylesHeadingHeadingM</key>
+<string>[object Object]</string>
+  <key>WdsTypographyStylesHeadingHeadingS</key>
+<string>[object Object]</string>
+  <key>WdsTypographyStylesRegularTextS</key>
+<string>[object Object]</string>
+  <key>WdsTypographyStylesRegularTextM</key>
+<string>[object Object]</string>
+  <key>WdsTypographyStylesRegularTextL</key>
+<string>[object Object]</string>
+  <key>WdsTypographyStylesRegularTextXl</key>
+<string>[object Object]</string>
+  <key>WdsTypographyStylesBoldTextSBold</key>
+<string>[object Object]</string>
+  <key>WdsTypographyStylesBoldTextMBold</key>
+<string>[object Object]</string>
+  <key>WdsTypographyStylesBoldTextLBold</key>
+<string>[object Object]</string>
+  <key>WdsTypographyStylesParagraphParagraphS</key>
+<string>[object Object]</string>
+  <key>WdsTypographyStylesParagraphParagraphM</key>
+<string>[object Object]</string>
+  <key>WdsTypographyStylesParagraphParagraphL</key>
+<string>[object Object]</string>
+  <key>WdsTypographyStylesParagraphMono</key>
+<string>[object Object]</string>
+  <key>WdsTypographyStylesParagraphParagraphLBold</key>
+<string>[object Object]</string>
   </dict>
 </plist>
